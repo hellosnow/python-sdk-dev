@@ -40,7 +40,7 @@ items:
     id: default_options
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
       repo: null
     startLine: 0
@@ -54,7 +54,7 @@ items:
     id: default_options
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
       repo: null
     startLine: 34
@@ -70,7 +70,7 @@ items:
     id: default_options_for
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
       repo: null
     startLine: 42
@@ -86,7 +86,7 @@ items:
     id: get_default_override
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
       repo: null
     startLine: 60
@@ -108,7 +108,7 @@ items:
     id: is_default_override
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
       repo: null
     startLine: 57

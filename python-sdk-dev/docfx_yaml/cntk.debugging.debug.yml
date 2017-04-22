@@ -34,7 +34,7 @@ items:
     id: debug
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
       repo: null
     startLine: 0
@@ -48,7 +48,7 @@ items:
     id: debug_model
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
       repo: null
     startLine: 391
@@ -63,12 +63,12 @@ items:
       type: object behaving like sys.stdout, default stdout
     - description: '*write()* and *flush()* will be called on it to output debug info
         to the user'
-      id: exit_func
-      type: callable, default sys.exit
-    - description: callable that takes an exit code and is called, when the user exits
-        the debugging process
       id: model
       type: root node
+    - description: callable that takes an exit code and is called, when the user exits
+        the debugging process
+      id: exit_func
+      type: callable, default sys.exit
     returntype: ''
     returnvalue: a clone of the model that has debugging enabled
     summary: Returns a cloned model that has debug nodes inserted everywhere. When
@@ -84,7 +84,7 @@ items:
     id: save_as_legacy_model
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
       repo: null
     startLine: 86
@@ -92,11 +92,11 @@ items:
     exceptions: []
     parameters:
     - description: op of the graph to save
-      id: filename
-      type: str
-    - description: filename to store the model in.
       id: root_op
       type: Function
+    - description: filename to store the model in.
+      id: filename
+      type: str
     returntype: ''
     returnvalue: ''
     summary: Save the network of `root_op` in `filename`. For debugging purposes only,
@@ -112,7 +112,7 @@ items:
     id: set_computation_network_trace_level
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
       repo: null
     startLine: 120
@@ -140,7 +140,7 @@ items:
     id: set_computation_network_track_gap_nans
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
       repo: null
     startLine: 109

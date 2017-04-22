@@ -28,7 +28,7 @@ items:
     id: recurrent_test
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
       repo: null
     startLine: 0
@@ -42,7 +42,7 @@ items:
     id: test_op_delay_with_initial_state
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
       repo: null
     startLine: 116
@@ -58,7 +58,7 @@ items:
     id: test_op_future_value
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
       repo: null
     startLine: 28
@@ -74,7 +74,7 @@ items:
     id: test_op_past_value
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
       repo: null
     startLine: 68

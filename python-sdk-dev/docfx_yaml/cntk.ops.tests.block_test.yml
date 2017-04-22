@@ -34,7 +34,7 @@ items:
     id: block_test
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
       repo: null
     startLine: 0
@@ -48,7 +48,7 @@ items:
     id: test_as_block_with_function_in_arguments_map
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
       repo: null
     startLine: 115
@@ -64,7 +64,7 @@ items:
     id: test_block_with_duplicate_inputs
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
       repo: null
     startLine: 104
@@ -80,7 +80,7 @@ items:
     id: test_combine_op_as_block
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
       repo: null
     startLine: 81
@@ -96,7 +96,7 @@ items:
     id: test_op_as_block
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
       repo: null
     startLine: 30

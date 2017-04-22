@@ -44,7 +44,7 @@ items:
     id: NDArrayView
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
       repo: null
     startLine: 23
@@ -52,14 +52,14 @@ items:
     exceptions: []
     parameters:
     - description: shape of the data
-      id: shape
-      type: tuple
-    - description: data type of the data
-      id: data_type
-      type: np.float32, np.float64
-    - description: device this value should be put on
       id: device
       type: DeviceDescriptor
+    - description: data type of the data
+      id: shape
+      type: tuple
+    - description: device this value should be put on
+      id: data_type
+      type: np.float32, np.float64
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.NDArrayView`
@@ -85,7 +85,7 @@ items:
     id: from_csr
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 79
@@ -93,18 +93,18 @@ items:
     exceptions: []
     parameters:
     - description: SciPy sparse matrix in CSR format
-      id: read_only
-      type: bool, optional
-    - description: device this value should be put on
-      id: borrow
-      type: bool, default False
-    - description: whether the data can be modified or not (default False)
       id: csr_array
       type: scipy.sparse.csr.csr_matrix
-    - description: whether nd_arrary memory can be borrowed internally to speed up
-        the data creation
+    - description: device this value should be put on
       id: device
       type: DeviceDescriptor
+    - description: whether the data can be modified or not (default False)
+      id: borrow
+      type: bool, default False
+    - description: whether nd_arrary memory can be borrowed internally to speed up
+        the data creation
+      id: read_only
+      type: bool, optional
     returntype: ''
     returnvalue: '`NDArrayView` instance'
     summary: Create a `NDArrayView` instance from a SciPy sparse array in CSR format.
@@ -120,7 +120,7 @@ items:
     id: from_data
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 110
@@ -128,18 +128,18 @@ items:
     exceptions: []
     parameters:
     - description: data
-      id: read_only
-      type: bool, optional
-    - description: device this value should be put on
-      id: borrow
-      type: bool, default False
-    - description: whether the data can be modified or not (default False)
       id: device
       type: DeviceDescriptor
-    - description: whether nd_arrary memory can be borrowed internally to speed up
-        the data creation
+    - description: device this value should be put on
       id: data
       type: numpy.ndarray or scipy.sparse.csr.csr_matrix
+    - description: whether the data can be modified or not (default False)
+      id: read_only
+      type: bool, optional
+    - description: whether nd_arrary memory can be borrowed internally to speed up
+        the data creation
+      id: borrow
+      type: bool, default False
     returntype: ''
     returnvalue: '`NDArrayView` instance'
     summary: Create a `NDArrayView` instance from a NumPy or SciPy sparse array in
@@ -156,7 +156,7 @@ items:
     id: from_dense
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 46
@@ -164,18 +164,18 @@ items:
     exceptions: []
     parameters:
     - description: NumPy array
-      id: borrow
-      type: bool, default False
+      id: device
+      type: DeviceDescriptor
     - description: device this value should be put on
       id: read_only
       type: bool, optional
     - description: whether nd_arrary memory can be borrowed internally to speed up
         the data creation
+      id: borrow
+      type: bool, default False
+    - description: whether the data can be modified or not (default False)
       id: np_array
       type: numpy.ndarray
-    - description: whether the data can be modified or not (default False)
-      id: device
-      type: DeviceDescriptor
     returntype: ''
     returnvalue: '`NDArrayView` instance'
     summary: Create a `NDArrayView` instance from a NumPy array.
@@ -191,7 +191,7 @@ items:
     id: shape
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -208,7 +208,7 @@ items:
     id: slice_view
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 153
@@ -217,13 +217,13 @@ items:
     parameters:
     - description: shape of the same rank as this Value instance that denotes the
         start of the slicing
+      id: start_offset
+      type: tuple or list
+    - description: shape of the right-aligned extent to keep
       id: read_only
       type: bool
-    - description: shape of the right-aligned extent to keep
-      id: extent
-      type: tuple or list
     - description: whether the returned slice is read only or not
-      id: start_offset
+      id: extent
       type: tuple or list
     returntype: ''
     returnvalue: ''

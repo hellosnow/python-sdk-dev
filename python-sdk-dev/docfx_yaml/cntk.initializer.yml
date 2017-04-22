@@ -64,7 +64,7 @@ items:
     id: initializer
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
       repo: null
     startLine: 0
@@ -78,7 +78,7 @@ items:
     id: bilinear
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
       repo: null
     startLine: 149
@@ -105,7 +105,7 @@ items:
     id: glorot_normal
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
       repo: null
     startLine: 89
@@ -116,13 +116,13 @@ items:
       id: output_rank
       type: int
     - description: output rank
-      id: filter_rank
+      id: seed
       type: int
     - description: filter rank
       id: scale
       type: float
     - description: random seed
-      id: seed
+      id: filter_rank
       type: int
     returntype: ''
     returnvalue: initializer for `Parameter` initialized to Gaussian distribution
@@ -139,7 +139,7 @@ items:
     id: glorot_uniform
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
       repo: null
     startLine: 69
@@ -150,13 +150,13 @@ items:
       id: output_rank
       type: int
     - description: output rank
-      id: filter_rank
+      id: seed
       type: int
     - description: filter rank
       id: scale
       type: float
     - description: random seed
-      id: seed
+      id: filter_rank
       type: int
     returntype: ''
     returnvalue: initializer for `Parameter` initialized to uniform distribution between
@@ -173,7 +173,7 @@ items:
     id: he_normal
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
       repo: null
     startLine: 129
@@ -184,13 +184,13 @@ items:
       id: output_rank
       type: int
     - description: output rank
-      id: filter_rank
+      id: seed
       type: int
     - description: filter rank
       id: scale
       type: float
     - description: random seed
-      id: seed
+      id: filter_rank
       type: int
     returntype: ''
     returnvalue: initializer for `Parameter` initialized to Gaussian distribution
@@ -207,7 +207,7 @@ items:
     id: he_uniform
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
       repo: null
     startLine: 109
@@ -218,13 +218,13 @@ items:
       id: output_rank
       type: int
     - description: output rank
-      id: filter_rank
+      id: seed
       type: int
     - description: filter rank
       id: scale
       type: float
     - description: random seed
-      id: seed
+      id: filter_rank
       type: int
     returntype: ''
     returnvalue: initializer for `Parameter` initialized to uniform distribution between
@@ -241,7 +241,7 @@ items:
     id: initializer_with_rank
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
       repo: null
     startLine: 163
@@ -270,7 +270,7 @@ items:
     id: normal
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
       repo: null
     startLine: 30
@@ -281,13 +281,13 @@ items:
       id: output_rank
       type: int
     - description: output rank
-      id: filter_rank
+      id: seed
       type: int
     - description: filter rank
       id: scale
       type: float
     - description: random seed
-      id: seed
+      id: filter_rank
       type: int
     returntype: ''
     returnvalue: initializer for `cntk.ops.variables.Parameter` initialized to normal
@@ -304,7 +304,7 @@ items:
     id: uniform
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
       repo: null
     startLine: 12
@@ -312,11 +312,11 @@ items:
     exceptions: []
     parameters:
     - description: scale
-      id: scale
-      type: float
-    - description: random seed
       id: seed
       type: int
+    - description: random seed
+      id: scale
+      type: float
     returntype: ''
     returnvalue: initializer for `cntk.ops.variables.Parameter` initialized to uniform
       distribution between *scale*[-1.0, 1.0]* note this maps to the "uniform1" distribution
@@ -333,7 +333,7 @@ items:
     id: xavier
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
       repo: null
     startLine: 49
@@ -344,13 +344,13 @@ items:
       id: output_rank
       type: int
     - description: output rank
-      id: filter_rank
+      id: seed
       type: int
     - description: filter rank
       id: scale
       type: float
     - description: random seed
-      id: seed
+      id: filter_rank
       type: int
     returntype: ''
     returnvalue: initializer for `Parameter` initialized to Gaussian distribution

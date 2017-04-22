@@ -136,7 +136,7 @@ items:
     id: function_tests
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 0
@@ -150,7 +150,7 @@ items:
     id: test_MinibatchData_and_Value_as_input
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 317
@@ -166,7 +166,7 @@ items:
     id: test_as_composite
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 246
@@ -182,7 +182,7 @@ items:
     id: test_clone_with_function_in_substitution_map
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 216
@@ -198,7 +198,7 @@ items:
     id: test_clone_with_slice
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 229
@@ -214,7 +214,7 @@ items:
     id: test_cloning
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 55
@@ -230,7 +230,7 @@ items:
     id: test_combine_duplicated_inputs
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 284
@@ -246,7 +246,7 @@ items:
     id: test_data_type_inference
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 184
@@ -262,7 +262,7 @@ items:
     id: test_eval_by_node_name
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 26
@@ -278,7 +278,7 @@ items:
     id: test_evaluating_multiple_outputs
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 145
@@ -294,7 +294,7 @@ items:
     id: test_exception_for_unnamed_arguments
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 96
@@ -310,7 +310,7 @@ items:
     id: test_extra_arguments_in_eval
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 307
@@ -326,7 +326,7 @@ items:
     id: test_getting_output_from_non_existent_node
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 130
@@ -342,7 +342,7 @@ items:
     id: test_input_order
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 262
@@ -358,7 +358,7 @@ items:
     id: test_output_in_intermediate_node
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 107
@@ -374,7 +374,7 @@ items:
     id: test_output_subset_evaluation
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 349
@@ -390,7 +390,7 @@ items:
     id: test_recurrence_shape_inference
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 192
@@ -406,7 +406,7 @@ items:
     id: test_replace_placeholder_s
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 81
@@ -422,7 +422,7 @@ items:
     id: test_replace_placeholders
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 37
@@ -438,7 +438,7 @@ items:
     id: test_sequence_data_mismatch
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 201
@@ -454,7 +454,7 @@ items:
     id: test_set_name
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 165
@@ -470,7 +470,7 @@ items:
     id: test_variable_forwarding
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
       repo: null
     startLine: 22

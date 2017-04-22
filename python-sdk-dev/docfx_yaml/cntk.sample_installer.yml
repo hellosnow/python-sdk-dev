@@ -34,7 +34,7 @@ items:
     id: sample_installer
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
       repo: null
     startLine: 0
@@ -48,7 +48,7 @@ items:
     id: default_sample_dir
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
       repo: null
     startLine: 24
@@ -64,7 +64,7 @@ items:
     id: default_sample_url
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
       repo: null
     startLine: 31
@@ -80,7 +80,7 @@ items:
     id: install_samples
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
       repo: null
     startLine: 34
@@ -102,7 +102,7 @@ items:
     id: module_is_unreleased
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
       repo: null
     startLine: 21

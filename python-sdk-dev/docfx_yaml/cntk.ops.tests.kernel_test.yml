@@ -70,7 +70,7 @@ items:
     id: kernel_test
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 0
@@ -84,7 +84,7 @@ items:
     id: test_asym_convolution
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 82
@@ -100,7 +100,7 @@ items:
     id: test_convolution_transpose
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 422
@@ -116,7 +116,7 @@ items:
     id: test_convolution_transpose_with_output
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 462
@@ -132,7 +132,7 @@ items:
     id: test_op_avg_pooling
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 166
@@ -148,7 +148,7 @@ items:
     id: test_op_convolution_without_padding
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 37
@@ -164,7 +164,7 @@ items:
     id: test_op_max_pooling
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 228
@@ -180,7 +180,7 @@ items:
     id: test_op_max_unpooling
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 264
@@ -196,7 +196,7 @@ items:
     id: test_op_pooling_ceil
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 321
@@ -212,7 +212,7 @@ items:
     id: test_op_pooling_geometry
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 129
@@ -228,7 +228,7 @@ items:
     id: test_op_roipooling
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 374

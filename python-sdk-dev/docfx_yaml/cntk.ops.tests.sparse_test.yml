@@ -40,7 +40,7 @@ items:
     id: sparse_test
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
       repo: null
     startLine: 0
@@ -54,7 +54,7 @@ items:
     id: test_times_2d_sparse_operand
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
       repo: null
     startLine: 18
@@ -70,7 +70,7 @@ items:
     id: test_times_2d_sparse_sequence_operand
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
       repo: null
     startLine: 45
@@ -86,7 +86,7 @@ items:
     id: test_times_sparse_operand_reduce_multiple_axes
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
       repo: null
     startLine: 177
@@ -102,7 +102,7 @@ items:
     id: test_training_2d_sparse_sequence_operand
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
       repo: null
     startLine: 70
@@ -118,7 +118,7 @@ items:
     id: test_training_3d_sparse_sequence_with_recurrence
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
       repo: null
     startLine: 117

@@ -28,7 +28,7 @@ items:
     id: random_sample_test
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
       repo: null
     startLine: 0
@@ -42,7 +42,7 @@ items:
     id: test_random_sample_inclusion_frequency
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
       repo: null
     startLine: 49
@@ -58,7 +58,7 @@ items:
     id: test_random_sample_with_replacement
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
       repo: null
     startLine: 70
@@ -74,7 +74,7 @@ items:
     id: test_random_sample_without_replacement
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
       repo: null
     startLine: 101

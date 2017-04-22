@@ -16,7 +16,7 @@ items:
     id: swig_helper_tests
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/tests/swig_helper_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/tests/swig_helper_tests.py
       repo: null
     startLine: 0
@@ -30,7 +30,7 @@ items:
     id: test_typemap
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/tests/swig_helper_tests.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/tests/swig_helper_tests.py
       repo: null
     startLine: 16

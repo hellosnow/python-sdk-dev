@@ -44,7 +44,7 @@ items:
     id: Value
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
       repo: null
     startLine: 182
@@ -52,19 +52,19 @@ items:
     exceptions: []
     parameters:
     - description: shape of the value
-      id: shape
-      type: tuple
-    - description: the value to be converted
       id: value
       type: None or value that can be cast to NumPy array
+    - description: the value to be converted
+      id: device
+      type: DeviceDescriptor
     - description: data type (np.float32 or np.float64)
-      id: seq_starts
-      type: list of bools or None
+      id: shape
+      type: tuple
     - description: "batch input for *var*. It can be:\n\n   * a pure Python structure\
         \ (list of lists, ...),\n\n   * a list of NumPy arrays or SciPy sparse CSR\
         \ matrices\n\n   * a `Value` object (e.g. returned by `one_hot()`)"
-      id: device
-      type: DeviceDescriptor
+      id: seq_starts
+      type: list of bools or None
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.Value`
@@ -88,7 +88,7 @@ items:
     id: create
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 272
@@ -96,13 +96,13 @@ items:
     exceptions: []
     parameters:
     - description: variable into which `data` is passed
-      id: read_only
-      type: bool, default False
+      id: var
+      type: Variable
     - description: "data for *var*. It can be:\n\n   * a single NumPy array denoting\
         \ the full minibatch\n\n   * a list of NumPy arrays or SciPy sparse CSR matrices\n\
         \n   * a single NumPy array denoting one parameter or constant"
-      id: var
-      type: Variable
+      id: device
+      type: DeviceDescriptor, default None
     - description: if None, every sequence is treated as a new sequence. Otherwise,
         it is interpreted as a list of Booleans that tell whether a sequence is a
         new sequence (*True*) or a continuation of the sequence in the same slot of
@@ -110,8 +110,8 @@ items:
       id: seq_starts
       type: list of bools or None
     - description: device this value should be put on
-      id: device
-      type: DeviceDescriptor, default None
+      id: read_only
+      type: bool, default False
     returntype: ''
     returnvalue: '`Value` object.'
     summary: Creates a `Value` object.
@@ -127,7 +127,7 @@ items:
     id: data
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -144,7 +144,7 @@ items:
     id: mask
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -168,7 +168,7 @@ items:
     id: one_hot
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 365
@@ -176,18 +176,18 @@ items:
     exceptions: []
     parameters:
     - description: batch input data of indices
-      id: dtype
-      type: np.float32, np.float64, default None
-    - description: number of classes or shape of each sample whose trailing axis is
-        one_hot
-      id: batch
-      type: list of lists of integers
-    - description: data type
       id: sample_shape
       type: integer or tuple
-    - description: device this value should be put on
+    - description: number of classes or shape of each sample whose trailing axis is
+        one_hot
       id: device
       type: DeviceDescriptor, default None
+    - description: data type
+      id: batch
+      type: list of lists of integers
+    - description: device this value should be put on
+      id: dtype
+      type: np.float32, np.float64, default None
     returntype: ''
     returnvalue: '`batch` converted into a `Value` object that can be passed to the
       forward or eval function.'
@@ -218,7 +218,7 @@ items:
     id: shape
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null

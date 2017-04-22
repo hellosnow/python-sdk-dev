@@ -70,7 +70,7 @@ items:
     id: reduction_test
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 0
@@ -84,7 +84,7 @@ items:
     id: test_op_reduce_all
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 169
@@ -100,7 +100,7 @@ items:
     id: test_op_reduce_argmax
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 231
@@ -116,7 +116,7 @@ items:
     id: test_op_reduce_argmin
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 245
@@ -132,7 +132,7 @@ items:
     id: test_op_reduce_log_sum
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 130
@@ -148,7 +148,7 @@ items:
     id: test_op_reduce_max
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 45
@@ -164,7 +164,7 @@ items:
     id: test_op_reduce_mean
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 111
@@ -180,7 +180,7 @@ items:
     id: test_op_reduce_mean_all_constant
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 213
@@ -196,7 +196,7 @@ items:
     id: test_op_reduce_min
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 69
@@ -212,7 +212,7 @@ items:
     id: test_op_reduce_prod
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 150
@@ -228,7 +228,7 @@ items:
     id: test_op_reduce_sum
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 27

@@ -16,7 +16,7 @@ items:
     id: test_utils
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/test_utils.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/test_utils.py
       repo: null
     startLine: 0
@@ -30,7 +30,7 @@ items:
     id: precision
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/test_utils.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/test_utils.py
       repo: null
     startLine: 23

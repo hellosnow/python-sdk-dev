@@ -28,7 +28,7 @@ items:
     id: tensor_test
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
       repo: null
     startLine: 0
@@ -42,7 +42,7 @@ items:
     id: test_eval_scalar
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
       repo: null
     startLine: 19
@@ -58,7 +58,7 @@ items:
     id: test_numpy_conversion
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
       repo: null
     startLine: 24
@@ -74,7 +74,7 @@ items:
     id: test_overload_exception
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
       repo: null
     startLine: 13

@@ -34,7 +34,7 @@ items:
     id: persist_test
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
       repo: null
     startLine: 0
@@ -48,7 +48,7 @@ items:
     id: test_load_save_constant
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
       repo: null
     startLine: 14
@@ -64,7 +64,7 @@ items:
     id: test_load_save_input_legacy_names
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
       repo: null
     startLine: 35
@@ -80,7 +80,7 @@ items:
     id: test_load_save_inputs
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
       repo: null
     startLine: 59
@@ -96,7 +96,7 @@ items:
     id: test_load_save_unique_input
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
       repo: null
     startLine: 85

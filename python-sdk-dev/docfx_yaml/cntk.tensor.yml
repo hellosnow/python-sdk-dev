@@ -22,7 +22,7 @@ items:
     id: tensor
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tensor.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tensor.py
       repo: null
     startLine: 0

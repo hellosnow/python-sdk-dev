@@ -52,7 +52,7 @@ items:
     id: ops_test_utils
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 0
@@ -66,7 +66,7 @@ items:
     id: batch_dense_to_sparse
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 156
@@ -75,11 +75,11 @@ items:
     parameters:
     - description: list of samples. If `dynamic_axis` is given, samples are sequences
         of tensors. Otherwise, they are simple tensors.
-      id: batch
-      type: list
-    - description: the dynamic axis
       id: dynamic_axis
       type: str or cntk.ops.dynamic_axis() instance
+    - description: the dynamic axis
+      id: batch
+      type: list
     returntype: ''
     returnvalue: (indices, values, shape)
     summary: Helper test function that converts a batch of dense tensors into sparse
@@ -95,7 +95,7 @@ items:
     id: cntk_device
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 24
@@ -120,7 +120,7 @@ items:
     id: compare_lists_of_np_arrays
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 249
@@ -136,7 +136,7 @@ items:
     id: remove_np_array_in_list
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 238
@@ -152,7 +152,7 @@ items:
     id: test_batch_dense_to_sparse_full
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 200
@@ -168,7 +168,7 @@ items:
     id: test_batch_dense_to_sparse_zeros
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 222
@@ -184,7 +184,7 @@ items:
     id: unittest_helper
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 121

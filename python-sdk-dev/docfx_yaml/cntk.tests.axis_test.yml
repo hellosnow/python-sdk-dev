@@ -34,7 +34,7 @@ items:
     id: axis_test
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
       repo: null
     startLine: 0
@@ -48,7 +48,7 @@ items:
     id: test_axis
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
       repo: null
     startLine: 8
@@ -64,7 +64,7 @@ items:
     id: test_axis_comparison
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
       repo: null
     startLine: 24
@@ -80,7 +80,7 @@ items:
     id: test_default_axis
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
       repo: null
     startLine: 20
@@ -96,7 +96,7 @@ items:
     id: test_dyn_axis
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
       repo: null
     startLine: 15
