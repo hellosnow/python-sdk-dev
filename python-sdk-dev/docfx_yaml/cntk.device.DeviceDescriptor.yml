@@ -1,0 +1,86 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.device.DeviceDescriptor.id
+  - cntk.device.DeviceDescriptor.type
+  class: cntk.device.DeviceDescriptor
+  fullName: cntk.device.DeviceDescriptor
+  inheritance:
+  - - cntk.cntk_py.DeviceDescriptor
+    - builtins.object
+  module: cntk.device
+  name: DeviceDescriptor
+  references:
+  - fullName: cntk.device.DeviceDescriptor.id
+    isExternal: false
+    name: id
+    parent: ''
+    uid: cntk.device.DeviceDescriptor.id
+  - fullName: cntk.device.DeviceDescriptor.type
+    isExternal: false
+    name: type
+    parent: ''
+    uid: cntk.device.DeviceDescriptor.type
+  source:
+    id: DeviceDescriptor
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+      repo: null
+    startLine: 28
+  syntax:
+    summary: 'Bases: `cntk.cntk_py.DeviceDescriptor`
+
+      Describes a device by an unique id and its type. If the device corresponds to
+      a GPU its type is 1, otherwise, it is 0
+
+
+      '
+  type: Class
+  uid: cntk.device.DeviceDescriptor
+- _type: method
+  class: cntk.device.DeviceDescriptor
+  fullName: cntk.device.DeviceDescriptor.id
+  module: cntk.device
+  name: id
+  source:
+    id: id
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+      repo: null
+    startLine: 34
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: int
+    returnvalue: id
+    summary: Returns id of device descriptor
+    variables: []
+  type: Method
+  uid: cntk.device.DeviceDescriptor.id
+- _type: method
+  class: cntk.device.DeviceDescriptor
+  fullName: cntk.device.DeviceDescriptor.type
+  module: cntk.device
+  name: type
+  source:
+    id: type
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+      repo: null
+    startLine: 43
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: int
+    returnvalue: type
+    summary: Returns type of device descriptor. 1 if it is a GPU device or 0 if CPU.
+    variables: []
+  type: Method
+  uid: cntk.device.DeviceDescriptor.type

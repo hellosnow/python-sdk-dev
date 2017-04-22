@@ -1,0 +1,23 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: cntk.default_options.default_override_or
+  fullName: cntk.default_options.default_override_or
+  inheritance:
+  - - builtins.object
+  module: cntk.default_options
+  name: default_override_or
+  references: []
+  source:
+    id: default_override_or
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+      repo: null
+    startLine: 50
+  syntax:
+    summary: 'Bases: `object`'
+  type: Class
+  uid: cntk.default_options.default_override_or

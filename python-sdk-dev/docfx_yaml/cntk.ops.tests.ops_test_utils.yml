@@ -1,0 +1,194 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.ops_test_utils.batch_dense_to_sparse
+  - cntk.ops.tests.ops_test_utils.cntk_device
+  - cntk.ops.tests.ops_test_utils.compare_lists_of_np_arrays
+  - cntk.ops.tests.ops_test_utils.remove_np_array_in_list
+  - cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_full
+  - cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_zeros
+  - cntk.ops.tests.ops_test_utils.unittest_helper
+  fullName: cntk.ops.tests.ops_test_utils
+  module: cntk.ops.tests.ops_test_utils
+  name: ops_test_utils
+  references:
+  - fullName: cntk.ops.tests.ops_test_utils.batch_dense_to_sparse
+    isExternal: false
+    name: batch_dense_to_sparse
+    parent: ''
+    uid: cntk.ops.tests.ops_test_utils.batch_dense_to_sparse
+  - fullName: cntk.ops.tests.ops_test_utils.cntk_device
+    isExternal: false
+    name: cntk_device
+    parent: ''
+    uid: cntk.ops.tests.ops_test_utils.cntk_device
+  - fullName: cntk.ops.tests.ops_test_utils.compare_lists_of_np_arrays
+    isExternal: false
+    name: compare_lists_of_np_arrays
+    parent: ''
+    uid: cntk.ops.tests.ops_test_utils.compare_lists_of_np_arrays
+  - fullName: cntk.ops.tests.ops_test_utils.remove_np_array_in_list
+    isExternal: false
+    name: remove_np_array_in_list
+    parent: ''
+    uid: cntk.ops.tests.ops_test_utils.remove_np_array_in_list
+  - fullName: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_full
+    isExternal: false
+    name: test_batch_dense_to_sparse_full
+    parent: ''
+    uid: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_full
+  - fullName: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_zeros
+    isExternal: false
+    name: test_batch_dense_to_sparse_zeros
+    parent: ''
+    uid: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_zeros
+  - fullName: cntk.ops.tests.ops_test_utils.unittest_helper
+    isExternal: false
+    name: unittest_helper
+    parent: ''
+    uid: cntk.ops.tests.ops_test_utils.unittest_helper
+  source:
+    id: ops_test_utils
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.ops_test_utils
+- _type: function
+  fullName: cntk.ops.tests.ops_test_utils.batch_dense_to_sparse
+  module: cntk.ops.tests.ops_test_utils
+  name: batch_dense_to_sparse
+  source:
+    id: batch_dense_to_sparse
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      repo: null
+    startLine: 156
+  syntax:
+    exceptions: []
+    parameters:
+    - description: list of samples. If `dynamic_axis` is given, samples are sequences
+        of tensors. Otherwise, they are simple tensors.
+      id: batch
+      type: list
+    - description: the dynamic axis
+      id: dynamic_axis
+      type: str or cntk.ops.dynamic_axis() instance
+    returntype: ''
+    returnvalue: (indices, values, shape)
+    summary: Helper test function that converts a batch of dense tensors into sparse
+      representation that can be consumed by `cntk.ops.sparse_input_numpy()`.
+    variables: []
+  type: Method
+  uid: cntk.ops.tests.ops_test_utils.batch_dense_to_sparse
+- _type: function
+  fullName: cntk.ops.tests.ops_test_utils.cntk_device
+  module: cntk.ops.tests.ops_test_utils
+  name: cntk_device
+  source:
+    id: cntk_device
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      repo: null
+    startLine: 24
+  syntax:
+    exceptions: []
+    parameters:
+    - description: device id, -1 for CPU, 0 or higher for GPU
+      id: device_id
+      type: int
+    returntype: ''
+    returnvalue: '`DeviceDescriptor`'
+    summary: Converts the legacy device ID as it was used in CNTK 1 to a `DeviceDescriptor`
+      instance.
+    variables: []
+  type: Method
+  uid: cntk.ops.tests.ops_test_utils.cntk_device
+- _type: function
+  fullName: cntk.ops.tests.ops_test_utils.compare_lists_of_np_arrays
+  module: cntk.ops.tests.ops_test_utils
+  name: compare_lists_of_np_arrays
+  source:
+    id: compare_lists_of_np_arrays
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      repo: null
+    startLine: 249
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.ops_test_utils.compare_lists_of_np_arrays
+- _type: function
+  fullName: cntk.ops.tests.ops_test_utils.remove_np_array_in_list
+  module: cntk.ops.tests.ops_test_utils
+  name: remove_np_array_in_list
+  source:
+    id: remove_np_array_in_list
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      repo: null
+    startLine: 238
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.ops_test_utils.remove_np_array_in_list
+- _type: function
+  fullName: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_full
+  module: cntk.ops.tests.ops_test_utils
+  name: test_batch_dense_to_sparse_full
+  source:
+    id: test_batch_dense_to_sparse_full
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      repo: null
+    startLine: 200
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_full
+- _type: function
+  fullName: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_zeros
+  module: cntk.ops.tests.ops_test_utils
+  name: test_batch_dense_to_sparse_zeros
+  source:
+    id: test_batch_dense_to_sparse_zeros
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      repo: null
+    startLine: 222
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_zeros
+- _type: function
+  fullName: cntk.ops.tests.ops_test_utils.unittest_helper
+  module: cntk.ops.tests.ops_test_utils
+  name: unittest_helper
+  source:
+    id: unittest_helper
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      repo: null
+    startLine: 121
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.ops_test_utils.unittest_helper

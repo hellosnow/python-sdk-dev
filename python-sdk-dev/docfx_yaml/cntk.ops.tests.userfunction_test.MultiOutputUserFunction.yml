@@ -1,0 +1,100 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.ops.tests.userfunction_test.MultiOutputUserFunction.backward
+  - cntk.ops.tests.userfunction_test.MultiOutputUserFunction.forward
+  - cntk.ops.tests.userfunction_test.MultiOutputUserFunction.infer_outputs
+  class: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+  fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+  inheritance:
+  - - cntk.ops.functions.UserFunction
+    - cntk.ops.functions.Function
+    - cntk.cntk_py.Function
+    - cntk.cntk_py.IDictionarySerializable
+    - builtins.object
+  module: cntk.ops.tests.userfunction_test
+  name: MultiOutputUserFunction
+  references:
+  - fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.backward
+    isExternal: false
+    name: backward
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.backward
+  - fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.forward
+    isExternal: false
+    name: forward
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.forward
+  - fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.infer_outputs
+    isExternal: false
+    name: infer_outputs
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.infer_outputs
+  source:
+    id: MultiOutputUserFunction
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 309
+  syntax:
+    summary: 'Bases: `cntk.ops.functions.UserFunction`
+
+
+
+      '
+  type: Class
+  uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+- _type: method
+  class: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+  fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.backward
+  module: cntk.ops.tests.userfunction_test
+  name: backward
+  source:
+    id: backward
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 325
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.backward
+- _type: method
+  class: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+  fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.forward
+  module: cntk.ops.tests.userfunction_test
+  name: forward
+  source:
+    id: forward
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 317
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.forward
+- _type: method
+  class: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+  fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.infer_outputs
+  module: cntk.ops.tests.userfunction_test
+  name: infer_outputs
+  source:
+    id: infer_outputs
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 313
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.infer_outputs

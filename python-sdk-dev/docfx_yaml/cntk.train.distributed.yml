@@ -1,0 +1,128 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.train.distributed.Communicator
+  - cntk.train.distributed.DistributedLearner
+  - cntk.train.distributed.WorkerDescriptor
+  - cntk.train.distributed.block_momentum_distributed_learner
+  - cntk.train.distributed.data_parallel_distributed_learner
+  fullName: cntk.train.distributed
+  module: cntk.train.distributed
+  name: distributed
+  references:
+  - fullName: cntk.train.distributed.Communicator
+    isExternal: false
+    name: Communicator
+    parent: ''
+    uid: cntk.train.distributed.Communicator
+  - fullName: cntk.train.distributed.DistributedLearner
+    isExternal: false
+    name: DistributedLearner
+    parent: ''
+    uid: cntk.train.distributed.DistributedLearner
+  - fullName: cntk.train.distributed.WorkerDescriptor
+    isExternal: false
+    name: WorkerDescriptor
+    parent: ''
+    uid: cntk.train.distributed.WorkerDescriptor
+  - fullName: cntk.train.distributed.block_momentum_distributed_learner
+    isExternal: false
+    name: block_momentum_distributed_learner
+    parent: ''
+    uid: cntk.train.distributed.block_momentum_distributed_learner
+  - fullName: cntk.train.distributed.data_parallel_distributed_learner
+    isExternal: false
+    name: data_parallel_distributed_learner
+    parent: ''
+    uid: cntk.train.distributed.data_parallel_distributed_learner
+  source:
+    id: distributed
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.train.distributed
+- _type: function
+  fullName: cntk.train.distributed.block_momentum_distributed_learner
+  module: cntk.train.distributed
+  name: block_momentum_distributed_learner
+  source:
+    id: block_momentum_distributed_learner
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 141
+  syntax:
+    exceptions: []
+    parameters:
+    - description: a local learner (i.e. sgd)
+      id: distributed_after
+      type: int
+    - description: size of the partition in samples
+      id: block_learning_rate
+      type: float
+    - description: block momentum as time constant
+      id: reset_sgd_momentum_after_aggregation
+      type: bool
+    - description: use nestrov momentum
+      id: block_size
+      type: int
+    - description: reset SGD momentum after aggregation
+      id: block_momentum_as_time_constant
+      type: float
+    - description: block learning rate
+      id: use_nestrov_momentum
+      type: bool
+    returntype: ''
+    returnvalue: a distributed learner instance
+    summary: 'Creates a block momentum distributed learner. See [1] for more information.
+
+      Block Momentum divides the full dataset into M non-overlapping blocks, and each
+      block is partitioned into N non-overlapping splits.
+
+      During training, a random, unprocessed block is randomly taken by the trainer
+      and the N partitions of this block are dispatched on the workers.
+
+      See also: [1] K. Chen and Q. Huo. [Scalable training of deep learning machines
+      by incremental block training with intra-block parallel optimization and blockwise
+      model-update filtering](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/0005880.pdf).
+      Proceedings of ICASSP, 2016.'
+    variables: []
+  type: Method
+  uid: cntk.train.distributed.block_momentum_distributed_learner
+- _type: function
+  fullName: cntk.train.distributed.data_parallel_distributed_learner
+  module: cntk.train.distributed
+  name: data_parallel_distributed_learner
+  source:
+    id: data_parallel_distributed_learner
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 115
+  syntax:
+    exceptions: []
+    parameters:
+    - description: a local learner (i.e. sgd)
+      id: num_quantization_bits
+      type: int
+    - description: number of samples after which distributed training starts
+      id: distributed_after
+      type: int
+    - description: number of bits for quantization (1 to 32)
+      id: use_async_buffered_parameter_update
+      type: bool
+    returntype: ''
+    returnvalue: a distributed learner instance
+    summary: Creates a data parallel distributed learner
+    variables: []
+  type: Method
+  uid: cntk.train.distributed.data_parallel_distributed_learner

@@ -1,0 +1,106 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.non_diff_test.test_input_variable
+  - cntk.ops.tests.non_diff_test.test_op_ceil
+  - cntk.ops.tests.non_diff_test.test_op_floor
+  - cntk.ops.tests.non_diff_test.test_op_round
+  fullName: cntk.ops.tests.non_diff_test
+  module: cntk.ops.tests.non_diff_test
+  name: non_diff_test
+  references:
+  - fullName: cntk.ops.tests.non_diff_test.test_input_variable
+    isExternal: false
+    name: test_input_variable
+    parent: ''
+    uid: cntk.ops.tests.non_diff_test.test_input_variable
+  - fullName: cntk.ops.tests.non_diff_test.test_op_ceil
+    isExternal: false
+    name: test_op_ceil
+    parent: ''
+    uid: cntk.ops.tests.non_diff_test.test_op_ceil
+  - fullName: cntk.ops.tests.non_diff_test.test_op_floor
+    isExternal: false
+    name: test_op_floor
+    parent: ''
+    uid: cntk.ops.tests.non_diff_test.test_op_floor
+  - fullName: cntk.ops.tests.non_diff_test.test_op_round
+    isExternal: false
+    name: test_op_round
+    parent: ''
+    uid: cntk.ops.tests.non_diff_test.test_op_round
+  source:
+    id: non_diff_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/non_diff_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/non_diff_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.non_diff_test
+- _type: function
+  fullName: cntk.ops.tests.non_diff_test.test_input_variable
+  module: cntk.ops.tests.non_diff_test
+  name: test_input_variable
+  source:
+    id: test_input_variable
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/non_diff_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/non_diff_test.py
+      repo: null
+    startLine: 97
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.non_diff_test.test_input_variable
+- _type: function
+  fullName: cntk.ops.tests.non_diff_test.test_op_ceil
+  module: cntk.ops.tests.non_diff_test
+  name: test_op_ceil
+  source:
+    id: test_op_ceil
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/non_diff_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/non_diff_test.py
+      repo: null
+    startLine: 43
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.non_diff_test.test_op_ceil
+- _type: function
+  fullName: cntk.ops.tests.non_diff_test.test_op_floor
+  module: cntk.ops.tests.non_diff_test
+  name: test_op_floor
+  source:
+    id: test_op_floor
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/non_diff_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/non_diff_test.py
+      repo: null
+    startLine: 28
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.non_diff_test.test_op_floor
+- _type: function
+  fullName: cntk.ops.tests.non_diff_test.test_op_round
+  module: cntk.ops.tests.non_diff_test
+  name: test_op_round
+  source:
+    id: test_op_round
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/non_diff_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/non_diff_test.py
+      repo: null
+    startLine: 84
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.non_diff_test.test_op_round

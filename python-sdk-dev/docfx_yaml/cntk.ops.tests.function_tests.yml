@@ -1,0 +1,480 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.function_tests.test_MinibatchData_and_Value_as_input
+  - cntk.ops.tests.function_tests.test_as_composite
+  - cntk.ops.tests.function_tests.test_clone_with_function_in_substitution_map
+  - cntk.ops.tests.function_tests.test_clone_with_slice
+  - cntk.ops.tests.function_tests.test_cloning
+  - cntk.ops.tests.function_tests.test_combine_duplicated_inputs
+  - cntk.ops.tests.function_tests.test_data_type_inference
+  - cntk.ops.tests.function_tests.test_eval_by_node_name
+  - cntk.ops.tests.function_tests.test_evaluating_multiple_outputs
+  - cntk.ops.tests.function_tests.test_exception_for_unnamed_arguments
+  - cntk.ops.tests.function_tests.test_extra_arguments_in_eval
+  - cntk.ops.tests.function_tests.test_getting_output_from_non_existent_node
+  - cntk.ops.tests.function_tests.test_input_order
+  - cntk.ops.tests.function_tests.test_output_in_intermediate_node
+  - cntk.ops.tests.function_tests.test_output_subset_evaluation
+  - cntk.ops.tests.function_tests.test_recurrence_shape_inference
+  - cntk.ops.tests.function_tests.test_replace_placeholder_s
+  - cntk.ops.tests.function_tests.test_replace_placeholders
+  - cntk.ops.tests.function_tests.test_sequence_data_mismatch
+  - cntk.ops.tests.function_tests.test_set_name
+  - cntk.ops.tests.function_tests.test_variable_forwarding
+  fullName: cntk.ops.tests.function_tests
+  module: cntk.ops.tests.function_tests
+  name: function_tests
+  references:
+  - fullName: cntk.ops.tests.function_tests.test_MinibatchData_and_Value_as_input
+    isExternal: false
+    name: test_MinibatchData_and_Value_as_input
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_MinibatchData_and_Value_as_input
+  - fullName: cntk.ops.tests.function_tests.test_as_composite
+    isExternal: false
+    name: test_as_composite
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_as_composite
+  - fullName: cntk.ops.tests.function_tests.test_clone_with_function_in_substitution_map
+    isExternal: false
+    name: test_clone_with_function_in_substitution_map
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_clone_with_function_in_substitution_map
+  - fullName: cntk.ops.tests.function_tests.test_clone_with_slice
+    isExternal: false
+    name: test_clone_with_slice
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_clone_with_slice
+  - fullName: cntk.ops.tests.function_tests.test_cloning
+    isExternal: false
+    name: test_cloning
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_cloning
+  - fullName: cntk.ops.tests.function_tests.test_combine_duplicated_inputs
+    isExternal: false
+    name: test_combine_duplicated_inputs
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_combine_duplicated_inputs
+  - fullName: cntk.ops.tests.function_tests.test_data_type_inference
+    isExternal: false
+    name: test_data_type_inference
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_data_type_inference
+  - fullName: cntk.ops.tests.function_tests.test_eval_by_node_name
+    isExternal: false
+    name: test_eval_by_node_name
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_eval_by_node_name
+  - fullName: cntk.ops.tests.function_tests.test_evaluating_multiple_outputs
+    isExternal: false
+    name: test_evaluating_multiple_outputs
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_evaluating_multiple_outputs
+  - fullName: cntk.ops.tests.function_tests.test_exception_for_unnamed_arguments
+    isExternal: false
+    name: test_exception_for_unnamed_arguments
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_exception_for_unnamed_arguments
+  - fullName: cntk.ops.tests.function_tests.test_extra_arguments_in_eval
+    isExternal: false
+    name: test_extra_arguments_in_eval
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_extra_arguments_in_eval
+  - fullName: cntk.ops.tests.function_tests.test_getting_output_from_non_existent_node
+    isExternal: false
+    name: test_getting_output_from_non_existent_node
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_getting_output_from_non_existent_node
+  - fullName: cntk.ops.tests.function_tests.test_input_order
+    isExternal: false
+    name: test_input_order
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_input_order
+  - fullName: cntk.ops.tests.function_tests.test_output_in_intermediate_node
+    isExternal: false
+    name: test_output_in_intermediate_node
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_output_in_intermediate_node
+  - fullName: cntk.ops.tests.function_tests.test_output_subset_evaluation
+    isExternal: false
+    name: test_output_subset_evaluation
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_output_subset_evaluation
+  - fullName: cntk.ops.tests.function_tests.test_recurrence_shape_inference
+    isExternal: false
+    name: test_recurrence_shape_inference
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_recurrence_shape_inference
+  - fullName: cntk.ops.tests.function_tests.test_replace_placeholder_s
+    isExternal: false
+    name: test_replace_placeholder_s
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_replace_placeholder_s
+  - fullName: cntk.ops.tests.function_tests.test_replace_placeholders
+    isExternal: false
+    name: test_replace_placeholders
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_replace_placeholders
+  - fullName: cntk.ops.tests.function_tests.test_sequence_data_mismatch
+    isExternal: false
+    name: test_sequence_data_mismatch
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_sequence_data_mismatch
+  - fullName: cntk.ops.tests.function_tests.test_set_name
+    isExternal: false
+    name: test_set_name
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_set_name
+  - fullName: cntk.ops.tests.function_tests.test_variable_forwarding
+    isExternal: false
+    name: test_variable_forwarding
+    parent: ''
+    uid: cntk.ops.tests.function_tests.test_variable_forwarding
+  source:
+    id: function_tests
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.function_tests
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_MinibatchData_and_Value_as_input
+  module: cntk.ops.tests.function_tests
+  name: test_MinibatchData_and_Value_as_input
+  source:
+    id: test_MinibatchData_and_Value_as_input
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 317
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_MinibatchData_and_Value_as_input
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_as_composite
+  module: cntk.ops.tests.function_tests
+  name: test_as_composite
+  source:
+    id: test_as_composite
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 246
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_as_composite
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_clone_with_function_in_substitution_map
+  module: cntk.ops.tests.function_tests
+  name: test_clone_with_function_in_substitution_map
+  source:
+    id: test_clone_with_function_in_substitution_map
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 216
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_clone_with_function_in_substitution_map
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_clone_with_slice
+  module: cntk.ops.tests.function_tests
+  name: test_clone_with_slice
+  source:
+    id: test_clone_with_slice
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 229
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_clone_with_slice
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_cloning
+  module: cntk.ops.tests.function_tests
+  name: test_cloning
+  source:
+    id: test_cloning
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 55
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_cloning
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_combine_duplicated_inputs
+  module: cntk.ops.tests.function_tests
+  name: test_combine_duplicated_inputs
+  source:
+    id: test_combine_duplicated_inputs
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 284
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_combine_duplicated_inputs
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_data_type_inference
+  module: cntk.ops.tests.function_tests
+  name: test_data_type_inference
+  source:
+    id: test_data_type_inference
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 184
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_data_type_inference
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_eval_by_node_name
+  module: cntk.ops.tests.function_tests
+  name: test_eval_by_node_name
+  source:
+    id: test_eval_by_node_name
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 26
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_eval_by_node_name
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_evaluating_multiple_outputs
+  module: cntk.ops.tests.function_tests
+  name: test_evaluating_multiple_outputs
+  source:
+    id: test_evaluating_multiple_outputs
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 145
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_evaluating_multiple_outputs
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_exception_for_unnamed_arguments
+  module: cntk.ops.tests.function_tests
+  name: test_exception_for_unnamed_arguments
+  source:
+    id: test_exception_for_unnamed_arguments
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 96
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_exception_for_unnamed_arguments
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_extra_arguments_in_eval
+  module: cntk.ops.tests.function_tests
+  name: test_extra_arguments_in_eval
+  source:
+    id: test_extra_arguments_in_eval
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 307
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_extra_arguments_in_eval
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_getting_output_from_non_existent_node
+  module: cntk.ops.tests.function_tests
+  name: test_getting_output_from_non_existent_node
+  source:
+    id: test_getting_output_from_non_existent_node
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 130
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_getting_output_from_non_existent_node
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_input_order
+  module: cntk.ops.tests.function_tests
+  name: test_input_order
+  source:
+    id: test_input_order
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 262
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_input_order
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_output_in_intermediate_node
+  module: cntk.ops.tests.function_tests
+  name: test_output_in_intermediate_node
+  source:
+    id: test_output_in_intermediate_node
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 107
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_output_in_intermediate_node
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_output_subset_evaluation
+  module: cntk.ops.tests.function_tests
+  name: test_output_subset_evaluation
+  source:
+    id: test_output_subset_evaluation
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 349
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_output_subset_evaluation
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_recurrence_shape_inference
+  module: cntk.ops.tests.function_tests
+  name: test_recurrence_shape_inference
+  source:
+    id: test_recurrence_shape_inference
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 192
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_recurrence_shape_inference
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_replace_placeholder_s
+  module: cntk.ops.tests.function_tests
+  name: test_replace_placeholder_s
+  source:
+    id: test_replace_placeholder_s
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 81
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_replace_placeholder_s
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_replace_placeholders
+  module: cntk.ops.tests.function_tests
+  name: test_replace_placeholders
+  source:
+    id: test_replace_placeholders
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 37
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_replace_placeholders
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_sequence_data_mismatch
+  module: cntk.ops.tests.function_tests
+  name: test_sequence_data_mismatch
+  source:
+    id: test_sequence_data_mismatch
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 201
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_sequence_data_mismatch
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_set_name
+  module: cntk.ops.tests.function_tests
+  name: test_set_name
+  source:
+    id: test_set_name
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 165
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_set_name
+- _type: function
+  fullName: cntk.ops.tests.function_tests.test_variable_forwarding
+  module: cntk.ops.tests.function_tests
+  name: test_variable_forwarding
+  source:
+    id: test_variable_forwarding
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      repo: null
+    startLine: 22
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.function_tests.test_variable_forwarding

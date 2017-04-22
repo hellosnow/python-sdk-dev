@@ -1,0 +1,106 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.tests.axis_test.test_axis
+  - cntk.tests.axis_test.test_axis_comparison
+  - cntk.tests.axis_test.test_default_axis
+  - cntk.tests.axis_test.test_dyn_axis
+  fullName: cntk.tests.axis_test
+  module: cntk.tests.axis_test
+  name: axis_test
+  references:
+  - fullName: cntk.tests.axis_test.test_axis
+    isExternal: false
+    name: test_axis
+    parent: ''
+    uid: cntk.tests.axis_test.test_axis
+  - fullName: cntk.tests.axis_test.test_axis_comparison
+    isExternal: false
+    name: test_axis_comparison
+    parent: ''
+    uid: cntk.tests.axis_test.test_axis_comparison
+  - fullName: cntk.tests.axis_test.test_default_axis
+    isExternal: false
+    name: test_default_axis
+    parent: ''
+    uid: cntk.tests.axis_test.test_default_axis
+  - fullName: cntk.tests.axis_test.test_dyn_axis
+    isExternal: false
+    name: test_dyn_axis
+    parent: ''
+    uid: cntk.tests.axis_test.test_dyn_axis
+  source:
+    id: axis_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.tests.axis_test
+- _type: function
+  fullName: cntk.tests.axis_test.test_axis
+  module: cntk.tests.axis_test
+  name: test_axis
+  source:
+    id: test_axis
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
+      repo: null
+    startLine: 8
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.axis_test.test_axis
+- _type: function
+  fullName: cntk.tests.axis_test.test_axis_comparison
+  module: cntk.tests.axis_test
+  name: test_axis_comparison
+  source:
+    id: test_axis_comparison
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
+      repo: null
+    startLine: 24
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.axis_test.test_axis_comparison
+- _type: function
+  fullName: cntk.tests.axis_test.test_default_axis
+  module: cntk.tests.axis_test
+  name: test_default_axis
+  source:
+    id: test_default_axis
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
+      repo: null
+    startLine: 20
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.axis_test.test_default_axis
+- _type: function
+  fullName: cntk.tests.axis_test.test_dyn_axis
+  module: cntk.tests.axis_test
+  name: test_dyn_axis
+  source:
+    id: test_dyn_axis
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/axis_test.py
+      repo: null
+    startLine: 15
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.axis_test.test_dyn_axis

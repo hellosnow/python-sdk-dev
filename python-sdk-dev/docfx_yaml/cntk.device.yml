@@ -1,0 +1,222 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.device.DeviceDescriptor
+  - cntk.device.DeviceKind
+  - cntk.device.all_devices
+  - cntk.device.best
+  - cntk.device.cpu
+  - cntk.device.default
+  - cntk.device.gpu
+  - cntk.device.set_default_device
+  - cntk.device.use_default_device
+  fullName: cntk.device
+  module: cntk.device
+  name: device
+  references:
+  - fullName: cntk.device.DeviceDescriptor
+    isExternal: false
+    name: DeviceDescriptor
+    parent: ''
+    uid: cntk.device.DeviceDescriptor
+  - fullName: cntk.device.DeviceKind
+    isExternal: false
+    name: DeviceKind
+    parent: ''
+    uid: cntk.device.DeviceKind
+  - fullName: cntk.device.all_devices
+    isExternal: false
+    name: all_devices
+    parent: ''
+    uid: cntk.device.all_devices
+  - fullName: cntk.device.best
+    isExternal: false
+    name: best
+    parent: ''
+    uid: cntk.device.best
+  - fullName: cntk.device.cpu
+    isExternal: false
+    name: cpu
+    parent: ''
+    uid: cntk.device.cpu
+  - fullName: cntk.device.default
+    isExternal: false
+    name: default
+    parent: ''
+    uid: cntk.device.default
+  - fullName: cntk.device.gpu
+    isExternal: false
+    name: gpu
+    parent: ''
+    uid: cntk.device.gpu
+  - fullName: cntk.device.set_default_device
+    isExternal: false
+    name: set_default_device
+    parent: ''
+    uid: cntk.device.set_default_device
+  - fullName: cntk.device.use_default_device
+    isExternal: false
+    name: use_default_device
+    parent: ''
+    uid: cntk.device.use_default_device
+  source:
+    id: device
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.device
+- _type: function
+  fullName: cntk.device.all_devices
+  module: cntk.device
+  name: all_devices
+  source:
+    id: all_devices
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 62
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: DeviceDescriptor list
+    returnvalue: all device descriptors
+    summary: Returns a device descriptor list with all the available devices
+    variables: []
+  type: Method
+  uid: cntk.device.all_devices
+- _type: function
+  fullName: cntk.device.best
+  module: cntk.device
+  name: best
+  source:
+    id: best
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 73
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: DeviceDescriptor
+    returnvalue: Best device descriptor
+    summary: Returns a device descriptor with the best configuration.
+    variables: []
+  type: Method
+  uid: cntk.device.best
+- _type: function
+  fullName: cntk.device.cpu
+  module: cntk.device
+  name: cpu
+  source:
+    id: cpu
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 84
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: DeviceDescriptor
+    returnvalue: CPU device descriptor
+    summary: Returns CPU device descriptor
+    variables: []
+  type: Method
+  uid: cntk.device.cpu
+- _type: function
+  fullName: cntk.device.default
+  module: cntk.device
+  name: default
+  source:
+    id: default
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 95
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: DeviceDescriptor
+    returnvalue: Default device descriptor
+    summary: Returns default device
+    variables: []
+  type: Method
+  uid: cntk.device.default
+- _type: function
+  fullName: cntk.device.gpu
+  module: cntk.device
+  name: gpu
+  source:
+    id: gpu
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 106
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: DeviceDescriptor
+    returnvalue: GPU device descriptor
+    summary: Returns GPU device
+    variables: []
+  type: Method
+  uid: cntk.device.gpu
+- _type: function
+  fullName: cntk.device.set_default_device
+  module: cntk.device
+  name: set_default_device
+  source:
+    id: set_default_device
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 128
+  syntax:
+    exceptions: []
+    parameters:
+    - description: new device descriptor
+      id: new_default_device
+      type: DeviceDescriptor
+    returntype: DeviceDescriptor
+    returnvalue: id
+    summary: Set new device descriptor as default
+    variables: []
+  type: Method
+  uid: cntk.device.set_default_device
+- _type: function
+  fullName: cntk.device.use_default_device
+  module: cntk.device
+  name: use_default_device
+  source:
+    id: use_default_device
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 117
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: int
+    returnvalue: Id of default device
+    summary: Use default device
+    variables: []
+  type: Method
+  uid: cntk.device.use_default_device

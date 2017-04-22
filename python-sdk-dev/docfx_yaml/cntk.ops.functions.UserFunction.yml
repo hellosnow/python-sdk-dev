@@ -1,0 +1,127 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.ops.functions.UserFunction.clone
+  - cntk.ops.functions.UserFunction.infer_outputs
+  - cntk.ops.functions.UserFunction.op_name
+  class: cntk.ops.functions.UserFunction
+  fullName: cntk.ops.functions.UserFunction
+  inheritance:
+  - - cntk.ops.functions.Function
+    - cntk.cntk_py.Function
+    - cntk.cntk_py.IDictionarySerializable
+    - builtins.object
+  module: cntk.ops.functions
+  name: UserFunction
+  references:
+  - fullName: cntk.ops.functions.UserFunction.clone
+    isExternal: false
+    name: clone
+    parent: ''
+    uid: cntk.ops.functions.UserFunction.clone
+  - fullName: cntk.ops.functions.UserFunction.infer_outputs
+    isExternal: false
+    name: infer_outputs
+    parent: ''
+    uid: cntk.ops.functions.UserFunction.infer_outputs
+  - fullName: cntk.ops.functions.UserFunction.op_name
+    isExternal: false
+    name: op_name
+    parent: ''
+    uid: cntk.ops.functions.UserFunction.op_name
+  source:
+    id: UserFunction
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      repo: null
+    startLine: 1076
+  syntax:
+    exceptions: []
+    parameters:
+    - description: inputs to this function
+      id: name
+      type: str
+    - description: whether the data should be automatically converted from and to
+        NumPy. Defaults to True. Specifying this as *False* passes the data as CNTK
+        Value objects.
+      id: inputs
+      type: list
+    - description: name of this function
+      id: as_numpy
+      type: bool, optional
+    returntype: ''
+    returnvalue: ''
+    summary: 'Bases: `cntk.ops.functions.Function`
+
+      Base class of all user extension functions.
+
+      If it has only one output, one can invoke Variable methods on it, which it will
+      relay to its only output.
+
+
+
+      '
+    variables: []
+  type: Class
+  uid: cntk.ops.functions.UserFunction
+- _type: method
+  class: cntk.ops.functions.UserFunction
+  fullName: cntk.ops.functions.UserFunction.clone
+  module: cntk.ops.functions
+  name: clone
+  source:
+    id: clone
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      repo: null
+    startLine: 1228
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: ''
+    returnvalue: A cloned instance of this user-defined function.
+    summary: Creates a clone of this user-defined function.
+    variables: []
+  type: Method
+  uid: cntk.ops.functions.UserFunction.clone
+- _type: method
+  class: cntk.ops.functions.UserFunction
+  fullName: cntk.ops.functions.UserFunction.infer_outputs
+  module: cntk.ops.functions
+  name: infer_outputs
+  source:
+    id: infer_outputs
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      repo: null
+    startLine: 1218
+  syntax:
+    summary: 'Returns a list of all output variables this user-defined function outputs.
+
+      Output variables are created by `output_variable()`.'
+  type: Method
+  uid: cntk.ops.functions.UserFunction.infer_outputs
+- _type: method
+  class: cntk.ops.functions.UserFunction
+  fullName: cntk.ops.functions.UserFunction.op_name
+  module: cntk.ops.functions
+  name: op_name
+  source:
+    id: op_name
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      repo: null
+    startLine: 1241
+  syntax:
+    summary: Returns the operator name.
+  type: Method
+  uid: cntk.ops.functions.UserFunction.op_name

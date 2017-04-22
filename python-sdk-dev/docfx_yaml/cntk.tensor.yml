@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.tensor.ArrayMixin
+  - cntk.tensor.TensorOpsMixin
+  fullName: cntk.tensor
+  module: cntk.tensor
+  name: tensor
+  references:
+  - fullName: cntk.tensor.ArrayMixin
+    isExternal: false
+    name: ArrayMixin
+    parent: ''
+    uid: cntk.tensor.ArrayMixin
+  - fullName: cntk.tensor.TensorOpsMixin
+    isExternal: false
+    name: TensorOpsMixin
+    parent: ''
+    uid: cntk.tensor.TensorOpsMixin
+  source:
+    id: tensor
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tensor.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tensor.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.tensor

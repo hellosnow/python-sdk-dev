@@ -1,0 +1,18 @@
+api_name: []
+items:
+- _type: module
+  children: []
+  fullName: cntk.layers
+  module: cntk.layers
+  name: layers
+  references: []
+  source:
+    id: layers
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/__init__.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.layers

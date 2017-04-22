@@ -1,0 +1,101 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.ops.functions.CloneMethod.clone
+  - cntk.ops.functions.CloneMethod.freeze
+  - cntk.ops.functions.CloneMethod.share
+  class: cntk.ops.functions.CloneMethod
+  fullName: cntk.ops.functions.CloneMethod
+  inheritance:
+  - - enum.Enum
+    - builtins.object
+  module: cntk.ops.functions
+  name: CloneMethod
+  references:
+  - fullName: cntk.ops.functions.CloneMethod.clone
+    isExternal: false
+    name: clone
+    parent: ''
+    uid: cntk.ops.functions.CloneMethod.clone
+  - fullName: cntk.ops.functions.CloneMethod.freeze
+    isExternal: false
+    name: freeze
+    parent: ''
+    uid: cntk.ops.functions.CloneMethod.freeze
+  - fullName: cntk.ops.functions.CloneMethod.share
+    isExternal: false
+    name: share
+    parent: ''
+    uid: cntk.ops.functions.CloneMethod.share
+  source:
+    id: CloneMethod
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      repo: null
+    startLine: 11
+  syntax:
+    summary: 'Bases: `enum.Enum`
+
+      Describes different ways how `clone()` works.
+
+
+
+      '
+  type: Class
+  uid: cntk.ops.functions.CloneMethod
+- _type: attribute
+  class: cntk.ops.functions.CloneMethod
+  fullName: cntk.ops.functions.CloneMethod.clone
+  module: cntk.ops.functions
+  name: clone
+  source:
+    id: clone
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: New learnable parameters are created and initialized with the current
+      values of the corresponding parameters of the Function being cloned
+  type: Property
+  uid: cntk.ops.functions.CloneMethod.clone
+- _type: attribute
+  class: cntk.ops.functions.CloneMethod
+  fullName: cntk.ops.functions.CloneMethod.freeze
+  module: cntk.ops.functions
+  name: freeze
+  source:
+    id: freeze
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: Parameters are cloned and made immutable; i.e. Constants in the new clone
+      (e.g. for use as a fixed feature extractor)
+  type: Property
+  uid: cntk.ops.functions.CloneMethod.freeze
+- _type: attribute
+  class: cntk.ops.functions.CloneMethod
+  fullName: cntk.ops.functions.CloneMethod.share
+  module: cntk.ops.functions
+  name: share
+  source:
+    id: share
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: Parameters are shared between the Function being cloned and the new clone
+  type: Property
+  uid: cntk.ops.functions.CloneMethod.share

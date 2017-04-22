@@ -1,0 +1,200 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.io.MinibatchData.end_of_sweep
+  - cntk.io.MinibatchData.is_sparse
+  - cntk.io.MinibatchData.mask
+  - cntk.io.MinibatchData.num_samples
+  - cntk.io.MinibatchData.num_sequences
+  - cntk.io.MinibatchData.shape
+  - cntk.io.MinibatchData.value
+  class: cntk.io.MinibatchData
+  fullName: cntk.io.MinibatchData
+  inheritance:
+  - - cntk.cntk_py.MinibatchData
+    - builtins.object
+  - - cntk.tensor.ArrayMixin
+    - builtins.object
+  module: cntk.io
+  name: MinibatchData
+  references:
+  - fullName: cntk.io.MinibatchData.end_of_sweep
+    isExternal: false
+    name: end_of_sweep
+    parent: ''
+    uid: cntk.io.MinibatchData.end_of_sweep
+  - fullName: cntk.io.MinibatchData.is_sparse
+    isExternal: false
+    name: is_sparse
+    parent: ''
+    uid: cntk.io.MinibatchData.is_sparse
+  - fullName: cntk.io.MinibatchData.mask
+    isExternal: false
+    name: mask
+    parent: ''
+    uid: cntk.io.MinibatchData.mask
+  - fullName: cntk.io.MinibatchData.num_samples
+    isExternal: false
+    name: num_samples
+    parent: ''
+    uid: cntk.io.MinibatchData.num_samples
+  - fullName: cntk.io.MinibatchData.num_sequences
+    isExternal: false
+    name: num_sequences
+    parent: ''
+    uid: cntk.io.MinibatchData.num_sequences
+  - fullName: cntk.io.MinibatchData.shape
+    isExternal: false
+    name: shape
+    parent: ''
+    uid: cntk.io.MinibatchData.shape
+  - fullName: cntk.io.MinibatchData.value
+    isExternal: false
+    name: value
+    parent: ''
+    uid: cntk.io.MinibatchData.value
+  source:
+    id: MinibatchData
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      repo: null
+    startLine: 20
+  syntax:
+    summary: 'Bases: `cntk.cntk_py.MinibatchData`, `cntk.tensor.ArrayMixin`
+
+      Holds a minibatch of input data. This is never directly created, but only returned
+      by `MinibatchSource` instances.
+
+
+
+
+
+
+
+      '
+  type: Class
+  uid: cntk.io.MinibatchData
+- _type: attribute
+  class: cntk.io.MinibatchData
+  fullName: cntk.io.MinibatchData.end_of_sweep
+  module: cntk.io
+  name: end_of_sweep
+  source:
+    id: end_of_sweep
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: Indicates whether the data in this minibatch comes from a sweep end or
+      crosses a sweep boundary (and as a result includes data from different sweeps).
+  type: Property
+  uid: cntk.io.MinibatchData.end_of_sweep
+- _type: attribute
+  class: cntk.io.MinibatchData
+  fullName: cntk.io.MinibatchData.is_sparse
+  module: cntk.io
+  name: is_sparse
+  source:
+    id: is_sparse
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: Whether the data in this minibatch is sparse.
+  type: Property
+  uid: cntk.io.MinibatchData.is_sparse
+- _type: attribute
+  class: cntk.io.MinibatchData
+  fullName: cntk.io.MinibatchData.mask
+  module: cntk.io
+  name: mask
+  source:
+    id: mask
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The mask object of the minibatch. In it, *2* marks the beginning of a
+      sequence, *1* marks a sequence element as valid, and *0* marks it as invalid.
+  type: Property
+  uid: cntk.io.MinibatchData.mask
+- _type: attribute
+  class: cntk.io.MinibatchData
+  fullName: cntk.io.MinibatchData.num_samples
+  module: cntk.io
+  name: num_samples
+  source:
+    id: num_samples
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The number of samples in this minibatch
+  type: Property
+  uid: cntk.io.MinibatchData.num_samples
+- _type: attribute
+  class: cntk.io.MinibatchData
+  fullName: cntk.io.MinibatchData.num_sequences
+  module: cntk.io
+  name: num_sequences
+  source:
+    id: num_sequences
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The number of sequences in this minibatch
+  type: Property
+  uid: cntk.io.MinibatchData.num_sequences
+- _type: attribute
+  class: cntk.io.MinibatchData
+  fullName: cntk.io.MinibatchData.shape
+  module: cntk.io
+  name: shape
+  source:
+    id: shape
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The shape of the data in this minibatch as tuple.
+  type: Property
+  uid: cntk.io.MinibatchData.shape
+- _type: attribute
+  class: cntk.io.MinibatchData
+  fullName: cntk.io.MinibatchData.value
+  module: cntk.io
+  name: value
+  source:
+    id: value
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The value of the minibatch as a NumPy array.
+  type: Property
+  uid: cntk.io.MinibatchData.value

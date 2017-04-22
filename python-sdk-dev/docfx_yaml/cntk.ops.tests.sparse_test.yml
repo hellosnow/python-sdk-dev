@@ -1,0 +1,128 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.sparse_test.test_times_2d_sparse_operand
+  - cntk.ops.tests.sparse_test.test_times_2d_sparse_sequence_operand
+  - cntk.ops.tests.sparse_test.test_times_sparse_operand_reduce_multiple_axes
+  - cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
+  - cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence
+  fullName: cntk.ops.tests.sparse_test
+  module: cntk.ops.tests.sparse_test
+  name: sparse_test
+  references:
+  - fullName: cntk.ops.tests.sparse_test.test_times_2d_sparse_operand
+    isExternal: false
+    name: test_times_2d_sparse_operand
+    parent: ''
+    uid: cntk.ops.tests.sparse_test.test_times_2d_sparse_operand
+  - fullName: cntk.ops.tests.sparse_test.test_times_2d_sparse_sequence_operand
+    isExternal: false
+    name: test_times_2d_sparse_sequence_operand
+    parent: ''
+    uid: cntk.ops.tests.sparse_test.test_times_2d_sparse_sequence_operand
+  - fullName: cntk.ops.tests.sparse_test.test_times_sparse_operand_reduce_multiple_axes
+    isExternal: false
+    name: test_times_sparse_operand_reduce_multiple_axes
+    parent: ''
+    uid: cntk.ops.tests.sparse_test.test_times_sparse_operand_reduce_multiple_axes
+  - fullName: cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
+    isExternal: false
+    name: test_training_2d_sparse_sequence_operand
+    parent: ''
+    uid: cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
+  - fullName: cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence
+    isExternal: false
+    name: test_training_3d_sparse_sequence_with_recurrence
+    parent: ''
+    uid: cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence
+  source:
+    id: sparse_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.sparse_test
+- _type: function
+  fullName: cntk.ops.tests.sparse_test.test_times_2d_sparse_operand
+  module: cntk.ops.tests.sparse_test
+  name: test_times_2d_sparse_operand
+  source:
+    id: test_times_2d_sparse_operand
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+      repo: null
+    startLine: 18
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.sparse_test.test_times_2d_sparse_operand
+- _type: function
+  fullName: cntk.ops.tests.sparse_test.test_times_2d_sparse_sequence_operand
+  module: cntk.ops.tests.sparse_test
+  name: test_times_2d_sparse_sequence_operand
+  source:
+    id: test_times_2d_sparse_sequence_operand
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+      repo: null
+    startLine: 45
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.sparse_test.test_times_2d_sparse_sequence_operand
+- _type: function
+  fullName: cntk.ops.tests.sparse_test.test_times_sparse_operand_reduce_multiple_axes
+  module: cntk.ops.tests.sparse_test
+  name: test_times_sparse_operand_reduce_multiple_axes
+  source:
+    id: test_times_sparse_operand_reduce_multiple_axes
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+      repo: null
+    startLine: 177
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.sparse_test.test_times_sparse_operand_reduce_multiple_axes
+- _type: function
+  fullName: cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
+  module: cntk.ops.tests.sparse_test
+  name: test_training_2d_sparse_sequence_operand
+  source:
+    id: test_training_2d_sparse_sequence_operand
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+      repo: null
+    startLine: 70
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
+- _type: function
+  fullName: cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence
+  module: cntk.ops.tests.sparse_test
+  name: test_training_3d_sparse_sequence_with_recurrence
+  source:
+    id: test_training_3d_sparse_sequence_with_recurrence
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+      repo: null
+    startLine: 117
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence

@@ -1,0 +1,159 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.debugging.debug.debug_model
+  - cntk.debugging.debug.save_as_legacy_model
+  - cntk.debugging.debug.set_computation_network_trace_level
+  - cntk.debugging.debug.set_computation_network_track_gap_nans
+  fullName: cntk.debugging.debug
+  module: cntk.debugging.debug
+  name: debug
+  references:
+  - fullName: cntk.debugging.debug.debug_model
+    isExternal: false
+    name: debug_model
+    parent: ''
+    uid: cntk.debugging.debug.debug_model
+  - fullName: cntk.debugging.debug.save_as_legacy_model
+    isExternal: false
+    name: save_as_legacy_model
+    parent: ''
+    uid: cntk.debugging.debug.save_as_legacy_model
+  - fullName: cntk.debugging.debug.set_computation_network_trace_level
+    isExternal: false
+    name: set_computation_network_trace_level
+    parent: ''
+    uid: cntk.debugging.debug.set_computation_network_trace_level
+  - fullName: cntk.debugging.debug.set_computation_network_track_gap_nans
+    isExternal: false
+    name: set_computation_network_track_gap_nans
+    parent: ''
+    uid: cntk.debugging.debug.set_computation_network_track_gap_nans
+  source:
+    id: debug
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.debugging.debug
+- _type: function
+  fullName: cntk.debugging.debug.debug_model
+  module: cntk.debugging.debug
+  name: debug_model
+  source:
+    id: debug_model
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+      repo: null
+    startLine: 391
+  syntax:
+    exceptions: []
+    parameters:
+    - description: root node until which the nodes are to be debugged
+      id: in_stream
+      type: object behaving like sys.stdin, default stdin
+    - description: '*readline()* will be called on it to obtain user input'
+      id: out_stream
+      type: object behaving like sys.stdout, default stdout
+    - description: '*write()* and *flush()* will be called on it to output debug info
+        to the user'
+      id: exit_func
+      type: callable, default sys.exit
+    - description: callable that takes an exit code and is called, when the user exits
+        the debugging process
+      id: model
+      type: root node
+    returntype: ''
+    returnvalue: a clone of the model that has debugging enabled
+    summary: Returns a cloned model that has debug nodes inserted everywhere. When
+      the graph is evaluated or trained, those nodes will allow to inspect the graph.
+    variables: []
+  type: Method
+  uid: cntk.debugging.debug.debug_model
+- _type: function
+  fullName: cntk.debugging.debug.save_as_legacy_model
+  module: cntk.debugging.debug
+  name: save_as_legacy_model
+  source:
+    id: save_as_legacy_model
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+      repo: null
+    startLine: 86
+  syntax:
+    exceptions: []
+    parameters:
+    - description: op of the graph to save
+      id: filename
+      type: str
+    - description: filename to store the model in.
+      id: root_op
+      type: Function
+    returntype: ''
+    returnvalue: ''
+    summary: Save the network of `root_op` in `filename`. For debugging purposes only,
+      very likely to be deprecated in the future.
+    variables: []
+  type: Method
+  uid: cntk.debugging.debug.save_as_legacy_model
+- _type: function
+  fullName: cntk.debugging.debug.set_computation_network_trace_level
+  module: cntk.debugging.debug
+  name: set_computation_network_trace_level
+  source:
+    id: set_computation_network_trace_level
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+      repo: null
+    startLine: 120
+  syntax:
+    exceptions: []
+    parameters:
+    - description: trace level
+      id: level
+      type: int
+    returntype: ''
+    returnvalue: ''
+    summary: "Set trace level to the computation network. Currently supported values:\n\
+      \   0        : turn off trace 1        : output nodes' dimensions and some other\
+      \ static info 1000     : output each node's abs sum of elements in its value\
+      \ matrix for every forward/backward 1000000  : output each node's full matrix\
+      \ for every forward/backward"
+    variables: []
+  type: Method
+  uid: cntk.debugging.debug.set_computation_network_trace_level
+- _type: function
+  fullName: cntk.debugging.debug.set_computation_network_track_gap_nans
+  module: cntk.debugging.debug
+  name: set_computation_network_track_gap_nans
+  source:
+    id: set_computation_network_track_gap_nans
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+      repo: null
+    startLine: 109
+  syntax:
+    exceptions: []
+    parameters:
+    - description: whether to enable gap nans tracking (with performance impact)
+      id: enable
+      type: Boolean
+    returntype: ''
+    returnvalue: ''
+    summary: Fill in NaNs in gaps of sequences to track unmasked uninitialized data.
+      For debugging purposes only.
+    variables: []
+  type: Method
+  uid: cntk.debugging.debug.set_computation_network_track_gap_nans

@@ -1,0 +1,106 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.tests.function_test.test_0d_data_1d_sample_shape
+  - cntk.tests.function_test.test_1d_NDArrayView_copy
+  - cntk.tests.function_test.test_outputs
+  - cntk.tests.function_test.test_sequences_packed_in_single_ndarray
+  fullName: cntk.tests.function_test
+  module: cntk.tests.function_test
+  name: function_test
+  references:
+  - fullName: cntk.tests.function_test.test_0d_data_1d_sample_shape
+    isExternal: false
+    name: test_0d_data_1d_sample_shape
+    parent: ''
+    uid: cntk.tests.function_test.test_0d_data_1d_sample_shape
+  - fullName: cntk.tests.function_test.test_1d_NDArrayView_copy
+    isExternal: false
+    name: test_1d_NDArrayView_copy
+    parent: ''
+    uid: cntk.tests.function_test.test_1d_NDArrayView_copy
+  - fullName: cntk.tests.function_test.test_outputs
+    isExternal: false
+    name: test_outputs
+    parent: ''
+    uid: cntk.tests.function_test.test_outputs
+  - fullName: cntk.tests.function_test.test_sequences_packed_in_single_ndarray
+    isExternal: false
+    name: test_sequences_packed_in_single_ndarray
+    parent: ''
+    uid: cntk.tests.function_test.test_sequences_packed_in_single_ndarray
+  source:
+    id: function_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/function_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/function_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.tests.function_test
+- _type: function
+  fullName: cntk.tests.function_test.test_0d_data_1d_sample_shape
+  module: cntk.tests.function_test
+  name: test_0d_data_1d_sample_shape
+  source:
+    id: test_0d_data_1d_sample_shape
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/function_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/function_test.py
+      repo: null
+    startLine: 25
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.function_test.test_0d_data_1d_sample_shape
+- _type: function
+  fullName: cntk.tests.function_test.test_1d_NDArrayView_copy
+  module: cntk.tests.function_test
+  name: test_1d_NDArrayView_copy
+  source:
+    id: test_1d_NDArrayView_copy
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/function_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/function_test.py
+      repo: null
+    startLine: 32
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.function_test.test_1d_NDArrayView_copy
+- _type: function
+  fullName: cntk.tests.function_test.test_outputs
+  module: cntk.tests.function_test
+  name: test_outputs
+  source:
+    id: test_outputs
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/function_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/function_test.py
+      repo: null
+    startLine: 11
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.function_test.test_outputs
+- _type: function
+  fullName: cntk.tests.function_test.test_sequences_packed_in_single_ndarray
+  module: cntk.tests.function_test
+  name: test_sequences_packed_in_single_ndarray
+  source:
+    id: test_sequences_packed_in_single_ndarray
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/function_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/function_test.py
+      repo: null
+    startLine: 43
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.function_test.test_sequences_packed_in_single_ndarray

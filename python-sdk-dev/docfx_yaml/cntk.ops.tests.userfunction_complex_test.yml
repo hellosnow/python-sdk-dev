@@ -1,0 +1,200 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.userfunction_complex_test.MySigmoid
+  - cntk.ops.tests.userfunction_complex_test.dense_layer
+  - cntk.ops.tests.userfunction_complex_test.fully_connected_classifier_net
+  - cntk.ops.tests.userfunction_complex_test.generate_random_data_sample
+  - cntk.ops.tests.userfunction_complex_test.linear_layer
+  - cntk.ops.tests.userfunction_complex_test.measure_runtime
+  - cntk.ops.tests.userfunction_complex_test.print_training_progress
+  - cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
+  - cntk.ops.tests.userfunction_complex_test.train
+  fullName: cntk.ops.tests.userfunction_complex_test
+  module: cntk.ops.tests.userfunction_complex_test
+  name: userfunction_complex_test
+  references:
+  - fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid
+    isExternal: false
+    name: MySigmoid
+    parent: ''
+    uid: cntk.ops.tests.userfunction_complex_test.MySigmoid
+  - fullName: cntk.ops.tests.userfunction_complex_test.dense_layer
+    isExternal: false
+    name: dense_layer
+    parent: ''
+    uid: cntk.ops.tests.userfunction_complex_test.dense_layer
+  - fullName: cntk.ops.tests.userfunction_complex_test.fully_connected_classifier_net
+    isExternal: false
+    name: fully_connected_classifier_net
+    parent: ''
+    uid: cntk.ops.tests.userfunction_complex_test.fully_connected_classifier_net
+  - fullName: cntk.ops.tests.userfunction_complex_test.generate_random_data_sample
+    isExternal: false
+    name: generate_random_data_sample
+    parent: ''
+    uid: cntk.ops.tests.userfunction_complex_test.generate_random_data_sample
+  - fullName: cntk.ops.tests.userfunction_complex_test.linear_layer
+    isExternal: false
+    name: linear_layer
+    parent: ''
+    uid: cntk.ops.tests.userfunction_complex_test.linear_layer
+  - fullName: cntk.ops.tests.userfunction_complex_test.measure_runtime
+    isExternal: false
+    name: measure_runtime
+    parent: ''
+    uid: cntk.ops.tests.userfunction_complex_test.measure_runtime
+  - fullName: cntk.ops.tests.userfunction_complex_test.print_training_progress
+    isExternal: false
+    name: print_training_progress
+    parent: ''
+    uid: cntk.ops.tests.userfunction_complex_test.print_training_progress
+  - fullName: cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
+    isExternal: false
+    name: test_ext_user_sigmoid
+    parent: ''
+    uid: cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
+  - fullName: cntk.ops.tests.userfunction_complex_test.train
+    isExternal: false
+    name: train
+    parent: ''
+    uid: cntk.ops.tests.userfunction_complex_test.train
+  source:
+    id: userfunction_complex_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.userfunction_complex_test
+- _type: function
+  fullName: cntk.ops.tests.userfunction_complex_test.dense_layer
+  module: cntk.ops.tests.userfunction_complex_test
+  name: dense_layer
+  source:
+    id: dense_layer
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 47
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.dense_layer
+- _type: function
+  fullName: cntk.ops.tests.userfunction_complex_test.fully_connected_classifier_net
+  module: cntk.ops.tests.userfunction_complex_test
+  name: fully_connected_classifier_net
+  source:
+    id: fully_connected_classifier_net
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 54
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.fully_connected_classifier_net
+- _type: function
+  fullName: cntk.ops.tests.userfunction_complex_test.generate_random_data_sample
+  module: cntk.ops.tests.userfunction_complex_test
+  name: generate_random_data_sample
+  source:
+    id: generate_random_data_sample
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 27
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.generate_random_data_sample
+- _type: function
+  fullName: cntk.ops.tests.userfunction_complex_test.linear_layer
+  module: cntk.ops.tests.userfunction_complex_test
+  name: linear_layer
+  source:
+    id: linear_layer
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 39
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.linear_layer
+- _type: function
+  fullName: cntk.ops.tests.userfunction_complex_test.measure_runtime
+  module: cntk.ops.tests.userfunction_complex_test
+  name: measure_runtime
+  source:
+    id: measure_runtime
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 149
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.measure_runtime
+- _type: function
+  fullName: cntk.ops.tests.userfunction_complex_test.print_training_progress
+  module: cntk.ops.tests.userfunction_complex_test
+  name: print_training_progress
+  source:
+    id: print_training_progress
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 62
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.print_training_progress
+- _type: function
+  fullName: cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
+  module: cntk.ops.tests.userfunction_complex_test
+  name: test_ext_user_sigmoid
+  source:
+    id: test_ext_user_sigmoid
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 141
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
+- _type: function
+  fullName: cntk.ops.tests.userfunction_complex_test.train
+  module: cntk.ops.tests.userfunction_complex_test
+  name: train
+  source:
+    id: train
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 72
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.train

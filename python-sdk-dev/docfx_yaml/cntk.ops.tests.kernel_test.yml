@@ -1,0 +1,238 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.kernel_test.test_asym_convolution
+  - cntk.ops.tests.kernel_test.test_convolution_transpose
+  - cntk.ops.tests.kernel_test.test_convolution_transpose_with_output
+  - cntk.ops.tests.kernel_test.test_op_avg_pooling
+  - cntk.ops.tests.kernel_test.test_op_convolution_without_padding
+  - cntk.ops.tests.kernel_test.test_op_max_pooling
+  - cntk.ops.tests.kernel_test.test_op_max_unpooling
+  - cntk.ops.tests.kernel_test.test_op_pooling_ceil
+  - cntk.ops.tests.kernel_test.test_op_pooling_geometry
+  - cntk.ops.tests.kernel_test.test_op_roipooling
+  fullName: cntk.ops.tests.kernel_test
+  module: cntk.ops.tests.kernel_test
+  name: kernel_test
+  references:
+  - fullName: cntk.ops.tests.kernel_test.test_asym_convolution
+    isExternal: false
+    name: test_asym_convolution
+    parent: ''
+    uid: cntk.ops.tests.kernel_test.test_asym_convolution
+  - fullName: cntk.ops.tests.kernel_test.test_convolution_transpose
+    isExternal: false
+    name: test_convolution_transpose
+    parent: ''
+    uid: cntk.ops.tests.kernel_test.test_convolution_transpose
+  - fullName: cntk.ops.tests.kernel_test.test_convolution_transpose_with_output
+    isExternal: false
+    name: test_convolution_transpose_with_output
+    parent: ''
+    uid: cntk.ops.tests.kernel_test.test_convolution_transpose_with_output
+  - fullName: cntk.ops.tests.kernel_test.test_op_avg_pooling
+    isExternal: false
+    name: test_op_avg_pooling
+    parent: ''
+    uid: cntk.ops.tests.kernel_test.test_op_avg_pooling
+  - fullName: cntk.ops.tests.kernel_test.test_op_convolution_without_padding
+    isExternal: false
+    name: test_op_convolution_without_padding
+    parent: ''
+    uid: cntk.ops.tests.kernel_test.test_op_convolution_without_padding
+  - fullName: cntk.ops.tests.kernel_test.test_op_max_pooling
+    isExternal: false
+    name: test_op_max_pooling
+    parent: ''
+    uid: cntk.ops.tests.kernel_test.test_op_max_pooling
+  - fullName: cntk.ops.tests.kernel_test.test_op_max_unpooling
+    isExternal: false
+    name: test_op_max_unpooling
+    parent: ''
+    uid: cntk.ops.tests.kernel_test.test_op_max_unpooling
+  - fullName: cntk.ops.tests.kernel_test.test_op_pooling_ceil
+    isExternal: false
+    name: test_op_pooling_ceil
+    parent: ''
+    uid: cntk.ops.tests.kernel_test.test_op_pooling_ceil
+  - fullName: cntk.ops.tests.kernel_test.test_op_pooling_geometry
+    isExternal: false
+    name: test_op_pooling_geometry
+    parent: ''
+    uid: cntk.ops.tests.kernel_test.test_op_pooling_geometry
+  - fullName: cntk.ops.tests.kernel_test.test_op_roipooling
+    isExternal: false
+    name: test_op_roipooling
+    parent: ''
+    uid: cntk.ops.tests.kernel_test.test_op_roipooling
+  source:
+    id: kernel_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.kernel_test
+- _type: function
+  fullName: cntk.ops.tests.kernel_test.test_asym_convolution
+  module: cntk.ops.tests.kernel_test
+  name: test_asym_convolution
+  source:
+    id: test_asym_convolution
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      repo: null
+    startLine: 82
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.kernel_test.test_asym_convolution
+- _type: function
+  fullName: cntk.ops.tests.kernel_test.test_convolution_transpose
+  module: cntk.ops.tests.kernel_test
+  name: test_convolution_transpose
+  source:
+    id: test_convolution_transpose
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      repo: null
+    startLine: 422
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.kernel_test.test_convolution_transpose
+- _type: function
+  fullName: cntk.ops.tests.kernel_test.test_convolution_transpose_with_output
+  module: cntk.ops.tests.kernel_test
+  name: test_convolution_transpose_with_output
+  source:
+    id: test_convolution_transpose_with_output
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      repo: null
+    startLine: 462
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.kernel_test.test_convolution_transpose_with_output
+- _type: function
+  fullName: cntk.ops.tests.kernel_test.test_op_avg_pooling
+  module: cntk.ops.tests.kernel_test
+  name: test_op_avg_pooling
+  source:
+    id: test_op_avg_pooling
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      repo: null
+    startLine: 166
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.kernel_test.test_op_avg_pooling
+- _type: function
+  fullName: cntk.ops.tests.kernel_test.test_op_convolution_without_padding
+  module: cntk.ops.tests.kernel_test
+  name: test_op_convolution_without_padding
+  source:
+    id: test_op_convolution_without_padding
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      repo: null
+    startLine: 37
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.kernel_test.test_op_convolution_without_padding
+- _type: function
+  fullName: cntk.ops.tests.kernel_test.test_op_max_pooling
+  module: cntk.ops.tests.kernel_test
+  name: test_op_max_pooling
+  source:
+    id: test_op_max_pooling
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      repo: null
+    startLine: 228
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.kernel_test.test_op_max_pooling
+- _type: function
+  fullName: cntk.ops.tests.kernel_test.test_op_max_unpooling
+  module: cntk.ops.tests.kernel_test
+  name: test_op_max_unpooling
+  source:
+    id: test_op_max_unpooling
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      repo: null
+    startLine: 264
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.kernel_test.test_op_max_unpooling
+- _type: function
+  fullName: cntk.ops.tests.kernel_test.test_op_pooling_ceil
+  module: cntk.ops.tests.kernel_test
+  name: test_op_pooling_ceil
+  source:
+    id: test_op_pooling_ceil
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      repo: null
+    startLine: 321
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.kernel_test.test_op_pooling_ceil
+- _type: function
+  fullName: cntk.ops.tests.kernel_test.test_op_pooling_geometry
+  module: cntk.ops.tests.kernel_test
+  name: test_op_pooling_geometry
+  source:
+    id: test_op_pooling_geometry
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      repo: null
+    startLine: 129
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.kernel_test.test_op_pooling_geometry
+- _type: function
+  fullName: cntk.ops.tests.kernel_test.test_op_roipooling
+  module: cntk.ops.tests.kernel_test
+  name: test_op_roipooling
+  source:
+    id: test_op_roipooling
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      repo: null
+    startLine: 374
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.kernel_test.test_op_roipooling

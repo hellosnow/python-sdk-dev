@@ -1,0 +1,84 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.random_sample_test.test_random_sample_inclusion_frequency
+  - cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
+  - cntk.ops.tests.random_sample_test.test_random_sample_without_replacement
+  fullName: cntk.ops.tests.random_sample_test
+  module: cntk.ops.tests.random_sample_test
+  name: random_sample_test
+  references:
+  - fullName: cntk.ops.tests.random_sample_test.test_random_sample_inclusion_frequency
+    isExternal: false
+    name: test_random_sample_inclusion_frequency
+    parent: ''
+    uid: cntk.ops.tests.random_sample_test.test_random_sample_inclusion_frequency
+  - fullName: cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
+    isExternal: false
+    name: test_random_sample_with_replacement
+    parent: ''
+    uid: cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
+  - fullName: cntk.ops.tests.random_sample_test.test_random_sample_without_replacement
+    isExternal: false
+    name: test_random_sample_without_replacement
+    parent: ''
+    uid: cntk.ops.tests.random_sample_test.test_random_sample_without_replacement
+  source:
+    id: random_sample_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.random_sample_test
+- _type: function
+  fullName: cntk.ops.tests.random_sample_test.test_random_sample_inclusion_frequency
+  module: cntk.ops.tests.random_sample_test
+  name: test_random_sample_inclusion_frequency
+  source:
+    id: test_random_sample_inclusion_frequency
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+      repo: null
+    startLine: 49
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.random_sample_test.test_random_sample_inclusion_frequency
+- _type: function
+  fullName: cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
+  module: cntk.ops.tests.random_sample_test
+  name: test_random_sample_with_replacement
+  source:
+    id: test_random_sample_with_replacement
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+      repo: null
+    startLine: 70
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
+- _type: function
+  fullName: cntk.ops.tests.random_sample_test.test_random_sample_without_replacement
+  module: cntk.ops.tests.random_sample_test
+  name: test_random_sample_without_replacement
+  source:
+    id: test_random_sample_without_replacement
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+      repo: null
+    startLine: 101
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.random_sample_test.test_random_sample_without_replacement

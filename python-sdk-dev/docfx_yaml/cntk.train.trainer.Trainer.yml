@@ -1,0 +1,432 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.train.trainer.Trainer.evaluation_function
+  - cntk.train.trainer.Trainer.loss_function
+  - cntk.train.trainer.Trainer.model
+  - cntk.train.trainer.Trainer.parameter_learners
+  - cntk.train.trainer.Trainer.previous_minibatch_evaluation_average
+  - cntk.train.trainer.Trainer.previous_minibatch_loss_average
+  - cntk.train.trainer.Trainer.previous_minibatch_sample_count
+  - cntk.train.trainer.Trainer.restore_from_checkpoint
+  - cntk.train.trainer.Trainer.save_checkpoint
+  - cntk.train.trainer.Trainer.summarize_test_progress
+  - cntk.train.trainer.Trainer.summarize_training_progress
+  - cntk.train.trainer.Trainer.test_minibatch
+  - cntk.train.trainer.Trainer.total_number_of_samples_seen
+  - cntk.train.trainer.Trainer.train_minibatch
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer
+  inheritance:
+  - - cntk.cntk_py.Trainer
+    - builtins.object
+  module: cntk.train.trainer
+  name: Trainer
+  references:
+  - fullName: cntk.train.trainer.Trainer.evaluation_function
+    isExternal: false
+    name: evaluation_function
+    parent: ''
+    uid: cntk.train.trainer.Trainer.evaluation_function
+  - fullName: cntk.train.trainer.Trainer.loss_function
+    isExternal: false
+    name: loss_function
+    parent: ''
+    uid: cntk.train.trainer.Trainer.loss_function
+  - fullName: cntk.train.trainer.Trainer.model
+    isExternal: false
+    name: model
+    parent: ''
+    uid: cntk.train.trainer.Trainer.model
+  - fullName: cntk.train.trainer.Trainer.parameter_learners
+    isExternal: false
+    name: parameter_learners
+    parent: ''
+    uid: cntk.train.trainer.Trainer.parameter_learners
+  - fullName: cntk.train.trainer.Trainer.previous_minibatch_evaluation_average
+    isExternal: false
+    name: previous_minibatch_evaluation_average
+    parent: ''
+    uid: cntk.train.trainer.Trainer.previous_minibatch_evaluation_average
+  - fullName: cntk.train.trainer.Trainer.previous_minibatch_loss_average
+    isExternal: false
+    name: previous_minibatch_loss_average
+    parent: ''
+    uid: cntk.train.trainer.Trainer.previous_minibatch_loss_average
+  - fullName: cntk.train.trainer.Trainer.previous_minibatch_sample_count
+    isExternal: false
+    name: previous_minibatch_sample_count
+    parent: ''
+    uid: cntk.train.trainer.Trainer.previous_minibatch_sample_count
+  - fullName: cntk.train.trainer.Trainer.restore_from_checkpoint
+    isExternal: false
+    name: restore_from_checkpoint
+    parent: ''
+    uid: cntk.train.trainer.Trainer.restore_from_checkpoint
+  - fullName: cntk.train.trainer.Trainer.save_checkpoint
+    isExternal: false
+    name: save_checkpoint
+    parent: ''
+    uid: cntk.train.trainer.Trainer.save_checkpoint
+  - fullName: cntk.train.trainer.Trainer.summarize_test_progress
+    isExternal: false
+    name: summarize_test_progress
+    parent: ''
+    uid: cntk.train.trainer.Trainer.summarize_test_progress
+  - fullName: cntk.train.trainer.Trainer.summarize_training_progress
+    isExternal: false
+    name: summarize_training_progress
+    parent: ''
+    uid: cntk.train.trainer.Trainer.summarize_training_progress
+  - fullName: cntk.train.trainer.Trainer.test_minibatch
+    isExternal: false
+    name: test_minibatch
+    parent: ''
+    uid: cntk.train.trainer.Trainer.test_minibatch
+  - fullName: cntk.train.trainer.Trainer.total_number_of_samples_seen
+    isExternal: false
+    name: total_number_of_samples_seen
+    parent: ''
+    uid: cntk.train.trainer.Trainer.total_number_of_samples_seen
+  - fullName: cntk.train.trainer.Trainer.train_minibatch
+    isExternal: false
+    name: train_minibatch
+    parent: ''
+    uid: cntk.train.trainer.Trainer.train_minibatch
+  source:
+    id: Trainer
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+      repo: null
+    startLine: 19
+  syntax:
+    exceptions: []
+    parameters:
+    - description: root node of the function to train
+      id: criterion
+      type: Python tuple of Function, or Function or
+    - description: Function with one or two outputs, representing loss and, if given,
+        evaluation metric (in this order). Alternatively, a tuple(loss Function, evaluation
+        Function) is also accepted.
+      id: progress_writers
+      type: list
+    - description: list of learners from `cntk.learner`
+      id: model
+      type: Function
+    - description: "optionally, list of progress writers from `cntk.utils` to automatically\
+        \ track\n   training progress.\n\nTODO: Would be great to allow to skip some\
+        \ parameters that should not be updated."
+      id: parameter_learners
+      type: list
+    returntype: ''
+    returnvalue: ''
+    summary: 'Bases: `cntk.cntk_py.Trainer`
+
+      Class for training the model parameters of a models'' specified loss function,
+      using the specified set of `parameter_learners` for updating the model''s parameters
+      using computed gradients. An optional specified metric function, which can be
+      non-differentiable, can be used for tracking the trained model''s quality.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      '
+    variables: []
+  type: Class
+  uid: cntk.train.trainer.Trainer
+- _type: attribute
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.evaluation_function
+  module: cntk.train.trainer
+  name: evaluation_function
+  source:
+    id: evaluation_function
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The evaluation function that the trainer is using.
+  type: Property
+  uid: cntk.train.trainer.Trainer.evaluation_function
+- _type: attribute
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.loss_function
+  module: cntk.train.trainer
+  name: loss_function
+  source:
+    id: loss_function
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The loss function that the trainer is using.
+  type: Property
+  uid: cntk.train.trainer.Trainer.loss_function
+- _type: attribute
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.model
+  module: cntk.train.trainer
+  name: model
+  source:
+    id: model
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The model that the trainer is training.
+  type: Property
+  uid: cntk.train.trainer.Trainer.model
+- _type: attribute
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.parameter_learners
+  module: cntk.train.trainer
+  name: parameter_learners
+  source:
+    id: parameter_learners
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The parameter learners that the trainer is using.
+  type: Property
+  uid: cntk.train.trainer.Trainer.parameter_learners
+- _type: attribute
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.previous_minibatch_evaluation_average
+  module: cntk.train.trainer
+  name: previous_minibatch_evaluation_average
+  source:
+    id: previous_minibatch_evaluation_average
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The average evaluation criterion value per sample for the last minibatch
+      trained
+  type: Property
+  uid: cntk.train.trainer.Trainer.previous_minibatch_evaluation_average
+- _type: attribute
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.previous_minibatch_loss_average
+  module: cntk.train.trainer
+  name: previous_minibatch_loss_average
+  source:
+    id: previous_minibatch_loss_average
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The average training loss per sample for the last minibatch trained
+  type: Property
+  uid: cntk.train.trainer.Trainer.previous_minibatch_loss_average
+- _type: attribute
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.previous_minibatch_sample_count
+  module: cntk.train.trainer
+  name: previous_minibatch_sample_count
+  source:
+    id: previous_minibatch_sample_count
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The number of samples in the last minibatch trained with
+  type: Property
+  uid: cntk.train.trainer.Trainer.previous_minibatch_sample_count
+- _type: method
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.restore_from_checkpoint
+  module: cntk.train.trainer
+  name: restore_from_checkpoint
+  source:
+    id: restore_from_checkpoint
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+      repo: null
+    startLine: 236
+  syntax:
+    exceptions: []
+    parameters:
+    - description: filename to restore the checkpoint from
+      id: filename
+      type: str
+    returntype: ''
+    returnvalue: ''
+    summary: Restores a checkpoint of the model and Trainer state from the specified
+      file location.
+    variables: []
+  type: Method
+  uid: cntk.train.trainer.Trainer.restore_from_checkpoint
+- _type: method
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.save_checkpoint
+  module: cntk.train.trainer
+  name: save_checkpoint
+  source:
+    id: save_checkpoint
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+      repo: null
+    startLine: 222
+  syntax:
+    exceptions: []
+    parameters:
+    - description: filename to store the checkpoint.
+      id: filename
+      type: str
+    returntype: ''
+    returnvalue: ''
+    summary: 'Saves a checkpoint of the model and other Trainer state at the specified
+      file location.
+
+      In distributed environment the checkpointing is done by the main worker.'
+    variables: []
+  type: Method
+  uid: cntk.train.trainer.Trainer.save_checkpoint
+- _type: method
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.summarize_test_progress
+  module: cntk.train.trainer
+  name: summarize_test_progress
+  source:
+    id: summarize_test_progress
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+      repo: null
+    startLine: 314
+  syntax:
+    summary: Updates the progress writers with the summary of test progress since
+      start and resets the internal accumulators.
+  type: Method
+  uid: cntk.train.trainer.Trainer.summarize_test_progress
+- _type: method
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.summarize_training_progress
+  module: cntk.train.trainer
+  name: summarize_training_progress
+  source:
+    id: summarize_training_progress
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+      repo: null
+    startLine: 307
+  syntax:
+    summary: Updates the progress writers with the summary of training progress since
+      start and resets the internal accumulators.
+  type: Method
+  uid: cntk.train.trainer.Trainer.summarize_training_progress
+- _type: method
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.test_minibatch
+  module: cntk.train.trainer
+  name: test_minibatch
+  source:
+    id: test_minibatch
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+      repo: null
+    startLine: 174
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: float
+    returnvalue: "the average evaluation criterion value per sample for the\n   tested\
+      \ minibatch."
+    summary: 'Test the model on the specified batch of samples using the evaluation
+      Function specified during construction of the Trainer.
+
+      Note: See `forward()` for examples on passing input data.'
+    variables: []
+  type: Method
+  uid: cntk.train.trainer.Trainer.test_minibatch
+- _type: attribute
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.total_number_of_samples_seen
+  module: cntk.train.trainer
+  name: total_number_of_samples_seen
+  source:
+    id: total_number_of_samples_seen
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The number of samples seen globally between all workers from the beginning
+      of training.
+  type: Property
+  uid: cntk.train.trainer.Trainer.total_number_of_samples_seen
+- _type: method
+  class: cntk.train.trainer.Trainer
+  fullName: cntk.train.trainer.Trainer.train_minibatch
+  module: cntk.train.trainer
+  name: train_minibatch
+  source:
+    id: train_minibatch
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+      repo: null
+    startLine: 93
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: bool or tuple
+    returnvalue: If `outputs` have not been provided, the returned value is *True*
+      if updates have been performed, *False* if all parameter learners indicate end
+      of learning (through their update). Otherwise, the return value is a tuple of
+      the that *bool* and a dictionary that maps the variables in *outputs* to their
+      respective NumPy arrays.
+    summary: 'Optimize model parameters using the specified ''arguments'' minibatch
+      of training samples.
+
+      Note: See `forward()` for examples on passing input data.'
+    variables: []
+  type: Method
+  uid: cntk.train.trainer.Trainer.train_minibatch

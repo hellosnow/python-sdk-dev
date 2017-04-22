@@ -1,0 +1,208 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.train.distributed.Communicator.barrier
+  - cntk.train.distributed.Communicator.current_worker
+  - cntk.train.distributed.Communicator.finalize
+  - cntk.train.distributed.Communicator.is_main
+  - cntk.train.distributed.Communicator.num_workers
+  - cntk.train.distributed.Communicator.rank
+  - cntk.train.distributed.Communicator.workers
+  class: cntk.train.distributed.Communicator
+  fullName: cntk.train.distributed.Communicator
+  inheritance:
+  - - cntk.cntk_py.DistributedCommunicator
+    - builtins.object
+  module: cntk.train.distributed
+  name: Communicator
+  references:
+  - fullName: cntk.train.distributed.Communicator.barrier
+    isExternal: false
+    name: barrier
+    parent: ''
+    uid: cntk.train.distributed.Communicator.barrier
+  - fullName: cntk.train.distributed.Communicator.current_worker
+    isExternal: false
+    name: current_worker
+    parent: ''
+    uid: cntk.train.distributed.Communicator.current_worker
+  - fullName: cntk.train.distributed.Communicator.finalize
+    isExternal: false
+    name: finalize
+    parent: ''
+    uid: cntk.train.distributed.Communicator.finalize
+  - fullName: cntk.train.distributed.Communicator.is_main
+    isExternal: false
+    name: is_main
+    parent: ''
+    uid: cntk.train.distributed.Communicator.is_main
+  - fullName: cntk.train.distributed.Communicator.num_workers
+    isExternal: false
+    name: num_workers
+    parent: ''
+    uid: cntk.train.distributed.Communicator.num_workers
+  - fullName: cntk.train.distributed.Communicator.rank
+    isExternal: false
+    name: rank
+    parent: ''
+    uid: cntk.train.distributed.Communicator.rank
+  - fullName: cntk.train.distributed.Communicator.workers
+    isExternal: false
+    name: workers
+    parent: ''
+    uid: cntk.train.distributed.Communicator.workers
+  source:
+    id: Communicator
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      repo: null
+    startLine: 41
+  syntax:
+    summary: 'Bases: `cntk.cntk_py.DistributedCommunicator`
+
+      A communicator interface exposing communication primitives that serve as building
+      blocks for distributed training.
+
+
+
+
+
+
+
+      '
+  type: Class
+  uid: cntk.train.distributed.Communicator
+- _type: method
+  class: cntk.train.distributed.Communicator
+  fullName: cntk.train.distributed.Communicator.barrier
+  module: cntk.train.distributed
+  name: barrier
+  source:
+    id: barrier
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      repo: null
+    startLine: 67
+  syntax:
+    summary: Sync point to make sure all workers reach the same state.
+  type: Method
+  uid: cntk.train.distributed.Communicator.barrier
+- _type: method
+  class: cntk.train.distributed.Communicator
+  fullName: cntk.train.distributed.Communicator.current_worker
+  module: cntk.train.distributed
+  name: current_worker
+  source:
+    id: current_worker
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 57
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: WorkerDescriptor
+    returnvalue: descriptor of current process.
+    summary: Returns worker descriptor of current process.
+    variables: []
+  type: Method
+  uid: cntk.train.distributed.Communicator.current_worker
+- _type: method
+  class: cntk.train.distributed.Communicator
+  fullName: cntk.train.distributed.Communicator.finalize
+  module: cntk.train.distributed
+  name: finalize
+  source:
+    id: finalize
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      repo: null
+    startLine: 79
+  syntax:
+    summary: Should be called when all communication is finished. No more communication
+      should happen after this call.
+  type: Method
+  uid: cntk.train.distributed.Communicator.finalize
+- _type: method
+  class: cntk.train.distributed.Communicator
+  fullName: cntk.train.distributed.Communicator.is_main
+  module: cntk.train.distributed
+  name: is_main
+  source:
+    id: is_main
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      repo: null
+    startLine: 73
+  syntax:
+    summary: Indicates if the current communicator is instantiated on the main node.
+      The node with rank 0 is considered the main.
+  type: Method
+  uid: cntk.train.distributed.Communicator.is_main
+- _type: method
+  class: cntk.train.distributed.Communicator
+  fullName: cntk.train.distributed.Communicator.num_workers
+  module: cntk.train.distributed
+  name: num_workers
+  source:
+    id: num_workers
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      repo: null
+    startLine: 86
+  syntax:
+    summary: Returns information about all MPI workers.
+  type: Method
+  uid: cntk.train.distributed.Communicator.num_workers
+- _type: method
+  class: cntk.train.distributed.Communicator
+  fullName: cntk.train.distributed.Communicator.rank
+  module: cntk.train.distributed
+  name: rank
+  source:
+    id: rank
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      repo: null
+    startLine: 93
+  syntax:
+    summary: Returns rank of current process.
+  type: Method
+  uid: cntk.train.distributed.Communicator.rank
+- _type: method
+  class: cntk.train.distributed.Communicator
+  fullName: cntk.train.distributed.Communicator.workers
+  module: cntk.train.distributed
+  name: workers
+  source:
+    id: workers
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 47
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: (list) of WorkerDescriptor
+    returnvalue: workers in this communicator.
+    summary: Returns workers in this communicator.
+    variables: []
+  type: Method
+  uid: cntk.train.distributed.Communicator.workers

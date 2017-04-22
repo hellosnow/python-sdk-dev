@@ -1,0 +1,84 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.conftest.add_namespace
+  - cntk.conftest.pytest_addoption
+  - cntk.conftest.pytest_generate_tests
+  fullName: cntk.conftest
+  module: cntk.conftest
+  name: conftest
+  references:
+  - fullName: cntk.conftest.add_namespace
+    isExternal: false
+    name: add_namespace
+    parent: ''
+    uid: cntk.conftest.add_namespace
+  - fullName: cntk.conftest.pytest_addoption
+    isExternal: false
+    name: pytest_addoption
+    parent: ''
+    uid: cntk.conftest.pytest_addoption
+  - fullName: cntk.conftest.pytest_generate_tests
+    isExternal: false
+    name: pytest_generate_tests
+    parent: ''
+    uid: cntk.conftest.pytest_generate_tests
+  source:
+    id: conftest
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.conftest
+- _type: function
+  fullName: cntk.conftest.add_namespace
+  module: cntk.conftest
+  name: add_namespace
+  source:
+    id: add_namespace
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+      repo: null
+    startLine: 69
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.conftest.add_namespace
+- _type: function
+  fullName: cntk.conftest.pytest_addoption
+  module: cntk.conftest
+  name: pytest_addoption
+  source:
+    id: pytest_addoption
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+      repo: null
+    startLine: 13
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.conftest.pytest_addoption
+- _type: function
+  fullName: cntk.conftest.pytest_generate_tests
+  module: cntk.conftest
+  name: pytest_generate_tests
+  source:
+    id: pytest_generate_tests
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+      repo: null
+    startLine: 26
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.conftest.pytest_generate_tests

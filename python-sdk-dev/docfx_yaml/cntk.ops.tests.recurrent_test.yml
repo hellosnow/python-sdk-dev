@@ -1,0 +1,84 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.recurrent_test.test_op_delay_with_initial_state
+  - cntk.ops.tests.recurrent_test.test_op_future_value
+  - cntk.ops.tests.recurrent_test.test_op_past_value
+  fullName: cntk.ops.tests.recurrent_test
+  module: cntk.ops.tests.recurrent_test
+  name: recurrent_test
+  references:
+  - fullName: cntk.ops.tests.recurrent_test.test_op_delay_with_initial_state
+    isExternal: false
+    name: test_op_delay_with_initial_state
+    parent: ''
+    uid: cntk.ops.tests.recurrent_test.test_op_delay_with_initial_state
+  - fullName: cntk.ops.tests.recurrent_test.test_op_future_value
+    isExternal: false
+    name: test_op_future_value
+    parent: ''
+    uid: cntk.ops.tests.recurrent_test.test_op_future_value
+  - fullName: cntk.ops.tests.recurrent_test.test_op_past_value
+    isExternal: false
+    name: test_op_past_value
+    parent: ''
+    uid: cntk.ops.tests.recurrent_test.test_op_past_value
+  source:
+    id: recurrent_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.recurrent_test
+- _type: function
+  fullName: cntk.ops.tests.recurrent_test.test_op_delay_with_initial_state
+  module: cntk.ops.tests.recurrent_test
+  name: test_op_delay_with_initial_state
+  source:
+    id: test_op_delay_with_initial_state
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
+      repo: null
+    startLine: 116
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.recurrent_test.test_op_delay_with_initial_state
+- _type: function
+  fullName: cntk.ops.tests.recurrent_test.test_op_future_value
+  module: cntk.ops.tests.recurrent_test
+  name: test_op_future_value
+  source:
+    id: test_op_future_value
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
+      repo: null
+    startLine: 28
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.recurrent_test.test_op_future_value
+- _type: function
+  fullName: cntk.ops.tests.recurrent_test.test_op_past_value
+  module: cntk.ops.tests.recurrent_test
+  name: test_op_past_value
+  source:
+    id: test_op_past_value
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/recurrent_test.py
+      repo: null
+    startLine: 68
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.recurrent_test.test_op_past_value

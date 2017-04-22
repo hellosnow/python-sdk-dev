@@ -1,0 +1,124 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.ops.tests.userfunction_test.MyPlus.backward
+  - cntk.ops.tests.userfunction_test.MyPlus.clone
+  - cntk.ops.tests.userfunction_test.MyPlus.forward
+  - cntk.ops.tests.userfunction_test.MyPlus.infer_outputs
+  class: cntk.ops.tests.userfunction_test.MyPlus
+  fullName: cntk.ops.tests.userfunction_test.MyPlus
+  inheritance:
+  - - cntk.ops.functions.UserFunction
+    - cntk.ops.functions.Function
+    - cntk.cntk_py.Function
+    - cntk.cntk_py.IDictionarySerializable
+    - builtins.object
+  module: cntk.ops.tests.userfunction_test
+  name: MyPlus
+  references:
+  - fullName: cntk.ops.tests.userfunction_test.MyPlus.backward
+    isExternal: false
+    name: backward
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.MyPlus.backward
+  - fullName: cntk.ops.tests.userfunction_test.MyPlus.clone
+    isExternal: false
+    name: clone
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.MyPlus.clone
+  - fullName: cntk.ops.tests.userfunction_test.MyPlus.forward
+    isExternal: false
+    name: forward
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.MyPlus.forward
+  - fullName: cntk.ops.tests.userfunction_test.MyPlus.infer_outputs
+    isExternal: false
+    name: infer_outputs
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.MyPlus.infer_outputs
+  source:
+    id: MyPlus
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 20
+  syntax:
+    summary: 'Bases: `cntk.ops.functions.UserFunction`
+
+
+
+
+      '
+  type: Class
+  uid: cntk.ops.tests.userfunction_test.MyPlus
+- _type: method
+  class: cntk.ops.tests.userfunction_test.MyPlus
+  fullName: cntk.ops.tests.userfunction_test.MyPlus.backward
+  module: cntk.ops.tests.userfunction_test
+  name: backward
+  source:
+    id: backward
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 43
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.MyPlus.backward
+- _type: method
+  class: cntk.ops.tests.userfunction_test.MyPlus
+  fullName: cntk.ops.tests.userfunction_test.MyPlus.clone
+  module: cntk.ops.tests.userfunction_test
+  name: clone
+  source:
+    id: clone
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 31
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.MyPlus.clone
+- _type: method
+  class: cntk.ops.tests.userfunction_test.MyPlus
+  fullName: cntk.ops.tests.userfunction_test.MyPlus.forward
+  module: cntk.ops.tests.userfunction_test
+  name: forward
+  source:
+    id: forward
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 34
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.MyPlus.forward
+- _type: method
+  class: cntk.ops.tests.userfunction_test.MyPlus
+  fullName: cntk.ops.tests.userfunction_test.MyPlus.infer_outputs
+  module: cntk.ops.tests.userfunction_test
+  name: infer_outputs
+  source:
+    id: infer_outputs
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 27
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.MyPlus.infer_outputs

@@ -1,0 +1,350 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.userfunction_test.LambdaFunc
+  - cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+  - cntk.ops.tests.userfunction_test.MyPlus
+  - cntk.ops.tests.userfunction_test.PlusAndLast
+  - cntk.ops.tests.userfunction_test.test_ext_backpropstate
+  - cntk.ops.tests.userfunction_test.test_ext_eval_1
+  - cntk.ops.tests.userfunction_test.test_ext_eval_2_only_param
+  - cntk.ops.tests.userfunction_test.test_ext_eval_3_no_input
+  - cntk.ops.tests.userfunction_test.test_ext_eval_4_a_inside_graph
+  - cntk.ops.tests.userfunction_test.test_ext_eval_4_b_inside_graph
+  - cntk.ops.tests.userfunction_test.test_ext_eval_5_times
+  - cntk.ops.tests.userfunction_test.test_ext_eval_6_clone
+  - cntk.ops.tests.userfunction_test.test_ext_eval_7_placeholder
+  - cntk.ops.tests.userfunction_test.test_ext_lambdafunc
+  - cntk.ops.tests.userfunction_test.test_ext_train
+  - cntk.ops.tests.userfunction_test.test_multioutput_udf
+  - cntk.ops.tests.userfunction_test.test_udf_clone
+  - cntk.ops.tests.userfunction_test.test_udf_plus_and_last
+  fullName: cntk.ops.tests.userfunction_test
+  module: cntk.ops.tests.userfunction_test
+  name: userfunction_test
+  references:
+  - fullName: cntk.ops.tests.userfunction_test.LambdaFunc
+    isExternal: false
+    name: LambdaFunc
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.LambdaFunc
+  - fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+    isExternal: false
+    name: MultiOutputUserFunction
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+  - fullName: cntk.ops.tests.userfunction_test.MyPlus
+    isExternal: false
+    name: MyPlus
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.MyPlus
+  - fullName: cntk.ops.tests.userfunction_test.PlusAndLast
+    isExternal: false
+    name: PlusAndLast
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.PlusAndLast
+  - fullName: cntk.ops.tests.userfunction_test.test_ext_backpropstate
+    isExternal: false
+    name: test_ext_backpropstate
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_ext_backpropstate
+  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_1
+    isExternal: false
+    name: test_ext_eval_1
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_ext_eval_1
+  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_2_only_param
+    isExternal: false
+    name: test_ext_eval_2_only_param
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_ext_eval_2_only_param
+  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_3_no_input
+    isExternal: false
+    name: test_ext_eval_3_no_input
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_ext_eval_3_no_input
+  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_4_a_inside_graph
+    isExternal: false
+    name: test_ext_eval_4_a_inside_graph
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_ext_eval_4_a_inside_graph
+  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_4_b_inside_graph
+    isExternal: false
+    name: test_ext_eval_4_b_inside_graph
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_ext_eval_4_b_inside_graph
+  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_5_times
+    isExternal: false
+    name: test_ext_eval_5_times
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_ext_eval_5_times
+  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_6_clone
+    isExternal: false
+    name: test_ext_eval_6_clone
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_ext_eval_6_clone
+  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_7_placeholder
+    isExternal: false
+    name: test_ext_eval_7_placeholder
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_ext_eval_7_placeholder
+  - fullName: cntk.ops.tests.userfunction_test.test_ext_lambdafunc
+    isExternal: false
+    name: test_ext_lambdafunc
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_ext_lambdafunc
+  - fullName: cntk.ops.tests.userfunction_test.test_ext_train
+    isExternal: false
+    name: test_ext_train
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_ext_train
+  - fullName: cntk.ops.tests.userfunction_test.test_multioutput_udf
+    isExternal: false
+    name: test_multioutput_udf
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_multioutput_udf
+  - fullName: cntk.ops.tests.userfunction_test.test_udf_clone
+    isExternal: false
+    name: test_udf_clone
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_udf_clone
+  - fullName: cntk.ops.tests.userfunction_test.test_udf_plus_and_last
+    isExternal: false
+    name: test_udf_plus_and_last
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.test_udf_plus_and_last
+  source:
+    id: userfunction_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.userfunction_test
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_ext_backpropstate
+  module: cntk.ops.tests.userfunction_test
+  name: test_ext_backpropstate
+  source:
+    id: test_ext_backpropstate
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 179
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_ext_backpropstate
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_ext_eval_1
+  module: cntk.ops.tests.userfunction_test
+  name: test_ext_eval_1
+  source:
+    id: test_ext_eval_1
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 48
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_1
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_ext_eval_2_only_param
+  module: cntk.ops.tests.userfunction_test
+  name: test_ext_eval_2_only_param
+  source:
+    id: test_ext_eval_2_only_param
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 59
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_2_only_param
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_ext_eval_3_no_input
+  module: cntk.ops.tests.userfunction_test
+  name: test_ext_eval_3_no_input
+  source:
+    id: test_ext_eval_3_no_input
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 72
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_3_no_input
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_ext_eval_4_a_inside_graph
+  module: cntk.ops.tests.userfunction_test
+  name: test_ext_eval_4_a_inside_graph
+  source:
+    id: test_ext_eval_4_a_inside_graph
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 82
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_4_a_inside_graph
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_ext_eval_4_b_inside_graph
+  module: cntk.ops.tests.userfunction_test
+  name: test_ext_eval_4_b_inside_graph
+  source:
+    id: test_ext_eval_4_b_inside_graph
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 93
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_4_b_inside_graph
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_ext_eval_5_times
+  module: cntk.ops.tests.userfunction_test
+  name: test_ext_eval_5_times
+  source:
+    id: test_ext_eval_5_times
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 103
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_5_times
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_ext_eval_6_clone
+  module: cntk.ops.tests.userfunction_test
+  name: test_ext_eval_6_clone
+  source:
+    id: test_ext_eval_6_clone
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 114
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_6_clone
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_ext_eval_7_placeholder
+  module: cntk.ops.tests.userfunction_test
+  name: test_ext_eval_7_placeholder
+  source:
+    id: test_ext_eval_7_placeholder
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 129
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_7_placeholder
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_ext_lambdafunc
+  module: cntk.ops.tests.userfunction_test
+  name: test_ext_lambdafunc
+  source:
+    id: test_ext_lambdafunc
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 240
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_ext_lambdafunc
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_ext_train
+  module: cntk.ops.tests.userfunction_test
+  name: test_ext_train
+  source:
+    id: test_ext_train
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 142
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_ext_train
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_multioutput_udf
+  module: cntk.ops.tests.userfunction_test
+  name: test_multioutput_udf
+  source:
+    id: test_multioutput_udf
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 332
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_multioutput_udf
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_udf_clone
+  module: cntk.ops.tests.userfunction_test
+  name: test_udf_clone
+  source:
+    id: test_udf_clone
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 165
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_udf_clone
+- _type: function
+  fullName: cntk.ops.tests.userfunction_test.test_udf_plus_and_last
+  module: cntk.ops.tests.userfunction_test
+  name: test_udf_plus_and_last
+  source:
+    id: test_udf_plus_and_last
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 293
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.test_udf_plus_and_last

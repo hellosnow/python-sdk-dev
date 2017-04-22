@@ -1,0 +1,304 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.train.tests.trainer_test.test_disallow_seq_starts_with_Value_objects
+  - cntk.train.tests.trainer_test.test_eval_one_hot_bad
+  - cntk.train.tests.trainer_test.test_eval_one_hot_seq
+  - cntk.train.tests.trainer_test.test_eval_sparse_dense
+  - cntk.train.tests.trainer_test.test_eval_sparse_no_seq
+  - cntk.train.tests.trainer_test.test_eval_sparse_seq_1
+  - cntk.train.tests.trainer_test.test_model_not_criterion_subset
+  - cntk.train.tests.trainer_test.test_model_one_output_of_multi_output_function
+  - cntk.train.tests.trainer_test.test_not_replaced_placeholders
+  - cntk.train.tests.trainer_test.test_output_to_retain
+  - cntk.train.tests.trainer_test.test_scalar_input
+  - cntk.train.tests.trainer_test.test_trainer
+  - cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned
+  fullName: cntk.train.tests.trainer_test
+  module: cntk.train.tests.trainer_test
+  name: trainer_test
+  references:
+  - fullName: cntk.train.tests.trainer_test.test_disallow_seq_starts_with_Value_objects
+    isExternal: false
+    name: test_disallow_seq_starts_with_Value_objects
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_disallow_seq_starts_with_Value_objects
+  - fullName: cntk.train.tests.trainer_test.test_eval_one_hot_bad
+    isExternal: false
+    name: test_eval_one_hot_bad
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_eval_one_hot_bad
+  - fullName: cntk.train.tests.trainer_test.test_eval_one_hot_seq
+    isExternal: false
+    name: test_eval_one_hot_seq
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_eval_one_hot_seq
+  - fullName: cntk.train.tests.trainer_test.test_eval_sparse_dense
+    isExternal: false
+    name: test_eval_sparse_dense
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_eval_sparse_dense
+  - fullName: cntk.train.tests.trainer_test.test_eval_sparse_no_seq
+    isExternal: false
+    name: test_eval_sparse_no_seq
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_eval_sparse_no_seq
+  - fullName: cntk.train.tests.trainer_test.test_eval_sparse_seq_1
+    isExternal: false
+    name: test_eval_sparse_seq_1
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_eval_sparse_seq_1
+  - fullName: cntk.train.tests.trainer_test.test_model_not_criterion_subset
+    isExternal: false
+    name: test_model_not_criterion_subset
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_model_not_criterion_subset
+  - fullName: cntk.train.tests.trainer_test.test_model_one_output_of_multi_output_function
+    isExternal: false
+    name: test_model_one_output_of_multi_output_function
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_model_one_output_of_multi_output_function
+  - fullName: cntk.train.tests.trainer_test.test_not_replaced_placeholders
+    isExternal: false
+    name: test_not_replaced_placeholders
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_not_replaced_placeholders
+  - fullName: cntk.train.tests.trainer_test.test_output_to_retain
+    isExternal: false
+    name: test_output_to_retain
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_output_to_retain
+  - fullName: cntk.train.tests.trainer_test.test_scalar_input
+    isExternal: false
+    name: test_scalar_input
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_scalar_input
+  - fullName: cntk.train.tests.trainer_test.test_trainer
+    isExternal: false
+    name: test_trainer
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_trainer
+  - fullName: cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned
+    isExternal: false
+    name: test_trainer_with_some_params_not_learned
+    parent: ''
+    uid: cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned
+  source:
+    id: trainer_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.train.tests.trainer_test
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_disallow_seq_starts_with_Value_objects
+  module: cntk.train.tests.trainer_test
+  name: test_disallow_seq_starts_with_Value_objects
+  source:
+    id: test_disallow_seq_starts_with_Value_objects
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 309
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_disallow_seq_starts_with_Value_objects
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_eval_one_hot_bad
+  module: cntk.train.tests.trainer_test
+  name: test_eval_one_hot_bad
+  source:
+    id: test_eval_one_hot_bad
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 193
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_eval_one_hot_bad
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_eval_one_hot_seq
+  module: cntk.train.tests.trainer_test
+  name: test_eval_one_hot_seq
+  source:
+    id: test_eval_one_hot_seq
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 172
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_eval_one_hot_seq
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_eval_sparse_dense
+  module: cntk.train.tests.trainer_test
+  name: test_eval_sparse_dense
+  source:
+    id: test_eval_sparse_dense
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 74
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_eval_sparse_dense
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_eval_sparse_no_seq
+  module: cntk.train.tests.trainer_test
+  name: test_eval_sparse_no_seq
+  source:
+    id: test_eval_sparse_no_seq
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 132
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_eval_sparse_no_seq
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_eval_sparse_seq_1
+  module: cntk.train.tests.trainer_test
+  name: test_eval_sparse_seq_1
+  source:
+    id: test_eval_sparse_seq_1
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 148
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_eval_sparse_seq_1
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_model_not_criterion_subset
+  module: cntk.train.tests.trainer_test
+  name: test_model_not_criterion_subset
+  source:
+    id: test_model_not_criterion_subset
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 201
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_model_not_criterion_subset
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_model_one_output_of_multi_output_function
+  module: cntk.train.tests.trainer_test
+  name: test_model_one_output_of_multi_output_function
+  source:
+    id: test_model_one_output_of_multi_output_function
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 231
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_model_one_output_of_multi_output_function
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_not_replaced_placeholders
+  module: cntk.train.tests.trainer_test
+  name: test_not_replaced_placeholders
+  source:
+    id: test_not_replaced_placeholders
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 283
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_not_replaced_placeholders
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_output_to_retain
+  module: cntk.train.tests.trainer_test
+  name: test_output_to_retain
+  source:
+    id: test_output_to_retain
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 56
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_output_to_retain
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_scalar_input
+  module: cntk.train.tests.trainer_test
+  name: test_scalar_input
+  source:
+    id: test_scalar_input
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 323
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_scalar_input
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_trainer
+  module: cntk.train.tests.trainer_test
+  name: test_trainer
+  source:
+    id: test_trainer
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 23
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_trainer
+- _type: function
+  fullName: cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned
+  module: cntk.train.tests.trainer_test
+  name: test_trainer_with_some_params_not_learned
+  source:
+    id: test_trainer_with_some_params_not_learned
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      repo: null
+    startLine: 250
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned

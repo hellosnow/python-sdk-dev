@@ -1,0 +1,77 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.ops.tests.userfunction_test.PlusAndLast.forward
+  - cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs
+  class: cntk.ops.tests.userfunction_test.PlusAndLast
+  fullName: cntk.ops.tests.userfunction_test.PlusAndLast
+  inheritance:
+  - - cntk.ops.functions.UserFunction
+    - cntk.ops.functions.Function
+    - cntk.cntk_py.Function
+    - cntk.cntk_py.IDictionarySerializable
+    - builtins.object
+  module: cntk.ops.tests.userfunction_test
+  name: PlusAndLast
+  references:
+  - fullName: cntk.ops.tests.userfunction_test.PlusAndLast.forward
+    isExternal: false
+    name: forward
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.PlusAndLast.forward
+  - fullName: cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs
+    isExternal: false
+    name: infer_outputs
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs
+  source:
+    id: PlusAndLast
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 275
+  syntax:
+    summary: 'Bases: `cntk.ops.functions.UserFunction`
+
+
+
+      '
+  type: Class
+  uid: cntk.ops.tests.userfunction_test.PlusAndLast
+- _type: method
+  class: cntk.ops.tests.userfunction_test.PlusAndLast
+  fullName: cntk.ops.tests.userfunction_test.PlusAndLast.forward
+  module: cntk.ops.tests.userfunction_test
+  name: forward
+  source:
+    id: forward
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 289
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.PlusAndLast.forward
+- _type: method
+  class: cntk.ops.tests.userfunction_test.PlusAndLast
+  fullName: cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs
+  module: cntk.ops.tests.userfunction_test
+  name: infer_outputs
+  source:
+    id: infer_outputs
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 285
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs

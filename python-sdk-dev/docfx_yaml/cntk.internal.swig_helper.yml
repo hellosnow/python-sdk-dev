@@ -1,0 +1,65 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.internal.swig_helper.map_if_possible
+  - cntk.internal.swig_helper.typemap
+  fullName: cntk.internal.swig_helper
+  module: cntk.internal.swig_helper
+  name: swig_helper
+  references:
+  - fullName: cntk.internal.swig_helper.map_if_possible
+    isExternal: false
+    name: map_if_possible
+    parent: ''
+    uid: cntk.internal.swig_helper.map_if_possible
+  - fullName: cntk.internal.swig_helper.typemap
+    isExternal: false
+    name: typemap
+    parent: ''
+    uid: cntk.internal.swig_helper.typemap
+  source:
+    id: swig_helper
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.internal.swig_helper
+- _type: function
+  fullName: cntk.internal.swig_helper.map_if_possible
+  module: cntk.internal.swig_helper
+  name: map_if_possible
+  source:
+    id: map_if_possible
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 9
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.internal.swig_helper.map_if_possible
+- _type: function
+  fullName: cntk.internal.swig_helper.typemap
+  module: cntk.internal.swig_helper
+  name: typemap
+  source:
+    id: typemap
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 54
+  syntax:
+    summary: Decorator that upcasts return types from Swig types to cntk types that
+      inherit from Swig. It does so recursively, e.g. if the return type is a tuple
+      containing a dictionary, it will try to upcast every element in the tuple and
+      all the keys and values in the dictionary.
+  type: Method
+  uid: cntk.internal.swig_helper.typemap

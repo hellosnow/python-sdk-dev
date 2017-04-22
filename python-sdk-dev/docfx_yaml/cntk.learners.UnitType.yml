@@ -1,0 +1,77 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.learners.UnitType.minibatch
+  - cntk.learners.UnitType.sample
+  class: cntk.learners.UnitType
+  fullName: cntk.learners.UnitType
+  inheritance:
+  - - enum.Enum
+    - builtins.object
+  module: cntk.learners
+  name: UnitType
+  references:
+  - fullName: cntk.learners.UnitType.minibatch
+    isExternal: false
+    name: minibatch
+    parent: ''
+    uid: cntk.learners.UnitType.minibatch
+  - fullName: cntk.learners.UnitType.sample
+    isExternal: false
+    name: sample
+    parent: ''
+    uid: cntk.learners.UnitType.sample
+  source:
+    id: UnitType
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+      repo: null
+    startLine: 15
+  syntax:
+    summary: 'Bases: `enum.Enum`
+
+      Indicates whether the values in the schedule are specified on the per-sample
+      or per-minibatch basis.
+
+
+      '
+  type: Class
+  uid: cntk.learners.UnitType
+- _type: attribute
+  class: cntk.learners.UnitType
+  fullName: cntk.learners.UnitType.minibatch
+  module: cntk.learners
+  name: minibatch
+  source:
+    id: minibatch
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: Schedule contains per-minibatch values (and need to be re-scaled by the
+      learner using the actual minibatch size in samples).
+  type: Property
+  uid: cntk.learners.UnitType.minibatch
+- _type: attribute
+  class: cntk.learners.UnitType
+  fullName: cntk.learners.UnitType.sample
+  module: cntk.learners
+  name: sample
+  source:
+    id: sample
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: Schedule contains per-sample values.
+  type: Property
+  uid: cntk.learners.UnitType.sample

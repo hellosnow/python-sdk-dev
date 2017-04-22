@@ -1,0 +1,96 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.debugging.tests.userlearner_test.MySgdFast
+  - cntk.debugging.tests.userlearner_test.MySgdNaive
+  - cntk.debugging.tests.userlearner_test.ffnet
+  - cntk.debugging.tests.userlearner_test.generate_random_data
+  - cntk.debugging.tests.userlearner_test.test_user_learner
+  fullName: cntk.debugging.tests.userlearner_test
+  module: cntk.debugging.tests.userlearner_test
+  name: userlearner_test
+  references:
+  - fullName: cntk.debugging.tests.userlearner_test.MySgdFast
+    isExternal: false
+    name: MySgdFast
+    parent: ''
+    uid: cntk.debugging.tests.userlearner_test.MySgdFast
+  - fullName: cntk.debugging.tests.userlearner_test.MySgdNaive
+    isExternal: false
+    name: MySgdNaive
+    parent: ''
+    uid: cntk.debugging.tests.userlearner_test.MySgdNaive
+  - fullName: cntk.debugging.tests.userlearner_test.ffnet
+    isExternal: false
+    name: ffnet
+    parent: ''
+    uid: cntk.debugging.tests.userlearner_test.ffnet
+  - fullName: cntk.debugging.tests.userlearner_test.generate_random_data
+    isExternal: false
+    name: generate_random_data
+    parent: ''
+    uid: cntk.debugging.tests.userlearner_test.generate_random_data
+  - fullName: cntk.debugging.tests.userlearner_test.test_user_learner
+    isExternal: false
+    name: test_user_learner
+    parent: ''
+    uid: cntk.debugging.tests.userlearner_test.test_user_learner
+  source:
+    id: userlearner_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.debugging.tests.userlearner_test
+- _type: function
+  fullName: cntk.debugging.tests.userlearner_test.ffnet
+  module: cntk.debugging.tests.userlearner_test
+  name: ffnet
+  source:
+    id: ffnet
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      repo: null
+    startLine: 83
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.debugging.tests.userlearner_test.ffnet
+- _type: function
+  fullName: cntk.debugging.tests.userlearner_test.generate_random_data
+  module: cntk.debugging.tests.userlearner_test
+  name: generate_random_data
+  source:
+    id: generate_random_data
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      repo: null
+    startLine: 15
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.debugging.tests.userlearner_test.generate_random_data
+- _type: function
+  fullName: cntk.debugging.tests.userlearner_test.test_user_learner
+  module: cntk.debugging.tests.userlearner_test
+  name: test_user_learner
+  source:
+    id: test_user_learner
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      repo: null
+    startLine: 126
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.debugging.tests.userlearner_test.test_user_learner

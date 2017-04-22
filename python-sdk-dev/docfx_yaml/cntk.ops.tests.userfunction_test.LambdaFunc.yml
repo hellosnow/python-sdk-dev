@@ -1,0 +1,100 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.ops.tests.userfunction_test.LambdaFunc.backward
+  - cntk.ops.tests.userfunction_test.LambdaFunc.forward
+  - cntk.ops.tests.userfunction_test.LambdaFunc.infer_outputs
+  class: cntk.ops.tests.userfunction_test.LambdaFunc
+  fullName: cntk.ops.tests.userfunction_test.LambdaFunc
+  inheritance:
+  - - cntk.ops.functions.UserFunction
+    - cntk.ops.functions.Function
+    - cntk.cntk_py.Function
+    - cntk.cntk_py.IDictionarySerializable
+    - builtins.object
+  module: cntk.ops.tests.userfunction_test
+  name: LambdaFunc
+  references:
+  - fullName: cntk.ops.tests.userfunction_test.LambdaFunc.backward
+    isExternal: false
+    name: backward
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.LambdaFunc.backward
+  - fullName: cntk.ops.tests.userfunction_test.LambdaFunc.forward
+    isExternal: false
+    name: forward
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.LambdaFunc.forward
+  - fullName: cntk.ops.tests.userfunction_test.LambdaFunc.infer_outputs
+    isExternal: false
+    name: infer_outputs
+    parent: ''
+    uid: cntk.ops.tests.userfunction_test.LambdaFunc.infer_outputs
+  source:
+    id: LambdaFunc
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 217
+  syntax:
+    summary: 'Bases: `cntk.ops.functions.UserFunction`
+
+
+
+      '
+  type: Class
+  uid: cntk.ops.tests.userfunction_test.LambdaFunc
+- _type: method
+  class: cntk.ops.tests.userfunction_test.LambdaFunc
+  fullName: cntk.ops.tests.userfunction_test.LambdaFunc.backward
+  module: cntk.ops.tests.userfunction_test
+  name: backward
+  source:
+    id: backward
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 236
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.LambdaFunc.backward
+- _type: method
+  class: cntk.ops.tests.userfunction_test.LambdaFunc
+  fullName: cntk.ops.tests.userfunction_test.LambdaFunc.forward
+  module: cntk.ops.tests.userfunction_test
+  name: forward
+  source:
+    id: forward
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 230
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.LambdaFunc.forward
+- _type: method
+  class: cntk.ops.tests.userfunction_test.LambdaFunc
+  fullName: cntk.ops.tests.userfunction_test.LambdaFunc.infer_outputs
+  module: cntk.ops.tests.userfunction_test
+  name: infer_outputs
+  source:
+    id: infer_outputs
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      repo: null
+    startLine: 227
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_test.LambdaFunc.infer_outputs

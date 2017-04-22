@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.tests.test_utils.precision
+  fullName: cntk.tests.test_utils
+  module: cntk.tests.test_utils
+  name: test_utils
+  references:
+  - fullName: cntk.tests.test_utils.precision
+    isExternal: false
+    name: precision
+    parent: ''
+    uid: cntk.tests.test_utils.precision
+  source:
+    id: test_utils
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/test_utils.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/test_utils.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.tests.test_utils
+- _type: function
+  fullName: cntk.tests.test_utils.precision
+  module: cntk.tests.test_utils
+  name: precision
+  source:
+    id: precision
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/test_utils.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/test_utils.py
+      repo: null
+    startLine: 23
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.test_utils.precision

@@ -1,0 +1,238 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.reduction_test.test_op_reduce_all
+  - cntk.ops.tests.reduction_test.test_op_reduce_argmax
+  - cntk.ops.tests.reduction_test.test_op_reduce_argmin
+  - cntk.ops.tests.reduction_test.test_op_reduce_log_sum
+  - cntk.ops.tests.reduction_test.test_op_reduce_max
+  - cntk.ops.tests.reduction_test.test_op_reduce_mean
+  - cntk.ops.tests.reduction_test.test_op_reduce_mean_all_constant
+  - cntk.ops.tests.reduction_test.test_op_reduce_min
+  - cntk.ops.tests.reduction_test.test_op_reduce_prod
+  - cntk.ops.tests.reduction_test.test_op_reduce_sum
+  fullName: cntk.ops.tests.reduction_test
+  module: cntk.ops.tests.reduction_test
+  name: reduction_test
+  references:
+  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_all
+    isExternal: false
+    name: test_op_reduce_all
+    parent: ''
+    uid: cntk.ops.tests.reduction_test.test_op_reduce_all
+  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_argmax
+    isExternal: false
+    name: test_op_reduce_argmax
+    parent: ''
+    uid: cntk.ops.tests.reduction_test.test_op_reduce_argmax
+  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_argmin
+    isExternal: false
+    name: test_op_reduce_argmin
+    parent: ''
+    uid: cntk.ops.tests.reduction_test.test_op_reduce_argmin
+  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_log_sum
+    isExternal: false
+    name: test_op_reduce_log_sum
+    parent: ''
+    uid: cntk.ops.tests.reduction_test.test_op_reduce_log_sum
+  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_max
+    isExternal: false
+    name: test_op_reduce_max
+    parent: ''
+    uid: cntk.ops.tests.reduction_test.test_op_reduce_max
+  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_mean
+    isExternal: false
+    name: test_op_reduce_mean
+    parent: ''
+    uid: cntk.ops.tests.reduction_test.test_op_reduce_mean
+  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_mean_all_constant
+    isExternal: false
+    name: test_op_reduce_mean_all_constant
+    parent: ''
+    uid: cntk.ops.tests.reduction_test.test_op_reduce_mean_all_constant
+  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_min
+    isExternal: false
+    name: test_op_reduce_min
+    parent: ''
+    uid: cntk.ops.tests.reduction_test.test_op_reduce_min
+  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_prod
+    isExternal: false
+    name: test_op_reduce_prod
+    parent: ''
+    uid: cntk.ops.tests.reduction_test.test_op_reduce_prod
+  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_sum
+    isExternal: false
+    name: test_op_reduce_sum
+    parent: ''
+    uid: cntk.ops.tests.reduction_test.test_op_reduce_sum
+  source:
+    id: reduction_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.reduction_test
+- _type: function
+  fullName: cntk.ops.tests.reduction_test.test_op_reduce_all
+  module: cntk.ops.tests.reduction_test
+  name: test_op_reduce_all
+  source:
+    id: test_op_reduce_all
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      repo: null
+    startLine: 169
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_all
+- _type: function
+  fullName: cntk.ops.tests.reduction_test.test_op_reduce_argmax
+  module: cntk.ops.tests.reduction_test
+  name: test_op_reduce_argmax
+  source:
+    id: test_op_reduce_argmax
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      repo: null
+    startLine: 231
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_argmax
+- _type: function
+  fullName: cntk.ops.tests.reduction_test.test_op_reduce_argmin
+  module: cntk.ops.tests.reduction_test
+  name: test_op_reduce_argmin
+  source:
+    id: test_op_reduce_argmin
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      repo: null
+    startLine: 245
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_argmin
+- _type: function
+  fullName: cntk.ops.tests.reduction_test.test_op_reduce_log_sum
+  module: cntk.ops.tests.reduction_test
+  name: test_op_reduce_log_sum
+  source:
+    id: test_op_reduce_log_sum
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      repo: null
+    startLine: 130
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_log_sum
+- _type: function
+  fullName: cntk.ops.tests.reduction_test.test_op_reduce_max
+  module: cntk.ops.tests.reduction_test
+  name: test_op_reduce_max
+  source:
+    id: test_op_reduce_max
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      repo: null
+    startLine: 45
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_max
+- _type: function
+  fullName: cntk.ops.tests.reduction_test.test_op_reduce_mean
+  module: cntk.ops.tests.reduction_test
+  name: test_op_reduce_mean
+  source:
+    id: test_op_reduce_mean
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      repo: null
+    startLine: 111
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_mean
+- _type: function
+  fullName: cntk.ops.tests.reduction_test.test_op_reduce_mean_all_constant
+  module: cntk.ops.tests.reduction_test
+  name: test_op_reduce_mean_all_constant
+  source:
+    id: test_op_reduce_mean_all_constant
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      repo: null
+    startLine: 213
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_mean_all_constant
+- _type: function
+  fullName: cntk.ops.tests.reduction_test.test_op_reduce_min
+  module: cntk.ops.tests.reduction_test
+  name: test_op_reduce_min
+  source:
+    id: test_op_reduce_min
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      repo: null
+    startLine: 69
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_min
+- _type: function
+  fullName: cntk.ops.tests.reduction_test.test_op_reduce_prod
+  module: cntk.ops.tests.reduction_test
+  name: test_op_reduce_prod
+  source:
+    id: test_op_reduce_prod
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      repo: null
+    startLine: 150
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_prod
+- _type: function
+  fullName: cntk.ops.tests.reduction_test.test_op_reduce_sum
+  module: cntk.ops.tests.reduction_test
+  name: test_op_reduce_sum
+  source:
+    id: test_op_reduce_sum
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      repo: null
+    startLine: 27
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_sum

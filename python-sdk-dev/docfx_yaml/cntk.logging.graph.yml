@@ -1,0 +1,220 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.logging.graph.depth_first_search
+  - cntk.logging.graph.find_all_with_name
+  - cntk.logging.graph.find_by_name
+  - cntk.logging.graph.get_node_outputs
+  - cntk.logging.graph.output_function_graph
+  - cntk.logging.graph.plot
+  fullName: cntk.logging.graph
+  module: cntk.logging.graph
+  name: graph
+  references:
+  - fullName: cntk.logging.graph.depth_first_search
+    isExternal: false
+    name: depth_first_search
+    parent: ''
+    uid: cntk.logging.graph.depth_first_search
+  - fullName: cntk.logging.graph.find_all_with_name
+    isExternal: false
+    name: find_all_with_name
+    parent: ''
+    uid: cntk.logging.graph.find_all_with_name
+  - fullName: cntk.logging.graph.find_by_name
+    isExternal: false
+    name: find_by_name
+    parent: ''
+    uid: cntk.logging.graph.find_by_name
+  - fullName: cntk.logging.graph.get_node_outputs
+    isExternal: false
+    name: get_node_outputs
+    parent: ''
+    uid: cntk.logging.graph.get_node_outputs
+  - fullName: cntk.logging.graph.output_function_graph
+    isExternal: false
+    name: output_function_graph
+    parent: ''
+    uid: cntk.logging.graph.output_function_graph
+  - fullName: cntk.logging.graph.plot
+    isExternal: false
+    name: plot
+    parent: ''
+    uid: cntk.logging.graph.plot
+  source:
+    id: graph
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.logging.graph
+- _type: function
+  fullName: cntk.logging.graph.depth_first_search
+  module: cntk.logging.graph
+  name: depth_first_search
+  source:
+    id: depth_first_search
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      repo: null
+    startLine: 11
+  syntax:
+    exceptions: []
+    parameters:
+    - description: the root to start the journey from
+      id: visitor
+      type: Python function or lambda
+    - description: function that takes a node as argument and returns `True` if that
+        node should be returned.
+      id: root
+      type: Function or Variable
+    returntype: ''
+    returnvalue: List of functions, for which `visitor` was `True`
+    summary: Generic function that walks through the graph starting at `root` and
+      uses function `visitor` on each node to check whether it should be returned.
+    variables: []
+  type: Method
+  uid: cntk.logging.graph.depth_first_search
+- _type: function
+  fullName: cntk.logging.graph.find_all_with_name
+  module: cntk.logging.graph
+  name: find_all_with_name
+  source:
+    id: find_all_with_name
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      repo: null
+    startLine: 72
+  syntax:
+    exceptions: []
+    parameters:
+    - description: the node to start the journey from
+      id: node_name
+      type: str
+    - description: name for which we are search nodes
+      id: node
+      type: Function or Variable
+    returntype: ''
+    returnvalue: List of primitive (or block) functions having the specified name
+    summary: 'Finds functions in the graph starting from `node` and doing a depth-first
+      search.
+
+      See also: `find_all_with_name()` in class `Function`.'
+    variables: []
+  type: Method
+  uid: cntk.logging.graph.find_all_with_name
+- _type: function
+  fullName: cntk.logging.graph.find_by_name
+  module: cntk.logging.graph
+  name: find_by_name
+  source:
+    id: find_by_name
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      repo: null
+    startLine: 90
+  syntax:
+    exceptions: []
+    parameters:
+    - description: the node to start the journey from
+      id: node_name
+      type: str
+    - description: name for which we are search nodes
+      id: node
+      type: Function or Variable
+    returntype: ''
+    returnvalue: Primitive (or block) function having the specified name
+    summary: 'Finds a function in the graph starting from `node` and doing a depth-first
+      search. It assumes that the name occurs only once.
+
+      See also: `find_by_name()` in class `Function`.'
+    variables: []
+  type: Method
+  uid: cntk.logging.graph.find_by_name
+- _type: function
+  fullName: cntk.logging.graph.get_node_outputs
+  module: cntk.logging.graph
+  name: get_node_outputs
+  source:
+    id: get_node_outputs
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      repo: null
+    startLine: 348
+  syntax:
+    exceptions: []
+    parameters:
+    - description: the node to start the journey from
+      id: node
+      type: graph node
+    returntype: ''
+    returnvalue: A list of all node outputs
+    summary: Walks through every node of the graph starting at `node` and returns
+      a list of all node outputs.
+    variables: []
+  type: Method
+  uid: cntk.logging.graph.get_node_outputs
+- _type: function
+  fullName: cntk.logging.graph.output_function_graph
+  module: cntk.logging.graph
+  name: output_function_graph
+  source:
+    id: output_function_graph
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      repo: null
+    startLine: 334
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.logging.graph.output_function_graph
+- _type: function
+  fullName: cntk.logging.graph.plot
+  module: cntk.logging.graph
+  name: plot
+  source:
+    id: plot
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      repo: null
+    startLine: 123
+  syntax:
+    exceptions: []
+    parameters:
+    - description: the node to start the journey from
+      id: filename
+      type: str, default None
+    - description: file with extension '.dot', 'png', 'pdf', or 'svg' to denote what
+        format should be written. If *None* then nothing will be plotted, and the
+        returned string can be used to debug the graph.
+      id: node
+      type: graph node
+    returntype: ''
+    returnvalue: '*str* describing the graph'
+    summary: "Walks through every node of the graph starting at `root`, creates a\
+      \ network graph, and returns a network description. If `filename` is specified,\
+      \ it outputs a DOT, PNG, PDF, or SVG file depending on the file name's suffix.\n\
+      Requirements:\n* for DOT output: [pydot_ng](https://pypi.python.org/pypi/pydot-ng)\n\
+      \n   * <SYSTEM MESSAGE: /root/cntk-python/doc/cntk.logging.rst:2: (INFO/1) Duplicate\
+      \ explicit target name: \"pydot_ng\".>\n\n     for PNG, PDF, and SVG output:\
+      \ [pydot_ng](https://pypi.python.org/pypi/pydot-ng) and [graphviz](http://graphviz.org)\
+      \ (GraphViz executable has to be in the system's PATH)."
+    variables: []
+  type: Method
+  uid: cntk.logging.graph.plot

@@ -1,0 +1,106 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.logging.tests.graph_test.test_depth_first_search
+  - cntk.logging.tests.graph_test.test_find_nodes
+  - cntk.logging.tests.graph_test.test_find_nodes_returning_proper_types
+  - cntk.logging.tests.graph_test.test_plot
+  fullName: cntk.logging.tests.graph_test
+  module: cntk.logging.tests.graph_test
+  name: graph_test
+  references:
+  - fullName: cntk.logging.tests.graph_test.test_depth_first_search
+    isExternal: false
+    name: test_depth_first_search
+    parent: ''
+    uid: cntk.logging.tests.graph_test.test_depth_first_search
+  - fullName: cntk.logging.tests.graph_test.test_find_nodes
+    isExternal: false
+    name: test_find_nodes
+    parent: ''
+    uid: cntk.logging.tests.graph_test.test_find_nodes
+  - fullName: cntk.logging.tests.graph_test.test_find_nodes_returning_proper_types
+    isExternal: false
+    name: test_find_nodes_returning_proper_types
+    parent: ''
+    uid: cntk.logging.tests.graph_test.test_find_nodes_returning_proper_types
+  - fullName: cntk.logging.tests.graph_test.test_plot
+    isExternal: false
+    name: test_plot
+    parent: ''
+    uid: cntk.logging.tests.graph_test.test_plot
+  source:
+    id: graph_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.logging.tests.graph_test
+- _type: function
+  fullName: cntk.logging.tests.graph_test.test_depth_first_search
+  module: cntk.logging.tests.graph_test
+  name: test_depth_first_search
+  source:
+    id: test_depth_first_search
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
+      repo: null
+    startLine: 114
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.logging.tests.graph_test.test_depth_first_search
+- _type: function
+  fullName: cntk.logging.tests.graph_test.test_find_nodes
+  module: cntk.logging.tests.graph_test
+  name: test_find_nodes
+  source:
+    id: test_find_nodes
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
+      repo: null
+    startLine: 62
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.logging.tests.graph_test.test_find_nodes
+- _type: function
+  fullName: cntk.logging.tests.graph_test.test_find_nodes_returning_proper_types
+  module: cntk.logging.tests.graph_test
+  name: test_find_nodes_returning_proper_types
+  source:
+    id: test_find_nodes_returning_proper_types
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
+      repo: null
+    startLine: 90
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.logging.tests.graph_test.test_find_nodes_returning_proper_types
+- _type: function
+  fullName: cntk.logging.tests.graph_test.test_plot
+  module: cntk.logging.tests.graph_test
+  name: test_plot
+  source:
+    id: test_plot
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
+      repo: null
+    startLine: 102
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.logging.tests.graph_test.test_plot

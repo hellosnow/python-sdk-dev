@@ -1,0 +1,62 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.debugging.dump_function
+  - cntk.debugging.dump_signature
+  fullName: cntk.debugging
+  module: cntk.debugging
+  name: debugging
+  references:
+  - fullName: cntk.debugging.dump_function
+    isExternal: false
+    name: dump_function
+    parent: ''
+    uid: cntk.debugging.dump_function
+  - fullName: cntk.debugging.dump_signature
+    isExternal: false
+    name: dump_signature
+    parent: ''
+    uid: cntk.debugging.dump_signature
+  source:
+    id: debugging
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/__init__.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.debugging
+- _type: function
+  fullName: cntk.debugging.dump_function
+  module: cntk.debugging
+  name: dump_function
+  source:
+    id: dump_function
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/__init__.py
+      repo: null
+    startLine: 32
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.debugging.dump_function
+- _type: function
+  fullName: cntk.debugging.dump_signature
+  module: cntk.debugging
+  name: dump_signature
+  source:
+    id: dump_signature
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/__init__.py
+      repo: null
+    startLine: 16
+  syntax:
+    summary: Debug helper that prints the signature of a Function.
+  type: Method
+  uid: cntk.debugging.dump_signature

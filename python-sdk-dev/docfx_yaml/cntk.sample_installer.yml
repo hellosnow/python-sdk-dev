@@ -1,0 +1,112 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.sample_installer.default_sample_dir
+  - cntk.sample_installer.default_sample_url
+  - cntk.sample_installer.install_samples
+  - cntk.sample_installer.module_is_unreleased
+  fullName: cntk.sample_installer
+  module: cntk.sample_installer
+  name: sample_installer
+  references:
+  - fullName: cntk.sample_installer.default_sample_dir
+    isExternal: false
+    name: default_sample_dir
+    parent: ''
+    uid: cntk.sample_installer.default_sample_dir
+  - fullName: cntk.sample_installer.default_sample_url
+    isExternal: false
+    name: default_sample_url
+    parent: ''
+    uid: cntk.sample_installer.default_sample_url
+  - fullName: cntk.sample_installer.install_samples
+    isExternal: false
+    name: install_samples
+    parent: ''
+    uid: cntk.sample_installer.install_samples
+  - fullName: cntk.sample_installer.module_is_unreleased
+    isExternal: false
+    name: module_is_unreleased
+    parent: ''
+    uid: cntk.sample_installer.module_is_unreleased
+  source:
+    id: sample_installer
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.sample_installer
+- _type: function
+  fullName: cntk.sample_installer.default_sample_dir
+  module: cntk.sample_installer
+  name: default_sample_dir
+  source:
+    id: default_sample_dir
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+      repo: null
+    startLine: 24
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.sample_installer.default_sample_dir
+- _type: function
+  fullName: cntk.sample_installer.default_sample_url
+  module: cntk.sample_installer
+  name: default_sample_url
+  source:
+    id: default_sample_url
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+      repo: null
+    startLine: 31
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.sample_installer.default_sample_url
+- _type: function
+  fullName: cntk.sample_installer.install_samples
+  module: cntk.sample_installer
+  name: install_samples
+  source:
+    id: install_samples
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+      repo: null
+    startLine: 34
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: ''
+    returnvalue: ''
+    summary: Fetch the CNTK samples from a URL, extract to local directory, and install
+      Python package requirements.
+    variables: []
+  type: Method
+  uid: cntk.sample_installer.install_samples
+- _type: function
+  fullName: cntk.sample_installer.module_is_unreleased
+  module: cntk.sample_installer
+  name: module_is_unreleased
+  source:
+    id: module_is_unreleased
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+      repo: null
+    startLine: 21
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.sample_installer.module_is_unreleased

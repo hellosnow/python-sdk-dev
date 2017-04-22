@@ -1,0 +1,277 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.losses.binary_cross_entropy
+  - cntk.losses.cosine_distance
+  - cntk.losses.cosine_distance_with_negative_samples
+  - cntk.losses.cross_entropy_with_softmax
+  - cntk.losses.squared_error
+  - cntk.losses.weighted_binary_cross_entropy
+  fullName: cntk.losses
+  module: cntk.losses
+  name: losses
+  references:
+  - fullName: cntk.losses.binary_cross_entropy
+    isExternal: false
+    name: binary_cross_entropy
+    parent: ''
+    uid: cntk.losses.binary_cross_entropy
+  - fullName: cntk.losses.cosine_distance
+    isExternal: false
+    name: cosine_distance
+    parent: ''
+    uid: cntk.losses.cosine_distance
+  - fullName: cntk.losses.cosine_distance_with_negative_samples
+    isExternal: false
+    name: cosine_distance_with_negative_samples
+    parent: ''
+    uid: cntk.losses.cosine_distance_with_negative_samples
+  - fullName: cntk.losses.cross_entropy_with_softmax
+    isExternal: false
+    name: cross_entropy_with_softmax
+    parent: ''
+    uid: cntk.losses.cross_entropy_with_softmax
+  - fullName: cntk.losses.squared_error
+    isExternal: false
+    name: squared_error
+    parent: ''
+    uid: cntk.losses.squared_error
+  - fullName: cntk.losses.weighted_binary_cross_entropy
+    isExternal: false
+    name: weighted_binary_cross_entropy
+    parent: ''
+    uid: cntk.losses.weighted_binary_cross_entropy
+  source:
+    id: losses
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/losses/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/losses/__init__.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.losses
+- _type: function
+  fullName: cntk.losses.binary_cross_entropy
+  module: cntk.losses
+  name: binary_cross_entropy
+  source:
+    id: binary_cross_entropy
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 89
+  syntax:
+    exceptions: []
+    parameters:
+    - description: the computed posterior probability for a variable to be 1 from
+        the network (typ. a `sigmoid`)
+      id: name
+      type: str, optional
+    returntype: ''
+    returnvalue: '`Function`'
+    summary: 'Computes the binary cross entropy (aka logistic loss) between the `output`
+      and `target`.
+
+      -[ Example ]-
+
+      TBA'
+    variables: []
+  type: Method
+  uid: cntk.losses.binary_cross_entropy
+- _type: function
+  fullName: cntk.losses.cosine_distance
+  module: cntk.losses
+  name: cosine_distance
+  source:
+    id: cosine_distance
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 18
+  syntax:
+    exceptions: []
+    parameters:
+    - description: numpy array or any `Function` that outputs a tensor
+      id: name
+      type: str, optional
+    returntype: ''
+    returnvalue: '`Function`'
+    summary: "Computes the cosine distance between `x` and `y`:\n-[ Example ]-\n>>>\
+      \ a = np.asarray([-1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1]).reshape(3,2,2)\n\
+      >>> b = np.asarray([1, 1, -1, 1, 1, -1, 1, -1, -1, -1, -1, 1]).reshape(3,2,2)\n\
+      >>> x = C.input_variable(shape=(2,))\n>>> y = C.input_variable(shape=(2,))\n\
+      >>> np.round(C.cosine_distance(x,y).eval({x:a,y:b}),5)\narray([[-1.,  1.],\n\
+      \       [ 1.,  0.],\n       [ 0., -1.]], dtype=float32)"
+    variables: []
+  type: Method
+  uid: cntk.losses.cosine_distance
+- _type: function
+  fullName: cntk.losses.cosine_distance_with_negative_samples
+  module: cntk.losses
+  name: cosine_distance_with_negative_samples
+  source:
+    id: cosine_distance_with_negative_samples
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 47
+  syntax:
+    exceptions: []
+    parameters:
+    - description: numpy array or any `Function` that outputs a tensor
+      id: name
+      type: str, optional
+    - description: non-zero positive integer representing number of shift to generate
+        a negative sample
+      id: y
+      type: x,
+    returntype: ''
+    returnvalue: '`Function`'
+    summary: "Given minibatches for `x` and `y`, this function computes for each element\
+      \ in *x* the cosine distance between it and the corresponding *y* and additionally\
+      \ the cosine distance between `x` and some other elements of `y` (referred to\
+      \ a negative samples). The `x` and `y` pairs are samples often derived from\
+      \ embeddings of textual data, though the function can be used for any form of\
+      \ numeric encodings. When using this function to compute textual similarity,\
+      \ `x` represents search query term embedding and `y` represents a document embedding.\
+      \ The negative samples are formed on the fly by shifting the right side (`y`).\
+      \ The `shift` indicates how many samples in `y` one should shift while forming\
+      \ each negative sample pair. It is often chosen to be 1. As the name suggests\
+      \ `num_negative_samples` indicates how many negative samples one would want\
+      \ to generate.\n-[ Example ]-\n>>> qry = np.asarray([1., 1., 0., 0., 0., 1.,\
+      \ 1., 0., 0., 0., 1., 1.], dtype=np.float32).reshape(3, 1, 4)\n>>> doc = np.asarray([1.,\
+      \ 1., 0., 0., 0., 1., 1., 0., 0., 0., 1., 1.], dtype=np.float32).reshape(3,\
+      \ 1, 4)\n>>> x = C.input_variable(shape=(4,))\n>>> y = C.input_variable(shape=(4,))\n\
+      >>> model = C.cosine_distance_with_negative_samples(x, y, shift=1, num_negative_samples=2)\n\
+      >>> np.round(model.eval({x: qry, y: doc}), decimals=4)\narray([[[ 1. ,  0.5,\
+      \  0. ]],\n<BLANKLINE>\n       [[ 1. ,  0.5,  0.5]],\n<BLANKLINE>\n       [[\
+      \ 1. ,  0. ,  0.5]]], dtype=float32)"
+    variables: []
+  type: Method
+  uid: cntk.losses.cosine_distance_with_negative_samples
+- _type: function
+  fullName: cntk.losses.cross_entropy_with_softmax
+  module: cntk.losses
+  name: cross_entropy_with_softmax
+  source:
+    id: cross_entropy_with_softmax
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 133
+  syntax:
+    exceptions: []
+    parameters:
+    - description: the unscaled computed output values from the network
+      id: axis
+      type: int or Axis, optional
+    - description: usually it is one-hot vector where the hot bit corresponds to the
+        label index. But it can be any probability distribution over the labels.
+      id: name
+      type: str, optional
+    returntype: ''
+    returnvalue: '`Function`'
+    summary: 'This operation computes the cross entropy between the `target_vector`
+      and the softmax of the `output_vector`. The elements of `target_vector` have
+      to be non-negative and should sum to 1. The `output_vector` can contain any
+      values. The function will internally compute the softmax of the `output_vector`.
+      Concretely,
+
+
+
+      with the understanding that the implementation can use equivalent formulas for
+      efficiency and numerical stability.
+
+      -[ Example ]-
+
+      >>> C.cross_entropy_with_softmax([[1., 1., 1., 50.]], [[0., 0., 0., 1.]]).eval()
+
+      array([[ 0.]], dtype=float32)
+
+      >>> C.cross_entropy_with_softmax([[1., 2., 3., 4.]], [[0.35, 0.15, 0.05, 0.45]]).eval()
+
+      array([[ 1.84019]], dtype=float32)'
+    variables: []
+  type: Method
+  uid: cntk.losses.cross_entropy_with_softmax
+- _type: function
+  fullName: cntk.losses.squared_error
+  module: cntk.losses
+  name: squared_error
+  source:
+    id: squared_error
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 175
+  syntax:
+    exceptions: []
+    parameters:
+    - description: the output values from the network
+      id: name
+      type: str, optional
+    returntype: ''
+    returnvalue: '`Function`'
+    summary: 'This operation computes the sum of the squared difference between elements
+      in the two input matrices. The result is a scalar (i.e., one by one matrix).
+      This is often used as a training criterion.
+
+      -[ Example ]-
+
+      >>> i1 = C.input_variable((1,2))
+
+      >>> i2 = C.input_variable((1,2))
+
+      >>> C.squared_error(i1,i2).eval({i1:np.asarray([[[[2., 1.]]]], dtype=np.float32),
+      i2:np.asarray([[[[4., 6.]]]], dtype=np.float32)})
+
+      array([[ 29.]], dtype=float32)
+
+      >>> C.squared_error(i1,i2).eval({i1:np.asarray([[[[1., 2.]]]], dtype=np.float32),
+      i2:np.asarray([[[[1., 2.]]]], dtype=np.float32)})
+
+      array([[ 0.]], dtype=float32)'
+    variables: []
+  type: Method
+  uid: cntk.losses.squared_error
+- _type: function
+  fullName: cntk.losses.weighted_binary_cross_entropy
+  module: cntk.losses
+  name: weighted_binary_cross_entropy
+  source:
+    id: weighted_binary_cross_entropy
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 110
+  syntax:
+    exceptions: []
+    parameters:
+    - description: the computed posterior probability from the network
+      id: name
+      type: str, optional
+    returntype: ''
+    returnvalue: '`Function`'
+    summary: 'This operation computes the weighted binary cross entropy (aka logistic
+      loss) between the `output` and `target`.
+
+      -[ Example ]-
+
+      TBA'
+    variables: []
+  type: Method
+  uid: cntk.losses.weighted_binary_cross_entropy

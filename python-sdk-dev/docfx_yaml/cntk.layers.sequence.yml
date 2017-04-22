@@ -1,0 +1,190 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.layers.sequence.Delay
+  - cntk.layers.sequence.Fold
+  - cntk.layers.sequence.PastValueWindow
+  - cntk.layers.sequence.Recurrence
+  - cntk.layers.sequence.RecurrenceFrom
+  - cntk.layers.sequence.UnfoldFrom
+  fullName: cntk.layers.sequence
+  module: cntk.layers.sequence
+  name: sequence
+  references:
+  - fullName: cntk.layers.sequence.Delay
+    isExternal: false
+    name: Delay
+    parent: ''
+    uid: cntk.layers.sequence.Delay
+  - fullName: cntk.layers.sequence.Fold
+    isExternal: false
+    name: Fold
+    parent: ''
+    uid: cntk.layers.sequence.Fold
+  - fullName: cntk.layers.sequence.PastValueWindow
+    isExternal: false
+    name: PastValueWindow
+    parent: ''
+    uid: cntk.layers.sequence.PastValueWindow
+  - fullName: cntk.layers.sequence.Recurrence
+    isExternal: false
+    name: Recurrence
+    parent: ''
+    uid: cntk.layers.sequence.Recurrence
+  - fullName: cntk.layers.sequence.RecurrenceFrom
+    isExternal: false
+    name: RecurrenceFrom
+    parent: ''
+    uid: cntk.layers.sequence.RecurrenceFrom
+  - fullName: cntk.layers.sequence.UnfoldFrom
+    isExternal: false
+    name: UnfoldFrom
+    parent: ''
+    uid: cntk.layers.sequence.UnfoldFrom
+  source:
+    id: sequence
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.layers.sequence
+- _type: function
+  fullName: cntk.layers.sequence.Delay
+  module: cntk.layers.sequence
+  name: Delay
+  source:
+    id: Delay
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+      repo: null
+    startLine: 15
+  syntax:
+    summary: Layer factory function to create a layer that delays input the input
+      by a given number of time steps. Negative means future. This is provided as
+      a layer instead of a function so that it can easily be used in a Sequential()
+      expression.
+  type: Method
+  uid: cntk.layers.sequence.Delay
+- _type: function
+  fullName: cntk.layers.sequence.Fold
+  module: cntk.layers.sequence
+  name: Fold
+  source:
+    id: Fold
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+      repo: null
+    startLine: 189
+  syntax:
+    summary: 'Layer factory function to create a function that implements the fold()
+      catamorphism. It is like `Recurrence()` except that it returns only the final
+      state. This is often used for embeddings of sequences, e.g. in a sequence-to-sequence
+      model.
+
+      Commonly, the `folder_function` is a recurrent block such as an LSTM. One can,
+      however, pass any binary function. E.g. passing `plus` will sum up all items
+      of a sequence; while `element_max` would perform a max-pooling over all items
+      of the sequence.
+
+      `go_backwards=False` selects a fold-left, while `True` a fold-right, but note
+      that the `folder_function` signature is always the one of fold-left.'
+  type: Method
+  uid: cntk.layers.sequence.Fold
+- _type: function
+  fullName: cntk.layers.sequence.PastValueWindow
+  module: cntk.layers.sequence
+  name: PastValueWindow
+  source:
+    id: PastValueWindow
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+      repo: null
+    startLine: 40
+  syntax:
+    summary: 'Layer factory function to create a function that returns a static, maskable
+      view for N past steps over a sequence along the given ''axis''. It returns two
+      matrices: a value matrix, shape=(N,dim), and a valid window, shape=(1,dim)'
+  type: Method
+  uid: cntk.layers.sequence.PastValueWindow
+- _type: function
+  fullName: cntk.layers.sequence.Recurrence
+  module: cntk.layers.sequence
+  name: Recurrence
+  source:
+    id: Recurrence
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+      repo: null
+    startLine: 151
+  syntax:
+    summary: 'Layer factory function to create a function that runs a cell function
+      recurrently over a time sequence. This form is meant for use in regular recurrent-model
+      scenarios. `initial_state` must be a constant (or at least have known shape).
+      To pass initial_state as a data input, use RecurrenceFrom() instead. TODO: Can
+      bidirectionality be an option of this? bidirectional=True? What was the reason
+      it cannot?'
+  type: Method
+  uid: cntk.layers.sequence.Recurrence
+- _type: function
+  fullName: cntk.layers.sequence.RecurrenceFrom
+  module: cntk.layers.sequence
+  name: RecurrenceFrom
+  source:
+    id: RecurrenceFrom
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+      repo: null
+    startLine: 86
+  syntax:
+    summary: Layer factory function to create a function that runs a cell function
+      recurrently over a time sequence, with initial state. This form is meant for
+      use in sequence-to-sequence scenarios. The difference to Recurrence() is that
+      this returns a function that accepts the initial state as data argument(s).
+      Initial state consists of N arguments, matching 'over'.
+  type: Method
+  uid: cntk.layers.sequence.RecurrenceFrom
+- _type: function
+  fullName: cntk.layers.sequence.UnfoldFrom
+  module: cntk.layers.sequence
+  name: UnfoldFrom
+  source:
+    id: UnfoldFrom
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
+      repo: null
+    startLine: 217
+  syntax:
+    summary: "Layer factory function to create a function that implements the unfold()\
+      \ anamorphism. It creates a function that, starting with a seed input, applies\
+      \ 'generator_function' repeatedly and emits the sequence of results. Depending\
+      \ on the recurrent block, it may have this form:\n<!-- literal_block {\"classes\"\
+      : [], \"backrefs\": [], \"dupnames\": [], \"ids\": [], \"names\": [], \"xml:space\"\
+      : \"preserve\"} -->\n\n````\n\n   result = f(... f(f([g(input), initial_state]))\
+      \ ... )\n   ````\nor this form:\n<!-- literal_block {\"classes\": [], \"backrefs\"\
+      : [], \"dupnames\": [], \"ids\": [], \"names\": [], \"xml:space\": \"preserve\"\
+      } -->\n\n````\n\n   result = f(g(input), ... f(g(input), f(g(input), initial_state))\
+      \ ... )\n   ````\nwhere *f* is *generator_function*. An example use of this\
+      \ is sequence-to-sequence decoding, where *g(input)* is the sequence encoder,\
+      \ *initial_state* is the sentence-start symbol, and *f* is the decoder. The\
+      \ first of the two forms above is a plain sequence-to-sequence model where encoder\
+      \ output is the start state for the output recursion. The second form is an\
+      \ attention-based decoder, where the encoded input affects every application\
+      \ of *f* differently."
+  type: Method
+  uid: cntk.layers.sequence.UnfoldFrom

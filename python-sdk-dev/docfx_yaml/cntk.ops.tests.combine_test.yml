@@ -1,0 +1,62 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.combine_test.test_op_combine
+  - cntk.ops.tests.combine_test.test_op_combine_input_var
+  fullName: cntk.ops.tests.combine_test
+  module: cntk.ops.tests.combine_test
+  name: combine_test
+  references:
+  - fullName: cntk.ops.tests.combine_test.test_op_combine
+    isExternal: false
+    name: test_op_combine
+    parent: ''
+    uid: cntk.ops.tests.combine_test.test_op_combine
+  - fullName: cntk.ops.tests.combine_test.test_op_combine_input_var
+    isExternal: false
+    name: test_op_combine_input_var
+    parent: ''
+    uid: cntk.ops.tests.combine_test.test_op_combine_input_var
+  source:
+    id: combine_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/combine_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/combine_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.combine_test
+- _type: function
+  fullName: cntk.ops.tests.combine_test.test_op_combine
+  module: cntk.ops.tests.combine_test
+  name: test_op_combine
+  source:
+    id: test_op_combine
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/combine_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/combine_test.py
+      repo: null
+    startLine: 29
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.combine_test.test_op_combine
+- _type: function
+  fullName: cntk.ops.tests.combine_test.test_op_combine_input_var
+  module: cntk.ops.tests.combine_test
+  name: test_op_combine_input_var
+  source:
+    id: test_op_combine_input_var
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/combine_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/combine_test.py
+      repo: null
+    startLine: 69
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.combine_test.test_op_combine_input_var

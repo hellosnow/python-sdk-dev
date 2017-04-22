@@ -1,0 +1,18 @@
+api_name: []
+items:
+- _type: module
+  children: []
+  fullName: cntk.logging
+  module: cntk.logging
+  name: logging
+  references: []
+  source:
+    id: logging
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/__init__.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.logging

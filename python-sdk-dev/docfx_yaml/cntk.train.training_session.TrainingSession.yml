@@ -1,0 +1,134 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.train.training_session.TrainingSession.on_cross_validation_end
+  - cntk.train.training_session.TrainingSession.train
+  class: cntk.train.training_session.TrainingSession
+  fullName: cntk.train.training_session.TrainingSession
+  inheritance:
+  - - cntk.cntk_py.TrainingSession
+    - builtins.object
+  module: cntk.train.training_session
+  name: TrainingSession
+  references:
+  - fullName: cntk.train.training_session.TrainingSession.on_cross_validation_end
+    isExternal: false
+    name: on_cross_validation_end
+    parent: ''
+    uid: cntk.train.training_session.TrainingSession.on_cross_validation_end
+  - fullName: cntk.train.training_session.TrainingSession.train
+    isExternal: false
+    name: train
+    parent: ''
+    uid: cntk.train.training_session.TrainingSession.train
+  source:
+    id: TrainingSession
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
+      repo: null
+    startLine: 95
+  syntax:
+    exceptions: []
+    parameters:
+    - description: trainer
+      id: cv_config
+      type: CrossValidationConfig
+    - description: minibatch source used for training
+      id: checkpoint_config
+      type: CheckpointConfig
+    - description: minibatch size schedule for training
+      id: max_samples
+      type: int
+    - description: mapping between input variables and input streams
+      id: mb_source
+      type: MinibatchSource
+    - description: maximum number of samples used for training
+      id: trainer
+      type: Trainer
+    - description: frequency in samples for aggregated progress printing
+      id: progress_frequency
+      type: int
+    - description: checkpoint configuration
+      id: var_to_stream
+      type: dict
+    - description: cross validation configuration
+      id: mb_size
+      type: minibatch_size_schedule or int
+    returntype: ''
+    returnvalue: ''
+    summary: 'Bases: `cntk.cntk_py.TrainingSession`
+
+      The instance of the class should be created by using `training_session()` function.
+
+      A training session trains a model using the specified `trainer` and configs.
+      Different aspects of training such as data sources, checkpointing, cross validation,
+      progress printing can be configured using the corresponding config classes.
+
+
+      '
+    variables: []
+  type: Class
+  uid: cntk.train.training_session.TrainingSession
+- _type: method
+  class: cntk.train.training_session.TrainingSession
+  fullName: cntk.train.training_session.TrainingSession.on_cross_validation_end
+  module: cntk.train.training_session
+  name: on_cross_validation_end
+  source:
+    id: on_cross_validation_end
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
+      repo: null
+    startLine: 169
+  syntax:
+    exceptions: []
+    parameters:
+    - description: index of the current callback.
+      id: num_samples
+      type: int
+    - description: average error for the cross validation
+      id: num_minibatches
+      type: int
+    - description: number of samples in cross validation
+      id: average_error
+      type: float
+    - description: number of minibatch in cross validation
+      id: index
+      type: int
+    returntype: ''
+    returnvalue: True if training should continue, False otherwise.
+    summary: Callback that gets executed at the end of cross validation.
+    variables: []
+  type: Method
+  uid: cntk.train.training_session.TrainingSession.on_cross_validation_end
+- _type: method
+  class: cntk.train.training_session.TrainingSession
+  fullName: cntk.train.training_session.TrainingSession.train
+  module: cntk.train.training_session
+  name: train
+  source:
+    id: train
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 154
+  syntax:
+    exceptions: []
+    parameters:
+    - description: the device descriptor containing the type and id of the device
+        where training takes place.
+      id: device
+      type: DeviceDescriptor
+    returntype: ''
+    returnvalue: ''
+    summary: Perform training on a specified device.
+    variables: []
+  type: Method
+  uid: cntk.train.training_session.TrainingSession.train

@@ -1,0 +1,193 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.train.training_session.CheckpointConfig
+  - cntk.train.training_session.CrossValidationConfig
+  - cntk.train.training_session.TrainingSession
+  - cntk.train.training_session.minibatch_size_schedule
+  - cntk.train.training_session.training_session
+  fullName: cntk.train.training_session
+  module: cntk.train.training_session
+  name: training_session
+  references:
+  - fullName: cntk.train.training_session.CheckpointConfig
+    isExternal: false
+    name: CheckpointConfig
+    parent: ''
+    uid: cntk.train.training_session.CheckpointConfig
+  - fullName: cntk.train.training_session.CrossValidationConfig
+    isExternal: false
+    name: CrossValidationConfig
+    parent: ''
+    uid: cntk.train.training_session.CrossValidationConfig
+  - fullName: cntk.train.training_session.TrainingSession
+    isExternal: false
+    name: TrainingSession
+    parent: ''
+    uid: cntk.train.training_session.TrainingSession
+  - fullName: cntk.train.training_session.minibatch_size_schedule
+    isExternal: false
+    name: minibatch_size_schedule
+    parent: ''
+    uid: cntk.train.training_session.minibatch_size_schedule
+  - fullName: cntk.train.training_session.training_session
+    isExternal: false
+    name: training_session
+    parent: ''
+    uid: cntk.train.training_session.training_session
+  source:
+    id: training_session
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.train.training_session
+- _type: function
+  fullName: cntk.train.training_session.minibatch_size_schedule
+  module: cntk.train.training_session
+  name: minibatch_size_schedule
+  source:
+    id: minibatch_size_schedule
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 187
+  syntax:
+    exceptions: []
+    parameters:
+    - description: if integer, it this minibatch size will be used for the whole training.
+        In case of list of integers, the elements are used as the values for `epoch_size`
+        samples. If list contains pair, the second element is used as a value for
+        (`epoch_size` x first element) samples
+      id: epoch_size
+      type: int
+    - description: number of samples as a scheduling unit.
+      id: schedule
+      type: integer or list
+    returntype: ''
+    returnvalue: training parameter schedule
+    summary: 'Create a minibatch size schedule
+
+      -[ Examples ]-
+
+      >>> # Use a fixed value 32 for all minibatches
+
+      >>> s = minibatch_size_schedule(32)
+
+      >>> s[0], s[1]
+
+      (32, 32)
+
+      >>> # Use minibatches of size 32 for the first 1000 samples, then 64 for the
+      remaining ones
+
+      >>> s = minibatch_size_schedule([32, 64], 1000)
+
+      >>> s[0], s[1], s[1000], s[1001]
+
+      (32, 32, 64, 64)
+
+      >>> # Use 32 for the first 12 epochs, then 64 for the next 15,
+
+      >>> # followed by 128 for the remaining ones, with a 100 samples in an epoch
+
+      >>> s = minibatch_size_schedule([(12, 32), (15, 64), (1, 128)], 100)
+
+      >>> s[0], s[1199], s[1200], s[2699], s[2700], s[5000]
+
+      (32, 32, 64, 64, 128, 128)'
+    variables: []
+  type: Method
+  uid: cntk.train.training_session.minibatch_size_schedule
+- _type: function
+  fullName: cntk.train.training_session.training_session
+  module: cntk.train.training_session
+  name: training_session
+  source:
+    id: training_session
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 230
+  syntax:
+    exceptions: []
+    parameters:
+    - description: '!DEPRECATED! use mb_source instead'
+      id: max_samples
+      type: int
+    - description: trainer
+      id: cv_frequency
+      type: int
+    - description: '!DEPRECATED! use mb_size instead'
+      id: training_minibatch_source
+      type: MinibatchSource
+    - description: '!DEPRECATED! list of progress writers from `cntk.utils`'
+      id: cv_mb_size_schedule
+      type: minibatch_size_schedule
+    - description: '!DEPRECATED! use var_to_stream instead'
+      id: cv_source
+      type: MinibatchSource
+    - description: '!DEPRECATED! checkpoint file name.'
+      id: checkpoint_filename
+      type: str
+    - description: '!DEPRECATED! checkpoint frequency in samples. If 0, no checkpointing
+        takes place. If `sys.maxsize`, a single checkpoint is taken at the end of
+        the training.'
+      id: trainer
+      type: Trainer
+    - description: '!DEPRECATED! saves all checkpoints, using `checkpoint_filename`
+        as prefix and checkpoint index as a suffix.'
+      id: progress_frequency
+      type: int
+    - description: flag, indicating whether to restore from available checkpoint before
+        the start of the training
+      id: save_all_checkpoints
+      type: bool
+    - description: frequency in samples for aggregated progress printing
+      id: cv_config
+      type: CrossValidationConfig
+    - description: '!DEPRECATED! minibatch source used for cross validation'
+      id: checkpoint_config
+      type: CheckpointConfig
+    - description: '!DEPRECATED! frequency in samples for cross validation'
+      id: model_inputs_to_mb_source_mapping
+      type: dict
+    - description: '!DEPRECATED! minibatch schedule for cross validation If `sys.maxsize`,
+        a single cross validation is performed at the end of training.'
+      id: restore
+      type: bool
+    - description: '!DEPRECATED! use max_samples instead'
+      id: checkpoint_frequency
+      type: int
+    - description: minibatch source used for training
+      id: mb_source
+      type: MinibatchSource
+    - description: minibatch schedule for training
+      id: max_training_samples
+      type: int
+    - description: mapping between input variables and input streams
+      id: progress_printer
+      type: list
+    - description: maximum number of samples used for training
+      id: var_to_stream
+      type: dict
+    - description: checkpoint configuration
+      id: mb_size_schedule
+      type: minibatch_size_schedule
+    - description: cross validation configuration
+      id: mb_size
+      type: minibatch_size_schedule
+    returntype: ''
+    returnvalue: Instance of `TrainingSession`
+    summary: A factory function to create a training session object.
+    variables: []
+  type: Method
+  uid: cntk.train.training_session.training_session

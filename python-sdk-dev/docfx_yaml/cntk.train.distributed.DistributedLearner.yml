@@ -1,0 +1,58 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.train.distributed.DistributedLearner.communicator
+  class: cntk.train.distributed.DistributedLearner
+  fullName: cntk.train.distributed.DistributedLearner
+  inheritance:
+  - - cntk.cntk_py.DistributedLearner
+    - cntk.cntk_py.Learner
+    - builtins.object
+  module: cntk.train.distributed
+  name: DistributedLearner
+  references:
+  - fullName: cntk.train.distributed.DistributedLearner.communicator
+    isExternal: false
+    name: communicator
+    parent: ''
+    uid: cntk.train.distributed.DistributedLearner.communicator
+  source:
+    id: DistributedLearner
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      repo: null
+    startLine: 100
+  syntax:
+    summary: 'Bases: `cntk.cntk_py.DistributedLearner`
+
+      A distributed learner that handles data like gradients/momentums across multiple
+      MPI workers
+
+      '
+  type: Class
+  uid: cntk.train.distributed.DistributedLearner
+- _type: method
+  class: cntk.train.distributed.DistributedLearner
+  fullName: cntk.train.distributed.DistributedLearner.communicator
+  module: cntk.train.distributed
+  name: communicator
+  source:
+    id: communicator
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 105
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: Communicator
+    returnvalue: descriptor of current process.
+    summary: Returns the distributed communicator that talks to other MPI workers
+    variables: []
+  type: Method
+  uid: cntk.train.distributed.DistributedLearner.communicator

@@ -1,0 +1,106 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.block_test.test_as_block_with_function_in_arguments_map
+  - cntk.ops.tests.block_test.test_block_with_duplicate_inputs
+  - cntk.ops.tests.block_test.test_combine_op_as_block
+  - cntk.ops.tests.block_test.test_op_as_block
+  fullName: cntk.ops.tests.block_test
+  module: cntk.ops.tests.block_test
+  name: block_test
+  references:
+  - fullName: cntk.ops.tests.block_test.test_as_block_with_function_in_arguments_map
+    isExternal: false
+    name: test_as_block_with_function_in_arguments_map
+    parent: ''
+    uid: cntk.ops.tests.block_test.test_as_block_with_function_in_arguments_map
+  - fullName: cntk.ops.tests.block_test.test_block_with_duplicate_inputs
+    isExternal: false
+    name: test_block_with_duplicate_inputs
+    parent: ''
+    uid: cntk.ops.tests.block_test.test_block_with_duplicate_inputs
+  - fullName: cntk.ops.tests.block_test.test_combine_op_as_block
+    isExternal: false
+    name: test_combine_op_as_block
+    parent: ''
+    uid: cntk.ops.tests.block_test.test_combine_op_as_block
+  - fullName: cntk.ops.tests.block_test.test_op_as_block
+    isExternal: false
+    name: test_op_as_block
+    parent: ''
+    uid: cntk.ops.tests.block_test.test_op_as_block
+  source:
+    id: block_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.block_test
+- _type: function
+  fullName: cntk.ops.tests.block_test.test_as_block_with_function_in_arguments_map
+  module: cntk.ops.tests.block_test
+  name: test_as_block_with_function_in_arguments_map
+  source:
+    id: test_as_block_with_function_in_arguments_map
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
+      repo: null
+    startLine: 115
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.block_test.test_as_block_with_function_in_arguments_map
+- _type: function
+  fullName: cntk.ops.tests.block_test.test_block_with_duplicate_inputs
+  module: cntk.ops.tests.block_test
+  name: test_block_with_duplicate_inputs
+  source:
+    id: test_block_with_duplicate_inputs
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
+      repo: null
+    startLine: 104
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.block_test.test_block_with_duplicate_inputs
+- _type: function
+  fullName: cntk.ops.tests.block_test.test_combine_op_as_block
+  module: cntk.ops.tests.block_test
+  name: test_combine_op_as_block
+  source:
+    id: test_combine_op_as_block
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
+      repo: null
+    startLine: 81
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.block_test.test_combine_op_as_block
+- _type: function
+  fullName: cntk.ops.tests.block_test.test_op_as_block
+  module: cntk.ops.tests.block_test
+  name: test_op_as_block
+  source:
+    id: test_op_as_block
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/block_test.py
+      repo: null
+    startLine: 30
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.block_test.test_op_as_block

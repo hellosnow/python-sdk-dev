@@ -1,0 +1,97 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.train.tests.training_session_test.MockProgressWriter.on_write_test_summary
+  - cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_summary
+  - cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_update
+  class: cntk.train.tests.training_session_test.MockProgressWriter
+  fullName: cntk.train.tests.training_session_test.MockProgressWriter
+  inheritance:
+  - - cntk.cntk_py.ProgressWriter
+    - builtins.object
+  module: cntk.train.tests.training_session_test
+  name: MockProgressWriter
+  references:
+  - fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_test_summary
+    isExternal: false
+    name: on_write_test_summary
+    parent: ''
+    uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_test_summary
+  - fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_summary
+    isExternal: false
+    name: on_write_training_summary
+    parent: ''
+    uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_summary
+  - fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_update
+    isExternal: false
+    name: on_write_training_update
+    parent: ''
+    uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_update
+  source:
+    id: MockProgressWriter
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      repo: null
+    startLine: 82
+  syntax:
+    summary: 'Bases: `cntk.cntk_py.ProgressWriter`
+
+
+
+      '
+  type: Class
+  uid: cntk.train.tests.training_session_test.MockProgressWriter
+- _type: method
+  class: cntk.train.tests.training_session_test.MockProgressWriter
+  fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_test_summary
+  module: cntk.train.tests.training_session_test
+  name: on_write_test_summary
+  source:
+    id: on_write_test_summary
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      repo: null
+    startLine: 102
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_test_summary
+- _type: method
+  class: cntk.train.tests.training_session_test.MockProgressWriter
+  fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_summary
+  module: cntk.train.tests.training_session_test
+  name: on_write_training_summary
+  source:
+    id: on_write_training_summary
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      repo: null
+    startLine: 98
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_summary
+- _type: method
+  class: cntk.train.tests.training_session_test.MockProgressWriter
+  fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_update
+  module: cntk.train.tests.training_session_test
+  name: on_write_training_update
+  source:
+    id: on_write_training_update
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      repo: null
+    startLine: 91
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_update

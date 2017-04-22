@@ -1,0 +1,54 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.layers.typing.ParameterTensor
+  - cntk.layers.typing.Sequence
+  - cntk.layers.typing.SequenceOver
+  - cntk.layers.typing.SequenceOverMeta
+  - cntk.layers.typing.SparseTensor
+  - cntk.layers.typing.Tensor
+  fullName: cntk.layers.typing
+  module: cntk.layers.typing
+  name: typing
+  references:
+  - fullName: cntk.layers.typing.ParameterTensor
+    isExternal: false
+    name: ParameterTensor
+    parent: ''
+    uid: cntk.layers.typing.ParameterTensor
+  - fullName: cntk.layers.typing.Sequence
+    isExternal: false
+    name: Sequence
+    parent: ''
+    uid: cntk.layers.typing.Sequence
+  - fullName: cntk.layers.typing.SequenceOver
+    isExternal: false
+    name: SequenceOver
+    parent: ''
+    uid: cntk.layers.typing.SequenceOver
+  - fullName: cntk.layers.typing.SequenceOverMeta
+    isExternal: false
+    name: SequenceOverMeta
+    parent: ''
+    uid: cntk.layers.typing.SequenceOverMeta
+  - fullName: cntk.layers.typing.SparseTensor
+    isExternal: false
+    name: SparseTensor
+    parent: ''
+    uid: cntk.layers.typing.SparseTensor
+  - fullName: cntk.layers.typing.Tensor
+    isExternal: false
+    name: Tensor
+    parent: ''
+    uid: cntk.layers.typing.Tensor
+  source:
+    id: typing
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/typing.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/typing.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.layers.typing

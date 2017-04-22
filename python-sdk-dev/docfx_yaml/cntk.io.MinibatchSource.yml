@@ -1,0 +1,298 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.io.MinibatchSource.current_position
+  - cntk.io.MinibatchSource.get_checkpoint_state
+  - cntk.io.MinibatchSource.is_distributed
+  - cntk.io.MinibatchSource.next_minibatch
+  - cntk.io.MinibatchSource.restore_from_checkpoint
+  - cntk.io.MinibatchSource.stream_info
+  - cntk.io.MinibatchSource.stream_infos
+  class: cntk.io.MinibatchSource
+  fullName: cntk.io.MinibatchSource
+  inheritance:
+  - - cntk.cntk_py.MinibatchSource
+    - builtins.object
+  module: cntk.io
+  name: MinibatchSource
+  references:
+  - fullName: cntk.io.MinibatchSource.current_position
+    isExternal: false
+    name: current_position
+    parent: ''
+    uid: cntk.io.MinibatchSource.current_position
+  - fullName: cntk.io.MinibatchSource.get_checkpoint_state
+    isExternal: false
+    name: get_checkpoint_state
+    parent: ''
+    uid: cntk.io.MinibatchSource.get_checkpoint_state
+  - fullName: cntk.io.MinibatchSource.is_distributed
+    isExternal: false
+    name: is_distributed
+    parent: ''
+    uid: cntk.io.MinibatchSource.is_distributed
+  - fullName: cntk.io.MinibatchSource.next_minibatch
+    isExternal: false
+    name: next_minibatch
+    parent: ''
+    uid: cntk.io.MinibatchSource.next_minibatch
+  - fullName: cntk.io.MinibatchSource.restore_from_checkpoint
+    isExternal: false
+    name: restore_from_checkpoint
+    parent: ''
+    uid: cntk.io.MinibatchSource.restore_from_checkpoint
+  - fullName: cntk.io.MinibatchSource.stream_info
+    isExternal: false
+    name: stream_info
+    parent: ''
+    uid: cntk.io.MinibatchSource.stream_info
+  - fullName: cntk.io.MinibatchSource.stream_infos
+    isExternal: false
+    name: stream_infos
+    parent: ''
+    uid: cntk.io.MinibatchSource.stream_infos
+  source:
+    id: MinibatchSource
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      repo: null
+    startLine: 82
+  syntax:
+    exceptions: []
+    parameters:
+    - description: list of deserializers
+      id: deserializers
+      type: list, defaults to empty
+    - description: randomize before every epoch
+      id: distributed_after
+      type: int, defaults to cntk.io.INFINITE_SAMPLES
+    - description: size of window that reader will shuffle, ignored if *randomize*
+        is *False*
+      id: frame_mode
+      type: bool, defaults to False
+    - description: specifies how to interpret *randomization_window*. If *True*, the
+        size of the randomization window is interpreted as a certain number of samples,
+        otherwise -- as a number of chunks. Similarly to *randomization_window*, this
+        parameter is ignored, when *randomize* is *False*
+      id: randomization_window
+      type: int
+    - description: number of samples as a scheduling unit. Parameters in the schedule
+        change their values every *epoch_size* samples. If no *epoch_size* is provided,
+        this parameter is substituted by the size of the full data sweep with infinte
+        repeat, in which case the scheduling unit is the entire data sweep (as indicated
+        by the MinibatchSource) and parameters change their values on the sweep-by-sweep
+        basis specified by the schedule. **Important:** Click [here](https://github.com/Microsoft/CNTK/wiki/BrainScript-epochSize-and-Python-epoch_size-in-CNTK)
+        for a full description of this parameter.
+      id: randomize
+      type: bool, defaults to True
+    - description: sample count after which minibatch source becomes distributed
+      id: sample_based_randomization_window
+      type: bool, defaults to False
+    - description: using multi threaded deserializer
+      id: multithreaded_deserializer
+      type: bool, defaults to None
+    - description: Specifies if data should be randomized and returned at the frame
+        or sequence level. When  true , input sequence are split into frames.
+      id: truncation_length
+      type: int
+    - description: Specifies the truncation length in samples for BPTT (positive integer).
+        If greater than zero *frame_mode* cannot be used at the same time.
+      id: epoch_size
+      type: int, defaults to INFINITELY_REPEAT
+    returntype: ''
+    returnvalue: ''
+    summary: 'Bases: `cntk.cntk_py.MinibatchSource`
+
+      A *MinibatchSource* can be indexed by the stream name, which will return a Parent
+      class of all minibatch sources.  A *MinibatchSource* can be indexed by the stream
+      name, which will return a `MinibatchData` object that can be passed e.g. to
+      the `train_minibatch()` function.
+
+
+
+
+
+
+
+      '
+    variables: []
+  type: Class
+  uid: cntk.io.MinibatchSource
+- _type: attribute
+  class: cntk.io.MinibatchSource
+  fullName: cntk.io.MinibatchSource.current_position
+  module: cntk.io
+  name: current_position
+  source:
+    id: current_position
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: ''
+    returnvalue: Minibatch position `Dictionary` on the global timeline.
+    summary: Gets current position in the minibatch source.
+    variables: []
+  type: Property
+  uid: cntk.io.MinibatchSource.current_position
+- _type: method
+  class: cntk.io.MinibatchSource
+  fullName: cntk.io.MinibatchSource.get_checkpoint_state
+  module: cntk.io
+  name: get_checkpoint_state
+  source:
+    id: get_checkpoint_state
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      repo: null
+    startLine: 223
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: cntk.cntk_py.Dictionary
+    returnvalue: A `Dictionary` that has the checkpoint state of the MinibatchSource
+    summary: Gets the checkpoint state of the MinibatchSource.
+    variables: []
+  type: Method
+  uid: cntk.io.MinibatchSource.get_checkpoint_state
+- _type: attribute
+  class: cntk.io.MinibatchSource
+  fullName: cntk.io.MinibatchSource.is_distributed
+  module: cntk.io
+  name: is_distributed
+  source:
+    id: is_distributed
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: Whether the minibatch source is running distributed
+  type: Property
+  uid: cntk.io.MinibatchSource.is_distributed
+- _type: method
+  class: cntk.io.MinibatchSource
+  fullName: cntk.io.MinibatchSource.next_minibatch
+  module: cntk.io
+  name: next_minibatch
+  source:
+    id: next_minibatch
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      repo: null
+    startLine: 173
+  syntax:
+    exceptions: []
+    parameters:
+    - description: '<SYSTEM MESSAGE: /root/cntk-python/doc/cntk.io.rst:2: (INFO/1)
+        Duplicate explicit target name: "here".>
+
+
+        number of samples to retrieve for the next minibatch. Must be > 0. **Important:**
+        Click [here](https://github.com/Microsoft/CNTK/wiki/BrainScript-epochSize-and-Python-epoch_size-in-CNTK)
+        for a full description of this parameter.'
+      id: partition_index
+      type: int, defaults to None
+    - description: mapping of `Variable` to `StreamInformation` which will be used
+        to convert the returned data.
+      id: minibatch_size_in_samples
+      type: int
+    - description: CNTK DeviceDescriptor
+      id: device
+      type: DeviceDescriptor, defaults to None
+    - description: Used for distributed training, indicates into how many partitions
+        the source should split the data.
+      id: input_map
+      type: dict
+    returntype: cntk.io.MinibatchData
+    returnvalue: A mapping of `StreamInformation` to `MinibatchData` if *input_map*
+      was not specified. Otherwise, the returned value will be a mapping of `Variable`
+      to class:*MinibatchData*.
+    summary: 'Reads a minibatch that contains data for all input streams.  The minibatch
+      size is specified in terms of #samples and/or #sequences for the primary input
+      stream; value of 0 for #samples/#sequences means unspecified.  In case the size
+      is specified in terms of both #sequences and #samples, the smaller of the 2
+      is taken.  An empty map is returned when the MinibatchSource has no more data
+      to return.'
+    variables: []
+  type: Method
+  uid: cntk.io.MinibatchSource.next_minibatch
+- _type: method
+  class: cntk.io.MinibatchSource
+  fullName: cntk.io.MinibatchSource.restore_from_checkpoint
+  module: cntk.io
+  name: restore_from_checkpoint
+  source:
+    id: restore_from_checkpoint
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      repo: null
+    startLine: 233
+  syntax:
+    exceptions: []
+    parameters:
+    - description: checkpoint to restore from
+      id: checkpoint
+      type: Dictionary
+    returntype: ''
+    returnvalue: ''
+    summary: Restores the MinibatchSource state from the specified checkpoint.
+    variables: []
+  type: Method
+  uid: cntk.io.MinibatchSource.restore_from_checkpoint
+- _type: method
+  class: cntk.io.MinibatchSource
+  fullName: cntk.io.MinibatchSource.stream_info
+  module: cntk.io
+  name: stream_info
+  source:
+    id: stream_info
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      repo: null
+    startLine: 156
+  syntax:
+    summary: Gets the description of the stream with given name. Throws an exception
+      if there are none or multiple streams with this same name.
+  type: Method
+  uid: cntk.io.MinibatchSource.stream_info
+- _type: method
+  class: cntk.io.MinibatchSource
+  fullName: cntk.io.MinibatchSource.stream_infos
+  module: cntk.io
+  name: stream_infos
+  source:
+    id: stream_infos
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      repo: null
+    startLine: 146
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: dict
+    returnvalue: A *dict* mapping input names to the stream information
+    summary: Describes the stream that this source produces.
+    variables: []
+  type: Method
+  uid: cntk.io.MinibatchSource.stream_infos

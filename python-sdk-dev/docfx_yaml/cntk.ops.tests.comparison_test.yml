@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.comparison_test.test_op_comparison
+  fullName: cntk.ops.tests.comparison_test
+  module: cntk.ops.tests.comparison_test
+  name: comparison_test
+  references:
+  - fullName: cntk.ops.tests.comparison_test.test_op_comparison
+    isExternal: false
+    name: test_op_comparison
+    parent: ''
+    uid: cntk.ops.tests.comparison_test.test_op_comparison
+  source:
+    id: comparison_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/comparison_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/comparison_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.comparison_test
+- _type: function
+  fullName: cntk.ops.tests.comparison_test.test_op_comparison
+  module: cntk.ops.tests.comparison_test
+  name: test_op_comparison
+  source:
+    id: test_op_comparison
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/comparison_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/comparison_test.py
+      repo: null
+    startLine: 40
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.comparison_test.test_op_comparison

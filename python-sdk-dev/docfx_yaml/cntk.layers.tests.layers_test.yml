@@ -1,0 +1,502 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.layers.tests.layers_test.assert_list_of_arrays_equal
+  - cntk.layers.tests.layers_test.test_1D_convolution_without_reduction_dim
+  - cntk.layers.tests.layers_test.test_Function
+  - cntk.layers.tests.layers_test.test_default_options
+  - cntk.layers.tests.layers_test.test_layers_batch_normalization
+  - cntk.layers.tests.layers_test.test_layers_conv_pool_unpool_deconv
+  - cntk.layers.tests.layers_test.test_layers_convolution_2d
+  - cntk.layers.tests.layers_test.test_layers_convolution_3d
+  - cntk.layers.tests.layers_test.test_layers_convolution_shape
+  - cntk.layers.tests.layers_test.test_layers_convolution_value
+  - cntk.layers.tests.layers_test.test_layers_deconvolution
+  - cntk.layers.tests.layers_test.test_layers_dense
+  - cntk.layers.tests.layers_test.test_layers_dropout
+  - cntk.layers.tests.layers_test.test_layers_embedding
+  - cntk.layers.tests.layers_test.test_layers_layer_normalization
+  - cntk.layers.tests.layers_test.test_layers_name
+  - cntk.layers.tests.layers_test.test_layers_stabilizer
+  - cntk.layers.tests.layers_test.test_lookup
+  - cntk.layers.tests.layers_test.test_recurrence
+  - cntk.layers.tests.layers_test.test_recurrence_fun
+  - cntk.layers.tests.layers_test.test_sequential_convolution_without_reduction_dim
+  - cntk.layers.tests.layers_test.test_unfold
+  fullName: cntk.layers.tests.layers_test
+  module: cntk.layers.tests.layers_test
+  name: layers_test
+  references:
+  - fullName: cntk.layers.tests.layers_test.assert_list_of_arrays_equal
+    isExternal: false
+    name: assert_list_of_arrays_equal
+    parent: ''
+    uid: cntk.layers.tests.layers_test.assert_list_of_arrays_equal
+  - fullName: cntk.layers.tests.layers_test.test_1D_convolution_without_reduction_dim
+    isExternal: false
+    name: test_1D_convolution_without_reduction_dim
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_1D_convolution_without_reduction_dim
+  - fullName: cntk.layers.tests.layers_test.test_Function
+    isExternal: false
+    name: test_Function
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_Function
+  - fullName: cntk.layers.tests.layers_test.test_default_options
+    isExternal: false
+    name: test_default_options
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_default_options
+  - fullName: cntk.layers.tests.layers_test.test_layers_batch_normalization
+    isExternal: false
+    name: test_layers_batch_normalization
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_batch_normalization
+  - fullName: cntk.layers.tests.layers_test.test_layers_conv_pool_unpool_deconv
+    isExternal: false
+    name: test_layers_conv_pool_unpool_deconv
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_conv_pool_unpool_deconv
+  - fullName: cntk.layers.tests.layers_test.test_layers_convolution_2d
+    isExternal: false
+    name: test_layers_convolution_2d
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_convolution_2d
+  - fullName: cntk.layers.tests.layers_test.test_layers_convolution_3d
+    isExternal: false
+    name: test_layers_convolution_3d
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_convolution_3d
+  - fullName: cntk.layers.tests.layers_test.test_layers_convolution_shape
+    isExternal: false
+    name: test_layers_convolution_shape
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_convolution_shape
+  - fullName: cntk.layers.tests.layers_test.test_layers_convolution_value
+    isExternal: false
+    name: test_layers_convolution_value
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_convolution_value
+  - fullName: cntk.layers.tests.layers_test.test_layers_deconvolution
+    isExternal: false
+    name: test_layers_deconvolution
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_deconvolution
+  - fullName: cntk.layers.tests.layers_test.test_layers_dense
+    isExternal: false
+    name: test_layers_dense
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_dense
+  - fullName: cntk.layers.tests.layers_test.test_layers_dropout
+    isExternal: false
+    name: test_layers_dropout
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_dropout
+  - fullName: cntk.layers.tests.layers_test.test_layers_embedding
+    isExternal: false
+    name: test_layers_embedding
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_embedding
+  - fullName: cntk.layers.tests.layers_test.test_layers_layer_normalization
+    isExternal: false
+    name: test_layers_layer_normalization
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_layer_normalization
+  - fullName: cntk.layers.tests.layers_test.test_layers_name
+    isExternal: false
+    name: test_layers_name
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_name
+  - fullName: cntk.layers.tests.layers_test.test_layers_stabilizer
+    isExternal: false
+    name: test_layers_stabilizer
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_layers_stabilizer
+  - fullName: cntk.layers.tests.layers_test.test_lookup
+    isExternal: false
+    name: test_lookup
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_lookup
+  - fullName: cntk.layers.tests.layers_test.test_recurrence
+    isExternal: false
+    name: test_recurrence
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_recurrence
+  - fullName: cntk.layers.tests.layers_test.test_recurrence_fun
+    isExternal: false
+    name: test_recurrence_fun
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_recurrence_fun
+  - fullName: cntk.layers.tests.layers_test.test_sequential_convolution_without_reduction_dim
+    isExternal: false
+    name: test_sequential_convolution_without_reduction_dim
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_sequential_convolution_without_reduction_dim
+  - fullName: cntk.layers.tests.layers_test.test_unfold
+    isExternal: false
+    name: test_unfold
+    parent: ''
+    uid: cntk.layers.tests.layers_test.test_unfold
+  source:
+    id: layers_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.layers.tests.layers_test
+- _type: function
+  fullName: cntk.layers.tests.layers_test.assert_list_of_arrays_equal
+  module: cntk.layers.tests.layers_test
+  name: assert_list_of_arrays_equal
+  source:
+    id: assert_list_of_arrays_equal
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 30
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.assert_list_of_arrays_equal
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_1D_convolution_without_reduction_dim
+  module: cntk.layers.tests.layers_test
+  name: test_1D_convolution_without_reduction_dim
+  source:
+    id: test_1D_convolution_without_reduction_dim
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 567
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_1D_convolution_without_reduction_dim
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_Function
+  module: cntk.layers.tests.layers_test
+  name: test_Function
+  source:
+    id: test_Function
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 58
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_Function
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_default_options
+  module: cntk.layers.tests.layers_test
+  name: test_default_options
+  source:
+    id: test_default_options
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 38
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_default_options
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_batch_normalization
+  module: cntk.layers.tests.layers_test
+  name: test_layers_batch_normalization
+  source:
+    id: test_layers_batch_normalization
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 677
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_batch_normalization
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_conv_pool_unpool_deconv
+  module: cntk.layers.tests.layers_test
+  name: test_layers_conv_pool_unpool_deconv
+  source:
+    id: test_layers_conv_pool_unpool_deconv
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 587
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_conv_pool_unpool_deconv
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_convolution_2d
+  module: cntk.layers.tests.layers_test
+  name: test_layers_convolution_2d
+  source:
+    id: test_layers_convolution_2d
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 528
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_convolution_2d
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_convolution_3d
+  module: cntk.layers.tests.layers_test
+  name: test_layers_convolution_3d
+  source:
+    id: test_layers_convolution_3d
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 502
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_convolution_3d
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_convolution_shape
+  module: cntk.layers.tests.layers_test
+  name: test_layers_convolution_shape
+  source:
+    id: test_layers_convolution_shape
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 315
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_convolution_shape
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_convolution_value
+  module: cntk.layers.tests.layers_test
+  name: test_layers_convolution_value
+  source:
+    id: test_layers_convolution_value
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 411
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_convolution_value
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_deconvolution
+  module: cntk.layers.tests.layers_test
+  name: test_layers_deconvolution
+  source:
+    id: test_layers_deconvolution
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 580
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_deconvolution
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_dense
+  module: cntk.layers.tests.layers_test
+  name: test_layers_dense
+  source:
+    id: test_layers_dense
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 215
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_dense
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_dropout
+  module: cntk.layers.tests.layers_test
+  name: test_layers_dropout
+  source:
+    id: test_layers_dropout
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 629
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_dropout
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_embedding
+  module: cntk.layers.tests.layers_test
+  name: test_layers_embedding
+  source:
+    id: test_layers_embedding
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 260
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_embedding
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_layer_normalization
+  module: cntk.layers.tests.layers_test
+  name: test_layers_layer_normalization
+  source:
+    id: test_layers_layer_normalization
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 658
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_layer_normalization
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_name
+  module: cntk.layers.tests.layers_test
+  name: test_layers_name
+  source:
+    id: test_layers_name
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 14
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_name
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_layers_stabilizer
+  module: cntk.layers.tests.layers_test
+  name: test_layers_stabilizer
+  source:
+    id: test_layers_stabilizer
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 644
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_layers_stabilizer
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_lookup
+  module: cntk.layers.tests.layers_test
+  name: test_lookup
+  source:
+    id: test_lookup
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 90
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_lookup
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_recurrence
+  module: cntk.layers.tests.layers_test
+  name: test_recurrence
+  source:
+    id: test_recurrence
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 102
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_recurrence
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_recurrence_fun
+  module: cntk.layers.tests.layers_test
+  name: test_recurrence_fun
+  source:
+    id: test_recurrence_fun
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 146
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_recurrence_fun
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_sequential_convolution_without_reduction_dim
+  module: cntk.layers.tests.layers_test
+  name: test_sequential_convolution_without_reduction_dim
+  source:
+    id: test_sequential_convolution_without_reduction_dim
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 555
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_sequential_convolution_without_reduction_dim
+- _type: function
+  fullName: cntk.layers.tests.layers_test.test_unfold
+  module: cntk.layers.tests.layers_test
+  name: test_unfold
+  source:
+    id: test_unfold
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      repo: null
+    startLine: 174
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.layers.tests.layers_test.test_unfold

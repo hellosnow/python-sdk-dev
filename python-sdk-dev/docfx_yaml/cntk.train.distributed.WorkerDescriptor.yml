@@ -1,0 +1,75 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.train.distributed.WorkerDescriptor.global_rank
+  - cntk.train.distributed.WorkerDescriptor.host_id
+  class: cntk.train.distributed.WorkerDescriptor
+  fullName: cntk.train.distributed.WorkerDescriptor
+  inheritance:
+  - - cntk.cntk_py.DistributedWorkerDescriptor
+    - builtins.object
+  module: cntk.train.distributed
+  name: WorkerDescriptor
+  references:
+  - fullName: cntk.train.distributed.WorkerDescriptor.global_rank
+    isExternal: false
+    name: global_rank
+    parent: ''
+    uid: cntk.train.distributed.WorkerDescriptor.global_rank
+  - fullName: cntk.train.distributed.WorkerDescriptor.host_id
+    isExternal: false
+    name: host_id
+    parent: ''
+    uid: cntk.train.distributed.WorkerDescriptor.host_id
+  source:
+    id: WorkerDescriptor
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      repo: null
+    startLine: 22
+  syntax:
+    summary: 'Bases: `cntk.cntk_py.DistributedWorkerDescriptor`
+
+      Distributed worker descriptor, returned by `Communicator` instance.
+
+
+      '
+  type: Class
+  uid: cntk.train.distributed.WorkerDescriptor
+- _type: attribute
+  class: cntk.train.distributed.WorkerDescriptor
+  fullName: cntk.train.distributed.WorkerDescriptor.global_rank
+  module: cntk.train.distributed
+  name: global_rank
+  source:
+    id: global_rank
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The global rank of the worker.
+  type: Property
+  uid: cntk.train.distributed.WorkerDescriptor.global_rank
+- _type: attribute
+  class: cntk.train.distributed.WorkerDescriptor
+  fullName: cntk.train.distributed.WorkerDescriptor.host_id
+  module: cntk.train.distributed
+  name: host_id
+  source:
+    id: host_id
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The host id of the worker.
+  type: Property
+  uid: cntk.train.distributed.WorkerDescriptor.host_id

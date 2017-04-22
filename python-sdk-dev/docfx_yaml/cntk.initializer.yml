@@ -1,0 +1,361 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.initializer.bilinear
+  - cntk.initializer.glorot_normal
+  - cntk.initializer.glorot_uniform
+  - cntk.initializer.he_normal
+  - cntk.initializer.he_uniform
+  - cntk.initializer.initializer_with_rank
+  - cntk.initializer.normal
+  - cntk.initializer.uniform
+  - cntk.initializer.xavier
+  fullName: cntk.initializer
+  module: cntk.initializer
+  name: initializer
+  references:
+  - fullName: cntk.initializer.bilinear
+    isExternal: false
+    name: bilinear
+    parent: ''
+    uid: cntk.initializer.bilinear
+  - fullName: cntk.initializer.glorot_normal
+    isExternal: false
+    name: glorot_normal
+    parent: ''
+    uid: cntk.initializer.glorot_normal
+  - fullName: cntk.initializer.glorot_uniform
+    isExternal: false
+    name: glorot_uniform
+    parent: ''
+    uid: cntk.initializer.glorot_uniform
+  - fullName: cntk.initializer.he_normal
+    isExternal: false
+    name: he_normal
+    parent: ''
+    uid: cntk.initializer.he_normal
+  - fullName: cntk.initializer.he_uniform
+    isExternal: false
+    name: he_uniform
+    parent: ''
+    uid: cntk.initializer.he_uniform
+  - fullName: cntk.initializer.initializer_with_rank
+    isExternal: false
+    name: initializer_with_rank
+    parent: ''
+    uid: cntk.initializer.initializer_with_rank
+  - fullName: cntk.initializer.normal
+    isExternal: false
+    name: normal
+    parent: ''
+    uid: cntk.initializer.normal
+  - fullName: cntk.initializer.uniform
+    isExternal: false
+    name: uniform
+    parent: ''
+    uid: cntk.initializer.uniform
+  - fullName: cntk.initializer.xavier
+    isExternal: false
+    name: xavier
+    parent: ''
+    uid: cntk.initializer.xavier
+  source:
+    id: initializer
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.initializer
+- _type: function
+  fullName: cntk.initializer.bilinear
+  module: cntk.initializer
+  name: bilinear
+  source:
+    id: bilinear
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      repo: null
+    startLine: 149
+  syntax:
+    exceptions: []
+    parameters:
+    - description: kernel width
+      id: kernel_height
+      type: int
+    - description: kernel height
+      id: kernel_width
+      type: int
+    returntype: ''
+    returnvalue: initializer for `Parameter` useful for deconvolution layer
+    summary: initializer
+    variables: []
+  type: Method
+  uid: cntk.initializer.bilinear
+- _type: function
+  fullName: cntk.initializer.glorot_normal
+  module: cntk.initializer
+  name: glorot_normal
+  source:
+    id: glorot_normal
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      repo: null
+    startLine: 89
+  syntax:
+    exceptions: []
+    parameters:
+    - description: scale
+      id: output_rank
+      type: int
+    - description: output rank
+      id: filter_rank
+      type: int
+    - description: filter rank
+      id: scale
+      type: float
+    - description: random seed
+      id: seed
+      type: int
+    returntype: ''
+    returnvalue: initializer for `Parameter` initialized to Gaussian distribution
+      with mean *0* and standard deviation $$scale*sqrt(2.0/(fanIn+fanOut))$$
+    summary: initializer
+    variables: []
+  type: Method
+  uid: cntk.initializer.glorot_normal
+- _type: function
+  fullName: cntk.initializer.glorot_uniform
+  module: cntk.initializer
+  name: glorot_uniform
+  source:
+    id: glorot_uniform
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      repo: null
+    startLine: 69
+  syntax:
+    exceptions: []
+    parameters:
+    - description: scale
+      id: output_rank
+      type: int
+    - description: output rank
+      id: filter_rank
+      type: int
+    - description: filter rank
+      id: scale
+      type: float
+    - description: random seed
+      id: seed
+      type: int
+    returntype: ''
+    returnvalue: initializer for `Parameter` initialized to uniform distribution between
+      $$scale*sqrt(6.0/(fanIn+fanOut))*[-1,1]$$
+    summary: Glorot initializer
+    variables: []
+  type: Method
+  uid: cntk.initializer.glorot_uniform
+- _type: function
+  fullName: cntk.initializer.he_normal
+  module: cntk.initializer
+  name: he_normal
+  source:
+    id: he_normal
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      repo: null
+    startLine: 129
+  syntax:
+    exceptions: []
+    parameters:
+    - description: scale
+      id: output_rank
+      type: int
+    - description: output rank
+      id: filter_rank
+      type: int
+    - description: filter rank
+      id: scale
+      type: float
+    - description: random seed
+      id: seed
+      type: int
+    returntype: ''
+    returnvalue: initializer for `Parameter` initialized to Gaussian distribution
+      with mean *0* and standard deviation $$scale*sqrt(2.0/fanIn)$$
+    summary: initializer
+    variables: []
+  type: Method
+  uid: cntk.initializer.he_normal
+- _type: function
+  fullName: cntk.initializer.he_uniform
+  module: cntk.initializer
+  name: he_uniform
+  source:
+    id: he_uniform
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      repo: null
+    startLine: 109
+  syntax:
+    exceptions: []
+    parameters:
+    - description: scale
+      id: output_rank
+      type: int
+    - description: output rank
+      id: filter_rank
+      type: int
+    - description: filter rank
+      id: scale
+      type: float
+    - description: random seed
+      id: seed
+      type: int
+    returntype: ''
+    returnvalue: initializer for `Parameter` initialized to uniform distribution between
+      $$scale*sqrt(6.0/fanIn)*[-1,1]$$
+    summary: initializer
+    variables: []
+  type: Method
+  uid: cntk.initializer.he_uniform
+- _type: function
+  fullName: cntk.initializer.initializer_with_rank
+  module: cntk.initializer
+  name: initializer_with_rank
+  source:
+    id: initializer_with_rank
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      repo: null
+    startLine: 163
+  syntax:
+    exceptions: []
+    parameters:
+    - description: initializer whose output_rank and filter_rank parameters are to
+        be overriden
+      id: output_rank
+      type: int
+    - description: new output rank value
+      id: filter_rank
+      type: int
+    returntype: ''
+    returnvalue: new initializer for `Parameter` with specified output_rank and filter_rank
+    summary: override output_rank and filter_rank specification in a random initializer
+      constructed without an explicit output_rank and filter_rank specification
+    variables: []
+  type: Method
+  uid: cntk.initializer.initializer_with_rank
+- _type: function
+  fullName: cntk.initializer.normal
+  module: cntk.initializer
+  name: normal
+  source:
+    id: normal
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      repo: null
+    startLine: 30
+  syntax:
+    exceptions: []
+    parameters:
+    - description: scale
+      id: output_rank
+      type: int
+    - description: output rank
+      id: filter_rank
+      type: int
+    - description: filter rank
+      id: scale
+      type: float
+    - description: random seed
+      id: seed
+      type: int
+    returntype: ''
+    returnvalue: initializer for `cntk.ops.variables.Parameter` initialized to normal
+      distribution with mean *0* and standard deviation *scale*.
+    summary: Normal initializer
+    variables: []
+  type: Method
+  uid: cntk.initializer.normal
+- _type: function
+  fullName: cntk.initializer.uniform
+  module: cntk.initializer
+  name: uniform
+  source:
+    id: uniform
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      repo: null
+    startLine: 12
+  syntax:
+    exceptions: []
+    parameters:
+    - description: scale
+      id: scale
+      type: float
+    - description: random seed
+      id: seed
+      type: int
+    returntype: ''
+    returnvalue: initializer for `cntk.ops.variables.Parameter` initialized to uniform
+      distribution between *scale*[-1.0, 1.0]* note this maps to the "uniform1" distribution
+      in BrainScript.
+    summary: Uniform initializer
+    variables: []
+  type: Method
+  uid: cntk.initializer.uniform
+- _type: function
+  fullName: cntk.initializer.xavier
+  module: cntk.initializer
+  name: xavier
+  source:
+    id: xavier
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      repo: null
+    startLine: 49
+  syntax:
+    exceptions: []
+    parameters:
+    - description: scale
+      id: output_rank
+      type: int
+    - description: output rank
+      id: filter_rank
+      type: int
+    - description: filter rank
+      id: scale
+      type: float
+    - description: random seed
+      id: seed
+      type: int
+    returntype: ''
+    returnvalue: initializer for `Parameter` initialized to Gaussian distribution
+      with mean *0* and standard deviation $$scale*sqrt(3.0/fanIn)$$
+    summary: Xavier initializer
+    variables: []
+  type: Method
+  uid: cntk.initializer.xavier

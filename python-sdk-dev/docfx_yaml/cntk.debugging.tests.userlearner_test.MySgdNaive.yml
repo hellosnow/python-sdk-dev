@@ -1,0 +1,50 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.debugging.tests.userlearner_test.MySgdNaive.update
+  class: cntk.debugging.tests.userlearner_test.MySgdNaive
+  fullName: cntk.debugging.tests.userlearner_test.MySgdNaive
+  inheritance:
+  - - cntk.learners.UserLearner
+    - cntk.cntk_py.Learner
+    - builtins.object
+  module: cntk.debugging.tests.userlearner_test
+  name: MySgdNaive
+  references:
+  - fullName: cntk.debugging.tests.userlearner_test.MySgdNaive.update
+    isExternal: false
+    name: update
+    parent: ''
+    uid: cntk.debugging.tests.userlearner_test.MySgdNaive.update
+  source:
+    id: MySgdNaive
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      repo: null
+    startLine: 29
+  syntax:
+    summary: 'Bases: `cntk.learners.UserLearner`
+
+      '
+  type: Class
+  uid: cntk.debugging.tests.userlearner_test.MySgdNaive
+- _type: method
+  class: cntk.debugging.tests.userlearner_test.MySgdNaive
+  fullName: cntk.debugging.tests.userlearner_test.MySgdNaive.update
+  module: cntk.debugging.tests.userlearner_test
+  name: update
+  source:
+    id: update
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      repo: null
+    startLine: 34
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.debugging.tests.userlearner_test.MySgdNaive.update

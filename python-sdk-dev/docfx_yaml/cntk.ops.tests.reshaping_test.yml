@@ -1,0 +1,348 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.reshaping_test.test_op_broadcast_as
+  - cntk.ops.tests.reshaping_test.test_op_broadcast_as_in_loop
+  - cntk.ops.tests.reshaping_test.test_op_gather_derived_dynamic_axes_equivalence
+  - cntk.ops.tests.reshaping_test.test_op_gather_dynamic_axes_equivalence
+  - cntk.ops.tests.reshaping_test.test_op_gather_sparse
+  - cntk.ops.tests.reshaping_test.test_op_reshape
+  - cntk.ops.tests.reshaping_test.test_op_reshape_gradient_accumulation
+  - cntk.ops.tests.reshaping_test.test_op_reshape_parameter
+  - cntk.ops.tests.reshaping_test.test_op_reshape_subshape
+  - cntk.ops.tests.reshaping_test.test_op_scatter_sparse
+  - cntk.ops.tests.reshaping_test.test_op_sequence_reduce_sum
+  - cntk.ops.tests.reshaping_test.test_op_slice
+  - cntk.ops.tests.reshaping_test.test_op_slice_overload
+  - cntk.ops.tests.reshaping_test.test_op_slice_sequence
+  - cntk.ops.tests.reshaping_test.test_op_splice
+  fullName: cntk.ops.tests.reshaping_test
+  module: cntk.ops.tests.reshaping_test
+  name: reshaping_test
+  references:
+  - fullName: cntk.ops.tests.reshaping_test.test_op_broadcast_as
+    isExternal: false
+    name: test_op_broadcast_as
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_broadcast_as
+  - fullName: cntk.ops.tests.reshaping_test.test_op_broadcast_as_in_loop
+    isExternal: false
+    name: test_op_broadcast_as_in_loop
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_broadcast_as_in_loop
+  - fullName: cntk.ops.tests.reshaping_test.test_op_gather_derived_dynamic_axes_equivalence
+    isExternal: false
+    name: test_op_gather_derived_dynamic_axes_equivalence
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_gather_derived_dynamic_axes_equivalence
+  - fullName: cntk.ops.tests.reshaping_test.test_op_gather_dynamic_axes_equivalence
+    isExternal: false
+    name: test_op_gather_dynamic_axes_equivalence
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_gather_dynamic_axes_equivalence
+  - fullName: cntk.ops.tests.reshaping_test.test_op_gather_sparse
+    isExternal: false
+    name: test_op_gather_sparse
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_gather_sparse
+  - fullName: cntk.ops.tests.reshaping_test.test_op_reshape
+    isExternal: false
+    name: test_op_reshape
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_reshape
+  - fullName: cntk.ops.tests.reshaping_test.test_op_reshape_gradient_accumulation
+    isExternal: false
+    name: test_op_reshape_gradient_accumulation
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_reshape_gradient_accumulation
+  - fullName: cntk.ops.tests.reshaping_test.test_op_reshape_parameter
+    isExternal: false
+    name: test_op_reshape_parameter
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_reshape_parameter
+  - fullName: cntk.ops.tests.reshaping_test.test_op_reshape_subshape
+    isExternal: false
+    name: test_op_reshape_subshape
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_reshape_subshape
+  - fullName: cntk.ops.tests.reshaping_test.test_op_scatter_sparse
+    isExternal: false
+    name: test_op_scatter_sparse
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_scatter_sparse
+  - fullName: cntk.ops.tests.reshaping_test.test_op_sequence_reduce_sum
+    isExternal: false
+    name: test_op_sequence_reduce_sum
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_sequence_reduce_sum
+  - fullName: cntk.ops.tests.reshaping_test.test_op_slice
+    isExternal: false
+    name: test_op_slice
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_slice
+  - fullName: cntk.ops.tests.reshaping_test.test_op_slice_overload
+    isExternal: false
+    name: test_op_slice_overload
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_slice_overload
+  - fullName: cntk.ops.tests.reshaping_test.test_op_slice_sequence
+    isExternal: false
+    name: test_op_slice_sequence
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_slice_sequence
+  - fullName: cntk.ops.tests.reshaping_test.test_op_splice
+    isExternal: false
+    name: test_op_splice
+    parent: ''
+    uid: cntk.ops.tests.reshaping_test.test_op_splice
+  source:
+    id: reshaping_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.reshaping_test
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_broadcast_as
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_broadcast_as
+  source:
+    id: test_op_broadcast_as
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 494
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_broadcast_as
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_broadcast_as_in_loop
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_broadcast_as_in_loop
+  source:
+    id: test_op_broadcast_as_in_loop
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 521
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_broadcast_as_in_loop
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_gather_derived_dynamic_axes_equivalence
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_gather_derived_dynamic_axes_equivalence
+  source:
+    id: test_op_gather_derived_dynamic_axes_equivalence
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 430
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_gather_derived_dynamic_axes_equivalence
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_gather_dynamic_axes_equivalence
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_gather_dynamic_axes_equivalence
+  source:
+    id: test_op_gather_dynamic_axes_equivalence
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 403
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_gather_dynamic_axes_equivalence
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_gather_sparse
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_gather_sparse
+  source:
+    id: test_op_gather_sparse
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 457
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_gather_sparse
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_reshape
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_reshape
+  source:
+    id: test_op_reshape
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 34
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_reshape
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_reshape_gradient_accumulation
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_reshape_gradient_accumulation
+  source:
+    id: test_op_reshape_gradient_accumulation
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 123
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_reshape_gradient_accumulation
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_reshape_parameter
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_reshape_parameter
+  source:
+    id: test_op_reshape_parameter
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 159
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_reshape_parameter
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_reshape_subshape
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_reshape_subshape
+  source:
+    id: test_op_reshape_subshape
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 82
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_reshape_subshape
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_scatter_sparse
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_scatter_sparse
+  source:
+    id: test_op_scatter_sparse
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 477
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_scatter_sparse
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_sequence_reduce_sum
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_sequence_reduce_sum
+  source:
+    id: test_op_sequence_reduce_sum
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 546
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_sequence_reduce_sum
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_slice
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_slice
+  source:
+    id: test_op_slice
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 183
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_slice
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_slice_overload
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_slice_overload
+  source:
+    id: test_op_slice_overload
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 245
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_slice_overload
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_slice_sequence
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_slice_sequence
+  source:
+    id: test_op_slice_sequence
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 301
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_slice_sequence
+- _type: function
+  fullName: cntk.ops.tests.reshaping_test.test_op_splice
+  module: cntk.ops.tests.reshaping_test
+  name: test_op_splice
+  source:
+    id: test_op_splice
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      repo: null
+    startLine: 357
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_splice

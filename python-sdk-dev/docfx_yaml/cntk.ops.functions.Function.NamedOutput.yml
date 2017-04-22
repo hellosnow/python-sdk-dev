@@ -1,0 +1,23 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: cntk.ops.functions.Function.NamedOutput
+  fullName: cntk.ops.functions.Function.NamedOutput
+  inheritance:
+  - - builtins.object
+  module: cntk.ops.functions.Function
+  name: NamedOutput
+  references: []
+  source:
+    id: NamedOutput
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      repo: null
+    startLine: 54
+  syntax:
+    summary: 'Bases: `object`'
+  type: Class
+  uid: cntk.ops.functions.Function.NamedOutput

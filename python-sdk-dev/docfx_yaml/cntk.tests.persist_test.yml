@@ -1,0 +1,106 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.tests.persist_test.test_load_save_constant
+  - cntk.tests.persist_test.test_load_save_input_legacy_names
+  - cntk.tests.persist_test.test_load_save_inputs
+  - cntk.tests.persist_test.test_load_save_unique_input
+  fullName: cntk.tests.persist_test
+  module: cntk.tests.persist_test
+  name: persist_test
+  references:
+  - fullName: cntk.tests.persist_test.test_load_save_constant
+    isExternal: false
+    name: test_load_save_constant
+    parent: ''
+    uid: cntk.tests.persist_test.test_load_save_constant
+  - fullName: cntk.tests.persist_test.test_load_save_input_legacy_names
+    isExternal: false
+    name: test_load_save_input_legacy_names
+    parent: ''
+    uid: cntk.tests.persist_test.test_load_save_input_legacy_names
+  - fullName: cntk.tests.persist_test.test_load_save_inputs
+    isExternal: false
+    name: test_load_save_inputs
+    parent: ''
+    uid: cntk.tests.persist_test.test_load_save_inputs
+  - fullName: cntk.tests.persist_test.test_load_save_unique_input
+    isExternal: false
+    name: test_load_save_unique_input
+    parent: ''
+    uid: cntk.tests.persist_test.test_load_save_unique_input
+  source:
+    id: persist_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.tests.persist_test
+- _type: function
+  fullName: cntk.tests.persist_test.test_load_save_constant
+  module: cntk.tests.persist_test
+  name: test_load_save_constant
+  source:
+    id: test_load_save_constant
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
+      repo: null
+    startLine: 14
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.persist_test.test_load_save_constant
+- _type: function
+  fullName: cntk.tests.persist_test.test_load_save_input_legacy_names
+  module: cntk.tests.persist_test
+  name: test_load_save_input_legacy_names
+  source:
+    id: test_load_save_input_legacy_names
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
+      repo: null
+    startLine: 35
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.persist_test.test_load_save_input_legacy_names
+- _type: function
+  fullName: cntk.tests.persist_test.test_load_save_inputs
+  module: cntk.tests.persist_test
+  name: test_load_save_inputs
+  source:
+    id: test_load_save_inputs
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
+      repo: null
+    startLine: 59
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.persist_test.test_load_save_inputs
+- _type: function
+  fullName: cntk.tests.persist_test.test_load_save_unique_input
+  module: cntk.tests.persist_test
+  name: test_load_save_unique_input
+  source:
+    id: test_load_save_unique_input
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/persist_test.py
+      repo: null
+    startLine: 85
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.persist_test.test_load_save_unique_input

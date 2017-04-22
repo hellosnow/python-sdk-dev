@@ -1,0 +1,100 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.ops.tests.userfunction_complex_test.MySigmoid.backward
+  - cntk.ops.tests.userfunction_complex_test.MySigmoid.forward
+  - cntk.ops.tests.userfunction_complex_test.MySigmoid.infer_outputs
+  class: cntk.ops.tests.userfunction_complex_test.MySigmoid
+  fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid
+  inheritance:
+  - - cntk.ops.functions.UserFunction
+    - cntk.ops.functions.Function
+    - cntk.cntk_py.Function
+    - cntk.cntk_py.IDictionarySerializable
+    - builtins.object
+  module: cntk.ops.tests.userfunction_complex_test
+  name: MySigmoid
+  references:
+  - fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.backward
+    isExternal: false
+    name: backward
+    parent: ''
+    uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.backward
+  - fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.forward
+    isExternal: false
+    name: forward
+    parent: ''
+    uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.forward
+  - fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.infer_outputs
+    isExternal: false
+    name: infer_outputs
+    parent: ''
+    uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.infer_outputs
+  source:
+    id: MySigmoid
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 123
+  syntax:
+    summary: 'Bases: `cntk.ops.functions.UserFunction`
+
+
+
+      '
+  type: Class
+  uid: cntk.ops.tests.userfunction_complex_test.MySigmoid
+- _type: method
+  class: cntk.ops.tests.userfunction_complex_test.MySigmoid
+  fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.backward
+  module: cntk.ops.tests.userfunction_complex_test
+  name: backward
+  source:
+    id: backward
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 132
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.backward
+- _type: method
+  class: cntk.ops.tests.userfunction_complex_test.MySigmoid
+  fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.forward
+  module: cntk.ops.tests.userfunction_complex_test
+  name: forward
+  source:
+    id: forward
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 127
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.forward
+- _type: method
+  class: cntk.ops.tests.userfunction_complex_test.MySigmoid
+  fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.infer_outputs
+  module: cntk.ops.tests.userfunction_complex_test
+  name: infer_outputs
+  source:
+    id: infer_outputs
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      repo: null
+    startLine: 137
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.infer_outputs

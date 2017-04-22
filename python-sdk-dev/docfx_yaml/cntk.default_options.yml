@@ -1,0 +1,118 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.default_options.default_options
+  - cntk.default_options.default_options_for
+  - cntk.default_options.default_override_or
+  - cntk.default_options.get_default_override
+  - cntk.default_options.is_default_override
+  fullName: cntk.default_options
+  module: cntk.default_options
+  name: default_options
+  references:
+  - fullName: cntk.default_options.default_options
+    isExternal: false
+    name: default_options
+    parent: ''
+    uid: cntk.default_options.default_options
+  - fullName: cntk.default_options.default_options_for
+    isExternal: false
+    name: default_options_for
+    parent: ''
+    uid: cntk.default_options.default_options_for
+  - fullName: cntk.default_options.default_override_or
+    isExternal: false
+    name: default_override_or
+    parent: ''
+    uid: cntk.default_options.default_override_or
+  - fullName: cntk.default_options.get_default_override
+    isExternal: false
+    name: get_default_override
+    parent: ''
+    uid: cntk.default_options.get_default_override
+  - fullName: cntk.default_options.is_default_override
+    isExternal: false
+    name: is_default_override
+    parent: ''
+    uid: cntk.default_options.is_default_override
+  source:
+    id: default_options
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.default_options
+- _type: function
+  fullName: cntk.default_options.default_options
+  module: cntk.default_options
+  name: default_options
+  source:
+    id: default_options
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+      repo: null
+    startLine: 34
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.default_options.default_options
+- _type: function
+  fullName: cntk.default_options.default_options_for
+  module: cntk.default_options
+  name: default_options_for
+  source:
+    id: default_options_for
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+      repo: null
+    startLine: 42
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.default_options.default_options_for
+- _type: function
+  fullName: cntk.default_options.get_default_override
+  module: cntk.default_options
+  name: get_default_override
+  source:
+    id: get_default_override
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+      repo: null
+    startLine: 60
+  syntax:
+    exceptions: []
+    parameters: []
+    returntype: ''
+    returnvalue: ''
+    summary: Looks up an option default override. Meant to be used inside functions
+      that use this facility.
+    variables: []
+  type: Method
+  uid: cntk.default_options.get_default_override
+- _type: function
+  fullName: cntk.default_options.is_default_override
+  module: cntk.default_options
+  name: is_default_override
+  source:
+    id: is_default_override
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+      repo: null
+    startLine: 57
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.default_options.is_default_override

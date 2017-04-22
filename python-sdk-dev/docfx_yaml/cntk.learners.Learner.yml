@@ -1,0 +1,151 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.learners.Learner.learning_rate
+  - cntk.learners.Learner.parameters
+  - cntk.learners.Learner.reset_learning_rate
+  - cntk.learners.Learner.update
+  class: cntk.learners.Learner
+  fullName: cntk.learners.Learner
+  inheritance:
+  - - cntk.cntk_py.Learner
+    - builtins.object
+  module: cntk.learners
+  name: Learner
+  references:
+  - fullName: cntk.learners.Learner.learning_rate
+    isExternal: false
+    name: learning_rate
+    parent: ''
+    uid: cntk.learners.Learner.learning_rate
+  - fullName: cntk.learners.Learner.parameters
+    isExternal: false
+    name: parameters
+    parent: ''
+    uid: cntk.learners.Learner.parameters
+  - fullName: cntk.learners.Learner.reset_learning_rate
+    isExternal: false
+    name: reset_learning_rate
+    parent: ''
+    uid: cntk.learners.Learner.reset_learning_rate
+  - fullName: cntk.learners.Learner.update
+    isExternal: false
+    name: update
+    parent: ''
+    uid: cntk.learners.Learner.update
+  source:
+    id: Learner
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+      repo: null
+    startLine: 104
+  syntax:
+    summary: 'Bases: `cntk.cntk_py.Learner`
+
+      Abstraction for learning a subset of parameters of a learnable function using
+      first order gradient values. For example momentum, AdaGrad, RMSProp, etc. are
+      different types of learners with their own algorithms for learning parameter
+      values using first order gradients. To instantiate a concrete learner, use the
+      factory methods in this module.
+
+
+
+
+      '
+  type: Class
+  uid: cntk.learners.Learner
+- _type: method
+  class: cntk.learners.Learner
+  fullName: cntk.learners.Learner.learning_rate
+  module: cntk.learners
+  name: learning_rate
+  source:
+    id: learning_rate
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+      repo: null
+    startLine: 153
+  syntax:
+    summary: Current learning rate.
+  type: Method
+  uid: cntk.learners.Learner.learning_rate
+- _type: attribute
+  class: cntk.learners.Learner
+  fullName: cntk.learners.Learner.parameters
+  module: cntk.learners
+  name: parameters
+  source:
+    id: parameters
+    path: null
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: null
+      repo: null
+    startLine: null
+  syntax:
+    summary: The set of parameters associated with this learner.
+  type: Property
+  uid: cntk.learners.Learner.parameters
+- _type: method
+  class: cntk.learners.Learner
+  fullName: cntk.learners.Learner.reset_learning_rate
+  module: cntk.learners
+  name: reset_learning_rate
+  source:
+    id: reset_learning_rate
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+      repo: null
+    startLine: 139
+  syntax:
+    exceptions: []
+    parameters:
+    - description: learning rate to reset to
+      id: learning_rate
+      type: output of learning_rate_schedule()
+    returntype: ''
+    returnvalue: ''
+    summary: 'Resets the learning rate. The new schedule is adjusted to be relative
+      to the current number of elapsed samples/sweeps: the 0 offset in the new schedule
+      corresponds to the current value of elapsed samples/sweeps, and it takes effect
+      from the current position in the training process onwards.'
+    variables: []
+  type: Method
+  uid: cntk.learners.Learner.reset_learning_rate
+- _type: method
+  class: cntk.learners.Learner
+  fullName: cntk.learners.Learner.update
+  module: cntk.learners
+  name: update
+  source:
+    id: update
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+      repo: null
+    startLine: 113
+  syntax:
+    exceptions: []
+    parameters:
+    - description: maps `Parameter` to a NumPy array containing the first order gradient
+        values for the Parameter w.r.t. the training objective.
+      id: training_sample_count
+      type: int
+    - description: number of samples in the minibatch
+      id: gradient_values
+      type: dict
+    returntype: ''
+    returnvalue: '*False* to indicate that learning has stopped for all of the parameters
+      associated with this learner'
+    summary: Update the parameters associated with this learner.
+    variables: []
+  type: Method
+  uid: cntk.learners.Learner.update

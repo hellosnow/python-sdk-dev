@@ -1,0 +1,53 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.core.NDArrayView
+  - cntk.core.Value
+  - cntk.core.user_function
+  fullName: cntk.core
+  module: cntk.core
+  name: core
+  references:
+  - fullName: cntk.core.NDArrayView
+    isExternal: false
+    name: NDArrayView
+    parent: ''
+    uid: cntk.core.NDArrayView
+  - fullName: cntk.core.Value
+    isExternal: false
+    name: Value
+    parent: ''
+    uid: cntk.core.Value
+  - fullName: cntk.core.user_function
+    isExternal: false
+    name: user_function
+    parent: ''
+    uid: cntk.core.user_function
+  source:
+    id: core
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.core
+- _type: function
+  fullName: cntk.core.user_function
+  module: cntk.core
+  name: user_function
+  source:
+    id: user_function
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
+      repo: null
+    startLine: 481
+  syntax:
+    summary: Wraps the passed Function to create a composite representing the composite
+      Function graph rooted at the passed root Function.
+  type: Method
+  uid: cntk.core.user_function

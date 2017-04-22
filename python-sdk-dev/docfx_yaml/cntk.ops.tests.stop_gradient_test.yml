@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.ops.tests.stop_gradient_test.test_stop_gradient
+  fullName: cntk.ops.tests.stop_gradient_test
+  module: cntk.ops.tests.stop_gradient_test
+  name: stop_gradient_test
+  references:
+  - fullName: cntk.ops.tests.stop_gradient_test.test_stop_gradient
+    isExternal: false
+    name: test_stop_gradient
+    parent: ''
+    uid: cntk.ops.tests.stop_gradient_test.test_stop_gradient
+  source:
+    id: stop_gradient_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/stop_gradient_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/stop_gradient_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.ops.tests.stop_gradient_test
+- _type: function
+  fullName: cntk.ops.tests.stop_gradient_test.test_stop_gradient
+  module: cntk.ops.tests.stop_gradient_test
+  name: test_stop_gradient
+  source:
+    id: test_stop_gradient
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/stop_gradient_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/stop_gradient_test.py
+      repo: null
+    startLine: 16
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.ops.tests.stop_gradient_test.test_stop_gradient

@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.internal.tests.swig_helper_tests.test_typemap
+  fullName: cntk.internal.tests.swig_helper_tests
+  module: cntk.internal.tests.swig_helper_tests
+  name: swig_helper_tests
+  references:
+  - fullName: cntk.internal.tests.swig_helper_tests.test_typemap
+    isExternal: false
+    name: test_typemap
+    parent: ''
+    uid: cntk.internal.tests.swig_helper_tests.test_typemap
+  source:
+    id: swig_helper_tests
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/tests/swig_helper_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/tests/swig_helper_tests.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.internal.tests.swig_helper_tests
+- _type: function
+  fullName: cntk.internal.tests.swig_helper_tests.test_typemap
+  module: cntk.internal.tests.swig_helper_tests
+  name: test_typemap
+  source:
+    id: test_typemap
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/tests/swig_helper_tests.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/tests/swig_helper_tests.py
+      repo: null
+    startLine: 16
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.internal.tests.swig_helper_tests.test_typemap

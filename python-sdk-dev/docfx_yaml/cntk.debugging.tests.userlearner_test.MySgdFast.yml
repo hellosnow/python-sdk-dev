@@ -1,0 +1,50 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - cntk.debugging.tests.userlearner_test.MySgdFast.update
+  class: cntk.debugging.tests.userlearner_test.MySgdFast
+  fullName: cntk.debugging.tests.userlearner_test.MySgdFast
+  inheritance:
+  - - cntk.learners.UserLearner
+    - cntk.cntk_py.Learner
+    - builtins.object
+  module: cntk.debugging.tests.userlearner_test
+  name: MySgdFast
+  references:
+  - fullName: cntk.debugging.tests.userlearner_test.MySgdFast.update
+    isExternal: false
+    name: update
+    parent: ''
+    uid: cntk.debugging.tests.userlearner_test.MySgdFast.update
+  source:
+    id: MySgdFast
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      repo: null
+    startLine: 42
+  syntax:
+    summary: 'Bases: `cntk.learners.UserLearner`
+
+      '
+  type: Class
+  uid: cntk.debugging.tests.userlearner_test.MySgdFast
+- _type: method
+  class: cntk.debugging.tests.userlearner_test.MySgdFast
+  fullName: cntk.debugging.tests.userlearner_test.MySgdFast.update
+  module: cntk.debugging.tests.userlearner_test
+  name: update
+  source:
+    id: update
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      repo: null
+    startLine: 64
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.debugging.tests.userlearner_test.MySgdFast.update

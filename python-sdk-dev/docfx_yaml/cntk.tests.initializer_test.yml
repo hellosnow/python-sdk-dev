@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - cntk.tests.initializer_test.test_initializer_init
+  fullName: cntk.tests.initializer_test
+  module: cntk.tests.initializer_test
+  name: initializer_test
+  references:
+  - fullName: cntk.tests.initializer_test.test_initializer_init
+    isExternal: false
+    name: test_initializer_init
+    parent: ''
+    uid: cntk.tests.initializer_test.test_initializer_init
+  source:
+    id: initializer_test
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/initializer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/initializer_test.py
+      repo: null
+    startLine: 0
+  type: Namespace
+  uid: cntk.tests.initializer_test
+- _type: function
+  fullName: cntk.tests.initializer_test.test_initializer_init
+  module: cntk.tests.initializer_test
+  name: test_initializer_init
+  source:
+    id: test_initializer_init
+    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/initializer_test.py
+    remote:
+      branch: '/bin/sh: 1: git: not found'
+      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/initializer_test.py
+      repo: null
+    startLine: 20
+  syntax:
+    summary: ''
+  type: Method
+  uid: cntk.tests.initializer_test.test_initializer_init
