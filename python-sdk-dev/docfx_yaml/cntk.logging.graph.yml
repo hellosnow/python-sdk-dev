@@ -44,10 +44,10 @@ items:
     uid: cntk.logging.graph.plot
   source:
     id: graph
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    path: cntk/logging/graph.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      path: cntk/logging/graph.py
       repo: null
     startLine: 0
   type: Namespace
@@ -58,22 +58,22 @@ items:
   name: depth_first_search
   source:
     id: depth_first_search
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    path: cntk/logging/graph.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      path: cntk/logging/graph.py
       repo: null
     startLine: 11
   syntax:
     exceptions: []
     parameters:
     - description: the root to start the journey from
-      id: visitor
-      type: Python function or lambda
-    - description: function that takes a node as argument and returns `True` if that
-        node should be returned.
       id: root
       type: Function or Variable
+    - description: function that takes a node as argument and returns `True` if that
+        node should be returned.
+      id: visitor
+      type: Python function or lambda
     returntype: ''
     returnvalue: List of functions, for which `visitor` was `True`
     summary: Generic function that walks through the graph starting at `root` and
@@ -87,21 +87,21 @@ items:
   name: find_all_with_name
   source:
     id: find_all_with_name
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    path: cntk/logging/graph.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      path: cntk/logging/graph.py
       repo: null
     startLine: 72
   syntax:
     exceptions: []
     parameters:
     - description: the node to start the journey from
-      id: node
-      type: Function or Variable
-    - description: name for which we are search nodes
       id: node_name
       type: str
+    - description: name for which we are search nodes
+      id: node
+      type: Function or Variable
     returntype: ''
     returnvalue: List of primitive (or block) functions having the specified name
     summary: 'Finds functions in the graph starting from `node` and doing a depth-first
@@ -117,21 +117,21 @@ items:
   name: find_by_name
   source:
     id: find_by_name
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    path: cntk/logging/graph.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      path: cntk/logging/graph.py
       repo: null
     startLine: 90
   syntax:
     exceptions: []
     parameters:
     - description: the node to start the journey from
-      id: node
-      type: Function or Variable
-    - description: name for which we are search nodes
       id: node_name
       type: str
+    - description: name for which we are search nodes
+      id: node
+      type: Function or Variable
     returntype: ''
     returnvalue: Primitive (or block) function having the specified name
     summary: 'Finds a function in the graph starting from `node` and doing a depth-first
@@ -147,10 +147,10 @@ items:
   name: get_node_outputs
   source:
     id: get_node_outputs
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    path: cntk/logging/graph.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      path: cntk/logging/graph.py
       repo: null
     startLine: 348
   syntax:
@@ -172,10 +172,10 @@ items:
   name: output_function_graph
   source:
     id: output_function_graph
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    path: cntk/logging/graph.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      path: cntk/logging/graph.py
       repo: null
     startLine: 334
   syntax:
@@ -188,10 +188,10 @@ items:
   name: plot
   source:
     id: plot
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+    path: cntk/logging/graph.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
+      path: cntk/logging/graph.py
       repo: null
     startLine: 123
   syntax:

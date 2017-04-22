@@ -74,10 +74,10 @@ items:
     uid: cntk.ops.sequence.where
   source:
     id: sequence
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/sequence/__init__.py
+    path: cntk/ops/sequence/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/sequence/__init__.py
+      path: cntk/ops/sequence/__init__.py
       repo: null
     startLine: 0
   type: Namespace
@@ -88,10 +88,10 @@ items:
   name: broadcast_as
   source:
     id: broadcast_as
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 314
   syntax:
@@ -122,10 +122,10 @@ items:
   name: delay
   source:
     id: delay
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/sequence/__init__.py
+    path: cntk/ops/sequence/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/sequence/__init__.py
+      path: cntk/ops/sequence/__init__.py
       repo: null
     startLine: 13
   syntax:
@@ -152,10 +152,10 @@ items:
   name: first
   source:
     id: first
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 112
   syntax:
@@ -180,10 +180,10 @@ items:
   name: gather
   source:
     id: gather
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 211
   syntax:
@@ -212,10 +212,10 @@ items:
   name: is_first
   source:
     id: is_first
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 36
   syntax:
@@ -251,10 +251,10 @@ items:
   name: is_last
   source:
     id: is_last
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 62
   syntax:
@@ -290,10 +290,10 @@ items:
   name: last
   source:
     id: last
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 138
   syntax:
@@ -318,10 +318,10 @@ items:
   name: reduce_sum
   source:
     id: reduce_sum
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 361
   syntax:
@@ -346,10 +346,10 @@ items:
   name: scatter
   source:
     id: scatter
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 257
   syntax:
@@ -383,10 +383,10 @@ items:
   name: slice
   source:
     id: slice
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 88
   syntax:
@@ -410,10 +410,10 @@ items:
   name: where
   source:
     id: where
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 165
   syntax:

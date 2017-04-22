@@ -38,10 +38,10 @@ items:
     uid: cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence
   source:
     id: sparse_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+    path: cntk/ops/tests/sparse_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+      path: cntk/ops/tests/sparse_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -52,10 +52,10 @@ items:
   name: test_times_2d_sparse_operand
   source:
     id: test_times_2d_sparse_operand
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+    path: cntk/ops/tests/sparse_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+      path: cntk/ops/tests/sparse_test.py
       repo: null
     startLine: 18
   syntax:
@@ -68,10 +68,10 @@ items:
   name: test_times_2d_sparse_sequence_operand
   source:
     id: test_times_2d_sparse_sequence_operand
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+    path: cntk/ops/tests/sparse_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+      path: cntk/ops/tests/sparse_test.py
       repo: null
     startLine: 45
   syntax:
@@ -84,10 +84,10 @@ items:
   name: test_times_sparse_operand_reduce_multiple_axes
   source:
     id: test_times_sparse_operand_reduce_multiple_axes
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+    path: cntk/ops/tests/sparse_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+      path: cntk/ops/tests/sparse_test.py
       repo: null
     startLine: 177
   syntax:
@@ -100,10 +100,10 @@ items:
   name: test_training_2d_sparse_sequence_operand
   source:
     id: test_training_2d_sparse_sequence_operand
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+    path: cntk/ops/tests/sparse_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+      path: cntk/ops/tests/sparse_test.py
       repo: null
     startLine: 70
   syntax:
@@ -116,10 +116,10 @@ items:
   name: test_training_3d_sparse_sequence_with_recurrence
   source:
     id: test_training_3d_sparse_sequence_with_recurrence
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+    path: cntk/ops/tests/sparse_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/sparse_test.py
+      path: cntk/ops/tests/sparse_test.py
       repo: null
     startLine: 117
   syntax:

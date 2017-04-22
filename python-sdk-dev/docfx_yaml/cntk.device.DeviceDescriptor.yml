@@ -24,10 +24,10 @@ items:
     uid: cntk.device.DeviceDescriptor.type
   source:
     id: DeviceDescriptor
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+    path: cntk/device.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+      path: cntk/device.py
       repo: null
     startLine: 28
   syntax:
@@ -47,10 +47,10 @@ items:
   name: id
   source:
     id: id
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+    path: cntk/device.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+      path: cntk/device.py
       repo: null
     startLine: 34
   syntax:
@@ -69,10 +69,10 @@ items:
   name: type
   source:
     id: type
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+    path: cntk/device.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+      path: cntk/device.py
       repo: null
     startLine: 43
   syntax:

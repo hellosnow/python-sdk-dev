@@ -38,10 +38,10 @@ items:
     uid: cntk.debugging.tests.userlearner_test.test_user_learner
   source:
     id: userlearner_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    path: cntk/debugging/tests/userlearner_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      path: cntk/debugging/tests/userlearner_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -52,10 +52,10 @@ items:
   name: ffnet
   source:
     id: ffnet
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    path: cntk/debugging/tests/userlearner_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      path: cntk/debugging/tests/userlearner_test.py
       repo: null
     startLine: 83
   syntax:
@@ -68,10 +68,10 @@ items:
   name: generate_random_data
   source:
     id: generate_random_data
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    path: cntk/debugging/tests/userlearner_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      path: cntk/debugging/tests/userlearner_test.py
       repo: null
     startLine: 15
   syntax:
@@ -84,10 +84,10 @@ items:
   name: test_user_learner
   source:
     id: test_user_learner
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    path: cntk/debugging/tests/userlearner_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      path: cntk/debugging/tests/userlearner_test.py
       repo: null
     startLine: 126
   syntax:

@@ -54,10 +54,10 @@ items:
     uid: cntk.train.distributed.Communicator.workers
   source:
     id: Communicator
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    path: cntk/train/distributed.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      path: cntk/train/distributed.py
       repo: null
     startLine: 41
   syntax:
@@ -82,10 +82,10 @@ items:
   name: barrier
   source:
     id: barrier
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    path: cntk/train/distributed.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      path: cntk/train/distributed.py
       repo: null
     startLine: 67
   syntax:
@@ -99,10 +99,10 @@ items:
   name: current_worker
   source:
     id: current_worker
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 57
   syntax:
@@ -121,10 +121,10 @@ items:
   name: finalize
   source:
     id: finalize
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    path: cntk/train/distributed.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      path: cntk/train/distributed.py
       repo: null
     startLine: 79
   syntax:
@@ -139,10 +139,10 @@ items:
   name: is_main
   source:
     id: is_main
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    path: cntk/train/distributed.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      path: cntk/train/distributed.py
       repo: null
     startLine: 73
   syntax:
@@ -157,10 +157,10 @@ items:
   name: num_workers
   source:
     id: num_workers
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    path: cntk/train/distributed.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      path: cntk/train/distributed.py
       repo: null
     startLine: 86
   syntax:
@@ -174,10 +174,10 @@ items:
   name: rank
   source:
     id: rank
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    path: cntk/train/distributed.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      path: cntk/train/distributed.py
       repo: null
     startLine: 93
   syntax:
@@ -191,10 +191,10 @@ items:
   name: workers
   source:
     id: workers
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 47
   syntax:

@@ -36,10 +36,10 @@ items:
     uid: cntk.learners.Learner.update
   source:
     id: Learner
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+    path: cntk/learners/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+      path: cntk/learners/__init__.py
       repo: null
     startLine: 104
   syntax:
@@ -64,10 +64,10 @@ items:
   name: learning_rate
   source:
     id: learning_rate
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+    path: cntk/learners/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+      path: cntk/learners/__init__.py
       repo: null
     startLine: 153
   syntax:
@@ -98,10 +98,10 @@ items:
   name: reset_learning_rate
   source:
     id: reset_learning_rate
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+    path: cntk/learners/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+      path: cntk/learners/__init__.py
       repo: null
     startLine: 139
   syntax:
@@ -126,10 +126,10 @@ items:
   name: update
   source:
     id: update
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+    path: cntk/learners/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+      path: cntk/learners/__init__.py
       repo: null
     startLine: 113
   syntax:

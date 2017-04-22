@@ -26,10 +26,10 @@ items:
     uid: cntk.logging.progress_print.log_number_of_parameters
   source:
     id: progress_print
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+    path: cntk/logging/progress_print.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+      path: cntk/logging/progress_print.py
       repo: null
     startLine: 0
   type: Namespace
@@ -40,10 +40,10 @@ items:
   name: log_number_of_parameters
   source:
     id: log_number_of_parameters
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+    path: cntk/logging/progress_print.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+      path: cntk/logging/progress_print.py
       repo: null
     startLine: 505
   syntax:

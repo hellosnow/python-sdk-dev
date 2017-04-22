@@ -12,18 +12,18 @@ items:
   references: []
   source:
     id: CrossValidationConfig
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
+    path: cntk/train/training_session.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
+      path: cntk/train/training_session.py
       repo: null
     startLine: 55
   syntax:
     exceptions: []
     parameters:
     - description: minibatch source used for cross validation
-      id: source
-      type: MinibatchSource
+      id: schedule
+      type: minibatch_size_schedule
     - description: frequency in samples for cross validation If `sys.maxsize`, a single
         cross validation is performed at the end of training.
       id: frequency
@@ -33,8 +33,8 @@ items:
       type: func (index, avarage_error, cv_num_samples, cv_num_minibatches)
     - description: Callback that will be called with frequency which can implement
         custom cross validation logic, returns False if training should be stopped.
-      id: schedule
-      type: minibatch_size_schedule
+      id: source
+      type: MinibatchSource
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.CrossValidationConfig`

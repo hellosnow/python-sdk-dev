@@ -14,10 +14,10 @@ items:
     uid: cntk.tests.device_test.test_device_kind
   source:
     id: device_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/device_test.py
+    path: cntk/tests/device_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/device_test.py
+      path: cntk/tests/device_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -28,10 +28,10 @@ items:
   name: test_device_kind
   source:
     id: test_device_kind
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/device_test.py
+    path: cntk/tests/device_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/device_test.py
+      path: cntk/tests/device_test.py
       repo: null
     startLine: 15
   syntax:

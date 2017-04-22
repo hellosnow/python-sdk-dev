@@ -50,10 +50,10 @@ items:
     uid: cntk.ops.tests.ops_test_utils.unittest_helper
   source:
     id: ops_test_utils
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    path: cntk/ops/tests/ops_test_utils.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      path: cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 0
   type: Namespace
@@ -64,10 +64,10 @@ items:
   name: batch_dense_to_sparse
   source:
     id: batch_dense_to_sparse
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    path: cntk/ops/tests/ops_test_utils.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      path: cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 156
   syntax:
@@ -93,10 +93,10 @@ items:
   name: cntk_device
   source:
     id: cntk_device
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    path: cntk/ops/tests/ops_test_utils.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      path: cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 24
   syntax:
@@ -118,10 +118,10 @@ items:
   name: compare_lists_of_np_arrays
   source:
     id: compare_lists_of_np_arrays
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    path: cntk/ops/tests/ops_test_utils.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      path: cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 249
   syntax:
@@ -134,10 +134,10 @@ items:
   name: remove_np_array_in_list
   source:
     id: remove_np_array_in_list
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    path: cntk/ops/tests/ops_test_utils.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      path: cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 238
   syntax:
@@ -150,10 +150,10 @@ items:
   name: test_batch_dense_to_sparse_full
   source:
     id: test_batch_dense_to_sparse_full
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    path: cntk/ops/tests/ops_test_utils.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      path: cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 200
   syntax:
@@ -166,10 +166,10 @@ items:
   name: test_batch_dense_to_sparse_zeros
   source:
     id: test_batch_dense_to_sparse_zeros
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    path: cntk/ops/tests/ops_test_utils.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      path: cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 222
   syntax:
@@ -182,10 +182,10 @@ items:
   name: unittest_helper
   source:
     id: unittest_helper
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+    path: cntk/ops/tests/ops_test_utils.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/ops_test_utils.py
+      path: cntk/ops/tests/ops_test_utils.py
       repo: null
     startLine: 121
   syntax:

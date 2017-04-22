@@ -140,10 +140,10 @@ items:
     uid: cntk.layers.tests.layers_test.test_unfold
   source:
     id: layers_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -154,10 +154,10 @@ items:
   name: assert_list_of_arrays_equal
   source:
     id: assert_list_of_arrays_equal
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 30
   syntax:
@@ -170,10 +170,10 @@ items:
   name: test_1D_convolution_without_reduction_dim
   source:
     id: test_1D_convolution_without_reduction_dim
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 567
   syntax:
@@ -186,10 +186,10 @@ items:
   name: test_Function
   source:
     id: test_Function
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 58
   syntax:
@@ -202,10 +202,10 @@ items:
   name: test_default_options
   source:
     id: test_default_options
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 38
   syntax:
@@ -218,10 +218,10 @@ items:
   name: test_layers_batch_normalization
   source:
     id: test_layers_batch_normalization
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 677
   syntax:
@@ -234,10 +234,10 @@ items:
   name: test_layers_conv_pool_unpool_deconv
   source:
     id: test_layers_conv_pool_unpool_deconv
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 587
   syntax:
@@ -250,10 +250,10 @@ items:
   name: test_layers_convolution_2d
   source:
     id: test_layers_convolution_2d
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 528
   syntax:
@@ -266,10 +266,10 @@ items:
   name: test_layers_convolution_3d
   source:
     id: test_layers_convolution_3d
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 502
   syntax:
@@ -282,10 +282,10 @@ items:
   name: test_layers_convolution_shape
   source:
     id: test_layers_convolution_shape
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 315
   syntax:
@@ -298,10 +298,10 @@ items:
   name: test_layers_convolution_value
   source:
     id: test_layers_convolution_value
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 411
   syntax:
@@ -314,10 +314,10 @@ items:
   name: test_layers_deconvolution
   source:
     id: test_layers_deconvolution
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 580
   syntax:
@@ -330,10 +330,10 @@ items:
   name: test_layers_dense
   source:
     id: test_layers_dense
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 215
   syntax:
@@ -346,10 +346,10 @@ items:
   name: test_layers_dropout
   source:
     id: test_layers_dropout
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 629
   syntax:
@@ -362,10 +362,10 @@ items:
   name: test_layers_embedding
   source:
     id: test_layers_embedding
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 260
   syntax:
@@ -378,10 +378,10 @@ items:
   name: test_layers_layer_normalization
   source:
     id: test_layers_layer_normalization
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 658
   syntax:
@@ -394,10 +394,10 @@ items:
   name: test_layers_name
   source:
     id: test_layers_name
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 14
   syntax:
@@ -410,10 +410,10 @@ items:
   name: test_layers_stabilizer
   source:
     id: test_layers_stabilizer
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 644
   syntax:
@@ -426,10 +426,10 @@ items:
   name: test_lookup
   source:
     id: test_lookup
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 90
   syntax:
@@ -442,10 +442,10 @@ items:
   name: test_recurrence
   source:
     id: test_recurrence
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 102
   syntax:
@@ -458,10 +458,10 @@ items:
   name: test_recurrence_fun
   source:
     id: test_recurrence_fun
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 146
   syntax:
@@ -474,10 +474,10 @@ items:
   name: test_sequential_convolution_without_reduction_dim
   source:
     id: test_sequential_convolution_without_reduction_dim
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 555
   syntax:
@@ -490,10 +490,10 @@ items:
   name: test_unfold
   source:
     id: test_unfold
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+    path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/tests/layers_test.py
+      path: cntk/layers/tests/layers_test.py
       repo: null
     startLine: 174
   syntax:

@@ -38,10 +38,10 @@ items:
     uid: cntk.train.distributed.data_parallel_distributed_learner
   source:
     id: distributed
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    path: cntk/train/distributed.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      path: cntk/train/distributed.py
       repo: null
     startLine: 0
   type: Namespace
@@ -52,33 +52,33 @@ items:
   name: block_momentum_distributed_learner
   source:
     id: block_momentum_distributed_learner
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 141
   syntax:
     exceptions: []
     parameters:
     - description: a local learner (i.e. sgd)
-      id: block_momentum_as_time_constant
-      type: float
-    - description: size of the partition in samples
       id: block_learning_rate
       type: float
-    - description: block momentum as time constant
-      id: reset_sgd_momentum_after_aggregation
-      type: bool
-    - description: use nestrov momentum
-      id: block_size
-      type: int
-    - description: reset SGD momentum after aggregation
-      id: distributed_after
-      type: int
-    - description: block learning rate
+    - description: size of the partition in samples
       id: use_nestrov_momentum
       type: bool
+    - description: block momentum as time constant
+      id: distributed_after
+      type: int
+    - description: use nestrov momentum
+      id: reset_sgd_momentum_after_aggregation
+      type: bool
+    - description: reset SGD momentum after aggregation
+      id: block_size
+      type: int
+    - description: block learning rate
+      id: block_momentum_as_time_constant
+      type: float
     returntype: ''
     returnvalue: a distributed learner instance
     summary: 'Creates a block momentum distributed learner. See [1] for more information.
@@ -102,10 +102,10 @@ items:
   name: data_parallel_distributed_learner
   source:
     id: data_parallel_distributed_learner
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 115
   syntax:
@@ -115,11 +115,11 @@ items:
       id: distributed_after
       type: int
     - description: number of samples after which distributed training starts
-      id: num_quantization_bits
-      type: int
-    - description: number of bits for quantization (1 to 32)
       id: use_async_buffered_parameter_update
       type: bool
+    - description: number of bits for quantization (1 to 32)
+      id: num_quantization_bits
+      type: int
     returntype: ''
     returnvalue: a distributed learner instance
     summary: Creates a data parallel distributed learner

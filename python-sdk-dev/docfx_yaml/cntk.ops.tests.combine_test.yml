@@ -20,10 +20,10 @@ items:
     uid: cntk.ops.tests.combine_test.test_op_combine_input_var
   source:
     id: combine_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/combine_test.py
+    path: cntk/ops/tests/combine_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/combine_test.py
+      path: cntk/ops/tests/combine_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -34,10 +34,10 @@ items:
   name: test_op_combine
   source:
     id: test_op_combine
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/combine_test.py
+    path: cntk/ops/tests/combine_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/combine_test.py
+      path: cntk/ops/tests/combine_test.py
       repo: null
     startLine: 29
   syntax:
@@ -50,10 +50,10 @@ items:
   name: test_op_combine_input_var
   source:
     id: test_op_combine_input_var
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/combine_test.py
+    path: cntk/ops/tests/combine_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/combine_test.py
+      path: cntk/ops/tests/combine_test.py
       repo: null
     startLine: 69
   syntax:

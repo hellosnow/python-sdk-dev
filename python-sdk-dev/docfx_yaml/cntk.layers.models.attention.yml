@@ -14,10 +14,10 @@ items:
     uid: cntk.layers.models.attention.AttentionModel
   source:
     id: attention
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/models/attention.py
+    path: cntk/layers/models/attention.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/models/attention.py
+      path: cntk/layers/models/attention.py
       repo: null
     startLine: 0
   type: Namespace
@@ -28,10 +28,10 @@ items:
   name: AttentionModel
   source:
     id: AttentionModel
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/models/attention.py
+    path: cntk/layers/models/attention.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/models/attention.py
+      path: cntk/layers/models/attention.py
       repo: null
     startLine: 18
   syntax:

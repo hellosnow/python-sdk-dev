@@ -20,10 +20,10 @@ items:
     uid: cntk.internal.swig_helper.typemap
   source:
     id: swig_helper
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 0
   type: Namespace
@@ -34,10 +34,10 @@ items:
   name: map_if_possible
   source:
     id: map_if_possible
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 9
   syntax:
@@ -50,10 +50,10 @@ items:
   name: typemap
   source:
     id: typemap
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 54
   syntax:

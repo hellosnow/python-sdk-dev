@@ -62,10 +62,10 @@ items:
     uid: cntk.device.use_default_device
   source:
     id: device
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+    path: cntk/device.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/device.py
+      path: cntk/device.py
       repo: null
     startLine: 0
   type: Namespace
@@ -76,10 +76,10 @@ items:
   name: all_devices
   source:
     id: all_devices
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 62
   syntax:
@@ -97,10 +97,10 @@ items:
   name: best
   source:
     id: best
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 73
   syntax:
@@ -118,10 +118,10 @@ items:
   name: cpu
   source:
     id: cpu
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 84
   syntax:
@@ -139,10 +139,10 @@ items:
   name: default
   source:
     id: default
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 95
   syntax:
@@ -160,10 +160,10 @@ items:
   name: gpu
   source:
     id: gpu
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 106
   syntax:
@@ -181,10 +181,10 @@ items:
   name: set_default_device
   source:
     id: set_default_device
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 128
   syntax:
@@ -205,10 +205,10 @@ items:
   name: use_default_device
   source:
     id: use_default_device
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 117
   syntax:

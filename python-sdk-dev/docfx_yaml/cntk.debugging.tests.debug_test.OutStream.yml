@@ -23,10 +23,10 @@ items:
     uid: cntk.debugging.tests.debug_test.OutStream.write
   source:
     id: OutStream
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/debug_test.py
+    path: cntk/debugging/tests/debug_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/debug_test.py
+      path: cntk/debugging/tests/debug_test.py
       repo: null
     startLine: 58
   syntax:
@@ -43,10 +43,10 @@ items:
   name: flush
   source:
     id: flush
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/debug_test.py
+    path: cntk/debugging/tests/debug_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/debug_test.py
+      path: cntk/debugging/tests/debug_test.py
       repo: null
     startLine: 69
   syntax:
@@ -60,10 +60,10 @@ items:
   name: write
   source:
     id: write
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/debug_test.py
+    path: cntk/debugging/tests/debug_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/debug_test.py
+      path: cntk/debugging/tests/debug_test.py
       repo: null
     startLine: 62
   syntax:

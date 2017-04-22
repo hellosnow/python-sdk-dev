@@ -86,10 +86,10 @@ items:
     uid: cntk.internal.sanitize.sanitize_variable_value_dict
   source:
     id: sanitize
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 0
   type: Namespace
@@ -100,10 +100,10 @@ items:
   name: is_string
   source:
     id: is_string
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 19
   syntax:
@@ -116,10 +116,10 @@ items:
   name: sanitize_axis
   source:
     id: sanitize_axis
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 391
   syntax:
@@ -151,18 +151,18 @@ items:
   name: sanitize_batch
   source:
     id: sanitize_batch
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 115
   syntax:
     exceptions: []
     parameters:
     - description: input variable into which `batch` is passed
-      id: seq_starts
-      type: list of bools or None
+      id: device
+      type: DeviceDescriptor, default None
     - description: 'batch input for *var*. It can be
 
 
@@ -174,14 +174,14 @@ items:
 
 
         * a `Value` object (e.g. returned by `one_hot()`)'
-      id: var
-      type: Variable
+      id: seq_starts
+      type: list of bools or None
     - description: if None, every sequence is treated as a new sequence. Otherwise,
         it is interpreted as a list of Booleans one for each sequence in the batch
         that tell whether a sequence is a new sequence (*True*) or a continuation
         of the sequence in the same slot of the previous minibatch (*False*)
-      id: device
-      type: DeviceDescriptor, default None
+      id: var
+      type: Variable
     returntype: ''
     returnvalue: batch converted to a `Value` instance that can be passed to the core
       API
@@ -195,10 +195,10 @@ items:
   name: sanitize_dtype_cntk
   source:
     id: sanitize_dtype_cntk
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 374
   syntax:
@@ -211,10 +211,10 @@ items:
   name: sanitize_dtype_numpy
   source:
     id: sanitize_dtype_numpy
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 359
   syntax:
@@ -227,10 +227,10 @@ items:
   name: sanitize_dynamic_axes
   source:
     id: sanitize_dynamic_axes
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 414
   syntax:
@@ -243,10 +243,10 @@ items:
   name: sanitize_function
   source:
     id: sanitize_function
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 193
   syntax:
@@ -260,21 +260,21 @@ items:
   name: sanitize_input
   source:
     id: sanitize_input
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 69
   syntax:
     exceptions: []
     parameters:
     - description: input
-      id: arg
-      type: number, NumPy array, Variable, or Function
-    - description: fallback dtype in case `arg` is a list
       id: fallback_dtype
       type: NumPy dtype
+    - description: fallback dtype in case `arg` is a list
+      id: arg
+      type: number, NumPy array, Variable, or Function
     returntype: ''
     returnvalue: Leaves Constant, Parameter, and Variable as is. Returns Constant,
       if `arg` is a number or NumPy array. Variable otherwise.
@@ -291,10 +291,10 @@ items:
   name: sanitize_precision
   source:
     id: sanitize_precision
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 41
   syntax:
@@ -316,10 +316,10 @@ items:
   name: sanitize_shape
   source:
     id: sanitize_shape
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 62
   syntax:
@@ -332,21 +332,21 @@ items:
   name: sanitize_value
   source:
     id: sanitize_value
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 158
   syntax:
     exceptions: []
     parameters:
     - description: shape of the value
-      id: shape
-      type: tuple
-    - description: the value to be converted
       id: device
       type: DeviceDescriptor
+    - description: the value to be converted
+      id: shape
+      type: tuple
     - description: data type (np.float32 or np.float64)
       id: value
       type: None or value that can be cast to NumPy array
@@ -363,10 +363,10 @@ items:
   name: sanitize_var_map
   source:
     id: sanitize_var_map
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 212
   syntax:
@@ -374,8 +374,8 @@ items:
     parameters:
     - description: arguments of the root function. In `forward()` pass it is typically
         *op.arguments*, in `backward()` pass it is *op.outputs*
-      id: op_arguments
-      type: Function
+      id: extract_values_from_minibatch_data
+      type: bool, defaults to True
     - description: "maps variables to their input data. The interpretation depends\
         \ on the input type:\n\n   * dict: keys are input variable or names, and values\
         \ are the input data.\n\n   * any other type: if node has a unique input,\
@@ -394,15 +394,15 @@ items:
         \ of the sequence in the same slot of the previous minibatch (*False*). This\
         \ will be applied to all batches.\n\nData should be either NumPy arrays or\
         \ a `MinibatchData` instance."
-      id: precision
-      type: str or np.float32 or np.float64
-    - description: if string it can be one of 'float' 'float32, 'double', 'float64',
-        or None
       id: device
       type: DeviceDescriptor, default None
+    - description: if string it can be one of 'float' 'float32, 'double', 'float64',
+        or None
+      id: op_arguments
+      type: Function
     - description: device this value should be put on
-      id: extract_values_from_minibatch_data
-      type: bool, defaults to True
+      id: precision
+      type: str or np.float32 or np.float64
     returntype: ''
     returnvalue: '*dict* that maps variables to sanitized batches'
     summary: Sanitizes a dictionary of *Variable* s to input data such that it can
@@ -417,10 +417,10 @@ items:
   name: sanitize_variable_value_dict
   source:
     id: sanitize_variable_value_dict
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+    path: cntk/internal/sanitize.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/sanitize.py
+      path: cntk/internal/sanitize.py
       repo: null
     startLine: 424
   syntax:

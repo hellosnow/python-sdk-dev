@@ -62,10 +62,10 @@ items:
     uid: cntk.ops.tests.userfunction_complex_test.train
   source:
     id: userfunction_complex_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    path: cntk/ops/tests/userfunction_complex_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      path: cntk/ops/tests/userfunction_complex_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -76,10 +76,10 @@ items:
   name: dense_layer
   source:
     id: dense_layer
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    path: cntk/ops/tests/userfunction_complex_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      path: cntk/ops/tests/userfunction_complex_test.py
       repo: null
     startLine: 47
   syntax:
@@ -92,10 +92,10 @@ items:
   name: fully_connected_classifier_net
   source:
     id: fully_connected_classifier_net
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    path: cntk/ops/tests/userfunction_complex_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      path: cntk/ops/tests/userfunction_complex_test.py
       repo: null
     startLine: 54
   syntax:
@@ -108,10 +108,10 @@ items:
   name: generate_random_data_sample
   source:
     id: generate_random_data_sample
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    path: cntk/ops/tests/userfunction_complex_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      path: cntk/ops/tests/userfunction_complex_test.py
       repo: null
     startLine: 27
   syntax:
@@ -124,10 +124,10 @@ items:
   name: linear_layer
   source:
     id: linear_layer
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    path: cntk/ops/tests/userfunction_complex_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      path: cntk/ops/tests/userfunction_complex_test.py
       repo: null
     startLine: 39
   syntax:
@@ -140,10 +140,10 @@ items:
   name: measure_runtime
   source:
     id: measure_runtime
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    path: cntk/ops/tests/userfunction_complex_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      path: cntk/ops/tests/userfunction_complex_test.py
       repo: null
     startLine: 149
   syntax:
@@ -156,10 +156,10 @@ items:
   name: print_training_progress
   source:
     id: print_training_progress
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    path: cntk/ops/tests/userfunction_complex_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      path: cntk/ops/tests/userfunction_complex_test.py
       repo: null
     startLine: 62
   syntax:
@@ -172,10 +172,10 @@ items:
   name: test_ext_user_sigmoid
   source:
     id: test_ext_user_sigmoid
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    path: cntk/ops/tests/userfunction_complex_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      path: cntk/ops/tests/userfunction_complex_test.py
       repo: null
     startLine: 141
   syntax:
@@ -188,10 +188,10 @@ items:
   name: train
   source:
     id: train
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+    path: cntk/ops/tests/userfunction_complex_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_complex_test.py
+      path: cntk/ops/tests/userfunction_complex_test.py
       repo: null
     startLine: 72
   syntax:

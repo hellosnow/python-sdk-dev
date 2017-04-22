@@ -20,10 +20,10 @@ items:
     uid: cntk.tensor.TensorOpsMixin
   source:
     id: tensor
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tensor.py
+    path: cntk/tensor.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tensor.py
+      path: cntk/tensor.py
       repo: null
     startLine: 0
   type: Namespace

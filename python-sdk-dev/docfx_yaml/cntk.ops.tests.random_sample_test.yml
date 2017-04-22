@@ -26,10 +26,10 @@ items:
     uid: cntk.ops.tests.random_sample_test.test_random_sample_without_replacement
   source:
     id: random_sample_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+    path: cntk/ops/tests/random_sample_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+      path: cntk/ops/tests/random_sample_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -40,10 +40,10 @@ items:
   name: test_random_sample_inclusion_frequency
   source:
     id: test_random_sample_inclusion_frequency
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+    path: cntk/ops/tests/random_sample_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+      path: cntk/ops/tests/random_sample_test.py
       repo: null
     startLine: 49
   syntax:
@@ -56,10 +56,10 @@ items:
   name: test_random_sample_with_replacement
   source:
     id: test_random_sample_with_replacement
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+    path: cntk/ops/tests/random_sample_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+      path: cntk/ops/tests/random_sample_test.py
       repo: null
     startLine: 70
   syntax:
@@ -72,10 +72,10 @@ items:
   name: test_random_sample_without_replacement
   source:
     id: test_random_sample_without_replacement
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+    path: cntk/ops/tests/random_sample_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/random_sample_test.py
+      path: cntk/ops/tests/random_sample_test.py
       repo: null
     startLine: 101
   syntax:

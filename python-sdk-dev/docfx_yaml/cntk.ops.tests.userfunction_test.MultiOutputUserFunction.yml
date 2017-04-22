@@ -33,10 +33,10 @@ items:
     uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.infer_outputs
   source:
     id: MultiOutputUserFunction
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    path: cntk/ops/tests/userfunction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      path: cntk/ops/tests/userfunction_test.py
       repo: null
     startLine: 309
   syntax:
@@ -54,10 +54,10 @@ items:
   name: backward
   source:
     id: backward
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    path: cntk/ops/tests/userfunction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      path: cntk/ops/tests/userfunction_test.py
       repo: null
     startLine: 325
   syntax:
@@ -71,10 +71,10 @@ items:
   name: forward
   source:
     id: forward
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    path: cntk/ops/tests/userfunction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      path: cntk/ops/tests/userfunction_test.py
       repo: null
     startLine: 317
   syntax:
@@ -88,10 +88,10 @@ items:
   name: infer_outputs
   source:
     id: infer_outputs
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    path: cntk/ops/tests/userfunction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      path: cntk/ops/tests/userfunction_test.py
       repo: null
     startLine: 313
   syntax:

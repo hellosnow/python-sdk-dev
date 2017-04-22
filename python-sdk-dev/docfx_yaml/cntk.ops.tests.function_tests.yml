@@ -134,10 +134,10 @@ items:
     uid: cntk.ops.tests.function_tests.test_variable_forwarding
   source:
     id: function_tests
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 0
   type: Namespace
@@ -148,10 +148,10 @@ items:
   name: test_MinibatchData_and_Value_as_input
   source:
     id: test_MinibatchData_and_Value_as_input
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 317
   syntax:
@@ -164,10 +164,10 @@ items:
   name: test_as_composite
   source:
     id: test_as_composite
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 246
   syntax:
@@ -180,10 +180,10 @@ items:
   name: test_clone_with_function_in_substitution_map
   source:
     id: test_clone_with_function_in_substitution_map
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 216
   syntax:
@@ -196,10 +196,10 @@ items:
   name: test_clone_with_slice
   source:
     id: test_clone_with_slice
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 229
   syntax:
@@ -212,10 +212,10 @@ items:
   name: test_cloning
   source:
     id: test_cloning
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 55
   syntax:
@@ -228,10 +228,10 @@ items:
   name: test_combine_duplicated_inputs
   source:
     id: test_combine_duplicated_inputs
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 284
   syntax:
@@ -244,10 +244,10 @@ items:
   name: test_data_type_inference
   source:
     id: test_data_type_inference
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 184
   syntax:
@@ -260,10 +260,10 @@ items:
   name: test_eval_by_node_name
   source:
     id: test_eval_by_node_name
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 26
   syntax:
@@ -276,10 +276,10 @@ items:
   name: test_evaluating_multiple_outputs
   source:
     id: test_evaluating_multiple_outputs
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 145
   syntax:
@@ -292,10 +292,10 @@ items:
   name: test_exception_for_unnamed_arguments
   source:
     id: test_exception_for_unnamed_arguments
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 96
   syntax:
@@ -308,10 +308,10 @@ items:
   name: test_extra_arguments_in_eval
   source:
     id: test_extra_arguments_in_eval
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 307
   syntax:
@@ -324,10 +324,10 @@ items:
   name: test_getting_output_from_non_existent_node
   source:
     id: test_getting_output_from_non_existent_node
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 130
   syntax:
@@ -340,10 +340,10 @@ items:
   name: test_input_order
   source:
     id: test_input_order
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 262
   syntax:
@@ -356,10 +356,10 @@ items:
   name: test_output_in_intermediate_node
   source:
     id: test_output_in_intermediate_node
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 107
   syntax:
@@ -372,10 +372,10 @@ items:
   name: test_output_subset_evaluation
   source:
     id: test_output_subset_evaluation
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 349
   syntax:
@@ -388,10 +388,10 @@ items:
   name: test_recurrence_shape_inference
   source:
     id: test_recurrence_shape_inference
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 192
   syntax:
@@ -404,10 +404,10 @@ items:
   name: test_replace_placeholder_s
   source:
     id: test_replace_placeholder_s
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 81
   syntax:
@@ -420,10 +420,10 @@ items:
   name: test_replace_placeholders
   source:
     id: test_replace_placeholders
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 37
   syntax:
@@ -436,10 +436,10 @@ items:
   name: test_sequence_data_mismatch
   source:
     id: test_sequence_data_mismatch
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 201
   syntax:
@@ -452,10 +452,10 @@ items:
   name: test_set_name
   source:
     id: test_set_name
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 165
   syntax:
@@ -468,10 +468,10 @@ items:
   name: test_variable_forwarding
   source:
     id: test_variable_forwarding
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+    path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/function_tests.py
+      path: cntk/ops/tests/function_tests.py
       repo: null
     startLine: 22
   syntax:

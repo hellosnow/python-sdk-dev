@@ -26,10 +26,10 @@ items:
     uid: cntk.tests.tensor_test.test_overload_exception
   source:
     id: tensor_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
+    path: cntk/tests/tensor_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
+      path: cntk/tests/tensor_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -40,10 +40,10 @@ items:
   name: test_eval_scalar
   source:
     id: test_eval_scalar
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
+    path: cntk/tests/tensor_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
+      path: cntk/tests/tensor_test.py
       repo: null
     startLine: 19
   syntax:
@@ -56,10 +56,10 @@ items:
   name: test_numpy_conversion
   source:
     id: test_numpy_conversion
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
+    path: cntk/tests/tensor_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
+      path: cntk/tests/tensor_test.py
       repo: null
     startLine: 24
   syntax:
@@ -72,10 +72,10 @@ items:
   name: test_overload_exception
   source:
     id: test_overload_exception
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
+    path: cntk/tests/tensor_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/tensor_test.py
+      path: cntk/tests/tensor_test.py
       repo: null
     startLine: 13
   syntax:

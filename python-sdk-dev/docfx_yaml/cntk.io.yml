@@ -62,10 +62,10 @@ items:
     uid: cntk.io.sequence_to_cntk_text_format
   source:
     id: io
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 0
   type: Namespace
@@ -76,10 +76,10 @@ items:
   name: CTFDeserializer
   source:
     id: CTFDeserializer
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 455
   syntax:
@@ -91,12 +91,12 @@ items:
     returntype: ''
     returnvalue: ''
     summary: "Configures the CNTK text-format reader that reads text-based files with\
-      \ lines of the form:\n<!-- literal_block {\"xml:space\": \"preserve\", \"ids\"\
-      : [], \"dupnames\": [], \"classes\": [], \"backrefs\": [], \"names\": []} -->\n\
-      \n````\n\n   [Sequence_Id] (Sample)+\n   ````\nwhere:\n<!-- literal_block {\"\
-      xml:space\": \"preserve\", \"ids\": [], \"dupnames\": [], \"classes\": [], \"\
-      backrefs\": [], \"names\": []} -->\n\n````\n\n   Sample=|Input_Name (Value )*\n\
-      \   ````\nSee also: [CNTKTextReader format](https://github.com/microsoft/cntk/wiki/BrainScript-CNTKTextFormat-Reader)"
+      \ lines of the form:\n<!-- literal_block {\"xml:space\": \"preserve\", \"dupnames\"\
+      : [], \"backrefs\": [], \"ids\": [], \"classes\": [], \"names\": []} -->\n\n\
+      ````\n\n   [Sequence_Id] (Sample)+\n   ````\nwhere:\n<!-- literal_block {\"\
+      xml:space\": \"preserve\", \"dupnames\": [], \"backrefs\": [], \"ids\": [],\
+      \ \"classes\": [], \"names\": []} -->\n\n````\n\n   Sample=|Input_Name (Value\
+      \ )*\n   ````\nSee also: [CNTKTextReader format](https://github.com/microsoft/cntk/wiki/BrainScript-CNTKTextFormat-Reader)"
     variables: []
   type: Method
   uid: cntk.io.CTFDeserializer
@@ -106,10 +106,10 @@ items:
   name: HTKFeatureDeserializer
   source:
     id: HTKFeatureDeserializer
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 377
   syntax:
@@ -127,10 +127,10 @@ items:
   name: HTKMLFDeserializer
   source:
     id: HTKMLFDeserializer
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 398
   syntax:
@@ -152,10 +152,10 @@ items:
   name: ImageDeserializer
   source:
     id: ImageDeserializer
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 418
   syntax:
@@ -168,10 +168,10 @@ items:
     returnvalue: ''
     summary: "Configures the image reader that reads images and corresponding labels\
       \ from a file of the form:\n<!-- literal_block {\"xml:space\": \"preserve\"\
-      , \"ids\": [], \"dupnames\": [], \"classes\": [], \"backrefs\": [], \"names\"\
+      , \"dupnames\": [], \"backrefs\": [], \"ids\": [], \"classes\": [], \"names\"\
       : []} -->\n\n````\n\n   <full path to image> <tab> <numerical label (0-based\
       \ class id)>\n   ````\nor:\n<!-- literal_block {\"xml:space\": \"preserve\"\
-      , \"ids\": [], \"dupnames\": [], \"classes\": [], \"backrefs\": [], \"names\"\
+      , \"dupnames\": [], \"backrefs\": [], \"ids\": [], \"classes\": [], \"names\"\
       : []} -->\n\n````\n\n   sequenceId <tab> path <tab> label\n   ````\nSee also:\
       \ [Image reader definition](https://github.com/microsoft/cntk/wiki/Image-reader)"
     variables: []
@@ -183,10 +183,10 @@ items:
   name: StreamDef
   source:
     id: StreamDef
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 497
   syntax:
@@ -203,8 +203,8 @@ items:
 
         * for HTKFeatureDeserializer and HTKMLFDeserializer only the default value
         of None is acceptable'
-      id: transforms
-      type: list, defaults to None
+      id: is_sparse
+      type: bool, defaults to False
     - description: dimensions of this stream. HTKFeatureDeserializer, HTKMLFDeserializer,
         and CTFDeserializer read data as flat arrays. If you need different shapes
         you can `reshape()` it later.
@@ -212,26 +212,26 @@ items:
       type: int or tuple, defaults to None
     - description: whether the provided data is sparse. *False* by default, unless
         mlf is provided.
-      id: context
-      type: tuple, defaults to None
-    - description: list of transforms to be applied by the Deserializer. Currently
-        only ImageDeserializer supports transforms.
-      id: is_sparse
-      type: bool, defaults to False
-    - description: left and right context to consider when reading in HTK data. Only
-        supported by HTKFeatureDeserializer.
-      id: broadcast
-      type: bool, defaults to None
-    - description: scp files for HTK data
-      id: field
-      type: str, defaults to None
-    - description: mlf files for HTK data
       id: mlf
       type: str or list, defaults to None
-    - description: whether the features in this stream should be broadcast to the
-        whole sequence (useful in e.g. ivectors with HTK)
+    - description: list of transforms to be applied by the Deserializer. Currently
+        only ImageDeserializer supports transforms.
+      id: field
+      type: str, defaults to None
+    - description: left and right context to consider when reading in HTK data. Only
+        supported by HTKFeatureDeserializer.
+      id: transforms
+      type: list, defaults to None
+    - description: scp files for HTK data
       id: scp
       type: str or list, defaults to None
+    - description: mlf files for HTK data
+      id: broadcast
+      type: bool, defaults to None
+    - description: whether the features in this stream should be broadcast to the
+        whole sequence (useful in e.g. ivectors with HTK)
+      id: context
+      type: tuple, defaults to None
     returntype: ''
     returnvalue: ''
     summary: Configuration of a stream for use with the builtin Deserializers. The
@@ -246,10 +246,10 @@ items:
   name: sequence_to_cntk_text_format
   source:
     id: sequence_to_cntk_text_format
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 598
   syntax:

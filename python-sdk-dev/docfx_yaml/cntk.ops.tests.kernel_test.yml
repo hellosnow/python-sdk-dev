@@ -68,10 +68,10 @@ items:
     uid: cntk.ops.tests.kernel_test.test_op_roipooling
   source:
     id: kernel_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    path: cntk/ops/tests/kernel_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      path: cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -82,10 +82,10 @@ items:
   name: test_asym_convolution
   source:
     id: test_asym_convolution
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    path: cntk/ops/tests/kernel_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      path: cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 82
   syntax:
@@ -98,10 +98,10 @@ items:
   name: test_convolution_transpose
   source:
     id: test_convolution_transpose
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    path: cntk/ops/tests/kernel_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      path: cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 422
   syntax:
@@ -114,10 +114,10 @@ items:
   name: test_convolution_transpose_with_output
   source:
     id: test_convolution_transpose_with_output
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    path: cntk/ops/tests/kernel_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      path: cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 462
   syntax:
@@ -130,10 +130,10 @@ items:
   name: test_op_avg_pooling
   source:
     id: test_op_avg_pooling
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    path: cntk/ops/tests/kernel_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      path: cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 166
   syntax:
@@ -146,10 +146,10 @@ items:
   name: test_op_convolution_without_padding
   source:
     id: test_op_convolution_without_padding
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    path: cntk/ops/tests/kernel_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      path: cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 37
   syntax:
@@ -162,10 +162,10 @@ items:
   name: test_op_max_pooling
   source:
     id: test_op_max_pooling
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    path: cntk/ops/tests/kernel_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      path: cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 228
   syntax:
@@ -178,10 +178,10 @@ items:
   name: test_op_max_unpooling
   source:
     id: test_op_max_unpooling
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    path: cntk/ops/tests/kernel_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      path: cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 264
   syntax:
@@ -194,10 +194,10 @@ items:
   name: test_op_pooling_ceil
   source:
     id: test_op_pooling_ceil
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    path: cntk/ops/tests/kernel_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      path: cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 321
   syntax:
@@ -210,10 +210,10 @@ items:
   name: test_op_pooling_geometry
   source:
     id: test_op_pooling_geometry
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    path: cntk/ops/tests/kernel_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      path: cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 129
   syntax:
@@ -226,10 +226,10 @@ items:
   name: test_op_roipooling
   source:
     id: test_op_roipooling
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+    path: cntk/ops/tests/kernel_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/kernel_test.py
+      path: cntk/ops/tests/kernel_test.py
       repo: null
     startLine: 374
   syntax:

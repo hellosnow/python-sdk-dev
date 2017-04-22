@@ -11,10 +11,10 @@ items:
   references: []
   source:
     id: NamedOutput
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 54
   syntax:

@@ -90,10 +90,10 @@ items:
     uid: cntk.axis.Axis.unknown_dynamic_axes
   source:
     id: Axis
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/axis.py
+    path: cntk/axis.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/axis.py
+      path: cntk/axis.py
       repo: null
     startLine: 9
   syntax:
@@ -133,10 +133,10 @@ items:
   name: all_axes
   source:
     id: all_axes
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 103
   syntax:
@@ -155,10 +155,10 @@ items:
   name: all_static_axes
   source:
     id: all_static_axes
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 92
   syntax:
@@ -177,10 +177,10 @@ items:
   name: default_batch_axis
   source:
     id: default_batch_axis
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 81
   syntax:
@@ -199,10 +199,10 @@ items:
   name: default_dynamic_axis
   source:
     id: default_dynamic_axis
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 70
   syntax:
@@ -221,10 +221,10 @@ items:
   name: default_input_variable_dynamic_axes
   source:
     id: default_input_variable_dynamic_axes
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 114
   syntax:
@@ -243,10 +243,10 @@ items:
   name: end_static_axis
   source:
     id: end_static_axis
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 150
   syntax:
@@ -334,10 +334,10 @@ items:
   name: new_leading_axis
   source:
     id: new_leading_axis
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 166
   syntax:
@@ -356,10 +356,10 @@ items:
   name: new_unique_dynamic_axis
   source:
     id: new_unique_dynamic_axis
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 136
   syntax:
@@ -381,10 +381,10 @@ items:
   name: static_axis_index
   source:
     id: static_axis_index
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/axis.py
+    path: cntk/axis.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/axis.py
+      path: cntk/axis.py
       repo: null
     startLine: 58
   syntax:
@@ -408,10 +408,10 @@ items:
   name: unknown_dynamic_axes
   source:
     id: unknown_dynamic_axes
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 125
   syntax:

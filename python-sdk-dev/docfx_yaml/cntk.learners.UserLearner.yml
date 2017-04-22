@@ -18,10 +18,10 @@ items:
     uid: cntk.learners.UserLearner.update
   source:
     id: UserLearner
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+    path: cntk/learners/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+      path: cntk/learners/__init__.py
       repo: null
     startLine: 160
   syntax:
@@ -43,10 +43,10 @@ items:
   name: update
   source:
     id: update
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+    path: cntk/learners/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
+      path: cntk/learners/__init__.py
       repo: null
     startLine: 201
   syntax:

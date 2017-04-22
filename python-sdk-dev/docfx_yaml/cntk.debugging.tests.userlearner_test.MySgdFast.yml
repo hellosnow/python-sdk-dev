@@ -19,10 +19,10 @@ items:
     uid: cntk.debugging.tests.userlearner_test.MySgdFast.update
   source:
     id: MySgdFast
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    path: cntk/debugging/tests/userlearner_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      path: cntk/debugging/tests/userlearner_test.py
       repo: null
     startLine: 42
   syntax:
@@ -38,10 +38,10 @@ items:
   name: update
   source:
     id: update
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+    path: cntk/debugging/tests/userlearner_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/userlearner_test.py
+      path: cntk/debugging/tests/userlearner_test.py
       repo: null
     startLine: 64
   syntax:

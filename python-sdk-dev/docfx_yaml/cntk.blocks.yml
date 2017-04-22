@@ -8,10 +8,10 @@ items:
   references: []
   source:
     id: blocks
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/blocks.py
+    path: cntk/blocks.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/blocks.py
+      path: cntk/blocks.py
       repo: null
     startLine: 0
   type: Namespace

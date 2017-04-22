@@ -14,10 +14,10 @@ items:
     uid: cntk.train.trainer.Trainer
   source:
     id: trainer
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+    path: cntk/train/trainer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/trainer.py
+      path: cntk/train/trainer.py
       repo: null
     startLine: 0
   type: Namespace

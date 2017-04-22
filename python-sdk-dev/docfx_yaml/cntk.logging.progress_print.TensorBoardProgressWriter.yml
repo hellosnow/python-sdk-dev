@@ -54,10 +54,10 @@ items:
     uid: cntk.logging.progress_print.TensorBoardProgressWriter.write_value
   source:
     id: TensorBoardProgressWriter
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+    path: cntk/logging/progress_print.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+      path: cntk/logging/progress_print.py
       repo: null
     startLine: 409
   syntax:
@@ -67,19 +67,19 @@ items:
         value of 2 will cause the progress to be logged every second time when *:func:cntk.util.TensorBoardFileWriter.update_with_trainer*
         is invoked. None indicates that progress is logged only when *:func:cntk.util.TensorBoardFileWriter.summarize_progress*
         is invoked. Must be a positive integer otherwise.
-      id: log_dir
-      type: string, default '.'
+      id: freq
+      type: int or None, default None
     - description: directory where to create a TensorBoard event file.
-      id: model
-      type: cntk.ops.functions.Function or None, default None
+      id: rank
+      type: int or None, default None
     - description: rank of a worker when using distributed training, or *None* if
         training locally. If not *None*, event files will be created only by rank
         0.
-      id: freq
-      type: int or None, default None
+      id: model
+      type: cntk.ops.functions.Function or None, default None
     - description: model graph to plot.
-      id: rank
-      type: int or None, default None
+      id: log_dir
+      type: string, default '.'
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.ProgressWriter`
@@ -105,10 +105,10 @@ items:
   name: close
   source:
     id: close
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+    path: cntk/logging/progress_print.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+      path: cntk/logging/progress_print.py
       repo: null
     startLine: 463
   syntax:
@@ -124,10 +124,10 @@ items:
   name: flush
   source:
     id: flush
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+    path: cntk/logging/progress_print.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+      path: cntk/logging/progress_print.py
       repo: null
     startLine: 455
   syntax:
@@ -141,10 +141,10 @@ items:
   name: on_write_test_summary
   source:
     id: on_write_test_summary
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+    path: cntk/logging/progress_print.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+      path: cntk/logging/progress_print.py
       repo: null
     startLine: 493
   syntax:
@@ -158,10 +158,10 @@ items:
   name: on_write_test_update
   source:
     id: on_write_test_update
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+    path: cntk/logging/progress_print.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+      path: cntk/logging/progress_print.py
       repo: null
     startLine: 480
   syntax:
@@ -175,10 +175,10 @@ items:
   name: on_write_training_summary
   source:
     id: on_write_training_summary
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+    path: cntk/logging/progress_print.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+      path: cntk/logging/progress_print.py
       repo: null
     startLine: 487
   syntax:
@@ -192,10 +192,10 @@ items:
   name: on_write_training_update
   source:
     id: on_write_training_update
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+    path: cntk/logging/progress_print.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+      path: cntk/logging/progress_print.py
       repo: null
     startLine: 475
   syntax:
@@ -209,24 +209,24 @@ items:
   name: write_value
   source:
     id: write_value
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+    path: cntk/logging/progress_print.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
+      path: cntk/logging/progress_print.py
       repo: null
     startLine: 440
   syntax:
     exceptions: []
     parameters:
     - description: name of a variable.
-      id: name
-      type: string
+      id: step
+      type: int
     - description: value of the variable.
       id: value
       type: float
     - description: time step at which the value is recorded.
-      id: step
-      type: int
+      id: name
+      type: string
     returntype: ''
     returnvalue: ''
     summary: Record value of a scalar variable at the given time step.

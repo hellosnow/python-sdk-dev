@@ -44,10 +44,10 @@ items:
     uid: cntk.layers.typing.Tensor
   source:
     id: typing
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/typing.py
+    path: cntk/layers/typing.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/typing.py
+      path: cntk/layers/typing.py
       repo: null
     startLine: 0
   type: Namespace

@@ -80,10 +80,10 @@ items:
     uid: cntk.ops.tests.linear_test.test_op_transpose_times
   source:
     id: linear_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -94,10 +94,10 @@ items:
   name: test_op_element_divide
   source:
     id: test_op_element_divide
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 197
   syntax:
@@ -110,10 +110,10 @@ items:
   name: test_op_element_times
   source:
     id: test_op_element_times
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 177
   syntax:
@@ -126,10 +126,10 @@ items:
   name: test_op_minus
   source:
     id: test_op_minus
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 156
   syntax:
@@ -142,10 +142,10 @@ items:
   name: test_op_negate
   source:
     id: test_op_negate
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 224
   syntax:
@@ -158,10 +158,10 @@ items:
   name: test_op_plus
   source:
     id: test_op_plus
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 35
   syntax:
@@ -174,10 +174,10 @@ items:
   name: test_op_plus_gradient_accumulation
   source:
     id: test_op_plus_gradient_accumulation
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 79
   syntax:
@@ -190,10 +190,10 @@ items:
   name: test_op_plus_sequences
   source:
     id: test_op_plus_sequences
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 59
   syntax:
@@ -206,10 +206,10 @@ items:
   name: test_op_plus_var_sequences_input_input
   source:
     id: test_op_plus_var_sequences_input_input
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 111
   syntax:
@@ -222,10 +222,10 @@ items:
   name: test_op_times
   source:
     id: test_op_times
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 258
   syntax:
@@ -238,10 +238,10 @@ items:
   name: test_op_times_reduce_sequence_axis
   source:
     id: test_op_times_reduce_sequence_axis
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 331
   syntax:
@@ -254,10 +254,10 @@ items:
   name: test_op_times_sparse_grad
   source:
     id: test_op_times_sparse_grad
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 315
   syntax:
@@ -270,10 +270,10 @@ items:
   name: test_op_transpose_times
   source:
     id: test_op_transpose_times
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+    path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/linear_test.py
+      path: cntk/ops/tests/linear_test.py
       repo: null
     startLine: 287
   syntax:

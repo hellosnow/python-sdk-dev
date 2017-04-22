@@ -56,10 +56,10 @@ items:
     uid: cntk.io.MinibatchData.value
   source:
     id: MinibatchData
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 20
   syntax:

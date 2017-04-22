@@ -62,10 +62,10 @@ items:
     uid: cntk.ops.tests.evaluation_test.test_sequence_grad_as_numpy_false
   source:
     id: evaluation_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+    path: cntk/ops/tests/evaluation_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+      path: cntk/ops/tests/evaluation_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -76,10 +76,10 @@ items:
   name: test_edit_distance_error
   source:
     id: test_edit_distance_error
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+    path: cntk/ops/tests/evaluation_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+      path: cntk/ops/tests/evaluation_test.py
       repo: null
     startLine: 284
   syntax:
@@ -92,10 +92,10 @@ items:
   name: test_lambda_rank
   source:
     id: test_lambda_rank
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+    path: cntk/ops/tests/evaluation_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+      path: cntk/ops/tests/evaluation_test.py
       repo: null
     startLine: 225
   syntax:
@@ -108,10 +108,10 @@ items:
   name: test_ndcg
   source:
     id: test_ndcg
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+    path: cntk/ops/tests/evaluation_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+      path: cntk/ops/tests/evaluation_test.py
       repo: null
     startLine: 254
   syntax:
@@ -124,10 +124,10 @@ items:
   name: test_op_classification_error
   source:
     id: test_op_classification_error
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+    path: cntk/ops/tests/evaluation_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+      path: cntk/ops/tests/evaluation_test.py
       repo: null
     startLine: 136
   syntax:
@@ -140,10 +140,10 @@ items:
   name: test_op_classification_error_with_axis
   source:
     id: test_op_classification_error_with_axis
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+    path: cntk/ops/tests/evaluation_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+      path: cntk/ops/tests/evaluation_test.py
       repo: null
     startLine: 183
   syntax:
@@ -156,10 +156,10 @@ items:
   name: test_op_cross_entropy_with_soft_max
   source:
     id: test_op_cross_entropy_with_soft_max
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+    path: cntk/ops/tests/evaluation_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+      path: cntk/ops/tests/evaluation_test.py
       repo: null
     startLine: 27
   syntax:
@@ -172,10 +172,10 @@ items:
   name: test_op_cross_entropy_with_soft_max_and_axis
   source:
     id: test_op_cross_entropy_with_soft_max_and_axis
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+    path: cntk/ops/tests/evaluation_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+      path: cntk/ops/tests/evaluation_test.py
       repo: null
     startLine: 73
   syntax:
@@ -188,10 +188,10 @@ items:
   name: test_op_squared_error
   source:
     id: test_op_squared_error
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+    path: cntk/ops/tests/evaluation_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+      path: cntk/ops/tests/evaluation_test.py
       repo: null
     startLine: 110
   syntax:
@@ -204,10 +204,10 @@ items:
   name: test_sequence_grad_as_numpy_false
   source:
     id: test_sequence_grad_as_numpy_false
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+    path: cntk/ops/tests/evaluation_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/evaluation_test.py
+      path: cntk/ops/tests/evaluation_test.py
       repo: null
     startLine: 292
   syntax:

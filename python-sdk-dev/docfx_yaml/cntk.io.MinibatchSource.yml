@@ -54,25 +54,25 @@ items:
     uid: cntk.io.MinibatchSource.stream_infos
   source:
     id: MinibatchSource
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 82
   syntax:
     exceptions: []
     parameters:
     - description: list of deserializers
-      id: deserializers
-      type: list, defaults to empty
+      id: multithreaded_deserializer
+      type: bool, defaults to None
     - description: randomize before every epoch
-      id: truncation_length
+      id: randomization_window
       type: int
     - description: size of window that reader will shuffle, ignored if *randomize*
         is *False*
-      id: randomize
-      type: bool, defaults to True
+      id: epoch_size
+      type: int, defaults to INFINITELY_REPEAT
     - description: specifies how to interpret *randomization_window*. If *True*, the
         size of the randomization window is interpreted as a certain number of samples,
         otherwise -- as a number of chunks. Similarly to *randomization_window*, this
@@ -86,22 +86,22 @@ items:
         by the MinibatchSource) and parameters change their values on the sweep-by-sweep
         basis specified by the schedule. **Important:** Click [here](https://github.com/Microsoft/CNTK/wiki/BrainScript-epochSize-and-Python-epoch_size-in-CNTK)
         for a full description of this parameter.
-      id: multithreaded_deserializer
-      type: bool, defaults to None
-    - description: sample count after which minibatch source becomes distributed
-      id: randomization_window
-      type: int
-    - description: using multi threaded deserializer
       id: distributed_after
       type: int, defaults to cntk.io.INFINITE_SAMPLES
-    - description: Specifies if data should be randomized and returned at the frame
-        or sequence level. When  true , input sequence are split into frames.
-      id: epoch_size
-      type: int, defaults to INFINITELY_REPEAT
-    - description: Specifies the truncation length in samples for BPTT (positive integer).
-        If greater than zero *frame_mode* cannot be used at the same time.
+    - description: sample count after which minibatch source becomes distributed
       id: frame_mode
       type: bool, defaults to False
+    - description: using multi threaded deserializer
+      id: deserializers
+      type: list, defaults to empty
+    - description: Specifies if data should be randomized and returned at the frame
+        or sequence level. When  true , input sequence are split into frames.
+      id: randomize
+      type: bool, defaults to True
+    - description: Specifies the truncation length in samples for BPTT (positive integer).
+        If greater than zero *frame_mode* cannot be used at the same time.
+      id: truncation_length
+      type: int
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.MinibatchSource`
@@ -150,10 +150,10 @@ items:
   name: get_checkpoint_state
   source:
     id: get_checkpoint_state
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 223
   syntax:
@@ -189,10 +189,10 @@ items:
   name: next_minibatch
   source:
     id: next_minibatch
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 173
   syntax:
@@ -238,10 +238,10 @@ items:
   name: restore_from_checkpoint
   source:
     id: restore_from_checkpoint
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 233
   syntax:
@@ -263,10 +263,10 @@ items:
   name: stream_info
   source:
     id: stream_info
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 156
   syntax:
@@ -281,10 +281,10 @@ items:
   name: stream_infos
   source:
     id: stream_infos
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+    path: cntk/io/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
+      path: cntk/io/__init__.py
       repo: null
     startLine: 146
   syntax:

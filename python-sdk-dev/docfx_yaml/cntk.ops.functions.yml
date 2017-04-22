@@ -38,10 +38,10 @@ items:
     uid: cntk.ops.functions.save_model
   source:
     id: functions
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 0
   type: Namespace
@@ -52,10 +52,10 @@ items:
   name: load_model
   source:
     id: load_model
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 1061
   syntax:
@@ -68,10 +68,10 @@ items:
   name: save_model
   source:
     id: save_model
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 1068
   syntax:

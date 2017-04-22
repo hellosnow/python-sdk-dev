@@ -86,10 +86,10 @@ items:
     uid: cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned
   source:
     id: trainer_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -100,10 +100,10 @@ items:
   name: test_disallow_seq_starts_with_Value_objects
   source:
     id: test_disallow_seq_starts_with_Value_objects
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 309
   syntax:
@@ -116,10 +116,10 @@ items:
   name: test_eval_one_hot_bad
   source:
     id: test_eval_one_hot_bad
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 193
   syntax:
@@ -132,10 +132,10 @@ items:
   name: test_eval_one_hot_seq
   source:
     id: test_eval_one_hot_seq
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 172
   syntax:
@@ -148,10 +148,10 @@ items:
   name: test_eval_sparse_dense
   source:
     id: test_eval_sparse_dense
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 74
   syntax:
@@ -164,10 +164,10 @@ items:
   name: test_eval_sparse_no_seq
   source:
     id: test_eval_sparse_no_seq
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 132
   syntax:
@@ -180,10 +180,10 @@ items:
   name: test_eval_sparse_seq_1
   source:
     id: test_eval_sparse_seq_1
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 148
   syntax:
@@ -196,10 +196,10 @@ items:
   name: test_model_not_criterion_subset
   source:
     id: test_model_not_criterion_subset
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 201
   syntax:
@@ -212,10 +212,10 @@ items:
   name: test_model_one_output_of_multi_output_function
   source:
     id: test_model_one_output_of_multi_output_function
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 231
   syntax:
@@ -228,10 +228,10 @@ items:
   name: test_not_replaced_placeholders
   source:
     id: test_not_replaced_placeholders
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 283
   syntax:
@@ -244,10 +244,10 @@ items:
   name: test_output_to_retain
   source:
     id: test_output_to_retain
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 56
   syntax:
@@ -260,10 +260,10 @@ items:
   name: test_scalar_input
   source:
     id: test_scalar_input
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 323
   syntax:
@@ -276,10 +276,10 @@ items:
   name: test_trainer
   source:
     id: test_trainer
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 23
   syntax:
@@ -292,10 +292,10 @@ items:
   name: test_trainer_with_some_params_not_learned
   source:
     id: test_trainer_with_some_params_not_learned
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+    path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/trainer_test.py
+      path: cntk/train/tests/trainer_test.py
       repo: null
     startLine: 250
   syntax:

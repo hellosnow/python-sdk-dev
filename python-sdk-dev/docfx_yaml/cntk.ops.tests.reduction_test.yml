@@ -68,10 +68,10 @@ items:
     uid: cntk.ops.tests.reduction_test.test_op_reduce_sum
   source:
     id: reduction_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    path: cntk/ops/tests/reduction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      path: cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -82,10 +82,10 @@ items:
   name: test_op_reduce_all
   source:
     id: test_op_reduce_all
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    path: cntk/ops/tests/reduction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      path: cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 169
   syntax:
@@ -98,10 +98,10 @@ items:
   name: test_op_reduce_argmax
   source:
     id: test_op_reduce_argmax
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    path: cntk/ops/tests/reduction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      path: cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 231
   syntax:
@@ -114,10 +114,10 @@ items:
   name: test_op_reduce_argmin
   source:
     id: test_op_reduce_argmin
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    path: cntk/ops/tests/reduction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      path: cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 245
   syntax:
@@ -130,10 +130,10 @@ items:
   name: test_op_reduce_log_sum
   source:
     id: test_op_reduce_log_sum
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    path: cntk/ops/tests/reduction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      path: cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 130
   syntax:
@@ -146,10 +146,10 @@ items:
   name: test_op_reduce_max
   source:
     id: test_op_reduce_max
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    path: cntk/ops/tests/reduction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      path: cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 45
   syntax:
@@ -162,10 +162,10 @@ items:
   name: test_op_reduce_mean
   source:
     id: test_op_reduce_mean
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    path: cntk/ops/tests/reduction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      path: cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 111
   syntax:
@@ -178,10 +178,10 @@ items:
   name: test_op_reduce_mean_all_constant
   source:
     id: test_op_reduce_mean_all_constant
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    path: cntk/ops/tests/reduction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      path: cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 213
   syntax:
@@ -194,10 +194,10 @@ items:
   name: test_op_reduce_min
   source:
     id: test_op_reduce_min
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    path: cntk/ops/tests/reduction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      path: cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 69
   syntax:
@@ -210,10 +210,10 @@ items:
   name: test_op_reduce_prod
   source:
     id: test_op_reduce_prod
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    path: cntk/ops/tests/reduction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      path: cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 150
   syntax:
@@ -226,10 +226,10 @@ items:
   name: test_op_reduce_sum
   source:
     id: test_op_reduce_sum
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+    path: cntk/ops/tests/reduction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reduction_test.py
+      path: cntk/ops/tests/reduction_test.py
       repo: null
     startLine: 27
   syntax:

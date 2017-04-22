@@ -50,10 +50,10 @@ items:
     uid: cntk.io.tests.io_tests.test_text_format
   source:
     id: io_tests
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+    path: cntk/io/tests/io_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+      path: cntk/io/tests/io_tests.py
       repo: null
     startLine: 0
   type: Namespace
@@ -64,10 +64,10 @@ items:
   name: test_full_sweep_minibatch
   source:
     id: test_full_sweep_minibatch
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+    path: cntk/io/tests/io_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+      path: cntk/io/tests/io_tests.py
       repo: null
     startLine: 170
   syntax:
@@ -80,10 +80,10 @@ items:
   name: test_image
   source:
     id: test_image
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+    path: cntk/io/tests/io_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+      path: cntk/io/tests/io_tests.py
       repo: null
     startLine: 85
   syntax:
@@ -96,10 +96,10 @@ items:
   name: test_is_tensor
   source:
     id: test_is_tensor
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+    path: cntk/io/tests/io_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+      path: cntk/io/tests/io_tests.py
       repo: null
     startLine: 301
   syntax:
@@ -112,10 +112,10 @@ items:
   name: test_large_minibatch
   source:
     id: test_large_minibatch
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+    path: cntk/io/tests/io_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+      path: cntk/io/tests/io_tests.py
       repo: null
     startLine: 228
   syntax:
@@ -128,10 +128,10 @@ items:
   name: test_sequence_conversion_dense
   source:
     id: test_sequence_conversion_dense
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+    path: cntk/io/tests/io_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+      path: cntk/io/tests/io_tests.py
       repo: null
     startLine: 277
   syntax:
@@ -144,10 +144,10 @@ items:
   name: test_sequence_conversion_exceptions
   source:
     id: test_sequence_conversion_exceptions
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+    path: cntk/io/tests/io_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+      path: cntk/io/tests/io_tests.py
       repo: null
     startLine: 269
   syntax:
@@ -160,10 +160,10 @@ items:
   name: test_text_format
   source:
     id: test_text_format
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+    path: cntk/io/tests/io_tests.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/tests/io_tests.py
+      path: cntk/io/tests/io_tests.py
       repo: null
     startLine: 20
   syntax:

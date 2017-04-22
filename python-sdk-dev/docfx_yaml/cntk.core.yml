@@ -26,10 +26,10 @@ items:
     uid: cntk.core.user_function
   source:
     id: core
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
+    path: cntk/core.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
+      path: cntk/core.py
       repo: null
     startLine: 0
   type: Namespace
@@ -40,10 +40,10 @@ items:
   name: user_function
   source:
     id: user_function
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
+    path: cntk/core.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
+      path: cntk/core.py
       repo: null
     startLine: 481
   syntax:

@@ -26,10 +26,10 @@ items:
     uid: cntk.conftest.pytest_generate_tests
   source:
     id: conftest
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+    path: cntk/conftest.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+      path: cntk/conftest.py
       repo: null
     startLine: 0
   type: Namespace
@@ -40,10 +40,10 @@ items:
   name: add_namespace
   source:
     id: add_namespace
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+    path: cntk/conftest.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+      path: cntk/conftest.py
       repo: null
     startLine: 69
   syntax:
@@ -56,10 +56,10 @@ items:
   name: pytest_addoption
   source:
     id: pytest_addoption
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+    path: cntk/conftest.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+      path: cntk/conftest.py
       repo: null
     startLine: 13
   syntax:
@@ -72,10 +72,10 @@ items:
   name: pytest_generate_tests
   source:
     id: pytest_generate_tests
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+    path: cntk/conftest.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/conftest.py
+      path: cntk/conftest.py
       repo: null
     startLine: 26
   syntax:

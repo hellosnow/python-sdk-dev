@@ -14,10 +14,10 @@ items:
     uid: cntk.tests.test_utils.precision
   source:
     id: test_utils
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/test_utils.py
+    path: cntk/tests/test_utils.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/test_utils.py
+      path: cntk/tests/test_utils.py
       repo: null
     startLine: 0
   type: Namespace
@@ -28,10 +28,10 @@ items:
   name: precision
   source:
     id: precision
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/test_utils.py
+    path: cntk/tests/test_utils.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/test_utils.py
+      path: cntk/tests/test_utils.py
       repo: null
     startLine: 23
   syntax:

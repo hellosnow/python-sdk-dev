@@ -19,10 +19,10 @@ items:
     uid: cntk.train.distributed.DistributedLearner.communicator
   source:
     id: DistributedLearner
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+    path: cntk/train/distributed.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
+      path: cntk/train/distributed.py
       repo: null
     startLine: 100
   syntax:
@@ -41,10 +41,10 @@ items:
   name: communicator
   source:
     id: communicator
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 105
   syntax:

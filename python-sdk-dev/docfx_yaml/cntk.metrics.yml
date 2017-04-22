@@ -32,10 +32,10 @@ items:
     uid: cntk.metrics.ndcg_at_1
   source:
     id: metrics
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/metrics/__init__.py
+    path: cntk/metrics/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/metrics/__init__.py
+      path: cntk/metrics/__init__.py
       repo: null
     startLine: 0
   type: Namespace
@@ -46,10 +46,10 @@ items:
   name: classification_error
   source:
     id: classification_error
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 118
   syntax:
@@ -95,21 +95,21 @@ items:
   name: edit_distance_error
   source:
     id: edit_distance_error
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 156
   syntax:
     exceptions: []
     parameters:
     - description: first input sequence
-      id: name
-      type: str, optional
-    - description: second input sequence
       id: delPen, insPen
       type: subPen,
+    - description: second input sequence
+      id: name
+      type: str, optional
     returntype: ''
     returnvalue: '`Function`'
     summary: 'Edit distance error evaluation node with the option of specifying penalty
@@ -151,10 +151,10 @@ items:
   name: lambda_rank
   source:
     id: lambda_rank
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 16
   syntax:
@@ -191,10 +191,10 @@ items:
   name: ndcg_at_1
   source:
     id: ndcg_at_1
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 72
   syntax:

@@ -44,10 +44,10 @@ items:
     uid: cntk.losses.weighted_binary_cross_entropy
   source:
     id: losses
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/losses/__init__.py
+    path: cntk/losses/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/losses/__init__.py
+      path: cntk/losses/__init__.py
       repo: null
     startLine: 0
   type: Namespace
@@ -58,10 +58,10 @@ items:
   name: binary_cross_entropy
   source:
     id: binary_cross_entropy
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 89
   syntax:
@@ -88,10 +88,10 @@ items:
   name: cosine_distance
   source:
     id: cosine_distance
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 18
   syntax:
@@ -117,22 +117,22 @@ items:
   name: cosine_distance_with_negative_samples
   source:
     id: cosine_distance_with_negative_samples
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 47
   syntax:
     exceptions: []
     parameters:
     - description: numpy array or any `Function` that outputs a tensor
-      id: name
-      type: str, optional
-    - description: non-zero positive integer representing number of shift to generate
-        a negative sample
       id: y
       type: x,
+    - description: non-zero positive integer representing number of shift to generate
+        a negative sample
+      id: name
+      type: str, optional
     returntype: ''
     returnvalue: '`Function`'
     summary: "Given minibatches for `x` and `y`, this function computes for each element\
@@ -163,10 +163,10 @@ items:
   name: cross_entropy_with_softmax
   source:
     id: cross_entropy_with_softmax
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 133
   syntax:
@@ -210,10 +210,10 @@ items:
   name: squared_error
   source:
     id: squared_error
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 175
   syntax:
@@ -252,10 +252,10 @@ items:
   name: weighted_binary_cross_entropy
   source:
     id: weighted_binary_cross_entropy
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 110
   syntax:

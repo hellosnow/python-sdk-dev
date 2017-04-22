@@ -32,10 +32,10 @@ items:
     uid: cntk.sample_installer.module_is_unreleased
   source:
     id: sample_installer
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+    path: cntk/sample_installer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+      path: cntk/sample_installer.py
       repo: null
     startLine: 0
   type: Namespace
@@ -46,10 +46,10 @@ items:
   name: default_sample_dir
   source:
     id: default_sample_dir
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+    path: cntk/sample_installer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+      path: cntk/sample_installer.py
       repo: null
     startLine: 24
   syntax:
@@ -62,10 +62,10 @@ items:
   name: default_sample_url
   source:
     id: default_sample_url
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+    path: cntk/sample_installer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+      path: cntk/sample_installer.py
       repo: null
     startLine: 31
   syntax:
@@ -78,10 +78,10 @@ items:
   name: install_samples
   source:
     id: install_samples
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+    path: cntk/sample_installer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+      path: cntk/sample_installer.py
       repo: null
     startLine: 34
   syntax:
@@ -100,10 +100,10 @@ items:
   name: module_is_unreleased
   source:
     id: module_is_unreleased
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+    path: cntk/sample_installer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/sample_installer.py
+      path: cntk/sample_installer.py
       repo: null
     startLine: 21
   syntax:

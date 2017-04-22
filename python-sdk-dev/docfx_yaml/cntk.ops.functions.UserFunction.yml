@@ -32,26 +32,26 @@ items:
     uid: cntk.ops.functions.UserFunction.op_name
   source:
     id: UserFunction
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 1076
   syntax:
     exceptions: []
     parameters:
     - description: inputs to this function
-      id: name
-      type: str
+      id: inputs
+      type: list
     - description: whether the data should be automatically converted from and to
         NumPy. Defaults to True. Specifying this as *False* passes the data as CNTK
         Value objects.
       id: as_numpy
       type: bool, optional
     - description: name of this function
-      id: inputs
-      type: list
+      id: name
+      type: str
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.ops.functions.Function`
@@ -74,10 +74,10 @@ items:
   name: clone
   source:
     id: clone
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 1228
   syntax:
@@ -96,10 +96,10 @@ items:
   name: infer_outputs
   source:
     id: infer_outputs
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 1218
   syntax:
@@ -115,10 +115,10 @@ items:
   name: op_name
   source:
     id: op_name
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 1241
   syntax:

@@ -98,10 +98,10 @@ items:
     uid: cntk.ops.tests.reshaping_test.test_op_splice
   source:
     id: reshaping_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -112,10 +112,10 @@ items:
   name: test_op_broadcast_as
   source:
     id: test_op_broadcast_as
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 494
   syntax:
@@ -128,10 +128,10 @@ items:
   name: test_op_broadcast_as_in_loop
   source:
     id: test_op_broadcast_as_in_loop
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 521
   syntax:
@@ -144,10 +144,10 @@ items:
   name: test_op_gather_derived_dynamic_axes_equivalence
   source:
     id: test_op_gather_derived_dynamic_axes_equivalence
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 430
   syntax:
@@ -160,10 +160,10 @@ items:
   name: test_op_gather_dynamic_axes_equivalence
   source:
     id: test_op_gather_dynamic_axes_equivalence
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 403
   syntax:
@@ -176,10 +176,10 @@ items:
   name: test_op_gather_sparse
   source:
     id: test_op_gather_sparse
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 457
   syntax:
@@ -192,10 +192,10 @@ items:
   name: test_op_reshape
   source:
     id: test_op_reshape
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 34
   syntax:
@@ -208,10 +208,10 @@ items:
   name: test_op_reshape_gradient_accumulation
   source:
     id: test_op_reshape_gradient_accumulation
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 123
   syntax:
@@ -224,10 +224,10 @@ items:
   name: test_op_reshape_parameter
   source:
     id: test_op_reshape_parameter
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 159
   syntax:
@@ -240,10 +240,10 @@ items:
   name: test_op_reshape_subshape
   source:
     id: test_op_reshape_subshape
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 82
   syntax:
@@ -256,10 +256,10 @@ items:
   name: test_op_scatter_sparse
   source:
     id: test_op_scatter_sparse
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 477
   syntax:
@@ -272,10 +272,10 @@ items:
   name: test_op_sequence_reduce_sum
   source:
     id: test_op_sequence_reduce_sum
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 546
   syntax:
@@ -288,10 +288,10 @@ items:
   name: test_op_slice
   source:
     id: test_op_slice
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 183
   syntax:
@@ -304,10 +304,10 @@ items:
   name: test_op_slice_overload
   source:
     id: test_op_slice_overload
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 245
   syntax:
@@ -320,10 +320,10 @@ items:
   name: test_op_slice_sequence
   source:
     id: test_op_slice_sequence
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 301
   syntax:
@@ -336,10 +336,10 @@ items:
   name: test_op_splice
   source:
     id: test_op_splice
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+    path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/reshaping_test.py
+      path: cntk/ops/tests/reshaping_test.py
       repo: null
     startLine: 357
   syntax:

@@ -32,10 +32,10 @@ items:
     uid: cntk.io.transforms.scale
   source:
     id: transforms
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/transforms.py
+    path: cntk/io/transforms.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/transforms.py
+      path: cntk/io/transforms.py
       repo: null
     startLine: 0
   type: Namespace
@@ -46,10 +46,10 @@ items:
   name: color
   source:
     id: color
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/transforms.py
+    path: cntk/io/transforms.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/transforms.py
+      path: cntk/io/transforms.py
       repo: null
     startLine: 96
   syntax:
@@ -59,7 +59,7 @@ items:
         example, assume brightness_radius = 0.2, a random number *x* is uniformly
         drawn from [-0.2, 0.2], and every pixel's value is added by *x*meanVal*, where
         meanVal is the mean of the image pixel intensity combining all color channels.
-      id: brightness_radius
+      id: saturation_radius
       type: float, default 0.0
     - description: Radius for contrast change. Must be set within [0.0, 1.0]. For
         example, assume contrast_radius = 0.2, a random number *x* is uniformly drawn
@@ -70,7 +70,7 @@ items:
         set within [0.0, 1.0]. For example, assume saturation_radius = 0.2, a random
         number *x* is uniformly drawn from [-0.2, 0.2], and every pixel's saturation
         is multiplied by *1+x*.
-      id: saturation_radius
+      id: brightness_radius
       type: float, default 0.0
     returntype: ''
     returnvalue: A dictionary-like object describing the mean transform
@@ -84,10 +84,10 @@ items:
   name: crop
   source:
     id: crop
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/transforms.py
+    path: cntk/io/transforms.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/transforms.py
+      path: cntk/io/transforms.py
       repo: null
     startLine: 9
   syntax:
@@ -97,15 +97,15 @@ items:
         and ''randomarea'' are usually used during training, while ''center'' and
         ''multiview10'' are usually used during testing. Random cropping is a popular
         data augmentation technique used to improve generalization of the DNN.'
-      id: side_ratio
-      type: float, default 0.0
+      id: aspect_ratio
+      type: float, default 1.0
     - description: crop size in pixels. Ignored if set to 0. When crop_size is non-zero,
         for example, crop_size=256, it means a cropping window of size 256x256 pixels
         will be taken. If one want to crop with non-square shapes, specify crop_size=256:224
         will crop 256x224 (width x height) pixels. *When crop_size is specified, side_ratio,
         area_ratio and aspect_ratio will be ignored.*
-      id: area_ratio
-      type: float, default 0.0
+      id: jitter_type
+      type: str, default 'none'
     - description: It specifies the ratio of final image side (width or height) with
         respect to the original image. Ignored if set to 0.0. Otherwise, must be set
         within *(0,1]*. For example, with an input image size of 640x480, side_ratio
@@ -123,8 +123,8 @@ items:
         with width and height equal to sqrt(30,000*0.3333)=100. To enable scale jitter,
         use colon-delimited values such as area_ratio=0.3333:0.8, which means the
         crop will have size between 100 (sqrt(30,000*0.3333)) and 155 (sqrt(30,000*0.8)).
-      id: crop_type
-      type: str, default 'center'
+      id: area_ratio
+      type: float, default 0.0
     - description: 'It specifies the aspect ratio (width/height or height/width) of
         the crop window. Must be set within *(0,1]*. For example, if due to size_ratio
         the crop size is 240x240, an aspect_ratio of 0.64 will change the window size
@@ -132,13 +132,13 @@ items:
         the crop window does not change. To enable aspect ratio jitter, use colon-delimited
         values such as aspect_ratio=0.64:1.0, which means the crop will have size
         between 192x300 (or euqally likely 300x192) and 240x240.'
-      id: jitter_type
-      type: str, default 'none'
+      id: crop_type
+      type: str, default 'center'
     - description: crop scale jitter type, possible values are 'none' and 'uniratio'.
         'uniratio' means uniform distributed jitter scale between the minimum and
         maximum ratio values.
-      id: aspect_ratio
-      type: float, default 1.0
+      id: side_ratio
+      type: float, default 0.0
     returntype: ''
     returnvalue: A dictionary-like object describing the crop transform
     summary: Crop transform that can be used to pass to *map_features*
@@ -151,10 +151,10 @@ items:
   name: mean
   source:
     id: mean
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/transforms.py
+    path: cntk/io/transforms.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/transforms.py
+      path: cntk/io/transforms.py
       repo: null
     startLine: 82
   syntax:
@@ -176,37 +176,37 @@ items:
   name: scale
   source:
     id: scale
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/transforms.py
+    path: cntk/io/transforms.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/transforms.py
+      path: cntk/io/transforms.py
       repo: null
     startLine: 59
   syntax:
     exceptions: []
     parameters:
     - description: width of the image in pixels
-      id: scale_mode
-      type: str, default 'fill'
-    - description: height of the image in pixels
       id: width
       type: int
-    - description: channels of the image
+    - description: height of the image in pixels
       id: height
       type: int
+    - description: channels of the image
+      id: channels
+      type: int
     - description: possible values are 'nearest', 'linear', 'cubic', and 'lanczos'
-      id: pad_value
-      type: int, default -1
+      id: scale_mode
+      type: str, default 'fill'
     - description: '''fill'', ''crop'' or ''pad''. ''fill'' - warp the image to the
         given target size. ''crop'' - resize the image''s shorter side to the given
         target size and crop the overlap. ''pad''  - resize the image''s larger side
         to the given target size, center it and pad the rest'
-      id: channels
-      type: int
-    - description: -1 or int value. The pad value used for the 'pad' mode. If set
-        to -1 then the border will be replicated.
       id: interpolations
       type: str, default 'linear'
+    - description: -1 or int value. The pad value used for the 'pad' mode. If set
+        to -1 then the border will be replicated.
+      id: pad_value
+      type: int, default -1
     returntype: ''
     returnvalue: A dictionary-like object describing the scale transform
     summary: Scale transform that can be used to pass to *map_features* for data augmentation.

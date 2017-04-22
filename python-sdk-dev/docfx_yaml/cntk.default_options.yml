@@ -38,10 +38,10 @@ items:
     uid: cntk.default_options.is_default_override
   source:
     id: default_options
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+    path: cntk/default_options.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+      path: cntk/default_options.py
       repo: null
     startLine: 0
   type: Namespace
@@ -52,10 +52,10 @@ items:
   name: default_options
   source:
     id: default_options
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+    path: cntk/default_options.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+      path: cntk/default_options.py
       repo: null
     startLine: 34
   syntax:
@@ -68,10 +68,10 @@ items:
   name: default_options_for
   source:
     id: default_options_for
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+    path: cntk/default_options.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+      path: cntk/default_options.py
       repo: null
     startLine: 42
   syntax:
@@ -84,10 +84,10 @@ items:
   name: get_default_override
   source:
     id: get_default_override
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+    path: cntk/default_options.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+      path: cntk/default_options.py
       repo: null
     startLine: 60
   syntax:
@@ -106,10 +106,10 @@ items:
   name: is_default_override
   source:
     id: is_default_override
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+    path: cntk/default_options.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/default_options.py
+      path: cntk/default_options.py
       repo: null
     startLine: 57
   syntax:

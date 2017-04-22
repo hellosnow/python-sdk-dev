@@ -62,10 +62,10 @@ items:
     uid: cntk.initializer.xavier
   source:
     id: initializer
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    path: cntk/initializer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      path: cntk/initializer.py
       repo: null
     startLine: 0
   type: Namespace
@@ -76,20 +76,20 @@ items:
   name: bilinear
   source:
     id: bilinear
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    path: cntk/initializer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      path: cntk/initializer.py
       repo: null
     startLine: 149
   syntax:
     exceptions: []
     parameters:
     - description: kernel width
-      id: kernel_height
+      id: kernel_width
       type: int
     - description: kernel height
-      id: kernel_width
+      id: kernel_height
       type: int
     returntype: ''
     returnvalue: initializer for `Parameter` useful for deconvolution layer
@@ -103,26 +103,26 @@ items:
   name: glorot_normal
   source:
     id: glorot_normal
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    path: cntk/initializer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      path: cntk/initializer.py
       repo: null
     startLine: 89
   syntax:
     exceptions: []
     parameters:
     - description: scale
+      id: filter_rank
+      type: int
+    - description: output rank
       id: scale
       type: float
-    - description: output rank
-      id: output_rank
-      type: int
     - description: filter rank
       id: seed
       type: int
     - description: random seed
-      id: filter_rank
+      id: output_rank
       type: int
     returntype: ''
     returnvalue: initializer for `Parameter` initialized to Gaussian distribution
@@ -137,26 +137,26 @@ items:
   name: glorot_uniform
   source:
     id: glorot_uniform
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    path: cntk/initializer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      path: cntk/initializer.py
       repo: null
     startLine: 69
   syntax:
     exceptions: []
     parameters:
     - description: scale
+      id: filter_rank
+      type: int
+    - description: output rank
       id: scale
       type: float
-    - description: output rank
-      id: output_rank
-      type: int
     - description: filter rank
       id: seed
       type: int
     - description: random seed
-      id: filter_rank
+      id: output_rank
       type: int
     returntype: ''
     returnvalue: initializer for `Parameter` initialized to uniform distribution between
@@ -171,26 +171,26 @@ items:
   name: he_normal
   source:
     id: he_normal
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    path: cntk/initializer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      path: cntk/initializer.py
       repo: null
     startLine: 129
   syntax:
     exceptions: []
     parameters:
     - description: scale
+      id: filter_rank
+      type: int
+    - description: output rank
       id: scale
       type: float
-    - description: output rank
-      id: output_rank
-      type: int
     - description: filter rank
       id: seed
       type: int
     - description: random seed
-      id: filter_rank
+      id: output_rank
       type: int
     returntype: ''
     returnvalue: initializer for `Parameter` initialized to Gaussian distribution
@@ -205,26 +205,26 @@ items:
   name: he_uniform
   source:
     id: he_uniform
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    path: cntk/initializer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      path: cntk/initializer.py
       repo: null
     startLine: 109
   syntax:
     exceptions: []
     parameters:
     - description: scale
+      id: filter_rank
+      type: int
+    - description: output rank
       id: scale
       type: float
-    - description: output rank
-      id: output_rank
-      type: int
     - description: filter rank
       id: seed
       type: int
     - description: random seed
-      id: filter_rank
+      id: output_rank
       type: int
     returntype: ''
     returnvalue: initializer for `Parameter` initialized to uniform distribution between
@@ -239,10 +239,10 @@ items:
   name: initializer_with_rank
   source:
     id: initializer_with_rank
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    path: cntk/initializer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      path: cntk/initializer.py
       repo: null
     startLine: 163
   syntax:
@@ -250,10 +250,10 @@ items:
     parameters:
     - description: initializer whose output_rank and filter_rank parameters are to
         be overriden
-      id: output_rank
+      id: filter_rank
       type: int
     - description: new output rank value
-      id: filter_rank
+      id: output_rank
       type: int
     returntype: ''
     returnvalue: new initializer for `Parameter` with specified output_rank and filter_rank
@@ -268,26 +268,26 @@ items:
   name: normal
   source:
     id: normal
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    path: cntk/initializer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      path: cntk/initializer.py
       repo: null
     startLine: 30
   syntax:
     exceptions: []
     parameters:
     - description: scale
+      id: filter_rank
+      type: int
+    - description: output rank
       id: scale
       type: float
-    - description: output rank
-      id: output_rank
-      type: int
     - description: filter rank
       id: seed
       type: int
     - description: random seed
-      id: filter_rank
+      id: output_rank
       type: int
     returntype: ''
     returnvalue: initializer for `cntk.ops.variables.Parameter` initialized to normal
@@ -302,10 +302,10 @@ items:
   name: uniform
   source:
     id: uniform
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    path: cntk/initializer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      path: cntk/initializer.py
       repo: null
     startLine: 12
   syntax:
@@ -331,26 +331,26 @@ items:
   name: xavier
   source:
     id: xavier
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+    path: cntk/initializer.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/initializer.py
+      path: cntk/initializer.py
       repo: null
     startLine: 49
   syntax:
     exceptions: []
     parameters:
     - description: scale
+      id: filter_rank
+      type: int
+    - description: output rank
       id: scale
       type: float
-    - description: output rank
-      id: output_rank
-      type: int
     - description: filter rank
       id: seed
       type: int
     - description: random seed
-      id: filter_rank
+      id: output_rank
       type: int
     returntype: ''
     returnvalue: initializer for `Parameter` initialized to Gaussian distribution

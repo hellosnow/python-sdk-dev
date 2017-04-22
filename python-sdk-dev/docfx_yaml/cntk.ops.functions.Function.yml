@@ -235,10 +235,10 @@ items:
     uid: cntk.ops.functions.Function.update_signature
   source:
     id: Function
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 34
   syntax:
@@ -296,10 +296,10 @@ items:
   name: argument_map
   source:
     id: argument_map
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 214
   syntax:
@@ -353,10 +353,10 @@ items:
   name: backward
   source:
     id: backward
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 655
   syntax:
@@ -439,10 +439,10 @@ items:
   name: clone
   source:
     id: clone
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 424
   syntax:
@@ -458,12 +458,12 @@ items:
 
 
         * ''freeze'': parameters are cloned and made immutable (constant).'
-      id: method
-      type: CloneMethod
-    - description: a dictionary mapping variables in this function to variables in
-        the cloned function
       id: substitutions
       type: dict
+    - description: a dictionary mapping variables in this function to variables in
+        the cloned function
+      id: method
+      type: CloneMethod
     returntype: Function
     returnvalue: the cloned Function
     summary: Clones the function. The parameters of the Function are either cloned,
@@ -496,10 +496,10 @@ items:
   name: declare_args
   source:
     id: declare_args
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 255
   syntax:
@@ -513,10 +513,10 @@ items:
   name: eval
   source:
     id: eval
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 464
   syntax:
@@ -538,10 +538,10 @@ items:
   name: find_all_with_name
   source:
     id: find_all_with_name
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 937
   syntax:
@@ -583,10 +583,10 @@ items:
   name: find_by_name
   source:
     id: find_by_name
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 967
   syntax:
@@ -637,10 +637,10 @@ items:
   name: forward
   source:
     id: forward
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 521
   syntax:
@@ -671,8 +671,8 @@ items:
       type: iterable, optional
     - description: outputs to fetch values for. If not set, all outputs of the function
         will be fetched.
-      id: device
-      type: DeviceDescriptor, default None
+      id: keep_for_backward
+      type: set, default None
     - description: the subset of the Function's output variables for which gradients
         shall be calculated in a subsequent backward call. If *None*, the returned
         state will be *None* and a subsequent call to `backward()` will not be possible.
@@ -680,8 +680,8 @@ items:
       type: bool
     - description: the device descriptor that contains the type and id of the device
         on which the computation is. If *None*, the default device is used.
-      id: keep_for_backward
-      type: set, default None
+      id: device
+      type: DeviceDescriptor, default None
     returntype: ''
     returnvalue: A tuple (BackPropState, map of outputs to NumPy arrays). The BackPropState
       is a handle taken by `backward()`.
@@ -725,10 +725,10 @@ items:
   name: grad
   source:
     id: grad
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 708
   syntax:
@@ -740,21 +740,21 @@ items:
     - description: list of Variables with respect to which the gradient will be computed.
         If omitted, the gradients with respect to all arguments of this Function that
         need gradient will be computed.
-      id: device
-      type: DeviceDescriptor, default None
-    - description: outputs (including intermediate outputs in the graph) to fetch
-        values for. If not specified, values for none of the outputs are fetched.
       id: at
       type: dict
+    - description: outputs (including intermediate outputs in the graph) to fetch
+        values for. If not specified, values for none of the outputs are fetched.
+      id: device
+      type: DeviceDescriptor, default None
     - description: the device descriptor that contains the type and id of the device
         on which the computation is performed. If *None*, the default device is used.
-      id: wrt
-      type: list, default None
+      id: as_numpy
+      type: bool, default True
     - description: whether to return the gradients as a NumPy array. Default True.
         Specifying this as False returns a CNTK Value which avoids a costly conversion
         but returns a somewhat opaque object.
-      id: as_numpy
-      type: bool, default True
+      id: wrt
+      type: list, default None
     returntype: dict or NumPy Array or a tuple of these
     returnvalue: "Dict with keys of `wrt` variables and gradient values of\n   `wrt`\
       \ variables. A single NumPy array if there is only one gradient value. If `outputs`\
@@ -853,21 +853,21 @@ items:
   name: load
   source:
     id: load
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 1042
   syntax:
     exceptions: []
     parameters:
     - description: filename to load the model from
-      id: filename
-      type: str
-    - description: instance of DeviceDescriptor
       id: device
       type: DeviceDescriptor, default is the default device
+    - description: instance of DeviceDescriptor
+      id: filename
+      type: str
     returntype: ''
     returnvalue: root node
     summary: Load the model in `filename`, that has been saved using `save()`.
@@ -983,10 +983,10 @@ items:
   name: replace_placeholder
   source:
     id: replace_placeholder
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 920
   syntax:
@@ -1011,10 +1011,10 @@ items:
   name: replace_placeholders
   source:
     id: replace_placeholders
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 903
   syntax:
@@ -1037,10 +1037,10 @@ items:
   name: restore
   source:
     id: restore
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 1023
   syntax:
@@ -1063,10 +1063,10 @@ items:
   name: restore_model
   source:
     id: restore_model
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 1036
   syntax:
@@ -1098,10 +1098,10 @@ items:
   name: save
   source:
     id: save
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 1003
   syntax:
@@ -1126,10 +1126,10 @@ items:
   name: save_model
   source:
     id: save_model
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 1017
   syntax:
@@ -1161,29 +1161,29 @@ items:
   name: to_Function
   source:
     id: to_Function
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 62
   syntax:
     summary: "`@Function` constructs a Function from a Python lambda where the Function's\
       \ input signature is defined by the lambda.\nUse this as a decorator, e.g.:\n\
-      <!-- literal_block {\"xml:space\": \"preserve\", \"ids\": [], \"dupnames\":\
-      \ [], \"classes\": [], \"backrefs\": [], \"names\": []} -->\n\n````\n\n   @Function\n\
+      <!-- literal_block {\"xml:space\": \"preserve\", \"dupnames\": [], \"backrefs\"\
+      : [], \"ids\": [], \"classes\": [], \"names\": []} -->\n\n````\n\n   @Function\n\
       \   def f(x): return x * x\n   ````\nThe above form creates a CNTK Function\
       \ whose arguments are placeholder variables. Such a function can only be combined\
       \ with others symbolic functions.\nTo train a Function or pass data to it, you\
       \ need to declare the types of the arguments. In this case, the @Function decorator\
       \ creates a CNTK Function whose arguments are input variables.\nIf you use Python\
       \ 3, Functions with types are declared using Python annotation syntax, e.g.:\n\
-      <!-- literal_block {\"xml:space\": \"preserve\", \"ids\": [], \"dupnames\":\
-      \ [], \"classes\": [], \"backrefs\": [], \"names\": []} -->\n\n````\n\n   @Function\n\
+      <!-- literal_block {\"xml:space\": \"preserve\", \"dupnames\": [], \"backrefs\"\
+      : [], \"ids\": [], \"classes\": [], \"names\": []} -->\n\n````\n\n   @Function\n\
       \   def f(x:Tensor[13]):\n       return x * x\n   ````\nIf you are working with\
       \ Python 2.7, use CNTK's @Signature decorator instead:\n<!-- literal_block {\"\
-      xml:space\": \"preserve\", \"ids\": [], \"dupnames\": [], \"classes\": [], \"\
-      backrefs\": [], \"names\": []} -->\n\n````\n\n   @Function\n   @Signature(Tensor[13])\n\
+      xml:space\": \"preserve\", \"dupnames\": [], \"backrefs\": [], \"ids\": [],\
+      \ \"classes\": [], \"names\": []} -->\n\n````\n\n   @Function\n   @Signature(Tensor[13])\n\
       \   def f(x):\n       return x * x\n   ````\n`make_block=True` is used to implement\
       \ @BlockFunction(). If given the result will be wrapped in `as_block()`, using\
       \ the supplied `op_name` and `name` parameters, which are otherwise ignored."
@@ -1230,10 +1230,10 @@ items:
   name: update_signature
   source:
     id: update_signature
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+    path: cntk/ops/functions.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
+      path: cntk/ops/functions.py
       repo: null
     startLine: 228
   syntax:

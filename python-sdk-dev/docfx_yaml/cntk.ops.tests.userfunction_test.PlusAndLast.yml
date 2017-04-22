@@ -27,10 +27,10 @@ items:
     uid: cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs
   source:
     id: PlusAndLast
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    path: cntk/ops/tests/userfunction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      path: cntk/ops/tests/userfunction_test.py
       repo: null
     startLine: 275
   syntax:
@@ -48,10 +48,10 @@ items:
   name: forward
   source:
     id: forward
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    path: cntk/ops/tests/userfunction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      path: cntk/ops/tests/userfunction_test.py
       repo: null
     startLine: 289
   syntax:
@@ -65,10 +65,10 @@ items:
   name: infer_outputs
   source:
     id: infer_outputs
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+    path: cntk/ops/tests/userfunction_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/tests/userfunction_test.py
+      path: cntk/ops/tests/userfunction_test.py
       repo: null
     startLine: 285
   syntax:

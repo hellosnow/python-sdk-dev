@@ -26,10 +26,10 @@ items:
     uid: cntk.tests.misc_test.test_callstack2
   source:
     id: misc_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/misc_test.py
+    path: cntk/tests/misc_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/misc_test.py
+      path: cntk/tests/misc_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -40,10 +40,10 @@ items:
   name: test_Value_raises
   source:
     id: test_Value_raises
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/misc_test.py
+    path: cntk/tests/misc_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/misc_test.py
+      path: cntk/tests/misc_test.py
       repo: null
     startLine: 21
   syntax:
@@ -56,10 +56,10 @@ items:
   name: test_callstack1
   source:
     id: test_callstack1
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/misc_test.py
+    path: cntk/tests/misc_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/misc_test.py
+      path: cntk/tests/misc_test.py
       repo: null
     startLine: 11
   syntax:
@@ -72,10 +72,10 @@ items:
   name: test_callstack2
   source:
     id: test_callstack2
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/misc_test.py
+    path: cntk/tests/misc_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/tests/misc_test.py
+      path: cntk/tests/misc_test.py
       repo: null
     startLine: 16
   syntax:

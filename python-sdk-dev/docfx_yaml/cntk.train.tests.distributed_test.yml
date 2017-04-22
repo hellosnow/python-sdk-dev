@@ -44,10 +44,10 @@ items:
     uid: cntk.train.tests.distributed_test.test_distributed_mb_source
   source:
     id: distributed_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+    path: cntk/train/tests/distributed_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+      path: cntk/train/tests/distributed_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -58,10 +58,10 @@ items:
   name: create_block_momentum_distributed_learner
   source:
     id: create_block_momentum_distributed_learner
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+    path: cntk/train/tests/distributed_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+      path: cntk/train/tests/distributed_test.py
       repo: null
     startLine: 25
   syntax:
@@ -74,10 +74,10 @@ items:
   name: create_block_momentum_distributed_learner_with_time_constant
   source:
     id: create_block_momentum_distributed_learner_with_time_constant
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+    path: cntk/train/tests/distributed_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+      path: cntk/train/tests/distributed_test.py
       repo: null
     startLine: 31
   syntax:
@@ -90,10 +90,10 @@ items:
   name: create_data_parallel_distributed_learner
   source:
     id: create_data_parallel_distributed_learner
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+    path: cntk/train/tests/distributed_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+      path: cntk/train/tests/distributed_test.py
       repo: null
     startLine: 18
   syntax:
@@ -106,10 +106,10 @@ items:
   name: run_distributed_training
   source:
     id: run_distributed_training
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+    path: cntk/train/tests/distributed_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+      path: cntk/train/tests/distributed_test.py
       repo: null
     startLine: 38
   syntax:
@@ -122,10 +122,10 @@ items:
   name: test_distributed
   source:
     id: test_distributed
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+    path: cntk/train/tests/distributed_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+      path: cntk/train/tests/distributed_test.py
       repo: null
     startLine: 201
   syntax:
@@ -138,10 +138,10 @@ items:
   name: test_distributed_mb_source
   source:
     id: test_distributed_mb_source
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+    path: cntk/train/tests/distributed_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
+      path: cntk/train/tests/distributed_test.py
       repo: null
     startLine: 81
   syntax:

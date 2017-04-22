@@ -20,10 +20,10 @@ items:
     uid: cntk.debugging.dump_signature
   source:
     id: debugging
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/__init__.py
+    path: cntk/debugging/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/__init__.py
+      path: cntk/debugging/__init__.py
       repo: null
     startLine: 0
   type: Namespace
@@ -34,10 +34,10 @@ items:
   name: dump_function
   source:
     id: dump_function
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/__init__.py
+    path: cntk/debugging/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/__init__.py
+      path: cntk/debugging/__init__.py
       repo: null
     startLine: 32
   syntax:
@@ -50,10 +50,10 @@ items:
   name: dump_signature
   source:
     id: dump_signature
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/__init__.py
+    path: cntk/debugging/__init__.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/__init__.py
+      path: cntk/debugging/__init__.py
       repo: null
     startLine: 16
   syntax:

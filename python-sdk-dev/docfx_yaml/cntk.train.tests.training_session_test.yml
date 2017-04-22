@@ -86,10 +86,10 @@ items:
     uid: cntk.train.tests.training_session_test.test_session_sanity_check
   source:
     id: training_session_test
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 0
   type: Namespace
@@ -100,10 +100,10 @@ items:
   name: create_sample_model
   source:
     id: create_sample_model
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 67
   syntax:
@@ -116,10 +116,10 @@ items:
   name: mb_source
   source:
     id: mb_source
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 54
   syntax:
@@ -132,10 +132,10 @@ items:
   name: test_session_cross_validation_3_times
   source:
     id: test_session_cross_validation_3_times
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 168
   syntax:
@@ -148,10 +148,10 @@ items:
   name: test_session_cross_validation_3_times_checkpoints_2_save_all
   source:
     id: test_session_cross_validation_3_times_checkpoints_2_save_all
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 191
   syntax:
@@ -164,10 +164,10 @@ items:
   name: test_session_cross_validation_at_end
   source:
     id: test_session_cross_validation_at_end
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 145
   syntax:
@@ -180,10 +180,10 @@ items:
   name: test_session_cv_callback_3_times
   source:
     id: test_session_cv_callback_3_times
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 339
   syntax:
@@ -196,10 +196,10 @@ items:
   name: test_session_cv_callback_early_exit
   source:
     id: test_session_cv_callback_early_exit
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 403
   syntax:
@@ -212,10 +212,10 @@ items:
   name: test_session_cv_callback_with_cross_validation_3_times
   source:
     id: test_session_cv_callback_with_cross_validation_3_times
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 368
   syntax:
@@ -228,10 +228,10 @@ items:
   name: test_session_max_samples
   source:
     id: test_session_max_samples
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 126
   syntax:
@@ -244,10 +244,10 @@ items:
   name: test_session_progress_print
   source:
     id: test_session_progress_print
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 232
   syntax:
@@ -260,10 +260,10 @@ items:
   name: test_session_restart_from_checkpoint
   source:
     id: test_session_restart_from_checkpoint
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 258
   syntax:
@@ -276,10 +276,10 @@ items:
   name: test_session_sanity_check
   source:
     id: test_session_sanity_check
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+    path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
+      path: cntk/train/tests/training_session_test.py
       repo: null
     startLine: 109
   syntax:

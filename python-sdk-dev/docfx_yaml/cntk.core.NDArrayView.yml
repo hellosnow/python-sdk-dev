@@ -42,24 +42,24 @@ items:
     uid: cntk.core.NDArrayView.slice_view
   source:
     id: NDArrayView
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
+    path: cntk/core.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/core.py
+      path: cntk/core.py
       repo: null
     startLine: 23
   syntax:
     exceptions: []
     parameters:
     - description: shape of the data
-      id: shape
-      type: tuple
-    - description: data type of the data
       id: device
       type: DeviceDescriptor
-    - description: device this value should be put on
+    - description: data type of the data
       id: data_type
       type: np.float32, np.float64
+    - description: device this value should be put on
+      id: shape
+      type: tuple
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.NDArrayView`
@@ -83,24 +83,24 @@ items:
   name: from_csr
   source:
     id: from_csr
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 79
   syntax:
     exceptions: []
     parameters:
     - description: SciPy sparse matrix in CSR format
-      id: device
-      type: DeviceDescriptor
+      id: csr_array
+      type: scipy.sparse.csr.csr_matrix
     - description: device this value should be put on
       id: read_only
       type: bool, optional
     - description: whether the data can be modified or not (default False)
-      id: csr_array
-      type: scipy.sparse.csr.csr_matrix
+      id: device
+      type: DeviceDescriptor
     - description: whether nd_arrary memory can be borrowed internally to speed up
         the data creation
       id: borrow
@@ -118,10 +118,10 @@ items:
   name: from_data
   source:
     id: from_data
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 110
   syntax:
@@ -154,28 +154,28 @@ items:
   name: from_dense
   source:
     id: from_dense
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 46
   syntax:
     exceptions: []
     parameters:
     - description: NumPy array
-      id: device
-      type: DeviceDescriptor
-    - description: device this value should be put on
       id: borrow
       type: bool, default False
-    - description: whether nd_arrary memory can be borrowed internally to speed up
-        the data creation
-      id: np_array
-      type: numpy.ndarray
-    - description: whether the data can be modified or not (default False)
+    - description: device this value should be put on
       id: read_only
       type: bool, optional
+    - description: whether nd_arrary memory can be borrowed internally to speed up
+        the data creation
+      id: device
+      type: DeviceDescriptor
+    - description: whether the data can be modified or not (default False)
+      id: np_array
+      type: numpy.ndarray
     returntype: ''
     returnvalue: '`NDArrayView` instance'
     summary: Create a `NDArrayView` instance from a NumPy array.
@@ -206,10 +206,10 @@ items:
   name: slice_view
   source:
     id: slice_view
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+    path: cntk/internal/swig_helper.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
+      path: cntk/internal/swig_helper.py
       repo: null
     startLine: 153
   syntax:
@@ -217,13 +217,13 @@ items:
     parameters:
     - description: shape of the same rank as this Value instance that denotes the
         start of the slicing
-      id: start_offset
+      id: extent
       type: tuple or list
     - description: shape of the right-aligned extent to keep
       id: read_only
       type: bool
     - description: whether the returned slice is read only or not
-      id: extent
+      id: start_offset
       type: tuple or list
     returntype: ''
     returnvalue: ''

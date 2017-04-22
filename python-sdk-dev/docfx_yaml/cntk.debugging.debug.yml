@@ -32,10 +32,10 @@ items:
     uid: cntk.debugging.debug.set_computation_network_track_gap_nans
   source:
     id: debug
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+    path: cntk/debugging/debug.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+      path: cntk/debugging/debug.py
       repo: null
     startLine: 0
   type: Namespace
@@ -46,29 +46,29 @@ items:
   name: debug_model
   source:
     id: debug_model
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+    path: cntk/debugging/debug.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+      path: cntk/debugging/debug.py
       repo: null
     startLine: 391
   syntax:
     exceptions: []
     parameters:
     - description: root node until which the nodes are to be debugged
-      id: model
-      type: root node
-    - description: '*readline()* will be called on it to obtain user input'
-      id: out_stream
-      type: object behaving like sys.stdout, default stdout
-    - description: '*write()* and *flush()* will be called on it to output debug info
-        to the user'
-      id: in_stream
-      type: object behaving like sys.stdin, default stdin
-    - description: callable that takes an exit code and is called, when the user exits
-        the debugging process
       id: exit_func
       type: callable, default sys.exit
+    - description: '*readline()* will be called on it to obtain user input'
+      id: model
+      type: root node
+    - description: '*write()* and *flush()* will be called on it to output debug info
+        to the user'
+      id: out_stream
+      type: object behaving like sys.stdout, default stdout
+    - description: callable that takes an exit code and is called, when the user exits
+        the debugging process
+      id: in_stream
+      type: object behaving like sys.stdin, default stdin
     returntype: ''
     returnvalue: a clone of the model that has debugging enabled
     summary: Returns a cloned model that has debug nodes inserted everywhere. When
@@ -82,21 +82,21 @@ items:
   name: save_as_legacy_model
   source:
     id: save_as_legacy_model
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+    path: cntk/debugging/debug.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+      path: cntk/debugging/debug.py
       repo: null
     startLine: 86
   syntax:
     exceptions: []
     parameters:
     - description: op of the graph to save
-      id: filename
-      type: str
-    - description: filename to store the model in.
       id: root_op
       type: Function
+    - description: filename to store the model in.
+      id: filename
+      type: str
     returntype: ''
     returnvalue: ''
     summary: Save the network of `root_op` in `filename`. For debugging purposes only,
@@ -110,10 +110,10 @@ items:
   name: set_computation_network_trace_level
   source:
     id: set_computation_network_trace_level
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+    path: cntk/debugging/debug.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+      path: cntk/debugging/debug.py
       repo: null
     startLine: 120
   syntax:
@@ -138,10 +138,10 @@ items:
   name: set_computation_network_track_gap_nans
   source:
     id: set_computation_network_track_gap_nans
-    path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+    path: cntk/debugging/debug.py
     remote:
       branch: master
-      path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/debug.py
+      path: cntk/debugging/debug.py
       repo: null
     startLine: 109
   syntax:
