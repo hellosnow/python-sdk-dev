@@ -76,7 +76,7 @@ items:
     id: blocks
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
       repo: null
     startLine: 0
@@ -90,7 +90,7 @@ items:
     id: BlockFunction
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
       repo: null
     startLine: 68
@@ -107,7 +107,7 @@ items:
     id: Constant
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
       repo: null
     startLine: 107
@@ -118,11 +118,11 @@ items:
       id: shape
       type: int or tuple of ints
     - description: vector or tensor dimension of the output of this layer
-      id: value
-      type: object
-    - description: data type
       id: name
       type: str, defaults to ''
+    - description: data type
+      id: value
+      type: object
     - description: the name of the Function instance in the network
       id: dtype
       type: np.dtype, defaults to np.float32
@@ -140,7 +140,7 @@ items:
     id: ForwardDeclaration
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
       repo: null
     startLine: 168
@@ -157,7 +157,7 @@ items:
     id: GRU
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
       repo: null
     startLine: 460
@@ -165,26 +165,26 @@ items:
     exceptions: []
     parameters:
     - description: vector or tensor dimension of the output of this layer
-      id: activation
-      type: Function, defaults to tanh
-    - description: ''
-      id: init
-      type: scalar or NumPy array or cntk.initializer, defaults to glorot_uniform
-    - description: function to apply at the end, e.g. *relu*
       id: cell_shape
       type: tuple, defaults to None
-    - description: initial value of weights *W*
+    - description: ''
+      id: name
+      type: str, defaults to ''
+    - description: function to apply at the end, e.g. *relu*
       id: shape
       type: int or tuple of ints
+    - description: initial value of weights *W*
+      id: init
+      type: scalar or NumPy array or cntk.initializer, defaults to glorot_uniform
     - description: initial value of weights *b*
-      id: init_bias
-      type: scalar or NumPy array or cntk.initializer, defaults to 0
+      id: activation
+      type: Function, defaults to tanh
     - description: ''
       id: enable_self_stabilization
       type: bool, defaults to False
     - description: the name of the Function instance in the network
-      id: name
-      type: str, defaults to ''
+      id: init_bias
+      type: scalar or NumPy array or cntk.initializer, defaults to 0
     returntype: cntk.ops.functions.Function
     returnvalue: A function (prev_h, input) -> h)
     summary: Layer factory function to create a GRU block for use inside a recurrence.
@@ -199,7 +199,7 @@ items:
     id: Input
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
       repo: null
     startLine: 124
@@ -207,23 +207,23 @@ items:
     exceptions: []
     parameters:
     - description: vector or tensor dimension of the output of this layer
-      id: dtype
-      type: np.dtype, defaults to np.float32
-    - description: data type
       id: name
       type: str, defaults to ''
-    - description: ''
-      id: shape
-      type: int or tuple of ints
-    - description: ''
+    - description: data type
       id: dynamic_axes
       type: object, Axis.default_input_variable_dynamic_axes
     - description: ''
       id: needs_gradient
       type: bool, defaults to True
-    - description: the name of the Function instance in the network
+    - description: ''
       id: is_sparse
       type: bool, defaults to False
+    - description: ''
+      id: shape
+      type: int or tuple of ints
+    - description: the name of the Function instance in the network
+      id: dtype
+      type: np.dtype, defaults to np.float32
     returntype: ''
     returnvalue: ''
     summary: Constructs an Input variable.
@@ -238,7 +238,7 @@ items:
     id: LSTM
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
       repo: null
     startLine: 391
@@ -246,29 +246,29 @@ items:
     exceptions: []
     parameters:
     - description: vector or tensor dimension of the output of this layer
-      id: use_peepholes
-      type: bool, defaults to False
-    - description: ''
-      id: activation
-      type: Function, defaults to tanh
-    - description: function to apply at the end, e.g. *relu*
-      id: init
-      type: scalar or NumPy array or cntk.initializer, defaults to glorot_uniform
-    - description: ''
       id: cell_shape
       type: tuple, defaults to None
-    - description: initial value of weights *W*
-      id: shape
-      type: int or tuple of ints
-    - description: initial value of weights *b*
-      id: init_bias
-      type: scalar or NumPy array or cntk.initializer, defaults to 0
     - description: ''
-      id: enable_self_stabilization
-      type: bool, defaults to False
-    - description: the name of the Function instance in the network
       id: name
       type: str, defaults to ''
+    - description: function to apply at the end, e.g. *relu*
+      id: shape
+      type: int or tuple of ints
+    - description: ''
+      id: use_peepholes
+      type: bool, defaults to False
+    - description: initial value of weights *W*
+      id: activation
+      type: Function, defaults to tanh
+    - description: initial value of weights *b*
+      id: enable_self_stabilization
+      type: bool, defaults to False
+    - description: ''
+      id: init
+      type: scalar or NumPy array or cntk.initializer, defaults to glorot_uniform
+    - description: the name of the Function instance in the network
+      id: init_bias
+      type: scalar or NumPy array or cntk.initializer, defaults to 0
     returntype: cntk.ops.functions.Function
     returnvalue: A function (prev_h, prev_c, input) -> h)
     summary: Layer factory function to create an LSTM block for use inside a recurrence.
@@ -283,7 +283,7 @@ items:
     id: Parameter
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
       repo: null
     startLine: 87
@@ -294,14 +294,14 @@ items:
       id: shape
       type: int or tuple of ints
     - description: initial value of weights *W*
-      id: dtype
-      type: np.dtype, defaults to np.float32
-    - description: data type
       id: name
       type: str, defaults to ''
-    - description: the name of the Function instance in the network
+    - description: data type
       id: init
       type: scalar or NumPy array or cntk.initializer
+    - description: the name of the Function instance in the network
+      id: dtype
+      type: np.dtype, defaults to np.float32
     returntype: ''
     returnvalue: ''
     summary: Constructs a Parameter variable.
@@ -316,7 +316,7 @@ items:
     id: Placeholder
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
       repo: null
     startLine: 145
@@ -327,11 +327,11 @@ items:
       id: shape
       type: int or tuple of ints, defaults to None
     - description: ''
-      id: dynamic_axes
-      type: object, defaults to None
-    - description: ''
       id: name
       type: str, defaults to 'placeholder'
+    - description: ''
+      id: dynamic_axes
+      type: object, defaults to None
     - description: the name of the Function instance in the network
       id: is_sparse
       type: bool, defaults to False
@@ -349,7 +349,7 @@ items:
     id: RNNUnit
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
       repo: null
     startLine: 427
@@ -357,26 +357,26 @@ items:
     exceptions: []
     parameters:
     - description: vector or tensor dimension of the output of this layer
-      id: activation
-      type: Function, defaults to signmoid
-    - description: ''
-      id: init
-      type: scalar or NumPy array or cntk.initializer, defaults to glorot_uniform
-    - description: function to apply at the end, e.g. *relu*
       id: cell_shape
       type: tuple, defaults to None
-    - description: initial value of weights *W*
+    - description: ''
+      id: name
+      type: str, defaults to ''
+    - description: function to apply at the end, e.g. *relu*
       id: shape
       type: int or tuple of ints
+    - description: initial value of weights *W*
+      id: init
+      type: scalar or NumPy array or cntk.initializer, defaults to glorot_uniform
     - description: initial value of weights *b*
-      id: init_bias
-      type: scalar or NumPy array or cntk.initializer, defaults to 0
+      id: activation
+      type: Function, defaults to signmoid
     - description: ''
       id: enable_self_stabilization
       type: bool, defaults to False
     - description: the name of the Function instance in the network
-      id: name
-      type: str, defaults to ''
+      id: init_bias
+      type: scalar or NumPy array or cntk.initializer, defaults to 0
     returntype: cntk.ops.functions.Function
     returnvalue: A function (prev_h, input) -> h) where h = activation (W * input
       + R * prev_h + b)
@@ -392,7 +392,7 @@ items:
     id: Stabilizer
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
       repo: null
     startLine: 195
@@ -400,12 +400,12 @@ items:
     exceptions: []
     parameters:
     - description: ''
-      id: name
-      type: str, defaults to ''
-    - description: a flag that allows to disable itself. Useful if this is a global
-        default
       id: steepness
       type: int, defaults to 4
+    - description: a flag that allows to disable itself. Useful if this is a global
+        default
+      id: name
+      type: str, defaults to ''
     - description: the name of the Function instance in the network
       id: enable_self_stabilization
       type: bool, defaults to False
@@ -433,7 +433,7 @@ items:
     id: UntestedBranchError
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/blocks.py
       repo: null
     startLine: 28

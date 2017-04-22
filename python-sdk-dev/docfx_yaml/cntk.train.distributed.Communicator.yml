@@ -56,7 +56,7 @@ items:
     id: Communicator
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
       repo: null
     startLine: 41
@@ -84,7 +84,7 @@ items:
     id: barrier
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
       repo: null
     startLine: 67
@@ -101,7 +101,7 @@ items:
     id: current_worker
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 57
@@ -123,7 +123,7 @@ items:
     id: finalize
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
       repo: null
     startLine: 79
@@ -141,7 +141,7 @@ items:
     id: is_main
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
       repo: null
     startLine: 73
@@ -159,7 +159,7 @@ items:
     id: num_workers
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
       repo: null
     startLine: 86
@@ -176,7 +176,7 @@ items:
     id: rank
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
       repo: null
     startLine: 93
@@ -193,7 +193,7 @@ items:
     id: workers
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 47

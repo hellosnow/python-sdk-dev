@@ -112,7 +112,7 @@ items:
     id: learners
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
       repo: null
     startLine: 0
@@ -126,7 +126,7 @@ items:
     id: adagrad
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 562
@@ -135,24 +135,24 @@ items:
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: lr
-      type: output of learning_rate_schedule()
+      id: gradient_clipping_with_truncation
+      type: bool, default True
     - description: learning rate schedule.
-      id: l2_regularization_weight
+      id: l1_regularization_weight
       type: float, optional
     - description: ''
       id: need_ave_multiplier
       type: bool, default
     - description: the L1 regularization weight per sample, defaults to 0.0
-      id: gradient_clipping_with_truncation
-      type: bool, default True
-    - description: the L2 regularization weight per sample, defaults to 0.0
-      id: l1_regularization_weight
+      id: l2_regularization_weight
       type: float, optional
-    - description: the standard deviation of the Gaussian noise added to parameters
-        post update, defaults to 0.0
+    - description: the L2 regularization weight per sample, defaults to 0.0
       id: parameters
       type: list of parameters
+    - description: the standard deviation of the Gaussian noise added to parameters
+        post update, defaults to 0.0
+      id: lr
+      type: output of learning_rate_schedule()
     - description: clipping threshold per sample, defaults to infinity
       id: gradient_clipping_threshold_per_sample
       type: float, optional
@@ -178,7 +178,7 @@ items:
     id: adam
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 665
@@ -187,31 +187,31 @@ items:
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: lr
-      type: output of learning_rate_schedule()
-    - description: learning rate schedule.
       id: variance_momentum
       type: output of momentum_schedule() or momentum_as_time_constant_schedule()
-    - description: momentum schedule. For additional information, please refer to
-        the [wiki](https://github.com/Microsoft/CNTK/wiki/BrainScript-SGD-Block#converting-learning-rate-and-momentum-parameters-from-other-toolkits).
-      id: momentum
-      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
-    - description: when `True`, momentum is interpreted as a unit-gain filter. Defaults
-        to the value returned by `default_unit_gain_value()`.
+    - description: learning rate schedule.
       id: l1_regularization_weight
       type: float, optional
+    - description: momentum schedule. For additional information, please refer to
+        the [wiki](https://github.com/Microsoft/CNTK/wiki/BrainScript-SGD-Block#converting-learning-rate-and-momentum-parameters-from-other-toolkits).
+      id: gradient_clipping_threshold_per_sample
+      type: float, optional
+    - description: when `True`, momentum is interpreted as a unit-gain filter. Defaults
+        to the value returned by `default_unit_gain_value()`.
+      id: lr
+      type: output of learning_rate_schedule()
     - description: variance momentum schedule. Defaults to `momentum_as_time_constant_schedule(720000)`.
+      id: momentum
+      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
+    - description: the L1 regularization weight per sample, defaults to 0.0
       id: parameters
       type: list of parameters
-    - description: the L1 regularization weight per sample, defaults to 0.0
-      id: l2_regularization_weight
-      type: float, optional
     - description: the L2 regularization weight per sample, defaults to 0.0
       id: gradient_clipping_with_truncation
       type: bool, default True
     - description: the standard deviation of the Gaussian noise added to parameters
         post update, defaults to 0.0
-      id: gradient_clipping_threshold_per_sample
+      id: l2_regularization_weight
       type: float, optional
     - description: clipping threshold per sample, defaults to infinity
       id: gaussian_noise_injection_std_dev
@@ -234,7 +234,7 @@ items:
     id: adam_sgd
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 723
@@ -243,34 +243,34 @@ items:
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: lr
-      type: output of learning_rate_schedule()
-    - description: learning rate schedule.
       id: variance_momentum
       type: output of momentum_schedule() or momentum_as_time_constant_schedule()
+    - description: learning rate schedule.
+      id: l1_regularization_weight
+      type: float, optional
     - description: '<SYSTEM MESSAGE: /root/cntk-python/doc/cntk.learners.rst:2: (INFO/1)
         Duplicate explicit target name: "wiki".>
 
 
         momentum schedule. For additional information, please refer to the [wiki](https://github.com/Microsoft/CNTK/wiki/BrainScript-SGD-Block#converting-learning-rate-and-momentum-parameters-from-other-toolkits).'
-      id: momentum
-      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
+      id: gradient_clipping_threshold_per_sample
+      type: float, optional
     - description: when `True`, momentum is interpreted as a unit-gain filter. Defaults
         to the value returned by `default_unit_gain_value()`.
-      id: l1_regularization_weight
-      type: float, optional
+      id: lr
+      type: output of learning_rate_schedule()
     - description: variance momentum schedule. Defaults to `momentum_as_time_constant_schedule(720000)`.
+      id: momentum
+      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
+    - description: the L1 regularization weight per sample, defaults to 0.0
       id: parameters
       type: list of parameters
-    - description: the L1 regularization weight per sample, defaults to 0.0
-      id: l2_regularization_weight
-      type: float, optional
     - description: the L2 regularization weight per sample, defaults to 0.0
       id: gradient_clipping_with_truncation
       type: bool, default True
     - description: the standard deviation of the Gaussian noise added to parameters
         post update, defaults to 0.0
-      id: gradient_clipping_threshold_per_sample
+      id: l2_regularization_weight
       type: float, optional
     - description: clipping threshold per sample, defaults to infinity
       id: gaussian_noise_injection_std_dev
@@ -298,7 +298,7 @@ items:
     id: default_unit_gain_value
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
       repo: null
     startLine: 59
@@ -314,7 +314,7 @@ items:
     id: fsadagrad
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 612
@@ -323,34 +323,34 @@ items:
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: lr
-      type: output of learning_rate_schedule()
-    - description: learning rate schedule.
       id: variance_momentum
       type: output of momentum_schedule() or momentum_as_time_constant_schedule()
+    - description: learning rate schedule.
+      id: l1_regularization_weight
+      type: float, optional
     - description: '<SYSTEM MESSAGE: /root/cntk-python/doc/cntk.learners.rst:2: (INFO/1)
         Duplicate explicit target name: "wiki".>
 
 
         momentum schedule. For additional information, please refer to the [wiki](https://github.com/Microsoft/CNTK/wiki/BrainScript-SGD-Block#converting-learning-rate-and-momentum-parameters-from-other-toolkits).'
-      id: momentum
-      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
+      id: gradient_clipping_threshold_per_sample
+      type: float, optional
     - description: when `True`, momentum is interpreted as a unit-gain filter. Defaults
         to the value returned by `default_unit_gain_value()`.
-      id: l1_regularization_weight
-      type: float, optional
+      id: lr
+      type: output of learning_rate_schedule()
     - description: variance momentum schedule. Defaults to `momentum_as_time_constant_schedule(720000)`.
+      id: momentum
+      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
+    - description: the L1 regularization weight per sample, defaults to 0.0
       id: parameters
       type: list of parameters
-    - description: the L1 regularization weight per sample, defaults to 0.0
-      id: l2_regularization_weight
-      type: float, optional
     - description: the L2 regularization weight per sample, defaults to 0.0
       id: gradient_clipping_with_truncation
       type: bool, default True
     - description: the standard deviation of the Gaussian noise added to parameters
         post update, defaults to 0.0
-      id: gradient_clipping_threshold_per_sample
+      id: l2_regularization_weight
       type: float, optional
     - description: clipping threshold per sample, defaults to infinity
       id: gaussian_noise_injection_std_dev
@@ -369,7 +369,7 @@ items:
     id: learning_rate_schedule
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 293
@@ -377,14 +377,14 @@ items:
     exceptions: []
     parameters:
     - description: see parameter `schedule` in `training_parameter_schedule()`.
-      id: lr
-      type: float or list
-    - description: see parameter `unit` in `training_parameter_schedule()`.
       id: unit
       type: UnitType
-    - description: see parameter `epoch_size` in `training_parameter_schedule()`.
+    - description: see parameter `unit` in `training_parameter_schedule()`.
       id: epoch_size
       type: int
+    - description: see parameter `epoch_size` in `training_parameter_schedule()`.
+      id: lr
+      type: float or list
     returntype: ''
     returnvalue: learning rate schedule
     summary: 'Create a learning rate schedule (using the same semantics as `training_parameter_schedule()`).
@@ -401,7 +401,7 @@ items:
     id: momentum_as_time_constant_schedule
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 354
@@ -441,7 +441,7 @@ items:
     id: momentum_schedule
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 316
@@ -494,7 +494,7 @@ items:
     id: momentum_sgd
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 453
@@ -503,32 +503,32 @@ items:
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: lr
-      type: output of learning_rate_schedule()
+      id: gradient_clipping_with_truncation
+      type: bool, default True
     - description: learning rate schedule.
-      id: l2_regularization_weight
+      id: l1_regularization_weight
       type: float, optional
     - description: '<SYSTEM MESSAGE: /root/cntk-python/doc/cntk.learners.rst:2: (INFO/1)
         Duplicate explicit target name: "wiki".>
 
 
         momentum schedule. For additional information, please refer to the [wiki](https://github.com/Microsoft/CNTK/wiki/BrainScript-SGD-Block#converting-learning-rate-and-momentum-parameters-from-other-toolkits).'
-      id: momentum
-      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
+      id: l2_regularization_weight
+      type: float, optional
     - description: when `True`, momentum is interpreted as a unit-gain filter. Defaults
         to the value returned by `default_unit_gain_value()`.
-      id: l1_regularization_weight
-      type: float, optional
+      id: momentum
+      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
     - description: the L1 regularization weight per sample, defaults to 0.0
       id: parameters
       type: list of parameters
     - description: the L2 regularization weight per sample, defaults to 0.0
-      id: gradient_clipping_threshold_per_sample
-      type: float, optional
+      id: lr
+      type: output of learning_rate_schedule()
     - description: the standard deviation of the Gaussian noise added to parameters
         post update, defaults to 0.0
-      id: gradient_clipping_with_truncation
-      type: bool, default True
+      id: gradient_clipping_threshold_per_sample
+      type: float, optional
     - description: clipping threshold per sample, defaults to infinity
       id: gaussian_noise_injection_std_dev
       type: float, optional
@@ -546,7 +546,7 @@ items:
     id: nesterov
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 502
@@ -555,32 +555,32 @@ items:
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: lr
-      type: output of learning_rate_schedule()
+      id: gradient_clipping_with_truncation
+      type: bool, default True
     - description: learning rate schedule.
-      id: l2_regularization_weight
+      id: l1_regularization_weight
       type: float, optional
     - description: '<SYSTEM MESSAGE: /root/cntk-python/doc/cntk.learners.rst:2: (INFO/1)
         Duplicate explicit target name: "wiki".>
 
 
         momentum schedule. For additional information, please refer to the [wiki](https://github.com/Microsoft/CNTK/wiki/BrainScript-SGD-Block#converting-learning-rate-and-momentum-parameters-from-other-toolkits).'
-      id: momentum
-      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
+      id: l2_regularization_weight
+      type: float, optional
     - description: when `True`, momentum is interpreted as a unit-gain filter. Defaults
         to the value returned by `default_unit_gain_value()`.
-      id: l1_regularization_weight
-      type: float, optional
+      id: momentum
+      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
     - description: the L1 regularization weight per sample, defaults to 0.0
       id: parameters
       type: list of parameters
     - description: the L2 regularization weight per sample, defaults to 0.0
-      id: gradient_clipping_threshold_per_sample
-      type: float, optional
+      id: lr
+      type: output of learning_rate_schedule()
     - description: the standard deviation of the Gaussian noise added to parameters
         post update, defaults to 0.0
-      id: gradient_clipping_with_truncation
-      type: bool, default True
+      id: gradient_clipping_threshold_per_sample
+      type: float, optional
     - description: clipping threshold per sample, defaults to infinity
       id: gaussian_noise_injection_std_dev
       type: float, optional
@@ -605,7 +605,7 @@ items:
     id: rmsprop
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 785
@@ -614,45 +614,45 @@ items:
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: l2_regularization_weight
-      type: float, optional
+      id: gradient_clipping_with_truncation
+      type: bool, default True
     - description: learning rate schedule.
-      id: min
+      id: gamma
       type: float
     - description: Trade-off factor for current and previous gradients. Common value
         is 0.95
-      id: need_ave_multiplier
-      type: bool, default True
-    - description: Increasing factor when trying to adjust current learning_rate
-      id: gradient_clipping_with_truncation
-      type: bool, default True
-    - description: Decreasing factor when trying to adjust current learning_rate
-      id: dec
-      type: float
-    - description: Maximum scale allowed for the initial learning_rate
-      id: parameters
-      type: list of parameters
-    - description: Minimum scale allowed for the initial learning_rate
-      id: gaussian_noise_injection_std_dev
-      type: float, optional
-    - description: ''
-      id: lr
-      type: output of learning_rate_schedule()
-    - description: the L1 regularization weight per sample, defaults to 0.0
-      id: inc
-      type: float
-    - description: the L2 regularization weight per sample, defaults to 0.0
-      id: l1_regularization_weight
-      type: float, optional
-    - description: the standard deviation of the Gaussian noise added to parameters
-        post update, defaults to 0.0
-      id: gamma
-      type: float
-    - description: clipping threshold per sample, defaults to infinity
       id: max
       type: float
-    - description: use gradient clipping with truncation
+    - description: Increasing factor when trying to adjust current learning_rate
+      id: lr
+      type: output of learning_rate_schedule()
+    - description: Decreasing factor when trying to adjust current learning_rate
+      id: inc
+      type: float
+    - description: Maximum scale allowed for the initial learning_rate
+      id: min
+      type: float
+    - description: Minimum scale allowed for the initial learning_rate
+      id: l1_regularization_weight
+      type: float, optional
+    - description: ''
       id: gradient_clipping_threshold_per_sample
+      type: float, optional
+    - description: the L1 regularization weight per sample, defaults to 0.0
+      id: need_ave_multiplier
+      type: bool, default True
+    - description: the L2 regularization weight per sample, defaults to 0.0
+      id: dec
+      type: float
+    - description: the standard deviation of the Gaussian noise added to parameters
+        post update, defaults to 0.0
+      id: parameters
+      type: list of parameters
+    - description: clipping threshold per sample, defaults to infinity
+      id: l2_regularization_weight
+      type: float, optional
+    - description: use gradient clipping with truncation
+      id: gaussian_noise_injection_std_dev
       type: float, optional
     returntype: ''
     returnvalue: Instance of a `Learner` that can be passed to the `Trainer`
@@ -668,7 +668,7 @@ items:
     id: set_default_unit_gain_value
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
       repo: null
     startLine: 66
@@ -684,7 +684,7 @@ items:
     id: sgd
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 405
@@ -693,21 +693,21 @@ items:
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         '.parameters()' method of the root operator.
-      id: lr
-      type: output of learning_rate_schedule()
-    - description: learning rate schedule.
-      id: l2_regularization_weight
-      type: float, optional
-    - description: the L1 regularization weight per sample, defaults to 0.0
       id: gradient_clipping_with_truncation
       type: bool, default True
-    - description: the L2 regularization weight per sample, defaults to 0.0
+    - description: learning rate schedule.
       id: l1_regularization_weight
       type: float, optional
-    - description: the standard deviation of the Gaussian noise added to parameters
-        post update, defaults to 0.0
+    - description: the L1 regularization weight per sample, defaults to 0.0
+      id: l2_regularization_weight
+      type: float, optional
+    - description: the L2 regularization weight per sample, defaults to 0.0
       id: parameters
       type: list of parameters
+    - description: the standard deviation of the Gaussian noise added to parameters
+        post update, defaults to 0.0
+      id: lr
+      type: output of learning_rate_schedule()
     - description: clipping threshold per sample, defaults to infinity
       id: gradient_clipping_threshold_per_sample
       type: float, optional
@@ -732,7 +732,7 @@ items:
     id: training_parameter_schedule
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 220
@@ -743,12 +743,12 @@ items:
         In case of list, the elements are used as the values for `epoch_size` samples.
         If list contains pair, the second element is used as a value for (`epoch_size`
         x first element) samples
-      id: epoch_size
-      type: optional, int
-    - description: 'one of two * `sample`: the returned schedule contains per-sample
-        values * `minibatch`: the returned schedule contains per-minibatch values.'
       id: unit
       type: UnitType
+    - description: 'one of two * `sample`: the returned schedule contains per-sample
+        values * `minibatch`: the returned schedule contains per-minibatch values.'
+      id: epoch_size
+      type: optional, int
     - description: number of samples as a scheduling unit. Parameters in the schedule
         change their values every `epoch_size` samples. If no `epoch_size` is provided,
         this parameter is substituted by the size of the full data sweep, in which

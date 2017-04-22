@@ -46,7 +46,7 @@ items:
     id: graph
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
       repo: null
     startLine: 0
@@ -60,7 +60,7 @@ items:
     id: depth_first_search
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
       repo: null
     startLine: 11
@@ -89,7 +89,7 @@ items:
     id: find_all_with_name
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
       repo: null
     startLine: 72
@@ -97,11 +97,11 @@ items:
     exceptions: []
     parameters:
     - description: the node to start the journey from
-      id: node_name
-      type: str
-    - description: name for which we are search nodes
       id: node
       type: Function or Variable
+    - description: name for which we are search nodes
+      id: node_name
+      type: str
     returntype: ''
     returnvalue: List of primitive (or block) functions having the specified name
     summary: 'Finds functions in the graph starting from `node` and doing a depth-first
@@ -119,7 +119,7 @@ items:
     id: find_by_name
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
       repo: null
     startLine: 90
@@ -127,11 +127,11 @@ items:
     exceptions: []
     parameters:
     - description: the node to start the journey from
-      id: node_name
-      type: str
-    - description: name for which we are search nodes
       id: node
       type: Function or Variable
+    - description: name for which we are search nodes
+      id: node_name
+      type: str
     returntype: ''
     returnvalue: Primitive (or block) function having the specified name
     summary: 'Finds a function in the graph starting from `node` and doing a depth-first
@@ -149,7 +149,7 @@ items:
     id: get_node_outputs
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
       repo: null
     startLine: 348
@@ -174,7 +174,7 @@ items:
     id: output_function_graph
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
       repo: null
     startLine: 334
@@ -190,7 +190,7 @@ items:
     id: plot
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/graph.py
       repo: null
     startLine: 123

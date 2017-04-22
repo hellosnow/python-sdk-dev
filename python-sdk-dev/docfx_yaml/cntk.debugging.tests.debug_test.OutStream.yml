@@ -25,7 +25,7 @@ items:
     id: OutStream
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/debug_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/debug_test.py
       repo: null
     startLine: 58
@@ -45,7 +45,7 @@ items:
     id: flush
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/debug_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/debug_test.py
       repo: null
     startLine: 69
@@ -62,7 +62,7 @@ items:
     id: write
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/debug_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/debugging/tests/debug_test.py
       repo: null
     startLine: 62

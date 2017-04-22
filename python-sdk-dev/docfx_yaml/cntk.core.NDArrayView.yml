@@ -52,11 +52,11 @@ items:
     exceptions: []
     parameters:
     - description: shape of the data
-      id: device
-      type: DeviceDescriptor
-    - description: data type of the data
       id: shape
       type: tuple
+    - description: data type of the data
+      id: device
+      type: DeviceDescriptor
     - description: device this value should be put on
       id: data_type
       type: np.float32, np.float64
@@ -93,18 +93,18 @@ items:
     exceptions: []
     parameters:
     - description: SciPy sparse matrix in CSR format
-      id: csr_array
-      type: scipy.sparse.csr.csr_matrix
-    - description: device this value should be put on
       id: device
       type: DeviceDescriptor
-    - description: whether the data can be modified or not (default False)
-      id: borrow
-      type: bool, default False
-    - description: whether nd_arrary memory can be borrowed internally to speed up
-        the data creation
+    - description: device this value should be put on
       id: read_only
       type: bool, optional
+    - description: whether the data can be modified or not (default False)
+      id: csr_array
+      type: scipy.sparse.csr.csr_matrix
+    - description: whether nd_arrary memory can be borrowed internally to speed up
+        the data creation
+      id: borrow
+      type: bool, default False
     returntype: ''
     returnvalue: '`NDArrayView` instance'
     summary: Create a `NDArrayView` instance from a SciPy sparse array in CSR format.
@@ -131,11 +131,11 @@ items:
       id: device
       type: DeviceDescriptor
     - description: device this value should be put on
-      id: data
-      type: numpy.ndarray or scipy.sparse.csr.csr_matrix
-    - description: whether the data can be modified or not (default False)
       id: read_only
       type: bool, optional
+    - description: whether the data can be modified or not (default False)
+      id: data
+      type: numpy.ndarray or scipy.sparse.csr.csr_matrix
     - description: whether nd_arrary memory can be borrowed internally to speed up
         the data creation
       id: borrow
@@ -167,15 +167,15 @@ items:
       id: device
       type: DeviceDescriptor
     - description: device this value should be put on
-      id: read_only
-      type: bool, optional
-    - description: whether nd_arrary memory can be borrowed internally to speed up
-        the data creation
       id: borrow
       type: bool, default False
-    - description: whether the data can be modified or not (default False)
+    - description: whether nd_arrary memory can be borrowed internally to speed up
+        the data creation
       id: np_array
       type: numpy.ndarray
+    - description: whether the data can be modified or not (default False)
+      id: read_only
+      type: bool, optional
     returntype: ''
     returnvalue: '`NDArrayView` instance'
     summary: Create a `NDArrayView` instance from a NumPy array.

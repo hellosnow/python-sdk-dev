@@ -56,7 +56,7 @@ items:
     id: MinibatchSource
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
       repo: null
     startLine: 82
@@ -67,18 +67,18 @@ items:
       id: deserializers
       type: list, defaults to empty
     - description: randomize before every epoch
-      id: distributed_after
-      type: int, defaults to cntk.io.INFINITE_SAMPLES
+      id: truncation_length
+      type: int
     - description: size of window that reader will shuffle, ignored if *randomize*
         is *False*
-      id: frame_mode
-      type: bool, defaults to False
+      id: randomize
+      type: bool, defaults to True
     - description: specifies how to interpret *randomization_window*. If *True*, the
         size of the randomization window is interpreted as a certain number of samples,
         otherwise -- as a number of chunks. Similarly to *randomization_window*, this
         parameter is ignored, when *randomize* is *False*
-      id: randomization_window
-      type: int
+      id: sample_based_randomization_window
+      type: bool, defaults to False
     - description: number of samples as a scheduling unit. Parameters in the schedule
         change their values every *epoch_size* samples. If no *epoch_size* is provided,
         this parameter is substituted by the size of the full data sweep with infinte
@@ -86,22 +86,22 @@ items:
         by the MinibatchSource) and parameters change their values on the sweep-by-sweep
         basis specified by the schedule. **Important:** Click [here](https://github.com/Microsoft/CNTK/wiki/BrainScript-epochSize-and-Python-epoch_size-in-CNTK)
         for a full description of this parameter.
-      id: randomize
-      type: bool, defaults to True
-    - description: sample count after which minibatch source becomes distributed
-      id: sample_based_randomization_window
-      type: bool, defaults to False
-    - description: using multi threaded deserializer
       id: multithreaded_deserializer
       type: bool, defaults to None
+    - description: sample count after which minibatch source becomes distributed
+      id: randomization_window
+      type: int
+    - description: using multi threaded deserializer
+      id: distributed_after
+      type: int, defaults to cntk.io.INFINITE_SAMPLES
     - description: Specifies if data should be randomized and returned at the frame
         or sequence level. When  true , input sequence are split into frames.
-      id: truncation_length
-      type: int
-    - description: Specifies the truncation length in samples for BPTT (positive integer).
-        If greater than zero *frame_mode* cannot be used at the same time.
       id: epoch_size
       type: int, defaults to INFINITELY_REPEAT
+    - description: Specifies the truncation length in samples for BPTT (positive integer).
+        If greater than zero *frame_mode* cannot be used at the same time.
+      id: frame_mode
+      type: bool, defaults to False
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.MinibatchSource`
@@ -130,7 +130,7 @@ items:
     id: current_position
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -152,7 +152,7 @@ items:
     id: get_checkpoint_state
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
       repo: null
     startLine: 223
@@ -174,7 +174,7 @@ items:
     id: is_distributed
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -191,7 +191,7 @@ items:
     id: next_minibatch
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 173
@@ -205,15 +205,15 @@ items:
         number of samples to retrieve for the next minibatch. Must be > 0. **Important:**
         Click [here](https://github.com/Microsoft/CNTK/wiki/BrainScript-epochSize-and-Python-epoch_size-in-CNTK)
         for a full description of this parameter.'
-      id: partition_index
-      type: int, defaults to None
-    - description: mapping of `Variable` to `StreamInformation` which will be used
-        to convert the returned data.
-      id: minibatch_size_in_samples
-      type: int
-    - description: CNTK DeviceDescriptor
       id: device
       type: DeviceDescriptor, defaults to None
+    - description: mapping of `Variable` to `StreamInformation` which will be used
+        to convert the returned data.
+      id: partition_index
+      type: int, defaults to None
+    - description: CNTK DeviceDescriptor
+      id: minibatch_size_in_samples
+      type: int
     - description: Used for distributed training, indicates into how many partitions
         the source should split the data.
       id: input_map
@@ -240,7 +240,7 @@ items:
     id: restore_from_checkpoint
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
       repo: null
     startLine: 233
@@ -265,7 +265,7 @@ items:
     id: stream_info
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
       repo: null
     startLine: 156
@@ -283,7 +283,7 @@ items:
     id: stream_infos
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
       repo: null
     startLine: 146

@@ -161,8 +161,8 @@ items:
     exceptions: []
     parameters:
     - description: input variable into which `batch` is passed
-      id: var
-      type: Variable
+      id: seq_starts
+      type: list of bools or None
     - description: 'batch input for *var*. It can be
 
 
@@ -174,14 +174,14 @@ items:
 
 
         * a `Value` object (e.g. returned by `one_hot()`)'
-      id: device
-      type: DeviceDescriptor, default None
+      id: var
+      type: Variable
     - description: if None, every sequence is treated as a new sequence. Otherwise,
         it is interpreted as a list of Booleans one for each sequence in the batch
         that tell whether a sequence is a new sequence (*True*) or a continuation
         of the sequence in the same slot of the previous minibatch (*False*)
-      id: seq_starts
-      type: list of bools or None
+      id: device
+      type: DeviceDescriptor, default None
     returntype: ''
     returnvalue: batch converted to a `Value` instance that can be passed to the core
       API
@@ -270,11 +270,11 @@ items:
     exceptions: []
     parameters:
     - description: input
-      id: fallback_dtype
-      type: NumPy dtype
-    - description: fallback dtype in case `arg` is a list
       id: arg
       type: number, NumPy array, Variable, or Function
+    - description: fallback dtype in case `arg` is a list
+      id: fallback_dtype
+      type: NumPy dtype
     returntype: ''
     returnvalue: Leaves Constant, Parameter, and Variable as is. Returns Constant,
       if `arg` is a number or NumPy array. Variable otherwise.
@@ -342,14 +342,14 @@ items:
     exceptions: []
     parameters:
     - description: shape of the value
-      id: value
-      type: None or value that can be cast to NumPy array
+      id: shape
+      type: tuple
     - description: the value to be converted
       id: device
       type: DeviceDescriptor
     - description: data type (np.float32 or np.float64)
-      id: shape
-      type: tuple
+      id: value
+      type: None or value that can be cast to NumPy array
     returntype: ''
     returnvalue: '`NDArrayView` object representing `value`'
     summary: Converts a given `value` to an `NDArrayView` object that can be passed
@@ -374,8 +374,8 @@ items:
     parameters:
     - description: arguments of the root function. In `forward()` pass it is typically
         *op.arguments*, in `backward()` pass it is *op.outputs*
-      id: device
-      type: DeviceDescriptor, default None
+      id: op_arguments
+      type: Function
     - description: "maps variables to their input data. The interpretation depends\
         \ on the input type:\n\n   * dict: keys are input variable or names, and values\
         \ are the input data.\n\n   * any other type: if node has a unique input,\
@@ -398,8 +398,8 @@ items:
       type: str or np.float32 or np.float64
     - description: if string it can be one of 'float' 'float32, 'double', 'float64',
         or None
-      id: op_arguments
-      type: Function
+      id: device
+      type: DeviceDescriptor, default None
     - description: device this value should be put on
       id: extract_values_from_minibatch_data
       type: bool, defaults to True

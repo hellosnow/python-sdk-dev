@@ -466,7 +466,7 @@ items:
     id: ops
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
       repo: null
     startLine: 0
@@ -480,7 +480,7 @@ items:
     id: abs
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1559
@@ -511,7 +511,7 @@ items:
     id: alias
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 108
@@ -541,7 +541,7 @@ items:
     id: argmax
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2301
@@ -576,7 +576,7 @@ items:
     id: argmin
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2334
@@ -611,7 +611,7 @@ items:
     id: as_block
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 65
@@ -619,12 +619,12 @@ items:
     exceptions: []
     parameters:
     - description: The composite Function that the block encapsulates
-      id: block_instance_name
-      type: str, optional
-    - description: A list of tuples, mapping from block's underlying composite's arguments
-        to
       id: variables they are connected to
       type: actual
+    - description: A list of tuples, mapping from block's underlying composite's arguments
+        to
+      id: block_instance_name
+      type: str, optional
     returntype: ''
     returnvalue: '`Function`'
     summary: Create a new block Function instance which just encapsulates the specified
@@ -647,7 +647,7 @@ items:
     id: as_composite
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 91
@@ -674,7 +674,7 @@ items:
     id: associative_multi_arg
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
       repo: null
     startLine: 638
@@ -724,7 +724,7 @@ items:
     id: batch_normalization
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 427
@@ -732,25 +732,25 @@ items:
     exceptions: []
     parameters:
     - description: input of the batch normalization operation
+      id: name
+      type: str, optional
+    - description: parameter tensor that holds the learned componentwise-scaling factors
       id: blend_time_constant
       type: float, default 0
-    - description: parameter tensor that holds the learned componentwise-scaling factors
-      id: normalization_time_constant
-      type: float, default 5000
     - description: parameter tensor that holds the learned bias. `scale` and `bias`
         must have the same dimensions which must be equal to the input dimensions
         in case of `spatial` = False or number of output convolution feature maps
         in case of `spatial` = True
-      id: spatial
-      type: bool
+      id: use_cudnn_engine
+      type: bool, default True
     - description: running mean which is used during evaluation phase and might be
         used during training as well. You must pass a constant tensor with initial
         value 0 and the same dimensions as `scale` and `bias`
-      id: name
-      type: str, optional
+      id: normalization_time_constant
+      type: float, default 5000
     - description: running variance. Represented as `running_mean`
-      id: use_cudnn_engine
-      type: bool, default True
+      id: spatial
+      type: bool
     returntype: ''
     returnvalue: '`Function`'
     summary: Normalizes layer outputs for every minibatch for each output (feature)
@@ -767,7 +767,7 @@ items:
     id: ceil
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1068
@@ -795,7 +795,7 @@ items:
     id: clip
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1132
@@ -807,12 +807,12 @@ items:
       type: float
     - description: a scalar or a tensor which represents the minimum value to clip
         element values to
-      id: min_value
-      type: float
-    - description: a scalar or a tensor which represents the maximum value to clip
-        element values to
       id: name
       type: str, optional
+    - description: a scalar or a tensor which represents the maximum value to clip
+        element values to
+      id: min_value
+      type: float
     returntype: ''
     returnvalue: '`Function`'
     summary: 'Computes a tensor with all of its values clipped to fall between `min_value`
@@ -841,7 +841,7 @@ items:
     id: combine
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 28
@@ -849,11 +849,11 @@ items:
     exceptions: []
     parameters:
     - description: list of functions or their variables to combine
-      id: name
-      type: str, optional
-    - description: the name of the Combine Function in the network
       id: operands
       type: list
+    - description: the name of the Combine Function in the network
+      id: name
+      type: str, optional
     returntype: ''
     returnvalue: '`Function`'
     summary: "Create a new Function instance which just combines the outputs of the\
@@ -881,7 +881,7 @@ items:
     id: constant
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2648
@@ -895,18 +895,18 @@ items:
       type: tuple or int, optional
     - description: the shape of the input tensor. If not provided, it will be inferred
         from `value`.
-      id: value
-      type: scalar or NumPy array, optional
+      id: device
+      type: DeviceDescriptor
     - description: data type of the constant. If a NumPy array and `dtype`, are given,
         then data will be converted if needed. If none given, it will default to `np.float32`.
-      id: name
-      type: str, optional
+      id: value
+      type: scalar or NumPy array, optional
     - description: instance of DeviceDescriptor
       id: dtype
       type: optional
     - description: the name of the Function instance in the network
-      id: device
-      type: DeviceDescriptor
+      id: name
+      type: str, optional
     returntype: ''
     returnvalue: '`Constant`'
     summary: "It creates a constant tensor initialized from a numpy array\n-[ Example\
@@ -923,7 +923,7 @@ items:
     id: convolution
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 177
@@ -932,17 +932,17 @@ items:
     parameters:
     - description: convolution filter weights, stored as a tensor of dimensions ,
         where  must be the kernel dimensions (spatial extent of the filter).
-      id: sharing
-      type: bool
-    - description: convolution input. A tensor with dimensions .
       id: name
       type: str, optional
+    - description: convolution input. A tensor with dimensions .
+      id: auto_padding
+      type: bool
     - description: stride dimensions. If strides[i] > 1 then only pixel positions
         that are multiples of strides[i] are computed. For example, a stride of 2
         will lead to a halving of that dimension. The first stride dimension that
         lines up with the number of input channels can be set to any non-zero value.
-      id: max_temp_mem_size_in_samples
-      type: int
+      id: sharing
+      type: bool
     - description: sharing flags for each input dimension
       id: strides
       type: tuple, optional
@@ -953,8 +953,8 @@ items:
         only shifted over positions where all inputs to the kernel still fall inside
         the area. In this case, the output dimension will be less than the input dimension.
         The last value that lines up with the number of input channels must be false.
-      id: auto_padding
-      type: bool
+      id: max_temp_mem_size_in_samples
+      type: int
     returntype: ''
     returnvalue: '`Function`'
     summary: "Computes the convolution of `convolution_map` (typically a tensor of\
@@ -989,7 +989,7 @@ items:
     id: convolution_transpose
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 241
@@ -998,17 +998,17 @@ items:
     parameters:
     - description: convolution filter weights, stored as a tensor of dimensions ,
         where  must be the kernel dimensions (spatial extent of the filter).
-      id: sharing
-      type: bool
-    - description: convolution input. A tensor with dimensions .
       id: name
       type: str, optional
+    - description: convolution input. A tensor with dimensions .
+      id: auto_padding
+      type: bool
     - description: stride dimensions. If strides[i] > 1 then only pixel positions
         that are multiples of strides[i] are computed. For example, a stride of 2
         will lead to a halving of that dimension. The first stride dimension that
         lines up with the number of input channels can be set to any non-zero value.
-      id: max_temp_mem_size_in_samples
-      type: int
+      id: sharing
+      type: bool
     - description: sharing flags for each input dimension
       id: strides
       type: tuple, optional
@@ -1019,8 +1019,8 @@ items:
         only shifted over positions where all inputs to the kernel still fall inside
         the area. In this case, the output dimension will be less than the input dimension.
         The last value that lines up with the number of input channels must be false.
-      id: auto_padding
-      type: bool
+      id: max_temp_mem_size_in_samples
+      type: int
     returntype: ''
     returnvalue: '`Function`'
     summary: "Computes the transposed convolution of `convolution_map` (typically\
@@ -1056,7 +1056,7 @@ items:
     id: cos
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1369
@@ -1082,7 +1082,7 @@ items:
     id: dropout
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2462
@@ -1120,7 +1120,7 @@ items:
     id: element_divide
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 819
@@ -1155,7 +1155,7 @@ items:
     id: element_max
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
       repo: null
     startLine: 779
@@ -1180,7 +1180,7 @@ items:
     id: element_min
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
       repo: null
     startLine: 799
@@ -1205,7 +1205,7 @@ items:
     id: element_select
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1623
@@ -1238,7 +1238,7 @@ items:
     id: element_times
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
       repo: null
     startLine: 746
@@ -1277,7 +1277,7 @@ items:
     id: elu
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1188
@@ -1313,7 +1313,7 @@ items:
     id: equal
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 503
@@ -1348,7 +1348,7 @@ items:
     id: exp
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1465
@@ -1379,7 +1379,7 @@ items:
     id: floor
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1036
@@ -1409,7 +1409,7 @@ items:
     id: forward_backward
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 149
@@ -1436,7 +1436,7 @@ items:
     id: future_value
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1654
@@ -1444,12 +1444,12 @@ items:
     exceptions: []
     parameters:
     - description: the tensor (or its name) from which the future value is obtained.
-      id: time_step
-      type: int
-    - description: tensor or scalar representing the initial value to be used when
-        the input tensor is shifted in time.
       id: name
       type: str, optional
+    - description: tensor or scalar representing the initial value to be used when
+        the input tensor is shifted in time.
+      id: time_step
+      type: int
     returntype: ''
     returnvalue: '`Function`'
     summary: "This function returns the future value w.r.t. `x`. It is most often\
@@ -1477,7 +1477,7 @@ items:
     id: greater
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 529
@@ -1512,7 +1512,7 @@ items:
     id: greater_equal
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 555
@@ -1547,7 +1547,7 @@ items:
     id: hardmax
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1441
@@ -1583,7 +1583,7 @@ items:
     id: input_variable
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2509
@@ -1591,23 +1591,23 @@ items:
     exceptions: []
     parameters:
     - description: the shape of the input tensor
-      id: dtype
-      type: type, optional
-    - description: np.float32 (default) or np.float64
       id: name
       type: str, optional
-    - description: whether to back-propagates to it or not. False by default.
-      id: shape
-      type: tuple or int
-    - description: whether the variable is sparse (*False* by default)
+    - description: np.float32 (default) or np.float64
       id: dynamic_axes
       type: list or tuple, default
-    - description: a list of dynamic axis (e.g., batch axis, time axis)
+    - description: whether to back-propagates to it or not. False by default.
       id: needs_gradients
       type: bool, optional
-    - description: the name of the Function instance in the network
+    - description: whether the variable is sparse (*False* by default)
       id: is_sparse
       type: bool, optional
+    - description: a list of dynamic axis (e.g., batch axis, time axis)
+      id: shape
+      type: tuple or int
+    - description: the name of the Function instance in the network
+      id: dtype
+      type: type, optional
     returntype: ''
     returnvalue: '`Variable`'
     summary: 'It creates an input in the network: a place where data, such as features
@@ -1623,7 +1623,7 @@ items:
     id: labels_to_graph
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 129
@@ -1648,7 +1648,7 @@ items:
     id: leaky_relu
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1213
@@ -1684,7 +1684,7 @@ items:
     id: less
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 477
@@ -1719,7 +1719,7 @@ items:
     id: less_equal
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 607
@@ -1754,7 +1754,7 @@ items:
     id: log
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1487
@@ -1789,7 +1789,7 @@ items:
     id: log_add_exp
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
       repo: null
     startLine: 846
@@ -1826,7 +1826,7 @@ items:
     id: minus
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 718
@@ -1853,7 +1853,7 @@ items:
     id: negate
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1581
@@ -1884,7 +1884,7 @@ items:
     id: not_equal
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 581
@@ -1919,7 +1919,7 @@ items:
     id: optimized_rnnstack
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1813
@@ -1951,7 +1951,7 @@ items:
     id: output_variable
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2542
@@ -1962,14 +1962,14 @@ items:
       id: shape
       type: tuple or int
     - description: data type
-      id: dtype
-      type: np.float32 or np.float64
-    - description: a list of dynamic axis (e.g., batch axis, time axis)
       id: name
       type: str, optional
-    - description: the name of the Function instance in the network
+    - description: a list of dynamic axis (e.g., batch axis, time axis)
       id: dynamic_axes
       type: list or tuple
+    - description: the name of the Function instance in the network
+      id: dtype
+      type: np.float32 or np.float64
     returntype: ''
     returnvalue: '`Variable` that is of output type'
     summary: It creates an output variable that is used to define a user defined function.
@@ -1984,7 +1984,7 @@ items:
     id: param_relu
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1237
@@ -1995,11 +1995,11 @@ items:
       id: name
       type: str, default to ''
     - description: any `Function` that outputs a tensor.
-      id: x
-      type: numpy.array or Function
-    - description: the name of the Function instance in the network
       id: alpha
       type: Parameter
+    - description: the name of the Function instance in the network
+      id: x
+      type: numpy.array or Function
     returntype: cntk.ops.functions.Function
     returnvalue: An instance of `Function`
     summary: 'Parametric rectified linear operation. Computes the element-wise parameteric
@@ -2025,7 +2025,7 @@ items:
     id: parameter
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2598
@@ -2040,18 +2040,18 @@ items:
         the tensor or NumPy array. If it is the output of an initializer form `cntk.initializer`
         it will be used to initialize the tensor at the first forward pass. If *None*,
         the tensor will be initialized with 0.
-      id: dtype
-      type: optional
-    - description: data type of the constant. If a NumPy array and `dtype`, are given,
-        then data will be converted if needed. If none given, it will default to `np.float32`.
-      id: name
-      type: str, optional
-    - description: instance of DeviceDescriptor
       id: device
       type: DeviceDescriptor
-    - description: the name of the Parameter instance in the network
+    - description: data type of the constant. If a NumPy array and `dtype`, are given,
+        then data will be converted if needed. If none given, it will default to `np.float32`.
       id: init
       type: scalar or NumPy array or initializer
+    - description: instance of DeviceDescriptor
+      id: dtype
+      type: optional
+    - description: the name of the Parameter instance in the network
+      id: name
+      type: str, optional
     returntype: ''
     returnvalue: '`Parameter`'
     summary: "It creates a parameter tensor.\n-[ Example ]-\n>>> init_parameter =\
@@ -2069,7 +2069,7 @@ items:
     id: past_value
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1709
@@ -2077,12 +2077,12 @@ items:
     exceptions: []
     parameters:
     - description: the tensor (or its name) from which the past value is obtained
-      id: time_step
-      type: int
-    - description: tensor or scalar representing the initial value to be used when
-        the input tensor is shifted in time.
       id: name
       type: str, optional
+    - description: tensor or scalar representing the initial value to be used when
+        the input tensor is shifted in time.
+      id: time_step
+      type: int
     returntype: ''
     returnvalue: '`Function`'
     summary: "This function returns the past value w.r.t. `x`. It is most often used\
@@ -2129,7 +2129,7 @@ items:
     id: per_dim_mean_variance_normalize
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2696
@@ -2137,11 +2137,11 @@ items:
     exceptions: []
     parameters:
     - description: the variable to be normalized
-      id: mean
-      type: NumPy array
-    - description: per dimension mean to use for the normalization
       id: name
       type: str, optional
+    - description: per dimension mean to use for the normalization
+      id: mean
+      type: NumPy array
     - description: per dimension standard deviation to use for the normalization
       id: inv_stddev
       type: NumPy array
@@ -2160,7 +2160,7 @@ items:
     id: placeholder_variable
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2570
@@ -2190,7 +2190,7 @@ items:
     id: plus
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/__init__.py
       repo: null
     startLine: 684
@@ -2233,7 +2233,7 @@ items:
     id: pooling
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 340
@@ -2241,23 +2241,23 @@ items:
     exceptions: []
     parameters:
     - description: pooling input
+      id: ceil_out_dim
+      type: default false
+    - description: one of `MAX_POOLING` or `AVG_POOLING`
       id: name
       type: str, optional
-    - description: one of `MAX_POOLING` or `AVG_POOLING`
-      id: strides
-      type: default 1
     - description: dimensions of the pooling window
       id: auto_padding
       type: default [False,]
     - description: strides.
-      id: ceil_out_dim
-      type: default false
+      id: lower_pad
+      type: default (0,)
     - description: automatic padding flags for each input dimension.
       id: upper_pad
       type: default (0,)
     - description: precise lower padding for each input dimension
-      id: lower_pad
-      type: default (0,)
+      id: strides
+      type: default 1
     returntype: ''
     returnvalue: '`Function`'
     summary: "The pooling operations compute a new tensor by selecting the maximum\
@@ -2280,7 +2280,7 @@ items:
     id: random_sample
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2371
@@ -2315,7 +2315,7 @@ items:
     id: random_sample_inclusion_frequency
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2404
@@ -2381,7 +2381,7 @@ items:
     id: reciprocal
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1603
@@ -2411,7 +2411,7 @@ items:
     id: reduce_log_sum_exp
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2133
@@ -2451,7 +2451,7 @@ items:
     id: reduce_max
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2200
@@ -2477,7 +2477,7 @@ items:
     id: reduce_mean
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2166
@@ -2503,7 +2503,7 @@ items:
     id: reduce_min
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2234
@@ -2529,7 +2529,7 @@ items:
     id: reduce_prod
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2268
@@ -2555,7 +2555,7 @@ items:
     id: reduce_sum
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2068
@@ -2563,11 +2563,11 @@ items:
     exceptions: []
     parameters:
     - description: input tensor
-      id: axis
-      type: int or Axis
-    - description: axis along which the reduction will be performed
       id: name
       type: str, optional
+    - description: axis along which the reduction will be performed
+      id: axis
+      type: int or Axis
     returntype: ''
     returnvalue: '`Function`'
     summary: "Computes the sum of the input tensor's elements across one axis. If\
@@ -2601,7 +2601,7 @@ items:
     id: relu
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1165
@@ -2634,7 +2634,7 @@ items:
     id: reshape
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1870
@@ -2666,7 +2666,7 @@ items:
     id: roipooling
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 311
@@ -2697,7 +2697,7 @@ items:
     id: round
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1093
@@ -2730,7 +2730,7 @@ items:
     id: sigmoid
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1301
@@ -2763,7 +2763,7 @@ items:
     id: sin
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1347
@@ -2789,7 +2789,7 @@ items:
     id: slice
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1949
@@ -2828,7 +2828,7 @@ items:
     id: softmax
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1392
@@ -2836,11 +2836,11 @@ items:
     exceptions: []
     parameters:
     - description: numpy array or any `Function` that outputs a tensor
-      id: axis
-      type: int or Axis
-    - description: axis along which the softmax operation will be performed
       id: name
       type: str, optional
+    - description: axis along which the softmax operation will be performed
+      id: axis
+      type: int or Axis
     returntype: ''
     returnvalue: '`Function`'
     summary: "Computes the gradient of  at z=``x``. Concretely,\n\nwith the understanding\
@@ -2864,7 +2864,7 @@ items:
     id: softplus
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1264
@@ -2872,14 +2872,14 @@ items:
     exceptions: []
     parameters:
     - description: any `Function` that outputs a tensor.
-      id: name
-      type: str, default to ''
-    - description: optional steepness factor
-      id: x
-      type: numpy.array or Function
-    - description: the name of the Function instance in the network
       id: steepness
       type: float, optional
+    - description: optional steepness factor
+      id: name
+      type: str, default to ''
+    - description: the name of the Function instance in the network
+      id: x
+      type: numpy.array or Function
     returntype: cntk.ops.functions.Function
     returnvalue: An instance of `Function`
     summary: 'Softplus operation. Computes the element-wise softplus of `x`:
@@ -2912,7 +2912,7 @@ items:
     id: splice
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2018
@@ -2920,11 +2920,11 @@ items:
     exceptions: []
     parameters:
     - description: one or more input tensors
-      id: axis
-      type: int or Axis, optional, keyword only
-    - description: axis along which the concatenation will be performed
       id: name
       type: str, optional, keyword only
+    - description: axis along which the concatenation will be performed
+      id: axis
+      type: int or Axis, optional, keyword only
     returntype: ''
     returnvalue: '`Function`'
     summary: "Concatenate the input tensors along an axis.\n-[ Example ]-\n>>> # create\
@@ -2948,7 +2948,7 @@ items:
     id: sqrt
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1513
@@ -2982,7 +2982,7 @@ items:
     id: square
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1539
@@ -3012,7 +3012,7 @@ items:
     id: stop_gradient
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 2714
@@ -3037,7 +3037,7 @@ items:
     id: tanh
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1325
@@ -3063,7 +3063,7 @@ items:
     id: times
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 876
@@ -3071,16 +3071,16 @@ items:
     exceptions: []
     parameters:
     - description: left side matrix or tensor
-      id: infer_input_rank_to_map
-      type: '''int'''
-    - description: right side matrix or tensor
       id: name
       type: str, optional
+    - description: right side matrix or tensor
+      id: output_rank
+      type: int
     - description: in case we have tensors as arguments, output_rank represents the
         number of axes to be collapsed in order to transform the tensors into matrices,
         perform the operation and then reshape back (explode the axes)
-      id: output_rank
-      type: int
+      id: infer_input_rank_to_map
+      type: '''int'''
     returntype: ''
     returnvalue: '`Function`'
     summary: "The output of this operation is the matrix product of the two input\
@@ -3088,11 +3088,11 @@ items:
       \ if it is a matrix. The operator '@' has been overloaded such that in Python\
       \ 3.5 and later X @ W equals times(X, W).\nFor better performance on times operation\
       \ on sequence which is followed by sequence.reduce_sum, use infer_input_rank_to_map=TIMES_REDUCE_SEQUENCE_AXIS_WITHOUT_INFERRED_INPUT_RANK,\
-      \ i.e. replace following:\n<!-- literal_block {\"classes\": [], \"backrefs\"\
-      : [], \"dupnames\": [], \"ids\": [], \"names\": [], \"xml:space\": \"preserve\"\
-      } -->\n\n````\n\n   sequence.reduce_sum(times(seq1, seq2))\n   ````\nwith:\n\
-      <!-- literal_block {\"classes\": [], \"backrefs\": [], \"dupnames\": [], \"\
-      ids\": [], \"names\": [], \"xml:space\": \"preserve\"} -->\n\n````\n\n   times(seq1,\
+      \ i.e. replace following:\n<!-- literal_block {\"xml:space\": \"preserve\",\
+      \ \"ids\": [], \"dupnames\": [], \"classes\": [], \"backrefs\": [], \"names\"\
+      : []} -->\n\n````\n\n   sequence.reduce_sum(times(seq1, seq2))\n   ````\nwith:\n\
+      <!-- literal_block {\"xml:space\": \"preserve\", \"ids\": [], \"dupnames\":\
+      \ [], \"classes\": [], \"backrefs\": [], \"names\": []} -->\n\n````\n\n   times(seq1,\
       \ seq2, infer_input_rank_to_map=TIMES_REDUCE_SEQUENCE_AXIS_WITHOUT_INFERRED_INPUT_RANK)\n\
       \   ````\n-[ Example ]-\n>>> C.times([[1,2],[3,4]], [[5],[6]]).eval()\narray([[\
       \ 17.],\n       [ 39.]], dtype=float32)\n>>> C.times(1.*np.reshape(np.arange(8),\
@@ -3114,7 +3114,7 @@ items:
     id: times_transpose
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 934
@@ -3159,7 +3159,7 @@ items:
     id: transpose
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1923
@@ -3167,13 +3167,13 @@ items:
     exceptions: []
     parameters:
     - description: tensor to be transposed
-      id: axis1
-      type: int or Axis
-    - description: the axis to swap with `axis2`
       id: name
       type: str, optional
-    - description: the axis to swap with `axis1`
+    - description: the axis to swap with `axis2`
       id: axis2
+      type: int or Axis
+    - description: the axis to swap with `axis1`
+      id: axis1
       type: int or Axis
     returntype: ''
     returnvalue: '`Function`'
@@ -3191,7 +3191,7 @@ items:
     id: unpooling
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 383

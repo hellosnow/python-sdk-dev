@@ -40,7 +40,7 @@ items:
     id: distributed
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/distributed.py
       repo: null
     startLine: 0
@@ -54,7 +54,7 @@ items:
     id: block_momentum_distributed_learner
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 141
@@ -62,8 +62,8 @@ items:
     exceptions: []
     parameters:
     - description: a local learner (i.e. sgd)
-      id: distributed_after
-      type: int
+      id: block_momentum_as_time_constant
+      type: float
     - description: size of the partition in samples
       id: block_learning_rate
       type: float
@@ -74,8 +74,8 @@ items:
       id: block_size
       type: int
     - description: reset SGD momentum after aggregation
-      id: block_momentum_as_time_constant
-      type: float
+      id: distributed_after
+      type: int
     - description: block learning rate
       id: use_nestrov_momentum
       type: bool
@@ -104,7 +104,7 @@ items:
     id: data_parallel_distributed_learner
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 115
@@ -112,10 +112,10 @@ items:
     exceptions: []
     parameters:
     - description: a local learner (i.e. sgd)
-      id: num_quantization_bits
+      id: distributed_after
       type: int
     - description: number of samples after which distributed training starts
-      id: distributed_after
+      id: num_quantization_bits
       type: int
     - description: number of bits for quantization (1 to 32)
       id: use_async_buffered_parameter_update

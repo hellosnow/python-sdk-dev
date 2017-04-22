@@ -40,7 +40,7 @@ items:
     id: higher_order_layers
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/higher_order_layers.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/higher_order_layers.py
       repo: null
     startLine: 0
@@ -54,15 +54,15 @@ items:
     id: For
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/higher_order_layers.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/higher_order_layers.py
       repo: null
     startLine: 35
   syntax:
     summary: "Layer factory function to create a composite that applies a sequence\
       \ of layers constructed with a constructor lambda(layer). For example:\n<!--\
-      \ literal_block {\"classes\": [], \"backrefs\": [], \"dupnames\": [], \"ids\"\
-      : [], \"names\": [], \"xml:space\": \"preserve\"} -->\n\n````\n\n   For(range(3),\
+      \ literal_block {\"xml:space\": \"preserve\", \"ids\": [], \"dupnames\": [],\
+      \ \"classes\": [], \"backrefs\": [], \"names\": []} -->\n\n````\n\n   For(range(3),\
       \ lambda i: Dense(2000))\n   For(range(3), lambda: Dense(2000))\n   ````"
   type: Method
   uid: cntk.layers.higher_order_layers.For
@@ -74,7 +74,7 @@ items:
     id: LayerStack
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/higher_order_layers.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/higher_order_layers.py
       repo: null
     startLine: 60
@@ -90,7 +90,7 @@ items:
     id: ResNetBlock
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/higher_order_layers.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/higher_order_layers.py
       repo: null
     startLine: 87
@@ -107,7 +107,7 @@ items:
     id: Sequential
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/higher_order_layers.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/higher_order_layers.py
       repo: null
     startLine: 20
@@ -125,7 +125,7 @@ items:
     id: SequentialClique
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/higher_order_layers.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/higher_order_layers.py
       repo: null
     startLine: 67

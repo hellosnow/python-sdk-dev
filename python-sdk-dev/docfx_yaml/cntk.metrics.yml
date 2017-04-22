@@ -34,7 +34,7 @@ items:
     id: metrics
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/metrics/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/metrics/__init__.py
       repo: null
     startLine: 0
@@ -48,7 +48,7 @@ items:
     id: classification_error
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 118
@@ -56,12 +56,12 @@ items:
     exceptions: []
     parameters:
     - description: the output values from the network
-      id: axis
-      type: int or Axis
-    - description: it is one-hot vector where the hot bit corresponds to the label
-        index.
       id: name
       type: str, optional
+    - description: it is one-hot vector where the hot bit corresponds to the label
+        index.
+      id: axis
+      type: int or Axis
     returntype: ''
     returnvalue: '`Function`'
     summary: 'This operation computes the classification error. It finds the index
@@ -97,7 +97,7 @@ items:
     id: edit_distance_error
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 156
@@ -105,11 +105,11 @@ items:
     exceptions: []
     parameters:
     - description: first input sequence
-      id: delPen, insPen
-      type: subPen,
-    - description: second input sequence
       id: name
       type: str, optional
+    - description: second input sequence
+      id: delPen, insPen
+      type: subPen,
     returntype: ''
     returnvalue: '`Function`'
     summary: 'Edit distance error evaluation node with the option of specifying penalty
@@ -153,7 +153,7 @@ items:
     id: lambda_rank
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 16
@@ -193,7 +193,7 @@ items:
     id: ndcg_at_1
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 72

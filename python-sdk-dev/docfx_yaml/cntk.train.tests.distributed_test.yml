@@ -46,7 +46,7 @@ items:
     id: distributed_test
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
       repo: null
     startLine: 0
@@ -60,7 +60,7 @@ items:
     id: create_block_momentum_distributed_learner
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
       repo: null
     startLine: 25
@@ -76,7 +76,7 @@ items:
     id: create_block_momentum_distributed_learner_with_time_constant
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
       repo: null
     startLine: 31
@@ -92,7 +92,7 @@ items:
     id: create_data_parallel_distributed_learner
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
       repo: null
     startLine: 18
@@ -108,7 +108,7 @@ items:
     id: run_distributed_training
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
       repo: null
     startLine: 38
@@ -124,7 +124,7 @@ items:
     id: test_distributed
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
       repo: null
     startLine: 201
@@ -140,7 +140,7 @@ items:
     id: test_distributed_mb_source
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/distributed_test.py
       repo: null
     startLine: 81

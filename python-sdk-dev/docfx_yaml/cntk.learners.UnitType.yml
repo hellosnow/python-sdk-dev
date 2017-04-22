@@ -26,7 +26,7 @@ items:
     id: UnitType
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
       repo: null
     startLine: 15
@@ -49,7 +49,7 @@ items:
     id: minibatch
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -67,7 +67,7 @@ items:
     id: sample
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null

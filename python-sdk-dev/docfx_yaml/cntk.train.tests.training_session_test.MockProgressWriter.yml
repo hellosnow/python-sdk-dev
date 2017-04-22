@@ -32,7 +32,7 @@ items:
     id: MockProgressWriter
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 82
@@ -53,7 +53,7 @@ items:
     id: on_write_test_summary
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 102
@@ -70,7 +70,7 @@ items:
     id: on_write_training_summary
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 98
@@ -87,7 +87,7 @@ items:
     id: on_write_training_update
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 91

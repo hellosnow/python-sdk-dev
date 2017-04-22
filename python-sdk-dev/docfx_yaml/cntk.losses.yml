@@ -46,7 +46,7 @@ items:
     id: losses
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/losses/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/losses/__init__.py
       repo: null
     startLine: 0
@@ -60,7 +60,7 @@ items:
     id: binary_cross_entropy
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 89
@@ -90,7 +90,7 @@ items:
     id: cosine_distance
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 18
@@ -119,7 +119,7 @@ items:
     id: cosine_distance_with_negative_samples
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 47
@@ -165,7 +165,7 @@ items:
     id: cross_entropy_with_softmax
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 133
@@ -173,12 +173,12 @@ items:
     exceptions: []
     parameters:
     - description: the unscaled computed output values from the network
-      id: axis
-      type: int or Axis, optional
-    - description: usually it is one-hot vector where the hot bit corresponds to the
-        label index. But it can be any probability distribution over the labels.
       id: name
       type: str, optional
+    - description: usually it is one-hot vector where the hot bit corresponds to the
+        label index. But it can be any probability distribution over the labels.
+      id: axis
+      type: int or Axis, optional
     returntype: ''
     returnvalue: '`Function`'
     summary: 'This operation computes the cross entropy between the `target_vector`
@@ -212,7 +212,7 @@ items:
     id: squared_error
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 175
@@ -254,7 +254,7 @@ items:
     id: weighted_binary_cross_entropy
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 110

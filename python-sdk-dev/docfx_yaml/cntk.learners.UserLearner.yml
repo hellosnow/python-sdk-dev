@@ -20,7 +20,7 @@ items:
     id: UserLearner
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
       repo: null
     startLine: 160
@@ -45,7 +45,7 @@ items:
     id: update
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/learners/__init__.py
       repo: null
     startLine: 201
@@ -54,11 +54,11 @@ items:
     parameters:
     - description: maps `Parameter` to a NumPy array containing the first order gradient
         values for the Parameter w.r.t. the training objective.
-      id: training_sample_count
-      type: int
-    - description: number of samples in the minibatch
       id: sweep_end
       type: bool
+    - description: number of samples in the minibatch
+      id: training_sample_count
+      type: int
     - description: if the data is fed by a conforming reader, this indicates whether
         a full pass over the dataset has just occured.
       id: gradient_values

@@ -14,7 +14,7 @@ items:
     id: StreamConfiguration
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/io/__init__.py
       repo: null
     startLine: 478
@@ -26,11 +26,11 @@ items:
       type: str
     - description: dimensions of this stream. A text format reader reads data as flat
         arrays. If you need different shapes you can `reshape()` it later.
-      id: stream_alias
-      type: str, defaults to ''
-    - description: whether the provided data is sparse (*False* by default)
       id: dim
       type: int
+    - description: whether the provided data is sparse (*False* by default)
+      id: stream_alias
+      type: str, defaults to ''
     - description: name of the stream in the file
       id: is_sparse
       type: bool, defaults to False

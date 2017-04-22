@@ -26,7 +26,7 @@ items:
     id: TrainingSession
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
       repo: null
     startLine: 95
@@ -34,29 +34,29 @@ items:
     exceptions: []
     parameters:
     - description: trainer
-      id: cv_config
-      type: CrossValidationConfig
-    - description: minibatch source used for training
       id: checkpoint_config
       type: CheckpointConfig
-    - description: minibatch size schedule for training
-      id: max_samples
-      type: int
-    - description: mapping between input variables and input streams
-      id: mb_source
-      type: MinibatchSource
-    - description: maximum number of samples used for training
+    - description: minibatch source used for training
       id: trainer
       type: Trainer
-    - description: frequency in samples for aggregated progress printing
+    - description: minibatch size schedule for training
+      id: mb_size
+      type: minibatch_size_schedule or int
+    - description: mapping between input variables and input streams
       id: progress_frequency
+      type: int
+    - description: maximum number of samples used for training
+      id: cv_config
+      type: CrossValidationConfig
+    - description: frequency in samples for aggregated progress printing
+      id: max_samples
       type: int
     - description: checkpoint configuration
       id: var_to_stream
       type: dict
     - description: cross validation configuration
-      id: mb_size
-      type: minibatch_size_schedule or int
+      id: mb_source
+      type: MinibatchSource
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.TrainingSession`
@@ -81,7 +81,7 @@ items:
     id: on_cross_validation_end
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
       repo: null
     startLine: 169
@@ -92,14 +92,14 @@ items:
       id: num_samples
       type: int
     - description: average error for the cross validation
-      id: num_minibatches
-      type: int
-    - description: number of samples in cross validation
-      id: average_error
-      type: float
-    - description: number of minibatch in cross validation
       id: index
       type: int
+    - description: number of samples in cross validation
+      id: num_minibatches
+      type: int
+    - description: number of minibatch in cross validation
+      id: average_error
+      type: float
     returntype: ''
     returnvalue: True if training should continue, False otherwise.
     summary: Callback that gets executed at the end of cross validation.
@@ -115,7 +115,7 @@ items:
     id: train
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 154

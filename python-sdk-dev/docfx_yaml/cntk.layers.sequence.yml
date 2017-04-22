@@ -46,7 +46,7 @@ items:
     id: sequence
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
       repo: null
     startLine: 0
@@ -60,7 +60,7 @@ items:
     id: Delay
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
       repo: null
     startLine: 15
@@ -79,7 +79,7 @@ items:
     id: Fold
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
       repo: null
     startLine: 189
@@ -106,7 +106,7 @@ items:
     id: PastValueWindow
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
       repo: null
     startLine: 40
@@ -124,7 +124,7 @@ items:
     id: Recurrence
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
       repo: null
     startLine: 151
@@ -145,7 +145,7 @@ items:
     id: RecurrenceFrom
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
       repo: null
     startLine: 86
@@ -165,7 +165,7 @@ items:
     id: UnfoldFrom
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/sequence.py
       repo: null
     startLine: 217
@@ -173,12 +173,12 @@ items:
     summary: "Layer factory function to create a function that implements the unfold()\
       \ anamorphism. It creates a function that, starting with a seed input, applies\
       \ 'generator_function' repeatedly and emits the sequence of results. Depending\
-      \ on the recurrent block, it may have this form:\n<!-- literal_block {\"classes\"\
-      : [], \"backrefs\": [], \"dupnames\": [], \"ids\": [], \"names\": [], \"xml:space\"\
-      : \"preserve\"} -->\n\n````\n\n   result = f(... f(f([g(input), initial_state]))\
-      \ ... )\n   ````\nor this form:\n<!-- literal_block {\"classes\": [], \"backrefs\"\
-      : [], \"dupnames\": [], \"ids\": [], \"names\": [], \"xml:space\": \"preserve\"\
-      } -->\n\n````\n\n   result = f(g(input), ... f(g(input), f(g(input), initial_state))\
+      \ on the recurrent block, it may have this form:\n<!-- literal_block {\"xml:space\"\
+      : \"preserve\", \"ids\": [], \"dupnames\": [], \"classes\": [], \"backrefs\"\
+      : [], \"names\": []} -->\n\n````\n\n   result = f(... f(f([g(input), initial_state]))\
+      \ ... )\n   ````\nor this form:\n<!-- literal_block {\"xml:space\": \"preserve\"\
+      , \"ids\": [], \"dupnames\": [], \"classes\": [], \"backrefs\": [], \"names\"\
+      : []} -->\n\n````\n\n   result = f(g(input), ... f(g(input), f(g(input), initial_state))\
       \ ... )\n   ````\nwhere *f* is *generator_function*. An example use of this\
       \ is sequence-to-sequence decoding, where *g(input)* is the sequence encoder,\
       \ *initial_state* is the sentence-start symbol, and *f* is the decoder. The\

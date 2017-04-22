@@ -34,7 +34,7 @@ items:
     id: UserFunction
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 1076
@@ -47,11 +47,11 @@ items:
     - description: whether the data should be automatically converted from and to
         NumPy. Defaults to True. Specifying this as *False* passes the data as CNTK
         Value objects.
-      id: inputs
-      type: list
-    - description: name of this function
       id: as_numpy
       type: bool, optional
+    - description: name of this function
+      id: inputs
+      type: list
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.ops.functions.Function`
@@ -76,7 +76,7 @@ items:
     id: clone
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 1228
@@ -98,7 +98,7 @@ items:
     id: infer_outputs
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 1218
@@ -117,7 +117,7 @@ items:
     id: op_name
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 1241

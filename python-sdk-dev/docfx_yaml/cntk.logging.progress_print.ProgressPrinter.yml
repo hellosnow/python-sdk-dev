@@ -110,7 +110,7 @@ items:
     id: ProgressPrinter
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 27
@@ -122,39 +122,39 @@ items:
         arithmetic schedule (print for minibatch number: `freq`, print for minibatch
         number: 2*``freq``, print for minibatch number: 3*``freq``,...). A value of
         None means no per-minibatch log.'
-      id: rank
-      type: int or None, default None
-    - description: Only start printing after the training minibatch number is greater
-        or equal to `first`.
-      id: log_to_file
-      type: string or None, default None
-    - description: prepend minibatch log lines with your own string
-      id: gen_heartbeat
-      type: bool, default False
-    - description: if None, output log data to stdout. If a string is passed, the
-        string is path to a file for log data.
-      id: test_freq
-      type: int or None, default None
-    - description: set this to distributed.rank if you are using distributed parallelism
-        -- each rank's log will go to separate file.
-      id: num_epochs
-      type: int, default 300
-    - description: If True output a progress message every 10 seconds or so to stdout.
-      id: first
-      type: int, default 0
-    - description: The total number of epochs to be trained.  Used for some metadata.
-        This parameter is optional.
-      id: tag
-      type: string, default EmptyString
-    - description: similar to `freq`, but applies to printing intermediate test results.
       id: metric_is_pct
       type: bool, default True
-    - description: similar to `first`, but applies to printing intermediate test results.
-      id: freq
-      type: int or None, default None
-    - description: Treat metric as a percentage for output purposes.
+    - description: Only start printing after the training minibatch number is greater
+        or equal to `first`.
       id: test_first
       type: int, default 0
+    - description: prepend minibatch log lines with your own string
+      id: first
+      type: int, default 0
+    - description: if None, output log data to stdout. If a string is passed, the
+        string is path to a file for log data.
+      id: num_epochs
+      type: int, default 300
+    - description: set this to distributed.rank if you are using distributed parallelism
+        -- each rank's log will go to separate file.
+      id: rank
+      type: int or None, default None
+    - description: If True output a progress message every 10 seconds or so to stdout.
+      id: gen_heartbeat
+      type: bool, default False
+    - description: The total number of epochs to be trained.  Used for some metadata.
+        This parameter is optional.
+      id: test_freq
+      type: int or None, default None
+    - description: similar to `freq`, but applies to printing intermediate test results.
+      id: freq
+      type: int or None, default None
+    - description: similar to `first`, but applies to printing intermediate test results.
+      id: tag
+      type: string, default EmptyString
+    - description: Treat metric as a percentage for output purposes.
+      id: log_to_file
+      type: string or None, default None
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.ProgressWriter`
@@ -190,7 +190,7 @@ items:
     id: avg_loss_since_last
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 153
@@ -209,7 +209,7 @@ items:
     id: avg_loss_since_start
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 135
@@ -228,7 +228,7 @@ items:
     id: avg_metric_since_last
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 162
@@ -247,7 +247,7 @@ items:
     id: avg_metric_since_start
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 144
@@ -266,7 +266,7 @@ items:
     id: end_progress_print
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 115
@@ -291,7 +291,7 @@ items:
     id: epoch_summary
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 213
@@ -320,7 +320,7 @@ items:
     id: log
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 126
@@ -345,7 +345,7 @@ items:
     id: on_training_update_end
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 323
@@ -362,7 +362,7 @@ items:
     id: on_write_test_summary
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 399
@@ -379,7 +379,7 @@ items:
     id: on_write_test_update
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 327
@@ -396,7 +396,7 @@ items:
     id: on_write_training_summary
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 374
@@ -413,7 +413,7 @@ items:
     id: on_write_training_update
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 319
@@ -430,7 +430,7 @@ items:
     id: reset_last
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 187
@@ -452,7 +452,7 @@ items:
     id: reset_start
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 171
@@ -474,7 +474,7 @@ items:
     id: update
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 245
@@ -485,12 +485,12 @@ items:
       id: loss
       type: float
     - description: the value with which to update the samples accumulator
-      id: metric
-      type: float or None
-    - description: if *None* do not update the metric accumulators, otherwise update
-        with the given value
       id: minibatch_size
       type: int
+    - description: if *None* do not update the metric accumulators, otherwise update
+        with the given value
+      id: metric
+      type: float or None
     returntype: ''
     returnvalue: ''
     summary: 'DEPRECATED.
@@ -509,7 +509,7 @@ items:
     id: update_with_trainer
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 297
@@ -517,11 +517,11 @@ items:
     exceptions: []
     parameters:
     - description: trainer from which information is gathered
-      id: trainer
-      type: cntk.train.trainer.Trainer
-    - description: whether to update the metric accumulators
       id: with_metric
       type: bool
+    - description: whether to update the metric accumulators
+      id: trainer
+      type: cntk.train.trainer.Trainer
     returntype: ''
     returnvalue: ''
     summary: 'DEPRECATED.

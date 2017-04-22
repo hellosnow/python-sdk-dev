@@ -113,14 +113,14 @@ items:
     exceptions: []
     parameters:
     - description: scale
-      id: output_rank
-      type: int
-    - description: output rank
-      id: seed
-      type: int
-    - description: filter rank
       id: scale
       type: float
+    - description: output rank
+      id: output_rank
+      type: int
+    - description: filter rank
+      id: seed
+      type: int
     - description: random seed
       id: filter_rank
       type: int
@@ -147,14 +147,14 @@ items:
     exceptions: []
     parameters:
     - description: scale
-      id: output_rank
-      type: int
-    - description: output rank
-      id: seed
-      type: int
-    - description: filter rank
       id: scale
       type: float
+    - description: output rank
+      id: output_rank
+      type: int
+    - description: filter rank
+      id: seed
+      type: int
     - description: random seed
       id: filter_rank
       type: int
@@ -181,14 +181,14 @@ items:
     exceptions: []
     parameters:
     - description: scale
-      id: output_rank
-      type: int
-    - description: output rank
-      id: seed
-      type: int
-    - description: filter rank
       id: scale
       type: float
+    - description: output rank
+      id: output_rank
+      type: int
+    - description: filter rank
+      id: seed
+      type: int
     - description: random seed
       id: filter_rank
       type: int
@@ -215,14 +215,14 @@ items:
     exceptions: []
     parameters:
     - description: scale
-      id: output_rank
-      type: int
-    - description: output rank
-      id: seed
-      type: int
-    - description: filter rank
       id: scale
       type: float
+    - description: output rank
+      id: output_rank
+      type: int
+    - description: filter rank
+      id: seed
+      type: int
     - description: random seed
       id: filter_rank
       type: int
@@ -278,14 +278,14 @@ items:
     exceptions: []
     parameters:
     - description: scale
-      id: output_rank
-      type: int
-    - description: output rank
-      id: seed
-      type: int
-    - description: filter rank
       id: scale
       type: float
+    - description: output rank
+      id: output_rank
+      type: int
+    - description: filter rank
+      id: seed
+      type: int
     - description: random seed
       id: filter_rank
       type: int
@@ -312,11 +312,11 @@ items:
     exceptions: []
     parameters:
     - description: scale
-      id: seed
-      type: int
-    - description: random seed
       id: scale
       type: float
+    - description: random seed
+      id: seed
+      type: int
     returntype: ''
     returnvalue: initializer for `cntk.ops.variables.Parameter` initialized to uniform
       distribution between *scale*[-1.0, 1.0]* note this maps to the "uniform1" distribution
@@ -341,14 +341,14 @@ items:
     exceptions: []
     parameters:
     - description: scale
-      id: output_rank
-      type: int
-    - description: output rank
-      id: seed
-      type: int
-    - description: filter rank
       id: scale
       type: float
+    - description: output rank
+      id: output_rank
+      type: int
+    - description: filter rank
+      id: seed
+      type: int
     - description: random seed
       id: filter_rank
       type: int

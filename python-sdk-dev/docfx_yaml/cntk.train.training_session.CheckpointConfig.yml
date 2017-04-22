@@ -14,7 +14,7 @@ items:
     id: CheckpointConfig
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/training_session.py
       repo: null
     startLine: 16
@@ -26,16 +26,16 @@ items:
       type: str
     - description: checkpoint frequency in samples. If 0, no checkpointing takes place.
         If `sys.maxsize`, a single checkpoint is taken at the end of the training.
-      id: frequency
-      type: int
+      id: restore
+      type: bool
     - description: saves all checkpoints, using `filename` as prefix and checkpoint
         index as a suffix.
-      id: restore
+      id: preserve_all
       type: bool
     - description: flag, indicating whether to restore from available checkpoint before
         the start of the training
-      id: preserve_all
-      type: bool
+      id: frequency
+      type: int
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.CheckpointConfig`

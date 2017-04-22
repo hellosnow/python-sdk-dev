@@ -10,7 +10,7 @@ items:
     id: logging
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/__init__.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/__init__.py
       repo: null
     startLine: 0

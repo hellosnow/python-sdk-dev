@@ -34,7 +34,7 @@ items:
     id: graph_test
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
       repo: null
     startLine: 0
@@ -48,7 +48,7 @@ items:
     id: test_depth_first_search
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
       repo: null
     startLine: 114
@@ -64,7 +64,7 @@ items:
     id: test_find_nodes
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
       repo: null
     startLine: 62
@@ -80,7 +80,7 @@ items:
     id: test_find_nodes_returning_proper_types
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
       repo: null
     startLine: 90
@@ -96,7 +96,7 @@ items:
     id: test_plot
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/tests/graph_test.py
       repo: null
     startLine: 102

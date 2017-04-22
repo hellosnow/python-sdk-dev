@@ -32,7 +32,7 @@ items:
     id: CloneMethod
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 11
@@ -55,7 +55,7 @@ items:
     id: clone
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -73,7 +73,7 @@ items:
     id: freeze
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -91,7 +91,7 @@ items:
     id: share
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null

@@ -88,7 +88,7 @@ items:
     id: training_session_test
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 0
@@ -102,7 +102,7 @@ items:
     id: create_sample_model
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 67
@@ -118,7 +118,7 @@ items:
     id: mb_source
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 54
@@ -134,7 +134,7 @@ items:
     id: test_session_cross_validation_3_times
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 168
@@ -150,7 +150,7 @@ items:
     id: test_session_cross_validation_3_times_checkpoints_2_save_all
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 191
@@ -166,7 +166,7 @@ items:
     id: test_session_cross_validation_at_end
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 145
@@ -182,7 +182,7 @@ items:
     id: test_session_cv_callback_3_times
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 339
@@ -198,7 +198,7 @@ items:
     id: test_session_cv_callback_early_exit
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 403
@@ -214,7 +214,7 @@ items:
     id: test_session_cv_callback_with_cross_validation_3_times
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 368
@@ -230,7 +230,7 @@ items:
     id: test_session_max_samples
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 126
@@ -246,7 +246,7 @@ items:
     id: test_session_progress_print
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 232
@@ -262,7 +262,7 @@ items:
     id: test_session_restart_from_checkpoint
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 258
@@ -278,7 +278,7 @@ items:
     id: test_session_sanity_check
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/train/tests/training_session_test.py
       repo: null
     startLine: 109

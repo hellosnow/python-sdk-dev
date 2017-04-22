@@ -56,15 +56,15 @@ items:
     exceptions: []
     parameters:
     - description: root node until which the nodes are to be debugged
-      id: in_stream
-      type: object behaving like sys.stdin, default stdin
+      id: model
+      type: root node
     - description: '*readline()* will be called on it to obtain user input'
       id: out_stream
       type: object behaving like sys.stdout, default stdout
     - description: '*write()* and *flush()* will be called on it to output debug info
         to the user'
-      id: model
-      type: root node
+      id: in_stream
+      type: object behaving like sys.stdin, default stdin
     - description: callable that takes an exit code and is called, when the user exits
         the debugging process
       id: exit_func
@@ -92,11 +92,11 @@ items:
     exceptions: []
     parameters:
     - description: op of the graph to save
-      id: root_op
-      type: Function
-    - description: filename to store the model in.
       id: filename
       type: str
+    - description: filename to store the model in.
+      id: root_op
+      type: Function
     returntype: ''
     returnvalue: ''
     summary: Save the network of `root_op` in `filename`. For debugging purposes only,

@@ -28,7 +28,7 @@ items:
     id: progress_print
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 0
@@ -42,7 +42,7 @@ items:
     id: log_number_of_parameters
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/logging/progress_print.py
       repo: null
     startLine: 505

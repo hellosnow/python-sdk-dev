@@ -237,7 +237,7 @@ items:
     id: Function
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 34
@@ -298,7 +298,7 @@ items:
     id: argument_map
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 214
@@ -320,7 +320,7 @@ items:
     id: arguments
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -338,7 +338,7 @@ items:
     id: attributes
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -355,7 +355,7 @@ items:
     id: backward
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 655
@@ -404,7 +404,7 @@ items:
     id: block_arguments_mapping
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -423,7 +423,7 @@ items:
     id: block_root
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -441,7 +441,7 @@ items:
     id: clone
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 424
@@ -458,12 +458,12 @@ items:
 
 
         * ''freeze'': parameters are cloned and made immutable (constant).'
-      id: substitutions
-      type: dict
-    - description: a dictionary mapping variables in this function to variables in
-        the cloned function
       id: method
       type: CloneMethod
+    - description: a dictionary mapping variables in this function to variables in
+        the cloned function
+      id: substitutions
+      type: dict
     returntype: Function
     returnvalue: the cloned Function
     summary: Clones the function. The parameters of the Function are either cloned,
@@ -481,7 +481,7 @@ items:
     id: constants
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -498,7 +498,7 @@ items:
     id: declare_args
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 255
@@ -515,7 +515,7 @@ items:
     id: eval
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 464
@@ -540,7 +540,7 @@ items:
     id: find_all_with_name
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 937
@@ -585,7 +585,7 @@ items:
     id: find_by_name
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 967
@@ -639,7 +639,7 @@ items:
     id: forward
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 521
@@ -676,12 +676,12 @@ items:
     - description: the subset of the Function's output variables for which gradients
         shall be calculated in a subsequent backward call. If *None*, the returned
         state will be *None* and a subsequent call to `backward()` will not be possible.
-      id: keep_for_backward
-      type: set, default None
-    - description: the device descriptor that contains the type and id of the device
-        on which the computation is. If *None*, the default device is used.
       id: as_numpy
       type: bool
+    - description: the device descriptor that contains the type and id of the device
+        on which the computation is. If *None*, the default device is used.
+      id: keep_for_backward
+      type: set, default None
     returntype: ''
     returnvalue: A tuple (BackPropState, map of outputs to NumPy arrays). The BackPropState
       is a handle taken by `backward()`.
@@ -727,7 +727,7 @@ items:
     id: grad
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 708
@@ -735,26 +735,26 @@ items:
     exceptions: []
     parameters:
     - description: mapping of the Function's arguments to values
-      id: at
-      type: dict
+      id: outputs
+      type: iterable, optional
     - description: list of Variables with respect to which the gradient will be computed.
         If omitted, the gradients with respect to all arguments of this Function that
         need gradient will be computed.
-      id: outputs
-      type: iterable, optional
+      id: device
+      type: DeviceDescriptor, default None
     - description: outputs (including intermediate outputs in the graph) to fetch
         values for. If not specified, values for none of the outputs are fetched.
-      id: wrt
-      type: list, default None
+      id: at
+      type: dict
     - description: the device descriptor that contains the type and id of the device
         on which the computation is performed. If *None*, the default device is used.
-      id: as_numpy
-      type: bool, default True
+      id: wrt
+      type: list, default None
     - description: whether to return the gradients as a NumPy array. Default True.
         Specifying this as False returns a CNTK Value which avoids a costly conversion
         but returns a somewhat opaque object.
-      id: device
-      type: DeviceDescriptor, default None
+      id: as_numpy
+      type: bool, default True
     returntype: dict or NumPy Array or a tuple of these
     returnvalue: "Dict with keys of `wrt` variables and gradient values of\n   `wrt`\
       \ variables. A single NumPy array if there is only one gradient value. If `outputs`\
@@ -781,7 +781,7 @@ items:
     id: inputs
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -798,7 +798,7 @@ items:
     id: is_block
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -817,7 +817,7 @@ items:
     id: is_composite
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -835,7 +835,7 @@ items:
     id: is_primitive
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -855,7 +855,7 @@ items:
     id: load
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1042
@@ -883,7 +883,7 @@ items:
     id: name
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -900,7 +900,7 @@ items:
     id: op_name
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -917,7 +917,7 @@ items:
     id: output
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -934,7 +934,7 @@ items:
     id: outputs
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -951,7 +951,7 @@ items:
     id: parameters
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -968,7 +968,7 @@ items:
     id: placeholders
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -985,7 +985,7 @@ items:
     id: replace_placeholder
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 920
@@ -1013,7 +1013,7 @@ items:
     id: replace_placeholders
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 903
@@ -1039,7 +1039,7 @@ items:
     id: restore
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1023
@@ -1065,7 +1065,7 @@ items:
     id: restore_model
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 1036
@@ -1082,7 +1082,7 @@ items:
     id: root_function
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -1100,7 +1100,7 @@ items:
     id: save
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/internal/swig_helper.py
       repo: null
     startLine: 1003
@@ -1128,7 +1128,7 @@ items:
     id: save_model
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 1017
@@ -1145,7 +1145,7 @@ items:
     id: signature
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -1163,27 +1163,27 @@ items:
     id: to_Function
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 62
   syntax:
     summary: "`@Function` constructs a Function from a Python lambda where the Function's\
       \ input signature is defined by the lambda.\nUse this as a decorator, e.g.:\n\
-      <!-- literal_block {\"classes\": [], \"backrefs\": [], \"dupnames\": [], \"\
-      ids\": [], \"names\": [], \"xml:space\": \"preserve\"} -->\n\n````\n\n   @Function\n\
+      <!-- literal_block {\"xml:space\": \"preserve\", \"ids\": [], \"dupnames\":\
+      \ [], \"classes\": [], \"backrefs\": [], \"names\": []} -->\n\n````\n\n   @Function\n\
       \   def f(x): return x * x\n   ````\nThe above form creates a CNTK Function\
       \ whose arguments are placeholder variables. Such a function can only be combined\
       \ with others symbolic functions.\nTo train a Function or pass data to it, you\
       \ need to declare the types of the arguments. In this case, the @Function decorator\
       \ creates a CNTK Function whose arguments are input variables.\nIf you use Python\
       \ 3, Functions with types are declared using Python annotation syntax, e.g.:\n\
-      <!-- literal_block {\"classes\": [], \"backrefs\": [], \"dupnames\": [], \"\
-      ids\": [], \"names\": [], \"xml:space\": \"preserve\"} -->\n\n````\n\n   @Function\n\
+      <!-- literal_block {\"xml:space\": \"preserve\", \"ids\": [], \"dupnames\":\
+      \ [], \"classes\": [], \"backrefs\": [], \"names\": []} -->\n\n````\n\n   @Function\n\
       \   def f(x:Tensor[13]):\n       return x * x\n   ````\nIf you are working with\
       \ Python 2.7, use CNTK's @Signature decorator instead:\n<!-- literal_block {\"\
-      classes\": [], \"backrefs\": [], \"dupnames\": [], \"ids\": [], \"names\": [],\
-      \ \"xml:space\": \"preserve\"} -->\n\n````\n\n   @Function\n   @Signature(Tensor[13])\n\
+      xml:space\": \"preserve\", \"ids\": [], \"dupnames\": [], \"classes\": [], \"\
+      backrefs\": [], \"names\": []} -->\n\n````\n\n   @Function\n   @Signature(Tensor[13])\n\
       \   def f(x):\n       return x * x\n   ````\n`make_block=True` is used to implement\
       \ @BlockFunction(). If given the result will be wrapped in `as_block()`, using\
       \ the supplied `op_name` and `name` parameters, which are otherwise ignored."
@@ -1198,7 +1198,7 @@ items:
     id: type
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -1215,7 +1215,7 @@ items:
     id: uid
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null
@@ -1232,7 +1232,7 @@ items:
     id: update_signature
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/ops/functions.py
       repo: null
     startLine: 228

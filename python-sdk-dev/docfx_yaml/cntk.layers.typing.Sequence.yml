@@ -13,7 +13,7 @@ items:
     id: Sequence
     path: null
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: null
       repo: null
     startLine: null

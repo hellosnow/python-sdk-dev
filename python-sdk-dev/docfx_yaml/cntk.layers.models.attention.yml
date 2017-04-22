@@ -16,7 +16,7 @@ items:
     id: attention
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/models/attention.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/models/attention.py
       repo: null
     startLine: 0
@@ -30,7 +30,7 @@ items:
     id: AttentionModel
     path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/models/attention.py
     remote:
-      branch: '/bin/sh: 1: git: not found'
+      branch: master
       path: root/anaconda3/envs/cntk-py35/lib/python3.5/site-packages/cntk/layers/models/attention.py
       repo: null
     startLine: 18
