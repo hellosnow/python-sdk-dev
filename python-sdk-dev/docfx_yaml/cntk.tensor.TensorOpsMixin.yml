@@ -5,22 +5,23 @@ items:
   class: cntk.tensor.TensorOpsMixin
   fullName: cntk.tensor.TensorOpsMixin
   inheritance:
-  - - builtins.object
+  - type: builtins.object
+  langs:
+  - python
   module: cntk.tensor
   name: TensorOpsMixin
-  references: []
   source:
     id: TensorOpsMixin
     path: cntk/tensor.py
     remote:
       branch: master
       path: cntk/tensor.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 8
-  syntax:
-    summary: 'Bases: `object`
+  summary: 'Bases: `object`
 
-      This class defines math overloads so that CNTK nodes can be written in math
-      expressions.'
+    This class defines math overloads so that CNTK nodes can be written in math expressions.'
+  syntax: {}
   type: Class
   uid: cntk.tensor.TensorOpsMixin
+references: []

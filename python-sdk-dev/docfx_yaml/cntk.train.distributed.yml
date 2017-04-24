@@ -10,39 +10,13 @@ items:
   fullName: cntk.train.distributed
   module: cntk.train.distributed
   name: distributed
-  references:
-  - fullName: cntk.train.distributed.Communicator
-    isExternal: false
-    name: Communicator
-    parent: ''
-    uid: cntk.train.distributed.Communicator
-  - fullName: cntk.train.distributed.DistributedLearner
-    isExternal: false
-    name: DistributedLearner
-    parent: ''
-    uid: cntk.train.distributed.DistributedLearner
-  - fullName: cntk.train.distributed.WorkerDescriptor
-    isExternal: false
-    name: WorkerDescriptor
-    parent: ''
-    uid: cntk.train.distributed.WorkerDescriptor
-  - fullName: cntk.train.distributed.block_momentum_distributed_learner
-    isExternal: false
-    name: block_momentum_distributed_learner
-    parent: ''
-    uid: cntk.train.distributed.block_momentum_distributed_learner
-  - fullName: cntk.train.distributed.data_parallel_distributed_learner
-    isExternal: false
-    name: data_parallel_distributed_learner
-    parent: ''
-    uid: cntk.train.distributed.data_parallel_distributed_learner
   source:
     id: distributed
     path: cntk/train/distributed.py
     remote:
       branch: master
       path: cntk/train/distributed.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.train.distributed
@@ -56,29 +30,29 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 141
   syntax:
     exceptions: []
     parameters:
     - description: a local learner (i.e. sgd)
-      id: block_learning_rate
-      type: float
-    - description: size of the partition in samples
       id: use_nestrov_momentum
       type: bool
-    - description: block momentum as time constant
-      id: distributed_after
-      type: int
-    - description: use nestrov momentum
-      id: reset_sgd_momentum_after_aggregation
-      type: bool
-    - description: reset SGD momentum after aggregation
+    - description: size of the partition in samples
       id: block_size
       type: int
-    - description: block learning rate
+    - description: block momentum as time constant
+      id: reset_sgd_momentum_after_aggregation
+      type: bool
+    - description: use nestrov momentum
+      id: block_learning_rate
+      type: float
+    - description: reset SGD momentum after aggregation
       id: block_momentum_as_time_constant
       type: float
+    - description: block learning rate
+      id: distributed_after
+      type: int
     returntype: ''
     returnvalue: a distributed learner instance
     summary: 'Creates a block momentum distributed learner. See [1] for more information.
@@ -106,23 +80,49 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 115
   syntax:
     exceptions: []
     parameters:
     - description: a local learner (i.e. sgd)
-      id: distributed_after
-      type: int
-    - description: number of samples after which distributed training starts
-      id: use_async_buffered_parameter_update
-      type: bool
-    - description: number of bits for quantization (1 to 32)
       id: num_quantization_bits
       type: int
+    - description: number of samples after which distributed training starts
+      id: distributed_after
+      type: int
+    - description: number of bits for quantization (1 to 32)
+      id: use_async_buffered_parameter_update
+      type: bool
     returntype: ''
     returnvalue: a distributed learner instance
     summary: Creates a data parallel distributed learner
     variables: []
   type: Method
+  uid: cntk.train.distributed.data_parallel_distributed_learner
+references:
+- fullName: cntk.train.distributed.Communicator
+  isExternal: false
+  name: Communicator
+  parent: cntk.train.distributed
+  uid: cntk.train.distributed.Communicator
+- fullName: cntk.train.distributed.DistributedLearner
+  isExternal: false
+  name: DistributedLearner
+  parent: cntk.train.distributed
+  uid: cntk.train.distributed.DistributedLearner
+- fullName: cntk.train.distributed.WorkerDescriptor
+  isExternal: false
+  name: WorkerDescriptor
+  parent: cntk.train.distributed
+  uid: cntk.train.distributed.WorkerDescriptor
+- fullName: cntk.train.distributed.block_momentum_distributed_learner
+  isExternal: false
+  name: block_momentum_distributed_learner
+  parent: cntk.train.distributed
+  uid: cntk.train.distributed.block_momentum_distributed_learner
+- fullName: cntk.train.distributed.data_parallel_distributed_learner
+  isExternal: false
+  name: data_parallel_distributed_learner
+  parent: cntk.train.distributed
   uid: cntk.train.distributed.data_parallel_distributed_learner

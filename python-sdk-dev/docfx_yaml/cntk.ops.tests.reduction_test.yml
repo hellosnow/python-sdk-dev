@@ -13,71 +13,24 @@ items:
   - cntk.ops.tests.reduction_test.test_op_reduce_prod
   - cntk.ops.tests.reduction_test.test_op_reduce_sum
   fullName: cntk.ops.tests.reduction_test
+  langs:
+  - python
   module: cntk.ops.tests.reduction_test
   name: reduction_test
-  references:
-  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_all
-    isExternal: false
-    name: test_op_reduce_all
-    parent: ''
-    uid: cntk.ops.tests.reduction_test.test_op_reduce_all
-  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_argmax
-    isExternal: false
-    name: test_op_reduce_argmax
-    parent: ''
-    uid: cntk.ops.tests.reduction_test.test_op_reduce_argmax
-  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_argmin
-    isExternal: false
-    name: test_op_reduce_argmin
-    parent: ''
-    uid: cntk.ops.tests.reduction_test.test_op_reduce_argmin
-  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_log_sum
-    isExternal: false
-    name: test_op_reduce_log_sum
-    parent: ''
-    uid: cntk.ops.tests.reduction_test.test_op_reduce_log_sum
-  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_max
-    isExternal: false
-    name: test_op_reduce_max
-    parent: ''
-    uid: cntk.ops.tests.reduction_test.test_op_reduce_max
-  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_mean
-    isExternal: false
-    name: test_op_reduce_mean
-    parent: ''
-    uid: cntk.ops.tests.reduction_test.test_op_reduce_mean
-  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_mean_all_constant
-    isExternal: false
-    name: test_op_reduce_mean_all_constant
-    parent: ''
-    uid: cntk.ops.tests.reduction_test.test_op_reduce_mean_all_constant
-  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_min
-    isExternal: false
-    name: test_op_reduce_min
-    parent: ''
-    uid: cntk.ops.tests.reduction_test.test_op_reduce_min
-  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_prod
-    isExternal: false
-    name: test_op_reduce_prod
-    parent: ''
-    uid: cntk.ops.tests.reduction_test.test_op_reduce_prod
-  - fullName: cntk.ops.tests.reduction_test.test_op_reduce_sum
-    isExternal: false
-    name: test_op_reduce_sum
-    parent: ''
-    uid: cntk.ops.tests.reduction_test.test_op_reduce_sum
   source:
     id: reduction_test
     path: cntk/ops/tests/reduction_test.py
     remote:
       branch: master
       path: cntk/ops/tests/reduction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.reduction_test
 - _type: function
   fullName: cntk.ops.tests.reduction_test.test_op_reduce_all
+  langs:
+  - python
   module: cntk.ops.tests.reduction_test
   name: test_op_reduce_all
   source:
@@ -86,14 +39,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reduction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 169
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_all
 - _type: function
   fullName: cntk.ops.tests.reduction_test.test_op_reduce_argmax
+  langs:
+  - python
   module: cntk.ops.tests.reduction_test
   name: test_op_reduce_argmax
   source:
@@ -102,14 +57,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reduction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 231
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_argmax
 - _type: function
   fullName: cntk.ops.tests.reduction_test.test_op_reduce_argmin
+  langs:
+  - python
   module: cntk.ops.tests.reduction_test
   name: test_op_reduce_argmin
   source:
@@ -118,14 +75,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reduction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 245
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_argmin
 - _type: function
   fullName: cntk.ops.tests.reduction_test.test_op_reduce_log_sum
+  langs:
+  - python
   module: cntk.ops.tests.reduction_test
   name: test_op_reduce_log_sum
   source:
@@ -134,14 +93,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reduction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 130
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_log_sum
 - _type: function
   fullName: cntk.ops.tests.reduction_test.test_op_reduce_max
+  langs:
+  - python
   module: cntk.ops.tests.reduction_test
   name: test_op_reduce_max
   source:
@@ -150,14 +111,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reduction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 45
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_max
 - _type: function
   fullName: cntk.ops.tests.reduction_test.test_op_reduce_mean
+  langs:
+  - python
   module: cntk.ops.tests.reduction_test
   name: test_op_reduce_mean
   source:
@@ -166,14 +129,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reduction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 111
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_mean
 - _type: function
   fullName: cntk.ops.tests.reduction_test.test_op_reduce_mean_all_constant
+  langs:
+  - python
   module: cntk.ops.tests.reduction_test
   name: test_op_reduce_mean_all_constant
   source:
@@ -182,14 +147,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reduction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 213
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_mean_all_constant
 - _type: function
   fullName: cntk.ops.tests.reduction_test.test_op_reduce_min
+  langs:
+  - python
   module: cntk.ops.tests.reduction_test
   name: test_op_reduce_min
   source:
@@ -198,14 +165,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reduction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 69
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_min
 - _type: function
   fullName: cntk.ops.tests.reduction_test.test_op_reduce_prod
+  langs:
+  - python
   module: cntk.ops.tests.reduction_test
   name: test_op_reduce_prod
   source:
@@ -214,14 +183,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reduction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 150
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_prod
 - _type: function
   fullName: cntk.ops.tests.reduction_test.test_op_reduce_sum
+  langs:
+  - python
   module: cntk.ops.tests.reduction_test
   name: test_op_reduce_sum
   source:
@@ -230,9 +201,60 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reduction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 27
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_sum
+references:
+- fullName: cntk.ops.tests.reduction_test.test_op_reduce_all
+  isExternal: false
+  name: test_op_reduce_all
+  parent: cntk.ops.tests.reduction_test
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_all
+- fullName: cntk.ops.tests.reduction_test.test_op_reduce_argmax
+  isExternal: false
+  name: test_op_reduce_argmax
+  parent: cntk.ops.tests.reduction_test
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_argmax
+- fullName: cntk.ops.tests.reduction_test.test_op_reduce_argmin
+  isExternal: false
+  name: test_op_reduce_argmin
+  parent: cntk.ops.tests.reduction_test
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_argmin
+- fullName: cntk.ops.tests.reduction_test.test_op_reduce_log_sum
+  isExternal: false
+  name: test_op_reduce_log_sum
+  parent: cntk.ops.tests.reduction_test
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_log_sum
+- fullName: cntk.ops.tests.reduction_test.test_op_reduce_max
+  isExternal: false
+  name: test_op_reduce_max
+  parent: cntk.ops.tests.reduction_test
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_max
+- fullName: cntk.ops.tests.reduction_test.test_op_reduce_mean
+  isExternal: false
+  name: test_op_reduce_mean
+  parent: cntk.ops.tests.reduction_test
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_mean
+- fullName: cntk.ops.tests.reduction_test.test_op_reduce_mean_all_constant
+  isExternal: false
+  name: test_op_reduce_mean_all_constant
+  parent: cntk.ops.tests.reduction_test
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_mean_all_constant
+- fullName: cntk.ops.tests.reduction_test.test_op_reduce_min
+  isExternal: false
+  name: test_op_reduce_min
+  parent: cntk.ops.tests.reduction_test
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_min
+- fullName: cntk.ops.tests.reduction_test.test_op_reduce_prod
+  isExternal: false
+  name: test_op_reduce_prod
+  parent: cntk.ops.tests.reduction_test
+  uid: cntk.ops.tests.reduction_test.test_op_reduce_prod
+- fullName: cntk.ops.tests.reduction_test.test_op_reduce_sum
+  isExternal: false
+  name: test_op_reduce_sum
+  parent: cntk.ops.tests.reduction_test
   uid: cntk.ops.tests.reduction_test.test_op_reduce_sum

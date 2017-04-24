@@ -18,49 +18,13 @@ items:
     - builtins.object
   module: cntk.io
   name: MinibatchData
-  references:
-  - fullName: cntk.io.MinibatchData.end_of_sweep
-    isExternal: false
-    name: end_of_sweep
-    parent: ''
-    uid: cntk.io.MinibatchData.end_of_sweep
-  - fullName: cntk.io.MinibatchData.is_sparse
-    isExternal: false
-    name: is_sparse
-    parent: ''
-    uid: cntk.io.MinibatchData.is_sparse
-  - fullName: cntk.io.MinibatchData.mask
-    isExternal: false
-    name: mask
-    parent: ''
-    uid: cntk.io.MinibatchData.mask
-  - fullName: cntk.io.MinibatchData.num_samples
-    isExternal: false
-    name: num_samples
-    parent: ''
-    uid: cntk.io.MinibatchData.num_samples
-  - fullName: cntk.io.MinibatchData.num_sequences
-    isExternal: false
-    name: num_sequences
-    parent: ''
-    uid: cntk.io.MinibatchData.num_sequences
-  - fullName: cntk.io.MinibatchData.shape
-    isExternal: false
-    name: shape
-    parent: ''
-    uid: cntk.io.MinibatchData.shape
-  - fullName: cntk.io.MinibatchData.value
-    isExternal: false
-    name: value
-    parent: ''
-    uid: cntk.io.MinibatchData.value
   source:
     id: MinibatchData
     path: cntk/io/__init__.py
     remote:
       branch: master
       path: cntk/io/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 20
   syntax:
     summary: 'Bases: `cntk.cntk_py.MinibatchData`, `cntk.tensor.ArrayMixin`
@@ -88,7 +52,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Indicates whether the data in this minibatch comes from a sweep end or
@@ -106,7 +70,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Whether the data in this minibatch is sparse.
@@ -123,7 +87,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The mask object of the minibatch. In it, *2* marks the beginning of a
@@ -141,7 +105,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The number of samples in this minibatch
@@ -158,7 +122,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The number of sequences in this minibatch
@@ -175,7 +139,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The shape of the data in this minibatch as tuple.
@@ -192,9 +156,45 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The value of the minibatch as a NumPy array.
   type: Property
+  uid: cntk.io.MinibatchData.value
+references:
+- fullName: cntk.io.MinibatchData.end_of_sweep
+  isExternal: false
+  name: end_of_sweep
+  parent: cntk.io.MinibatchData
+  uid: cntk.io.MinibatchData.end_of_sweep
+- fullName: cntk.io.MinibatchData.is_sparse
+  isExternal: false
+  name: is_sparse
+  parent: cntk.io.MinibatchData
+  uid: cntk.io.MinibatchData.is_sparse
+- fullName: cntk.io.MinibatchData.mask
+  isExternal: false
+  name: mask
+  parent: cntk.io.MinibatchData
+  uid: cntk.io.MinibatchData.mask
+- fullName: cntk.io.MinibatchData.num_samples
+  isExternal: false
+  name: num_samples
+  parent: cntk.io.MinibatchData
+  uid: cntk.io.MinibatchData.num_samples
+- fullName: cntk.io.MinibatchData.num_sequences
+  isExternal: false
+  name: num_sequences
+  parent: cntk.io.MinibatchData
+  uid: cntk.io.MinibatchData.num_sequences
+- fullName: cntk.io.MinibatchData.shape
+  isExternal: false
+  name: shape
+  parent: cntk.io.MinibatchData
+  uid: cntk.io.MinibatchData.shape
+- fullName: cntk.io.MinibatchData.value
+  isExternal: false
+  name: value
+  parent: cntk.io.MinibatchData
   uid: cntk.io.MinibatchData.value

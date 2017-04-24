@@ -8,48 +8,34 @@ items:
   class: cntk.ops.tests.userfunction_complex_test.MySigmoid
   fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid
   inheritance:
-  - - cntk.ops.functions.UserFunction
-    - cntk.ops.functions.Function
-    - cntk.cntk_py.Function
-    - cntk.cntk_py.IDictionarySerializable
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.ops.functions.UserFunction
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: MySigmoid
-  references:
-  - fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.backward
-    isExternal: false
-    name: backward
-    parent: ''
-    uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.backward
-  - fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.forward
-    isExternal: false
-    name: forward
-    parent: ''
-    uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.forward
-  - fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.infer_outputs
-    isExternal: false
-    name: infer_outputs
-    parent: ''
-    uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.infer_outputs
   source:
     id: MySigmoid
     path: cntk/ops/tests/userfunction_complex_test.py
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 123
-  syntax:
-    summary: 'Bases: `cntk.ops.functions.UserFunction`
+  summary: 'Bases: `cntk.ops.functions.UserFunction`
 
 
 
-      '
+    '
+  syntax: {}
   type: Class
   uid: cntk.ops.tests.userfunction_complex_test.MySigmoid
 - _type: method
   class: cntk.ops.tests.userfunction_complex_test.MySigmoid
   fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.backward
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: backward
   source:
@@ -58,15 +44,17 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 132
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.backward
 - _type: method
   class: cntk.ops.tests.userfunction_complex_test.MySigmoid
   fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.forward
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: forward
   source:
@@ -75,15 +63,17 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 127
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.forward
 - _type: method
   class: cntk.ops.tests.userfunction_complex_test.MySigmoid
   fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.infer_outputs
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: infer_outputs
   source:
@@ -92,9 +82,25 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 137
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.infer_outputs
+references:
+- fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.backward
+  isExternal: false
+  name: backward
+  parent: cntk.ops.tests.userfunction_complex_test.MySigmoid
+  uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.backward
+- fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.forward
+  isExternal: false
+  name: forward
+  parent: cntk.ops.tests.userfunction_complex_test.MySigmoid
+  uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.forward
+- fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid.infer_outputs
+  isExternal: false
+  name: infer_outputs
+  parent: cntk.ops.tests.userfunction_complex_test.MySigmoid
   uid: cntk.ops.tests.userfunction_complex_test.MySigmoid.infer_outputs

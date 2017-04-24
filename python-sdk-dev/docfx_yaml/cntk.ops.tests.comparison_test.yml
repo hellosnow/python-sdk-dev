@@ -4,26 +4,24 @@ items:
   children:
   - cntk.ops.tests.comparison_test.test_op_comparison
   fullName: cntk.ops.tests.comparison_test
+  langs:
+  - python
   module: cntk.ops.tests.comparison_test
   name: comparison_test
-  references:
-  - fullName: cntk.ops.tests.comparison_test.test_op_comparison
-    isExternal: false
-    name: test_op_comparison
-    parent: ''
-    uid: cntk.ops.tests.comparison_test.test_op_comparison
   source:
     id: comparison_test
     path: cntk/ops/tests/comparison_test.py
     remote:
       branch: master
       path: cntk/ops/tests/comparison_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.comparison_test
 - _type: function
   fullName: cntk.ops.tests.comparison_test.test_op_comparison
+  langs:
+  - python
   module: cntk.ops.tests.comparison_test
   name: test_op_comparison
   source:
@@ -32,9 +30,15 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/comparison_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 40
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.comparison_test.test_op_comparison
+references:
+- fullName: cntk.ops.tests.comparison_test.test_op_comparison
+  isExternal: false
+  name: test_op_comparison
+  parent: cntk.ops.tests.comparison_test
   uid: cntk.ops.tests.comparison_test.test_op_comparison

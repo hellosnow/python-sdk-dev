@@ -6,36 +6,24 @@ items:
   - cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
   - cntk.ops.tests.random_sample_test.test_random_sample_without_replacement
   fullName: cntk.ops.tests.random_sample_test
+  langs:
+  - python
   module: cntk.ops.tests.random_sample_test
   name: random_sample_test
-  references:
-  - fullName: cntk.ops.tests.random_sample_test.test_random_sample_inclusion_frequency
-    isExternal: false
-    name: test_random_sample_inclusion_frequency
-    parent: ''
-    uid: cntk.ops.tests.random_sample_test.test_random_sample_inclusion_frequency
-  - fullName: cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
-    isExternal: false
-    name: test_random_sample_with_replacement
-    parent: ''
-    uid: cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
-  - fullName: cntk.ops.tests.random_sample_test.test_random_sample_without_replacement
-    isExternal: false
-    name: test_random_sample_without_replacement
-    parent: ''
-    uid: cntk.ops.tests.random_sample_test.test_random_sample_without_replacement
   source:
     id: random_sample_test
     path: cntk/ops/tests/random_sample_test.py
     remote:
       branch: master
       path: cntk/ops/tests/random_sample_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.random_sample_test
 - _type: function
   fullName: cntk.ops.tests.random_sample_test.test_random_sample_inclusion_frequency
+  langs:
+  - python
   module: cntk.ops.tests.random_sample_test
   name: test_random_sample_inclusion_frequency
   source:
@@ -44,14 +32,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/random_sample_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 49
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.random_sample_test.test_random_sample_inclusion_frequency
 - _type: function
   fullName: cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
+  langs:
+  - python
   module: cntk.ops.tests.random_sample_test
   name: test_random_sample_with_replacement
   source:
@@ -60,14 +50,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/random_sample_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 70
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
 - _type: function
   fullName: cntk.ops.tests.random_sample_test.test_random_sample_without_replacement
+  langs:
+  - python
   module: cntk.ops.tests.random_sample_test
   name: test_random_sample_without_replacement
   source:
@@ -76,9 +68,25 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/random_sample_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 101
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.random_sample_test.test_random_sample_without_replacement
+references:
+- fullName: cntk.ops.tests.random_sample_test.test_random_sample_inclusion_frequency
+  isExternal: false
+  name: test_random_sample_inclusion_frequency
+  parent: cntk.ops.tests.random_sample_test
+  uid: cntk.ops.tests.random_sample_test.test_random_sample_inclusion_frequency
+- fullName: cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
+  isExternal: false
+  name: test_random_sample_with_replacement
+  parent: cntk.ops.tests.random_sample_test
+  uid: cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
+- fullName: cntk.ops.tests.random_sample_test.test_random_sample_without_replacement
+  isExternal: false
+  name: test_random_sample_without_replacement
+  parent: cntk.ops.tests.random_sample_test
   uid: cntk.ops.tests.random_sample_test.test_random_sample_without_replacement

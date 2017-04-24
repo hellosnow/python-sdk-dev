@@ -5,31 +5,24 @@ items:
   - cntk.debugging.dump_function
   - cntk.debugging.dump_signature
   fullName: cntk.debugging
+  langs:
+  - python
   module: cntk.debugging
   name: debugging
-  references:
-  - fullName: cntk.debugging.dump_function
-    isExternal: false
-    name: dump_function
-    parent: ''
-    uid: cntk.debugging.dump_function
-  - fullName: cntk.debugging.dump_signature
-    isExternal: false
-    name: dump_signature
-    parent: ''
-    uid: cntk.debugging.dump_signature
   source:
     id: debugging
     path: cntk/debugging/__init__.py
     remote:
       branch: master
       path: cntk/debugging/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.debugging
 - _type: function
   fullName: cntk.debugging.dump_function
+  langs:
+  - python
   module: cntk.debugging
   name: dump_function
   source:
@@ -38,14 +31,16 @@ items:
     remote:
       branch: master
       path: cntk/debugging/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 32
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.debugging.dump_function
 - _type: function
   fullName: cntk.debugging.dump_signature
+  langs:
+  - python
   module: cntk.debugging
   name: dump_signature
   source:
@@ -54,9 +49,20 @@ items:
     remote:
       branch: master
       path: cntk/debugging/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 16
-  syntax:
-    summary: Debug helper that prints the signature of a Function.
+  summary: Debug helper that prints the signature of a Function.
+  syntax: {}
   type: Method
+  uid: cntk.debugging.dump_signature
+references:
+- fullName: cntk.debugging.dump_function
+  isExternal: false
+  name: dump_function
+  parent: cntk.debugging
+  uid: cntk.debugging.dump_function
+- fullName: cntk.debugging.dump_signature
+  isExternal: false
+  name: dump_signature
+  parent: cntk.debugging
   uid: cntk.debugging.dump_signature

@@ -9,34 +9,13 @@ items:
   fullName: cntk.debugging.tests.debug_test
   module: cntk.debugging.tests.debug_test
   name: debug_test
-  references:
-  - fullName: cntk.debugging.tests.debug_test.InStream
-    isExternal: false
-    name: InStream
-    parent: ''
-    uid: cntk.debugging.tests.debug_test.InStream
-  - fullName: cntk.debugging.tests.debug_test.OutStream
-    isExternal: false
-    name: OutStream
-    parent: ''
-    uid: cntk.debugging.tests.debug_test.OutStream
-  - fullName: cntk.debugging.tests.debug_test.test_debug_1
-    isExternal: false
-    name: test_debug_1
-    parent: ''
-    uid: cntk.debugging.tests.debug_test.test_debug_1
-  - fullName: cntk.debugging.tests.debug_test.test_debug_multi_output
-    isExternal: false
-    name: test_debug_multi_output
-    parent: ''
-    uid: cntk.debugging.tests.debug_test.test_debug_multi_output
   source:
     id: debug_test
     path: cntk/debugging/tests/debug_test.py
     remote:
       branch: master
       path: cntk/debugging/tests/debug_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.debugging.tests.debug_test
@@ -50,7 +29,7 @@ items:
     remote:
       branch: master
       path: cntk/debugging/tests/debug_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 73
   syntax:
     summary: ''
@@ -66,9 +45,30 @@ items:
     remote:
       branch: master
       path: cntk/debugging/tests/debug_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 123
   syntax:
     summary: ''
   type: Method
+  uid: cntk.debugging.tests.debug_test.test_debug_multi_output
+references:
+- fullName: cntk.debugging.tests.debug_test.InStream
+  isExternal: false
+  name: InStream
+  parent: cntk.debugging.tests.debug_test
+  uid: cntk.debugging.tests.debug_test.InStream
+- fullName: cntk.debugging.tests.debug_test.OutStream
+  isExternal: false
+  name: OutStream
+  parent: cntk.debugging.tests.debug_test
+  uid: cntk.debugging.tests.debug_test.OutStream
+- fullName: cntk.debugging.tests.debug_test.test_debug_1
+  isExternal: false
+  name: test_debug_1
+  parent: cntk.debugging.tests.debug_test
+  uid: cntk.debugging.tests.debug_test.test_debug_1
+- fullName: cntk.debugging.tests.debug_test.test_debug_multi_output
+  isExternal: false
+  name: test_debug_multi_output
+  parent: cntk.debugging.tests.debug_test
   uid: cntk.debugging.tests.debug_test.test_debug_multi_output

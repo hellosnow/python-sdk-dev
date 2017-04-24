@@ -15,81 +15,24 @@ items:
   - cntk.ops.tests.linear_test.test_op_times_sparse_grad
   - cntk.ops.tests.linear_test.test_op_transpose_times
   fullName: cntk.ops.tests.linear_test
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: linear_test
-  references:
-  - fullName: cntk.ops.tests.linear_test.test_op_element_divide
-    isExternal: false
-    name: test_op_element_divide
-    parent: ''
-    uid: cntk.ops.tests.linear_test.test_op_element_divide
-  - fullName: cntk.ops.tests.linear_test.test_op_element_times
-    isExternal: false
-    name: test_op_element_times
-    parent: ''
-    uid: cntk.ops.tests.linear_test.test_op_element_times
-  - fullName: cntk.ops.tests.linear_test.test_op_minus
-    isExternal: false
-    name: test_op_minus
-    parent: ''
-    uid: cntk.ops.tests.linear_test.test_op_minus
-  - fullName: cntk.ops.tests.linear_test.test_op_negate
-    isExternal: false
-    name: test_op_negate
-    parent: ''
-    uid: cntk.ops.tests.linear_test.test_op_negate
-  - fullName: cntk.ops.tests.linear_test.test_op_plus
-    isExternal: false
-    name: test_op_plus
-    parent: ''
-    uid: cntk.ops.tests.linear_test.test_op_plus
-  - fullName: cntk.ops.tests.linear_test.test_op_plus_gradient_accumulation
-    isExternal: false
-    name: test_op_plus_gradient_accumulation
-    parent: ''
-    uid: cntk.ops.tests.linear_test.test_op_plus_gradient_accumulation
-  - fullName: cntk.ops.tests.linear_test.test_op_plus_sequences
-    isExternal: false
-    name: test_op_plus_sequences
-    parent: ''
-    uid: cntk.ops.tests.linear_test.test_op_plus_sequences
-  - fullName: cntk.ops.tests.linear_test.test_op_plus_var_sequences_input_input
-    isExternal: false
-    name: test_op_plus_var_sequences_input_input
-    parent: ''
-    uid: cntk.ops.tests.linear_test.test_op_plus_var_sequences_input_input
-  - fullName: cntk.ops.tests.linear_test.test_op_times
-    isExternal: false
-    name: test_op_times
-    parent: ''
-    uid: cntk.ops.tests.linear_test.test_op_times
-  - fullName: cntk.ops.tests.linear_test.test_op_times_reduce_sequence_axis
-    isExternal: false
-    name: test_op_times_reduce_sequence_axis
-    parent: ''
-    uid: cntk.ops.tests.linear_test.test_op_times_reduce_sequence_axis
-  - fullName: cntk.ops.tests.linear_test.test_op_times_sparse_grad
-    isExternal: false
-    name: test_op_times_sparse_grad
-    parent: ''
-    uid: cntk.ops.tests.linear_test.test_op_times_sparse_grad
-  - fullName: cntk.ops.tests.linear_test.test_op_transpose_times
-    isExternal: false
-    name: test_op_transpose_times
-    parent: ''
-    uid: cntk.ops.tests.linear_test.test_op_transpose_times
   source:
     id: linear_test
     path: cntk/ops/tests/linear_test.py
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.linear_test
 - _type: function
   fullName: cntk.ops.tests.linear_test.test_op_element_divide
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: test_op_element_divide
   source:
@@ -98,14 +41,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 197
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_element_divide
 - _type: function
   fullName: cntk.ops.tests.linear_test.test_op_element_times
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: test_op_element_times
   source:
@@ -114,14 +59,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 177
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_element_times
 - _type: function
   fullName: cntk.ops.tests.linear_test.test_op_minus
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: test_op_minus
   source:
@@ -130,14 +77,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 156
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_minus
 - _type: function
   fullName: cntk.ops.tests.linear_test.test_op_negate
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: test_op_negate
   source:
@@ -146,14 +95,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 224
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_negate
 - _type: function
   fullName: cntk.ops.tests.linear_test.test_op_plus
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: test_op_plus
   source:
@@ -162,14 +113,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 35
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_plus
 - _type: function
   fullName: cntk.ops.tests.linear_test.test_op_plus_gradient_accumulation
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: test_op_plus_gradient_accumulation
   source:
@@ -178,14 +131,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 79
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_plus_gradient_accumulation
 - _type: function
   fullName: cntk.ops.tests.linear_test.test_op_plus_sequences
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: test_op_plus_sequences
   source:
@@ -194,14 +149,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 59
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_plus_sequences
 - _type: function
   fullName: cntk.ops.tests.linear_test.test_op_plus_var_sequences_input_input
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: test_op_plus_var_sequences_input_input
   source:
@@ -210,14 +167,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 111
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_plus_var_sequences_input_input
 - _type: function
   fullName: cntk.ops.tests.linear_test.test_op_times
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: test_op_times
   source:
@@ -226,14 +185,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 258
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_times
 - _type: function
   fullName: cntk.ops.tests.linear_test.test_op_times_reduce_sequence_axis
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: test_op_times_reduce_sequence_axis
   source:
@@ -242,14 +203,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 331
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_times_reduce_sequence_axis
 - _type: function
   fullName: cntk.ops.tests.linear_test.test_op_times_sparse_grad
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: test_op_times_sparse_grad
   source:
@@ -258,14 +221,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 315
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_times_sparse_grad
 - _type: function
   fullName: cntk.ops.tests.linear_test.test_op_transpose_times
+  langs:
+  - python
   module: cntk.ops.tests.linear_test
   name: test_op_transpose_times
   source:
@@ -274,9 +239,70 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 287
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.linear_test.test_op_transpose_times
+references:
+- fullName: cntk.ops.tests.linear_test.test_op_element_divide
+  isExternal: false
+  name: test_op_element_divide
+  parent: cntk.ops.tests.linear_test
+  uid: cntk.ops.tests.linear_test.test_op_element_divide
+- fullName: cntk.ops.tests.linear_test.test_op_element_times
+  isExternal: false
+  name: test_op_element_times
+  parent: cntk.ops.tests.linear_test
+  uid: cntk.ops.tests.linear_test.test_op_element_times
+- fullName: cntk.ops.tests.linear_test.test_op_minus
+  isExternal: false
+  name: test_op_minus
+  parent: cntk.ops.tests.linear_test
+  uid: cntk.ops.tests.linear_test.test_op_minus
+- fullName: cntk.ops.tests.linear_test.test_op_negate
+  isExternal: false
+  name: test_op_negate
+  parent: cntk.ops.tests.linear_test
+  uid: cntk.ops.tests.linear_test.test_op_negate
+- fullName: cntk.ops.tests.linear_test.test_op_plus
+  isExternal: false
+  name: test_op_plus
+  parent: cntk.ops.tests.linear_test
+  uid: cntk.ops.tests.linear_test.test_op_plus
+- fullName: cntk.ops.tests.linear_test.test_op_plus_gradient_accumulation
+  isExternal: false
+  name: test_op_plus_gradient_accumulation
+  parent: cntk.ops.tests.linear_test
+  uid: cntk.ops.tests.linear_test.test_op_plus_gradient_accumulation
+- fullName: cntk.ops.tests.linear_test.test_op_plus_sequences
+  isExternal: false
+  name: test_op_plus_sequences
+  parent: cntk.ops.tests.linear_test
+  uid: cntk.ops.tests.linear_test.test_op_plus_sequences
+- fullName: cntk.ops.tests.linear_test.test_op_plus_var_sequences_input_input
+  isExternal: false
+  name: test_op_plus_var_sequences_input_input
+  parent: cntk.ops.tests.linear_test
+  uid: cntk.ops.tests.linear_test.test_op_plus_var_sequences_input_input
+- fullName: cntk.ops.tests.linear_test.test_op_times
+  isExternal: false
+  name: test_op_times
+  parent: cntk.ops.tests.linear_test
+  uid: cntk.ops.tests.linear_test.test_op_times
+- fullName: cntk.ops.tests.linear_test.test_op_times_reduce_sequence_axis
+  isExternal: false
+  name: test_op_times_reduce_sequence_axis
+  parent: cntk.ops.tests.linear_test
+  uid: cntk.ops.tests.linear_test.test_op_times_reduce_sequence_axis
+- fullName: cntk.ops.tests.linear_test.test_op_times_sparse_grad
+  isExternal: false
+  name: test_op_times_sparse_grad
+  parent: cntk.ops.tests.linear_test
+  uid: cntk.ops.tests.linear_test.test_op_times_sparse_grad
+- fullName: cntk.ops.tests.linear_test.test_op_transpose_times
+  isExternal: false
+  name: test_op_transpose_times
+  parent: cntk.ops.tests.linear_test
   uid: cntk.ops.tests.linear_test.test_op_transpose_times

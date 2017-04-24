@@ -6,36 +6,24 @@ items:
   - cntk.tests.tensor_test.test_numpy_conversion
   - cntk.tests.tensor_test.test_overload_exception
   fullName: cntk.tests.tensor_test
+  langs:
+  - python
   module: cntk.tests.tensor_test
   name: tensor_test
-  references:
-  - fullName: cntk.tests.tensor_test.test_eval_scalar
-    isExternal: false
-    name: test_eval_scalar
-    parent: ''
-    uid: cntk.tests.tensor_test.test_eval_scalar
-  - fullName: cntk.tests.tensor_test.test_numpy_conversion
-    isExternal: false
-    name: test_numpy_conversion
-    parent: ''
-    uid: cntk.tests.tensor_test.test_numpy_conversion
-  - fullName: cntk.tests.tensor_test.test_overload_exception
-    isExternal: false
-    name: test_overload_exception
-    parent: ''
-    uid: cntk.tests.tensor_test.test_overload_exception
   source:
     id: tensor_test
     path: cntk/tests/tensor_test.py
     remote:
       branch: master
       path: cntk/tests/tensor_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.tests.tensor_test
 - _type: function
   fullName: cntk.tests.tensor_test.test_eval_scalar
+  langs:
+  - python
   module: cntk.tests.tensor_test
   name: test_eval_scalar
   source:
@@ -44,14 +32,16 @@ items:
     remote:
       branch: master
       path: cntk/tests/tensor_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 19
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.tests.tensor_test.test_eval_scalar
 - _type: function
   fullName: cntk.tests.tensor_test.test_numpy_conversion
+  langs:
+  - python
   module: cntk.tests.tensor_test
   name: test_numpy_conversion
   source:
@@ -60,14 +50,16 @@ items:
     remote:
       branch: master
       path: cntk/tests/tensor_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 24
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.tests.tensor_test.test_numpy_conversion
 - _type: function
   fullName: cntk.tests.tensor_test.test_overload_exception
+  langs:
+  - python
   module: cntk.tests.tensor_test
   name: test_overload_exception
   source:
@@ -76,9 +68,25 @@ items:
     remote:
       branch: master
       path: cntk/tests/tensor_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 13
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.tests.tensor_test.test_overload_exception
+references:
+- fullName: cntk.tests.tensor_test.test_eval_scalar
+  isExternal: false
+  name: test_eval_scalar
+  parent: cntk.tests.tensor_test
+  uid: cntk.tests.tensor_test.test_eval_scalar
+- fullName: cntk.tests.tensor_test.test_numpy_conversion
+  isExternal: false
+  name: test_numpy_conversion
+  parent: cntk.tests.tensor_test
+  uid: cntk.tests.tensor_test.test_numpy_conversion
+- fullName: cntk.tests.tensor_test.test_overload_exception
+  isExternal: false
+  name: test_overload_exception
+  parent: cntk.tests.tensor_test
   uid: cntk.tests.tensor_test.test_overload_exception

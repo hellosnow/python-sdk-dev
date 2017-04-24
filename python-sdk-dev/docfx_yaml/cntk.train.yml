@@ -5,14 +5,14 @@ items:
   fullName: cntk.train
   module: cntk.train
   name: train
-  references: []
   source:
     id: train
     path: cntk/train/__init__.py
     remote:
       branch: master
       path: cntk/train/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.train
+references: []

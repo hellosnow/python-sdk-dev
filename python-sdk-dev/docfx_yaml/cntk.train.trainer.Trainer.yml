@@ -23,84 +23,13 @@ items:
     - builtins.object
   module: cntk.train.trainer
   name: Trainer
-  references:
-  - fullName: cntk.train.trainer.Trainer.evaluation_function
-    isExternal: false
-    name: evaluation_function
-    parent: ''
-    uid: cntk.train.trainer.Trainer.evaluation_function
-  - fullName: cntk.train.trainer.Trainer.loss_function
-    isExternal: false
-    name: loss_function
-    parent: ''
-    uid: cntk.train.trainer.Trainer.loss_function
-  - fullName: cntk.train.trainer.Trainer.model
-    isExternal: false
-    name: model
-    parent: ''
-    uid: cntk.train.trainer.Trainer.model
-  - fullName: cntk.train.trainer.Trainer.parameter_learners
-    isExternal: false
-    name: parameter_learners
-    parent: ''
-    uid: cntk.train.trainer.Trainer.parameter_learners
-  - fullName: cntk.train.trainer.Trainer.previous_minibatch_evaluation_average
-    isExternal: false
-    name: previous_minibatch_evaluation_average
-    parent: ''
-    uid: cntk.train.trainer.Trainer.previous_minibatch_evaluation_average
-  - fullName: cntk.train.trainer.Trainer.previous_minibatch_loss_average
-    isExternal: false
-    name: previous_minibatch_loss_average
-    parent: ''
-    uid: cntk.train.trainer.Trainer.previous_minibatch_loss_average
-  - fullName: cntk.train.trainer.Trainer.previous_minibatch_sample_count
-    isExternal: false
-    name: previous_minibatch_sample_count
-    parent: ''
-    uid: cntk.train.trainer.Trainer.previous_minibatch_sample_count
-  - fullName: cntk.train.trainer.Trainer.restore_from_checkpoint
-    isExternal: false
-    name: restore_from_checkpoint
-    parent: ''
-    uid: cntk.train.trainer.Trainer.restore_from_checkpoint
-  - fullName: cntk.train.trainer.Trainer.save_checkpoint
-    isExternal: false
-    name: save_checkpoint
-    parent: ''
-    uid: cntk.train.trainer.Trainer.save_checkpoint
-  - fullName: cntk.train.trainer.Trainer.summarize_test_progress
-    isExternal: false
-    name: summarize_test_progress
-    parent: ''
-    uid: cntk.train.trainer.Trainer.summarize_test_progress
-  - fullName: cntk.train.trainer.Trainer.summarize_training_progress
-    isExternal: false
-    name: summarize_training_progress
-    parent: ''
-    uid: cntk.train.trainer.Trainer.summarize_training_progress
-  - fullName: cntk.train.trainer.Trainer.test_minibatch
-    isExternal: false
-    name: test_minibatch
-    parent: ''
-    uid: cntk.train.trainer.Trainer.test_minibatch
-  - fullName: cntk.train.trainer.Trainer.total_number_of_samples_seen
-    isExternal: false
-    name: total_number_of_samples_seen
-    parent: ''
-    uid: cntk.train.trainer.Trainer.total_number_of_samples_seen
-  - fullName: cntk.train.trainer.Trainer.train_minibatch
-    isExternal: false
-    name: train_minibatch
-    parent: ''
-    uid: cntk.train.trainer.Trainer.train_minibatch
   source:
     id: Trainer
     path: cntk/train/trainer.py
     remote:
       branch: master
       path: cntk/train/trainer.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 19
   syntax:
     exceptions: []
@@ -111,16 +40,16 @@ items:
     - description: Function with one or two outputs, representing loss and, if given,
         evaluation metric (in this order). Alternatively, a tuple(loss Function, evaluation
         Function) is also accepted.
+      id: parameter_learners
+      type: list
+    - description: list of learners from `cntk.learner`
       id: model
       type: Function
-    - description: list of learners from `cntk.learner`
-      id: criterion
-      type: Python tuple of Function, or Function or
     - description: "optionally, list of progress writers from `cntk.utils` to automatically\
         \ track\n   training progress.\n\nTODO: Would be great to allow to skip some\
         \ parameters that should not be updated."
-      id: parameter_learners
-      type: list
+      id: criterion
+      type: Python tuple of Function, or Function or
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.Trainer`
@@ -158,7 +87,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The evaluation function that the trainer is using.
@@ -175,7 +104,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The loss function that the trainer is using.
@@ -192,7 +121,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The model that the trainer is training.
@@ -209,7 +138,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The parameter learners that the trainer is using.
@@ -226,7 +155,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The average evaluation criterion value per sample for the last minibatch
@@ -244,7 +173,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The average training loss per sample for the last minibatch trained
@@ -261,7 +190,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The number of samples in the last minibatch trained with
@@ -278,7 +207,7 @@ items:
     remote:
       branch: master
       path: cntk/train/trainer.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 236
   syntax:
     exceptions: []
@@ -304,7 +233,7 @@ items:
     remote:
       branch: master
       path: cntk/train/trainer.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 222
   syntax:
     exceptions: []
@@ -332,7 +261,7 @@ items:
     remote:
       branch: master
       path: cntk/train/trainer.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 314
   syntax:
     summary: Updates the progress writers with the summary of test progress since
@@ -350,7 +279,7 @@ items:
     remote:
       branch: master
       path: cntk/train/trainer.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 307
   syntax:
     summary: Updates the progress writers with the summary of training progress since
@@ -368,7 +297,7 @@ items:
     remote:
       branch: master
       path: cntk/train/trainer.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 174
   syntax:
     exceptions: []
@@ -394,7 +323,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The number of samples seen globally between all workers from the beginning
@@ -412,7 +341,7 @@ items:
     remote:
       branch: master
       path: cntk/train/trainer.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 93
   syntax:
     exceptions: []
@@ -429,4 +358,75 @@ items:
       Note: See `forward()` for examples on passing input data.'
     variables: []
   type: Method
+  uid: cntk.train.trainer.Trainer.train_minibatch
+references:
+- fullName: cntk.train.trainer.Trainer.evaluation_function
+  isExternal: false
+  name: evaluation_function
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.evaluation_function
+- fullName: cntk.train.trainer.Trainer.loss_function
+  isExternal: false
+  name: loss_function
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.loss_function
+- fullName: cntk.train.trainer.Trainer.model
+  isExternal: false
+  name: model
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.model
+- fullName: cntk.train.trainer.Trainer.parameter_learners
+  isExternal: false
+  name: parameter_learners
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.parameter_learners
+- fullName: cntk.train.trainer.Trainer.previous_minibatch_evaluation_average
+  isExternal: false
+  name: previous_minibatch_evaluation_average
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.previous_minibatch_evaluation_average
+- fullName: cntk.train.trainer.Trainer.previous_minibatch_loss_average
+  isExternal: false
+  name: previous_minibatch_loss_average
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.previous_minibatch_loss_average
+- fullName: cntk.train.trainer.Trainer.previous_minibatch_sample_count
+  isExternal: false
+  name: previous_minibatch_sample_count
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.previous_minibatch_sample_count
+- fullName: cntk.train.trainer.Trainer.restore_from_checkpoint
+  isExternal: false
+  name: restore_from_checkpoint
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.restore_from_checkpoint
+- fullName: cntk.train.trainer.Trainer.save_checkpoint
+  isExternal: false
+  name: save_checkpoint
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.save_checkpoint
+- fullName: cntk.train.trainer.Trainer.summarize_test_progress
+  isExternal: false
+  name: summarize_test_progress
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.summarize_test_progress
+- fullName: cntk.train.trainer.Trainer.summarize_training_progress
+  isExternal: false
+  name: summarize_training_progress
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.summarize_training_progress
+- fullName: cntk.train.trainer.Trainer.test_minibatch
+  isExternal: false
+  name: test_minibatch
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.test_minibatch
+- fullName: cntk.train.trainer.Trainer.total_number_of_samples_seen
+  isExternal: false
+  name: total_number_of_samples_seen
+  parent: cntk.train.trainer.Trainer
+  uid: cntk.train.trainer.Trainer.total_number_of_samples_seen
+- fullName: cntk.train.trainer.Trainer.train_minibatch
+  isExternal: false
+  name: train_minibatch
+  parent: cntk.train.trainer.Trainer
   uid: cntk.train.trainer.Trainer.train_minibatch

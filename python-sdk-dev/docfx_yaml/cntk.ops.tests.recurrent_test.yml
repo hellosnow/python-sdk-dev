@@ -6,36 +6,24 @@ items:
   - cntk.ops.tests.recurrent_test.test_op_future_value
   - cntk.ops.tests.recurrent_test.test_op_past_value
   fullName: cntk.ops.tests.recurrent_test
+  langs:
+  - python
   module: cntk.ops.tests.recurrent_test
   name: recurrent_test
-  references:
-  - fullName: cntk.ops.tests.recurrent_test.test_op_delay_with_initial_state
-    isExternal: false
-    name: test_op_delay_with_initial_state
-    parent: ''
-    uid: cntk.ops.tests.recurrent_test.test_op_delay_with_initial_state
-  - fullName: cntk.ops.tests.recurrent_test.test_op_future_value
-    isExternal: false
-    name: test_op_future_value
-    parent: ''
-    uid: cntk.ops.tests.recurrent_test.test_op_future_value
-  - fullName: cntk.ops.tests.recurrent_test.test_op_past_value
-    isExternal: false
-    name: test_op_past_value
-    parent: ''
-    uid: cntk.ops.tests.recurrent_test.test_op_past_value
   source:
     id: recurrent_test
     path: cntk/ops/tests/recurrent_test.py
     remote:
       branch: master
       path: cntk/ops/tests/recurrent_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.recurrent_test
 - _type: function
   fullName: cntk.ops.tests.recurrent_test.test_op_delay_with_initial_state
+  langs:
+  - python
   module: cntk.ops.tests.recurrent_test
   name: test_op_delay_with_initial_state
   source:
@@ -44,14 +32,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/recurrent_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 116
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.recurrent_test.test_op_delay_with_initial_state
 - _type: function
   fullName: cntk.ops.tests.recurrent_test.test_op_future_value
+  langs:
+  - python
   module: cntk.ops.tests.recurrent_test
   name: test_op_future_value
   source:
@@ -60,14 +50,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/recurrent_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 28
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.recurrent_test.test_op_future_value
 - _type: function
   fullName: cntk.ops.tests.recurrent_test.test_op_past_value
+  langs:
+  - python
   module: cntk.ops.tests.recurrent_test
   name: test_op_past_value
   source:
@@ -76,9 +68,25 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/recurrent_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 68
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.recurrent_test.test_op_past_value
+references:
+- fullName: cntk.ops.tests.recurrent_test.test_op_delay_with_initial_state
+  isExternal: false
+  name: test_op_delay_with_initial_state
+  parent: cntk.ops.tests.recurrent_test
+  uid: cntk.ops.tests.recurrent_test.test_op_delay_with_initial_state
+- fullName: cntk.ops.tests.recurrent_test.test_op_future_value
+  isExternal: false
+  name: test_op_future_value
+  parent: cntk.ops.tests.recurrent_test
+  uid: cntk.ops.tests.recurrent_test.test_op_future_value
+- fullName: cntk.ops.tests.recurrent_test.test_op_past_value
+  isExternal: false
+  name: test_op_past_value
+  parent: cntk.ops.tests.recurrent_test
   uid: cntk.ops.tests.recurrent_test.test_op_past_value

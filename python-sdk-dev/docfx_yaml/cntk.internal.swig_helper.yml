@@ -5,31 +5,24 @@ items:
   - cntk.internal.swig_helper.map_if_possible
   - cntk.internal.swig_helper.typemap
   fullName: cntk.internal.swig_helper
+  langs:
+  - python
   module: cntk.internal.swig_helper
   name: swig_helper
-  references:
-  - fullName: cntk.internal.swig_helper.map_if_possible
-    isExternal: false
-    name: map_if_possible
-    parent: ''
-    uid: cntk.internal.swig_helper.map_if_possible
-  - fullName: cntk.internal.swig_helper.typemap
-    isExternal: false
-    name: typemap
-    parent: ''
-    uid: cntk.internal.swig_helper.typemap
   source:
     id: swig_helper
     path: cntk/internal/swig_helper.py
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.internal.swig_helper
 - _type: function
   fullName: cntk.internal.swig_helper.map_if_possible
+  langs:
+  - python
   module: cntk.internal.swig_helper
   name: map_if_possible
   source:
@@ -38,14 +31,16 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 9
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.internal.swig_helper.map_if_possible
 - _type: function
   fullName: cntk.internal.swig_helper.typemap
+  langs:
+  - python
   module: cntk.internal.swig_helper
   name: typemap
   source:
@@ -54,12 +49,23 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 54
-  syntax:
-    summary: Decorator that upcasts return types from Swig types to cntk types that
-      inherit from Swig. It does so recursively, e.g. if the return type is a tuple
-      containing a dictionary, it will try to upcast every element in the tuple and
-      all the keys and values in the dictionary.
+  summary: Decorator that upcasts return types from Swig types to cntk types that
+    inherit from Swig. It does so recursively, e.g. if the return type is a tuple
+    containing a dictionary, it will try to upcast every element in the tuple and
+    all the keys and values in the dictionary.
+  syntax: {}
   type: Method
+  uid: cntk.internal.swig_helper.typemap
+references:
+- fullName: cntk.internal.swig_helper.map_if_possible
+  isExternal: false
+  name: map_if_possible
+  parent: cntk.internal.swig_helper
+  uid: cntk.internal.swig_helper.map_if_possible
+- fullName: cntk.internal.swig_helper.typemap
+  isExternal: false
+  name: typemap
+  parent: cntk.internal.swig_helper
   uid: cntk.internal.swig_helper.typemap

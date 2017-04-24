@@ -11,24 +11,13 @@ items:
     - builtins.object
   module: cntk.train.distributed
   name: WorkerDescriptor
-  references:
-  - fullName: cntk.train.distributed.WorkerDescriptor.global_rank
-    isExternal: false
-    name: global_rank
-    parent: ''
-    uid: cntk.train.distributed.WorkerDescriptor.global_rank
-  - fullName: cntk.train.distributed.WorkerDescriptor.host_id
-    isExternal: false
-    name: host_id
-    parent: ''
-    uid: cntk.train.distributed.WorkerDescriptor.host_id
   source:
     id: WorkerDescriptor
     path: cntk/train/distributed.py
     remote:
       branch: master
       path: cntk/train/distributed.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 22
   syntax:
     summary: 'Bases: `cntk.cntk_py.DistributedWorkerDescriptor`
@@ -50,7 +39,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The global rank of the worker.
@@ -67,9 +56,20 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The host id of the worker.
   type: Property
+  uid: cntk.train.distributed.WorkerDescriptor.host_id
+references:
+- fullName: cntk.train.distributed.WorkerDescriptor.global_rank
+  isExternal: false
+  name: global_rank
+  parent: cntk.train.distributed.WorkerDescriptor
+  uid: cntk.train.distributed.WorkerDescriptor.global_rank
+- fullName: cntk.train.distributed.WorkerDescriptor.host_id
+  isExternal: false
+  name: host_id
+  parent: cntk.train.distributed.WorkerDescriptor
   uid: cntk.train.distributed.WorkerDescriptor.host_id

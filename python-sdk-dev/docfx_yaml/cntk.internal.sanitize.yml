@@ -16,86 +16,24 @@ items:
   - cntk.internal.sanitize.sanitize_var_map
   - cntk.internal.sanitize.sanitize_variable_value_dict
   fullName: cntk.internal.sanitize
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize
-  references:
-  - fullName: cntk.internal.sanitize.is_string
-    isExternal: false
-    name: is_string
-    parent: ''
-    uid: cntk.internal.sanitize.is_string
-  - fullName: cntk.internal.sanitize.sanitize_axis
-    isExternal: false
-    name: sanitize_axis
-    parent: ''
-    uid: cntk.internal.sanitize.sanitize_axis
-  - fullName: cntk.internal.sanitize.sanitize_batch
-    isExternal: false
-    name: sanitize_batch
-    parent: ''
-    uid: cntk.internal.sanitize.sanitize_batch
-  - fullName: cntk.internal.sanitize.sanitize_dtype_cntk
-    isExternal: false
-    name: sanitize_dtype_cntk
-    parent: ''
-    uid: cntk.internal.sanitize.sanitize_dtype_cntk
-  - fullName: cntk.internal.sanitize.sanitize_dtype_numpy
-    isExternal: false
-    name: sanitize_dtype_numpy
-    parent: ''
-    uid: cntk.internal.sanitize.sanitize_dtype_numpy
-  - fullName: cntk.internal.sanitize.sanitize_dynamic_axes
-    isExternal: false
-    name: sanitize_dynamic_axes
-    parent: ''
-    uid: cntk.internal.sanitize.sanitize_dynamic_axes
-  - fullName: cntk.internal.sanitize.sanitize_function
-    isExternal: false
-    name: sanitize_function
-    parent: ''
-    uid: cntk.internal.sanitize.sanitize_function
-  - fullName: cntk.internal.sanitize.sanitize_input
-    isExternal: false
-    name: sanitize_input
-    parent: ''
-    uid: cntk.internal.sanitize.sanitize_input
-  - fullName: cntk.internal.sanitize.sanitize_precision
-    isExternal: false
-    name: sanitize_precision
-    parent: ''
-    uid: cntk.internal.sanitize.sanitize_precision
-  - fullName: cntk.internal.sanitize.sanitize_shape
-    isExternal: false
-    name: sanitize_shape
-    parent: ''
-    uid: cntk.internal.sanitize.sanitize_shape
-  - fullName: cntk.internal.sanitize.sanitize_value
-    isExternal: false
-    name: sanitize_value
-    parent: ''
-    uid: cntk.internal.sanitize.sanitize_value
-  - fullName: cntk.internal.sanitize.sanitize_var_map
-    isExternal: false
-    name: sanitize_var_map
-    parent: ''
-    uid: cntk.internal.sanitize.sanitize_var_map
-  - fullName: cntk.internal.sanitize.sanitize_variable_value_dict
-    isExternal: false
-    name: sanitize_variable_value_dict
-    parent: ''
-    uid: cntk.internal.sanitize.sanitize_variable_value_dict
   source:
     id: sanitize
     path: cntk/internal/sanitize.py
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.internal.sanitize
 - _type: function
   fullName: cntk.internal.sanitize.is_string
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: is_string
   source:
@@ -104,14 +42,16 @@ items:
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 19
-  syntax:
-    summary: Tests whether `s` is a string in a way that works on Python 2 and 3.
+  summary: Tests whether `s` is a string in a way that works on Python 2 and 3.
+  syntax: {}
   type: Method
   uid: cntk.internal.sanitize.is_string
 - _type: function
   fullName: cntk.internal.sanitize.sanitize_axis
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize_axis
   source:
@@ -120,8 +60,9 @@ items:
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 391
+  summary: Sanitizes the axis.
   syntax:
     exceptions: []
     parameters:
@@ -139,14 +80,14 @@ items:
         * None: denote all available axes'
       id: axis
       type: Axis or int or None
-    returntype: ''
-    returnvalue: ''
-    summary: Sanitizes the axis.
+    return: {}
     variables: []
   type: Method
   uid: cntk.internal.sanitize.sanitize_axis
 - _type: function
   fullName: cntk.internal.sanitize.sanitize_batch
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize_batch
   source:
@@ -155,14 +96,15 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 115
+  summary: Convert to `Value`.
   syntax:
     exceptions: []
     parameters:
     - description: input variable into which `batch` is passed
-      id: device
-      type: DeviceDescriptor, default None
+      id: var
+      type: Variable
     - description: 'batch input for *var*. It can be
 
 
@@ -180,17 +122,18 @@ items:
         it is interpreted as a list of Booleans one for each sequence in the batch
         that tell whether a sequence is a new sequence (*True*) or a continuation
         of the sequence in the same slot of the previous minibatch (*False*)
-      id: var
-      type: Variable
-    returntype: ''
-    returnvalue: batch converted to a `Value` instance that can be passed to the core
-      API
-    summary: Convert to `Value`.
+      id: device
+      type: DeviceDescriptor, default None
+    return:
+      description: batch converted to a `Value` instance that can be passed to the
+        core API
     variables: []
   type: Method
   uid: cntk.internal.sanitize.sanitize_batch
 - _type: function
   fullName: cntk.internal.sanitize.sanitize_dtype_cntk
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize_dtype_cntk
   source:
@@ -199,14 +142,16 @@ items:
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 374
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.internal.sanitize.sanitize_dtype_cntk
 - _type: function
   fullName: cntk.internal.sanitize.sanitize_dtype_numpy
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize_dtype_numpy
   source:
@@ -215,14 +160,16 @@ items:
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 359
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.internal.sanitize.sanitize_dtype_numpy
 - _type: function
   fullName: cntk.internal.sanitize.sanitize_dynamic_axes
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize_dynamic_axes
   source:
@@ -231,14 +178,16 @@ items:
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 414
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.internal.sanitize.sanitize_dynamic_axes
 - _type: function
   fullName: cntk.internal.sanitize.sanitize_function
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize_function
   source:
@@ -247,15 +196,17 @@ items:
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 193
-  syntax:
-    summary: Tries to retrieve a Function from the argument or throws an exception
-      if that's not possible.
+  summary: Tries to retrieve a Function from the argument or throws an exception if
+    that's not possible.
+  syntax: {}
   type: Method
   uid: cntk.internal.sanitize.sanitize_function
 - _type: function
   fullName: cntk.internal.sanitize.sanitize_input
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize_input
   source:
@@ -264,8 +215,12 @@ items:
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 69
+  summary: "Convert to `Variable` so that it can be passed as Variable to the CNTK\
+    \ operators.\n* If `arg` is a NumPy array and its type is neither *np.float32*\
+    \ nor *np.float64*, it sets it to *np.float32*.\n\n   * If `arg` is an op, it\
+    \ is assumed that it has only one output, which will be returned."
   syntax:
     exceptions: []
     parameters:
@@ -275,18 +230,16 @@ items:
     - description: fallback dtype in case `arg` is a list
       id: arg
       type: number, NumPy array, Variable, or Function
-    returntype: ''
-    returnvalue: Leaves Constant, Parameter, and Variable as is. Returns Constant,
-      if `arg` is a number or NumPy array. Variable otherwise.
-    summary: "Convert to `Variable` so that it can be passed as Variable to the CNTK\
-      \ operators.\n* If `arg` is a NumPy array and its type is neither *np.float32*\
-      \ nor *np.float64*, it sets it to *np.float32*.\n\n   * If `arg` is an op, it\
-      \ is assumed that it has only one output, which will be returned."
+    return:
+      description: Leaves Constant, Parameter, and Variable as is. Returns Constant,
+        if `arg` is a number or NumPy array. Variable otherwise.
     variables: []
   type: Method
   uid: cntk.internal.sanitize.sanitize_input
 - _type: function
   fullName: cntk.internal.sanitize.sanitize_precision
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize_precision
   source:
@@ -295,8 +248,9 @@ items:
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 41
+  summary: Converts precision to NumPy precision
   syntax:
     exceptions: []
     parameters:
@@ -304,14 +258,15 @@ items:
         or 'float64'
       id: precision
       type: str or np.float32 or np.float64
-    returntype: ''
-    returnvalue: NumPy precision
-    summary: Converts precision to NumPy precision
+    return:
+      description: NumPy precision
     variables: []
   type: Method
   uid: cntk.internal.sanitize.sanitize_precision
 - _type: function
   fullName: cntk.internal.sanitize.sanitize_shape
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize_shape
   source:
@@ -320,14 +275,16 @@ items:
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 62
-  syntax:
-    summary: If shape is scalar, it creates a tuple out of it.
+  summary: If shape is scalar, it creates a tuple out of it.
+  syntax: {}
   type: Method
   uid: cntk.internal.sanitize.sanitize_shape
 - _type: function
   fullName: cntk.internal.sanitize.sanitize_value
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize_value
   source:
@@ -336,29 +293,31 @@ items:
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 158
+  summary: Converts a given `value` to an `NDArrayView` object that can be passed
+    to the CNTK core.
   syntax:
     exceptions: []
     parameters:
     - description: shape of the value
-      id: device
-      type: DeviceDescriptor
-    - description: the value to be converted
       id: shape
       type: tuple
+    - description: the value to be converted
+      id: device
+      type: DeviceDescriptor
     - description: data type (np.float32 or np.float64)
       id: value
       type: None or value that can be cast to NumPy array
-    returntype: ''
-    returnvalue: '`NDArrayView` object representing `value`'
-    summary: Converts a given `value` to an `NDArrayView` object that can be passed
-      to the CNTK core.
+    return:
+      description: '`NDArrayView` object representing `value`'
     variables: []
   type: Method
   uid: cntk.internal.sanitize.sanitize_value
 - _type: function
   fullName: cntk.internal.sanitize.sanitize_var_map
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize_var_map
   source:
@@ -367,15 +326,18 @@ items:
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 212
+  summary: Sanitizes a dictionary of *Variable* s to input data such that it can be
+    handed off to the evaluation methods (`forward()`, `backward()`, `train_minibatch()`
+    and `test_minibatch()`).
   syntax:
     exceptions: []
     parameters:
     - description: arguments of the root function. In `forward()` pass it is typically
         *op.arguments*, in `backward()` pass it is *op.outputs*
-      id: extract_values_from_minibatch_data
-      type: bool, defaults to True
+      id: op_arguments
+      type: Function
     - description: "maps variables to their input data. The interpretation depends\
         \ on the input type:\n\n   * dict: keys are input variable or names, and values\
         \ are the input data.\n\n   * any other type: if node has a unique input,\
@@ -394,25 +356,24 @@ items:
         \ of the sequence in the same slot of the previous minibatch (*False*). This\
         \ will be applied to all batches.\n\nData should be either NumPy arrays or\
         \ a `MinibatchData` instance."
-      id: device
-      type: DeviceDescriptor, default None
-    - description: if string it can be one of 'float' 'float32, 'double', 'float64',
-        or None
-      id: op_arguments
-      type: Function
-    - description: device this value should be put on
       id: precision
       type: str or np.float32 or np.float64
-    returntype: ''
-    returnvalue: '*dict* that maps variables to sanitized batches'
-    summary: Sanitizes a dictionary of *Variable* s to input data such that it can
-      be handed off to the evaluation methods (`forward()`, `backward()`, `train_minibatch()`
-      and `test_minibatch()`).
+    - description: if string it can be one of 'float' 'float32, 'double', 'float64',
+        or None
+      id: device
+      type: DeviceDescriptor, default None
+    - description: device this value should be put on
+      id: extract_values_from_minibatch_data
+      type: bool, defaults to True
+    return:
+      description: '*dict* that maps variables to sanitized batches'
     variables: []
   type: Method
   uid: cntk.internal.sanitize.sanitize_var_map
 - _type: function
   fullName: cntk.internal.sanitize.sanitize_variable_value_dict
+  langs:
+  - python
   module: cntk.internal.sanitize
   name: sanitize_variable_value_dict
   source:
@@ -421,9 +382,75 @@ items:
     remote:
       branch: master
       path: cntk/internal/sanitize.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 424
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.internal.sanitize.sanitize_variable_value_dict
+references:
+- fullName: cntk.internal.sanitize.is_string
+  isExternal: false
+  name: is_string
+  parent: cntk.internal.sanitize
+  uid: cntk.internal.sanitize.is_string
+- fullName: cntk.internal.sanitize.sanitize_axis
+  isExternal: false
+  name: sanitize_axis
+  parent: cntk.internal.sanitize
+  uid: cntk.internal.sanitize.sanitize_axis
+- fullName: cntk.internal.sanitize.sanitize_batch
+  isExternal: false
+  name: sanitize_batch
+  parent: cntk.internal.sanitize
+  uid: cntk.internal.sanitize.sanitize_batch
+- fullName: cntk.internal.sanitize.sanitize_dtype_cntk
+  isExternal: false
+  name: sanitize_dtype_cntk
+  parent: cntk.internal.sanitize
+  uid: cntk.internal.sanitize.sanitize_dtype_cntk
+- fullName: cntk.internal.sanitize.sanitize_dtype_numpy
+  isExternal: false
+  name: sanitize_dtype_numpy
+  parent: cntk.internal.sanitize
+  uid: cntk.internal.sanitize.sanitize_dtype_numpy
+- fullName: cntk.internal.sanitize.sanitize_dynamic_axes
+  isExternal: false
+  name: sanitize_dynamic_axes
+  parent: cntk.internal.sanitize
+  uid: cntk.internal.sanitize.sanitize_dynamic_axes
+- fullName: cntk.internal.sanitize.sanitize_function
+  isExternal: false
+  name: sanitize_function
+  parent: cntk.internal.sanitize
+  uid: cntk.internal.sanitize.sanitize_function
+- fullName: cntk.internal.sanitize.sanitize_input
+  isExternal: false
+  name: sanitize_input
+  parent: cntk.internal.sanitize
+  uid: cntk.internal.sanitize.sanitize_input
+- fullName: cntk.internal.sanitize.sanitize_precision
+  isExternal: false
+  name: sanitize_precision
+  parent: cntk.internal.sanitize
+  uid: cntk.internal.sanitize.sanitize_precision
+- fullName: cntk.internal.sanitize.sanitize_shape
+  isExternal: false
+  name: sanitize_shape
+  parent: cntk.internal.sanitize
+  uid: cntk.internal.sanitize.sanitize_shape
+- fullName: cntk.internal.sanitize.sanitize_value
+  isExternal: false
+  name: sanitize_value
+  parent: cntk.internal.sanitize
+  uid: cntk.internal.sanitize.sanitize_value
+- fullName: cntk.internal.sanitize.sanitize_var_map
+  isExternal: false
+  name: sanitize_var_map
+  parent: cntk.internal.sanitize
+  uid: cntk.internal.sanitize.sanitize_var_map
+- fullName: cntk.internal.sanitize.sanitize_variable_value_dict
+  isExternal: false
+  name: sanitize_variable_value_dict
+  parent: cntk.internal.sanitize
   uid: cntk.internal.sanitize.sanitize_variable_value_dict

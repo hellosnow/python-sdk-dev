@@ -5,19 +5,21 @@ items:
   class: cntk.default_options.default_override_or
   fullName: cntk.default_options.default_override_or
   inheritance:
-  - - builtins.object
+  - type: builtins.object
+  langs:
+  - python
   module: cntk.default_options
   name: default_override_or
-  references: []
   source:
     id: default_override_or
     path: cntk/default_options.py
     remote:
       branch: master
       path: cntk/default_options.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 50
-  syntax:
-    summary: 'Bases: `object`'
+  summary: 'Bases: `object`'
+  syntax: {}
   type: Class
   uid: cntk.default_options.default_override_or
+references: []

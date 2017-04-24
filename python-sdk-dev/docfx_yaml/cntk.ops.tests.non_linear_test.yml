@@ -22,116 +22,24 @@ items:
   - cntk.ops.tests.non_linear_test.test_op_square
   - cntk.ops.tests.non_linear_test.test_op_tanh
   fullName: cntk.ops.tests.non_linear_test
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: non_linear_test
-  references:
-  - fullName: cntk.ops.tests.non_linear_test.test_op_abs
-    isExternal: false
-    name: test_op_abs
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_abs
-  - fullName: cntk.ops.tests.non_linear_test.test_op_batch_normalization
-    isExternal: false
-    name: test_op_batch_normalization
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_batch_normalization
-  - fullName: cntk.ops.tests.non_linear_test.test_op_clip
-    isExternal: false
-    name: test_op_clip
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_clip
-  - fullName: cntk.ops.tests.non_linear_test.test_op_dropout
-    isExternal: false
-    name: test_op_dropout
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_dropout
-  - fullName: cntk.ops.tests.non_linear_test.test_op_dropout_bad_input
-    isExternal: false
-    name: test_op_dropout_bad_input
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_dropout_bad_input
-  - fullName: cntk.ops.tests.non_linear_test.test_op_elu
-    isExternal: false
-    name: test_op_elu
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_elu
-  - fullName: cntk.ops.tests.non_linear_test.test_op_exp
-    isExternal: false
-    name: test_op_exp
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_exp
-  - fullName: cntk.ops.tests.non_linear_test.test_op_hardmax
-    isExternal: false
-    name: test_op_hardmax
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_hardmax
-  - fullName: cntk.ops.tests.non_linear_test.test_op_leaky_relu
-    isExternal: false
-    name: test_op_leaky_relu
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_leaky_relu
-  - fullName: cntk.ops.tests.non_linear_test.test_op_log
-    isExternal: false
-    name: test_op_log
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_log
-  - fullName: cntk.ops.tests.non_linear_test.test_op_param_relu
-    isExternal: false
-    name: test_op_param_relu
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_param_relu
-  - fullName: cntk.ops.tests.non_linear_test.test_op_reciprocal
-    isExternal: false
-    name: test_op_reciprocal
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_reciprocal
-  - fullName: cntk.ops.tests.non_linear_test.test_op_relu
-    isExternal: false
-    name: test_op_relu
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_relu
-  - fullName: cntk.ops.tests.non_linear_test.test_op_sigmoid
-    isExternal: false
-    name: test_op_sigmoid
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_sigmoid
-  - fullName: cntk.ops.tests.non_linear_test.test_op_softmax
-    isExternal: false
-    name: test_op_softmax
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_softmax
-  - fullName: cntk.ops.tests.non_linear_test.test_op_softplus
-    isExternal: false
-    name: test_op_softplus
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_softplus
-  - fullName: cntk.ops.tests.non_linear_test.test_op_sqrt
-    isExternal: false
-    name: test_op_sqrt
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_sqrt
-  - fullName: cntk.ops.tests.non_linear_test.test_op_square
-    isExternal: false
-    name: test_op_square
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_square
-  - fullName: cntk.ops.tests.non_linear_test.test_op_tanh
-    isExternal: false
-    name: test_op_tanh
-    parent: ''
-    uid: cntk.ops.tests.non_linear_test.test_op_tanh
   source:
     id: non_linear_test
     path: cntk/ops/tests/non_linear_test.py
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.non_linear_test
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_abs
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_abs
   source:
@@ -140,14 +48,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 119
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_abs
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_batch_normalization
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_batch_normalization
   source:
@@ -156,14 +66,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 428
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_batch_normalization
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_clip
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_clip
   source:
@@ -172,14 +84,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 50
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_clip
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_dropout
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_dropout
   source:
@@ -188,14 +102,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 151
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_dropout
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_dropout_bad_input
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_dropout_bad_input
   source:
@@ -204,14 +120,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 191
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_dropout_bad_input
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_elu
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_elu
   source:
@@ -220,14 +138,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 291
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_elu
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_exp
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_exp
   source:
@@ -236,14 +156,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 105
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_exp
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_hardmax
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_hardmax
   source:
@@ -252,14 +174,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 405
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_hardmax
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_leaky_relu
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_leaky_relu
   source:
@@ -268,14 +192,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 308
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_leaky_relu
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_log
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_log
   source:
@@ -284,14 +210,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 235
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_log
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_param_relu
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_param_relu
   source:
@@ -300,14 +228,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 325
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_param_relu
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_reciprocal
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_reciprocal
   source:
@@ -316,14 +246,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 259
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_reciprocal
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_relu
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_relu
   source:
@@ -332,14 +264,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 277
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_relu
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_sigmoid
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_sigmoid
   source:
@@ -348,14 +282,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 75
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_sigmoid
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_softmax
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_softmax
   source:
@@ -364,14 +300,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 371
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_softmax
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_softplus
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_softplus
   source:
@@ -380,14 +318,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 348
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_softplus
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_sqrt
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_sqrt
   source:
@@ -396,14 +336,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 201
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_sqrt
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_square
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_square
   source:
@@ -412,14 +354,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 218
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_square
 - _type: function
   fullName: cntk.ops.tests.non_linear_test.test_op_tanh
+  langs:
+  - python
   module: cntk.ops.tests.non_linear_test
   name: test_op_tanh
   source:
@@ -428,9 +372,105 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/non_linear_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 137
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.non_linear_test.test_op_tanh
+references:
+- fullName: cntk.ops.tests.non_linear_test.test_op_abs
+  isExternal: false
+  name: test_op_abs
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_abs
+- fullName: cntk.ops.tests.non_linear_test.test_op_batch_normalization
+  isExternal: false
+  name: test_op_batch_normalization
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_batch_normalization
+- fullName: cntk.ops.tests.non_linear_test.test_op_clip
+  isExternal: false
+  name: test_op_clip
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_clip
+- fullName: cntk.ops.tests.non_linear_test.test_op_dropout
+  isExternal: false
+  name: test_op_dropout
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_dropout
+- fullName: cntk.ops.tests.non_linear_test.test_op_dropout_bad_input
+  isExternal: false
+  name: test_op_dropout_bad_input
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_dropout_bad_input
+- fullName: cntk.ops.tests.non_linear_test.test_op_elu
+  isExternal: false
+  name: test_op_elu
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_elu
+- fullName: cntk.ops.tests.non_linear_test.test_op_exp
+  isExternal: false
+  name: test_op_exp
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_exp
+- fullName: cntk.ops.tests.non_linear_test.test_op_hardmax
+  isExternal: false
+  name: test_op_hardmax
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_hardmax
+- fullName: cntk.ops.tests.non_linear_test.test_op_leaky_relu
+  isExternal: false
+  name: test_op_leaky_relu
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_leaky_relu
+- fullName: cntk.ops.tests.non_linear_test.test_op_log
+  isExternal: false
+  name: test_op_log
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_log
+- fullName: cntk.ops.tests.non_linear_test.test_op_param_relu
+  isExternal: false
+  name: test_op_param_relu
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_param_relu
+- fullName: cntk.ops.tests.non_linear_test.test_op_reciprocal
+  isExternal: false
+  name: test_op_reciprocal
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_reciprocal
+- fullName: cntk.ops.tests.non_linear_test.test_op_relu
+  isExternal: false
+  name: test_op_relu
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_relu
+- fullName: cntk.ops.tests.non_linear_test.test_op_sigmoid
+  isExternal: false
+  name: test_op_sigmoid
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_sigmoid
+- fullName: cntk.ops.tests.non_linear_test.test_op_softmax
+  isExternal: false
+  name: test_op_softmax
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_softmax
+- fullName: cntk.ops.tests.non_linear_test.test_op_softplus
+  isExternal: false
+  name: test_op_softplus
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_softplus
+- fullName: cntk.ops.tests.non_linear_test.test_op_sqrt
+  isExternal: false
+  name: test_op_sqrt
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_sqrt
+- fullName: cntk.ops.tests.non_linear_test.test_op_square
+  isExternal: false
+  name: test_op_square
+  parent: cntk.ops.tests.non_linear_test
+  uid: cntk.ops.tests.non_linear_test.test_op_square
+- fullName: cntk.ops.tests.non_linear_test.test_op_tanh
+  isExternal: false
+  name: test_op_tanh
+  parent: cntk.ops.tests.non_linear_test
   uid: cntk.ops.tests.non_linear_test.test_op_tanh

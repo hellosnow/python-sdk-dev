@@ -3,16 +3,18 @@ items:
 - _type: module
   children: []
   fullName: cntk.layers.tests
+  langs:
+  - python
   module: cntk.layers.tests
   name: tests
-  references: []
   source:
     id: tests
     path: cntk/layers/tests/__init__.py
     remote:
       branch: master
       path: cntk/layers/tests/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.layers.tests
+references: []

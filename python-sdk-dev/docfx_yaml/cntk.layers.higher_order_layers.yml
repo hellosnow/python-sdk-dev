@@ -10,39 +10,13 @@ items:
   fullName: cntk.layers.higher_order_layers
   module: cntk.layers.higher_order_layers
   name: higher_order_layers
-  references:
-  - fullName: cntk.layers.higher_order_layers.For
-    isExternal: false
-    name: For
-    parent: ''
-    uid: cntk.layers.higher_order_layers.For
-  - fullName: cntk.layers.higher_order_layers.LayerStack
-    isExternal: false
-    name: LayerStack
-    parent: ''
-    uid: cntk.layers.higher_order_layers.LayerStack
-  - fullName: cntk.layers.higher_order_layers.ResNetBlock
-    isExternal: false
-    name: ResNetBlock
-    parent: ''
-    uid: cntk.layers.higher_order_layers.ResNetBlock
-  - fullName: cntk.layers.higher_order_layers.Sequential
-    isExternal: false
-    name: Sequential
-    parent: ''
-    uid: cntk.layers.higher_order_layers.Sequential
-  - fullName: cntk.layers.higher_order_layers.SequentialClique
-    isExternal: false
-    name: SequentialClique
-    parent: ''
-    uid: cntk.layers.higher_order_layers.SequentialClique
   source:
     id: higher_order_layers
     path: cntk/layers/higher_order_layers.py
     remote:
       branch: master
       path: cntk/layers/higher_order_layers.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.layers.higher_order_layers
@@ -56,13 +30,13 @@ items:
     remote:
       branch: master
       path: cntk/layers/higher_order_layers.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 35
   syntax:
     summary: "Layer factory function to create a composite that applies a sequence\
       \ of layers constructed with a constructor lambda(layer). For example:\n<!--\
-      \ literal_block {\"xml:space\": \"preserve\", \"dupnames\": [], \"backrefs\"\
-      : [], \"ids\": [], \"classes\": [], \"names\": []} -->\n\n````\n\n   For(range(3),\
+      \ literal_block {\"xml:space\": \"preserve\", \"backrefs\": [], \"classes\"\
+      : [], \"dupnames\": [], \"names\": [], \"ids\": []} -->\n\n````\n\n   For(range(3),\
       \ lambda i: Dense(2000))\n   For(range(3), lambda: Dense(2000))\n   ````"
   type: Method
   uid: cntk.layers.higher_order_layers.For
@@ -76,7 +50,7 @@ items:
     remote:
       branch: master
       path: cntk/layers/higher_order_layers.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 60
   syntax:
     summary: ''
@@ -92,7 +66,7 @@ items:
     remote:
       branch: master
       path: cntk/layers/higher_order_layers.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 87
   syntax:
     summary: Layer factory function to create a composite that adds a skip connection
@@ -109,7 +83,7 @@ items:
     remote:
       branch: master
       path: cntk/layers/higher_order_layers.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 20
   syntax:
     summary: Layer factory function to create a composite that applies a sequence
@@ -127,11 +101,37 @@ items:
     remote:
       branch: master
       path: cntk/layers/higher_order_layers.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 67
   syntax:
     summary: Layer factory function to create a composite that applies a sequence
       of or any functions onto an input, with skip connections between all function.
       I.e. each function receives a sum of the input and all prior functions' outputs.
   type: Method
+  uid: cntk.layers.higher_order_layers.SequentialClique
+references:
+- fullName: cntk.layers.higher_order_layers.For
+  isExternal: false
+  name: For
+  parent: cntk.layers.higher_order_layers
+  uid: cntk.layers.higher_order_layers.For
+- fullName: cntk.layers.higher_order_layers.LayerStack
+  isExternal: false
+  name: LayerStack
+  parent: cntk.layers.higher_order_layers
+  uid: cntk.layers.higher_order_layers.LayerStack
+- fullName: cntk.layers.higher_order_layers.ResNetBlock
+  isExternal: false
+  name: ResNetBlock
+  parent: cntk.layers.higher_order_layers
+  uid: cntk.layers.higher_order_layers.ResNetBlock
+- fullName: cntk.layers.higher_order_layers.Sequential
+  isExternal: false
+  name: Sequential
+  parent: cntk.layers.higher_order_layers
+  uid: cntk.layers.higher_order_layers.Sequential
+- fullName: cntk.layers.higher_order_layers.SequentialClique
+  isExternal: false
+  name: SequentialClique
+  parent: cntk.layers.higher_order_layers
   uid: cntk.layers.higher_order_layers.SequentialClique

@@ -3,16 +3,18 @@ items:
 - _type: module
   children: []
   fullName: cntk.blocks
+  langs:
+  - python
   module: cntk.blocks
   name: blocks
-  references: []
   source:
     id: blocks
     path: cntk/blocks.py
     remote:
       branch: master
       path: cntk/blocks.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.blocks
+references: []

@@ -4,26 +4,24 @@ items:
   children:
   - cntk.tests.test_utils.precision
   fullName: cntk.tests.test_utils
+  langs:
+  - python
   module: cntk.tests.test_utils
   name: test_utils
-  references:
-  - fullName: cntk.tests.test_utils.precision
-    isExternal: false
-    name: precision
-    parent: ''
-    uid: cntk.tests.test_utils.precision
   source:
     id: test_utils
     path: cntk/tests/test_utils.py
     remote:
       branch: master
       path: cntk/tests/test_utils.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.tests.test_utils
 - _type: function
   fullName: cntk.tests.test_utils.precision
+  langs:
+  - python
   module: cntk.tests.test_utils
   name: precision
   source:
@@ -32,9 +30,15 @@ items:
     remote:
       branch: master
       path: cntk/tests/test_utils.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 23
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.tests.test_utils.precision
+references:
+- fullName: cntk.tests.test_utils.precision
+  isExternal: false
+  name: precision
+  parent: cntk.tests.test_utils
   uid: cntk.tests.test_utils.precision

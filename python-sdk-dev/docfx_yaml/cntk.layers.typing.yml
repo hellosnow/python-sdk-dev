@@ -11,44 +11,44 @@ items:
   fullName: cntk.layers.typing
   module: cntk.layers.typing
   name: typing
-  references:
-  - fullName: cntk.layers.typing.ParameterTensor
-    isExternal: false
-    name: ParameterTensor
-    parent: ''
-    uid: cntk.layers.typing.ParameterTensor
-  - fullName: cntk.layers.typing.Sequence
-    isExternal: false
-    name: Sequence
-    parent: ''
-    uid: cntk.layers.typing.Sequence
-  - fullName: cntk.layers.typing.SequenceOver
-    isExternal: false
-    name: SequenceOver
-    parent: ''
-    uid: cntk.layers.typing.SequenceOver
-  - fullName: cntk.layers.typing.SequenceOverMeta
-    isExternal: false
-    name: SequenceOverMeta
-    parent: ''
-    uid: cntk.layers.typing.SequenceOverMeta
-  - fullName: cntk.layers.typing.SparseTensor
-    isExternal: false
-    name: SparseTensor
-    parent: ''
-    uid: cntk.layers.typing.SparseTensor
-  - fullName: cntk.layers.typing.Tensor
-    isExternal: false
-    name: Tensor
-    parent: ''
-    uid: cntk.layers.typing.Tensor
   source:
     id: typing
     path: cntk/layers/typing.py
     remote:
       branch: master
       path: cntk/layers/typing.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.layers.typing
+references:
+- fullName: cntk.layers.typing.ParameterTensor
+  isExternal: false
+  name: ParameterTensor
+  parent: cntk.layers.typing
+  uid: cntk.layers.typing.ParameterTensor
+- fullName: cntk.layers.typing.Sequence
+  isExternal: false
+  name: Sequence
+  parent: cntk.layers.typing
+  uid: cntk.layers.typing.Sequence
+- fullName: cntk.layers.typing.SequenceOver
+  isExternal: false
+  name: SequenceOver
+  parent: cntk.layers.typing
+  uid: cntk.layers.typing.SequenceOver
+- fullName: cntk.layers.typing.SequenceOverMeta
+  isExternal: false
+  name: SequenceOverMeta
+  parent: cntk.layers.typing
+  uid: cntk.layers.typing.SequenceOverMeta
+- fullName: cntk.layers.typing.SparseTensor
+  isExternal: false
+  name: SparseTensor
+  parent: cntk.layers.typing
+  uid: cntk.layers.typing.SparseTensor
+- fullName: cntk.layers.typing.Tensor
+  isExternal: false
+  name: Tensor
+  parent: cntk.layers.typing
+  uid: cntk.layers.typing.Tensor

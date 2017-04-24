@@ -9,54 +9,35 @@ items:
   class: cntk.ops.tests.userfunction_test.MyPlus
   fullName: cntk.ops.tests.userfunction_test.MyPlus
   inheritance:
-  - - cntk.ops.functions.UserFunction
-    - cntk.ops.functions.Function
-    - cntk.cntk_py.Function
-    - cntk.cntk_py.IDictionarySerializable
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.ops.functions.UserFunction
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: MyPlus
-  references:
-  - fullName: cntk.ops.tests.userfunction_test.MyPlus.backward
-    isExternal: false
-    name: backward
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.MyPlus.backward
-  - fullName: cntk.ops.tests.userfunction_test.MyPlus.clone
-    isExternal: false
-    name: clone
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.MyPlus.clone
-  - fullName: cntk.ops.tests.userfunction_test.MyPlus.forward
-    isExternal: false
-    name: forward
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.MyPlus.forward
-  - fullName: cntk.ops.tests.userfunction_test.MyPlus.infer_outputs
-    isExternal: false
-    name: infer_outputs
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.MyPlus.infer_outputs
   source:
     id: MyPlus
     path: cntk/ops/tests/userfunction_test.py
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 20
-  syntax:
-    summary: 'Bases: `cntk.ops.functions.UserFunction`
+  summary: 'Bases: `cntk.ops.functions.UserFunction`
 
 
 
 
-      '
+    '
+  syntax: {}
   type: Class
   uid: cntk.ops.tests.userfunction_test.MyPlus
 - _type: method
   class: cntk.ops.tests.userfunction_test.MyPlus
   fullName: cntk.ops.tests.userfunction_test.MyPlus.backward
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: backward
   source:
@@ -65,15 +46,17 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 43
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.MyPlus.backward
 - _type: method
   class: cntk.ops.tests.userfunction_test.MyPlus
   fullName: cntk.ops.tests.userfunction_test.MyPlus.clone
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: clone
   source:
@@ -82,15 +65,17 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 31
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.MyPlus.clone
 - _type: method
   class: cntk.ops.tests.userfunction_test.MyPlus
   fullName: cntk.ops.tests.userfunction_test.MyPlus.forward
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: forward
   source:
@@ -99,15 +84,17 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 34
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.MyPlus.forward
 - _type: method
   class: cntk.ops.tests.userfunction_test.MyPlus
   fullName: cntk.ops.tests.userfunction_test.MyPlus.infer_outputs
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: infer_outputs
   source:
@@ -116,9 +103,30 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 27
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.userfunction_test.MyPlus.infer_outputs
+references:
+- fullName: cntk.ops.tests.userfunction_test.MyPlus.backward
+  isExternal: false
+  name: backward
+  parent: cntk.ops.tests.userfunction_test.MyPlus
+  uid: cntk.ops.tests.userfunction_test.MyPlus.backward
+- fullName: cntk.ops.tests.userfunction_test.MyPlus.clone
+  isExternal: false
+  name: clone
+  parent: cntk.ops.tests.userfunction_test.MyPlus
+  uid: cntk.ops.tests.userfunction_test.MyPlus.clone
+- fullName: cntk.ops.tests.userfunction_test.MyPlus.forward
+  isExternal: false
+  name: forward
+  parent: cntk.ops.tests.userfunction_test.MyPlus
+  uid: cntk.ops.tests.userfunction_test.MyPlus.forward
+- fullName: cntk.ops.tests.userfunction_test.MyPlus.infer_outputs
+  isExternal: false
+  name: infer_outputs
+  parent: cntk.ops.tests.userfunction_test.MyPlus
   uid: cntk.ops.tests.userfunction_test.MyPlus.infer_outputs

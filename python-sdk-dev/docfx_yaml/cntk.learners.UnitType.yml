@@ -11,24 +11,13 @@ items:
     - builtins.object
   module: cntk.learners
   name: UnitType
-  references:
-  - fullName: cntk.learners.UnitType.minibatch
-    isExternal: false
-    name: minibatch
-    parent: ''
-    uid: cntk.learners.UnitType.minibatch
-  - fullName: cntk.learners.UnitType.sample
-    isExternal: false
-    name: sample
-    parent: ''
-    uid: cntk.learners.UnitType.sample
   source:
     id: UnitType
     path: cntk/learners/__init__.py
     remote:
       branch: master
       path: cntk/learners/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 15
   syntax:
     summary: 'Bases: `enum.Enum`
@@ -51,7 +40,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Schedule contains per-minibatch values (and need to be re-scaled by the
@@ -69,9 +58,20 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Schedule contains per-sample values.
   type: Property
+  uid: cntk.learners.UnitType.sample
+references:
+- fullName: cntk.learners.UnitType.minibatch
+  isExternal: false
+  name: minibatch
+  parent: cntk.learners.UnitType
+  uid: cntk.learners.UnitType.minibatch
+- fullName: cntk.learners.UnitType.sample
+  isExternal: false
+  name: sample
+  parent: cntk.learners.UnitType
   uid: cntk.learners.UnitType.sample

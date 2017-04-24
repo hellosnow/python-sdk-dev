@@ -7,41 +7,24 @@ items:
   - cntk.tests.attributes_test.test_dropout_attributes
   - cntk.tests.attributes_test.test_slice_attributes
   fullName: cntk.tests.attributes_test
+  langs:
+  - python
   module: cntk.tests.attributes_test
   name: attributes_test
-  references:
-  - fullName: cntk.tests.attributes_test.test_convolution_attributes
-    isExternal: false
-    name: test_convolution_attributes
-    parent: ''
-    uid: cntk.tests.attributes_test.test_convolution_attributes
-  - fullName: cntk.tests.attributes_test.test_convolution_transpose_attributes
-    isExternal: false
-    name: test_convolution_transpose_attributes
-    parent: ''
-    uid: cntk.tests.attributes_test.test_convolution_transpose_attributes
-  - fullName: cntk.tests.attributes_test.test_dropout_attributes
-    isExternal: false
-    name: test_dropout_attributes
-    parent: ''
-    uid: cntk.tests.attributes_test.test_dropout_attributes
-  - fullName: cntk.tests.attributes_test.test_slice_attributes
-    isExternal: false
-    name: test_slice_attributes
-    parent: ''
-    uid: cntk.tests.attributes_test.test_slice_attributes
   source:
     id: attributes_test
     path: cntk/tests/attributes_test.py
     remote:
       branch: master
       path: cntk/tests/attributes_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.tests.attributes_test
 - _type: function
   fullName: cntk.tests.attributes_test.test_convolution_attributes
+  langs:
+  - python
   module: cntk.tests.attributes_test
   name: test_convolution_attributes
   source:
@@ -50,14 +33,16 @@ items:
     remote:
       branch: master
       path: cntk/tests/attributes_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 16
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.tests.attributes_test.test_convolution_attributes
 - _type: function
   fullName: cntk.tests.attributes_test.test_convolution_transpose_attributes
+  langs:
+  - python
   module: cntk.tests.attributes_test
   name: test_convolution_transpose_attributes
   source:
@@ -66,14 +51,16 @@ items:
     remote:
       branch: master
       path: cntk/tests/attributes_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 33
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.tests.attributes_test.test_convolution_transpose_attributes
 - _type: function
   fullName: cntk.tests.attributes_test.test_dropout_attributes
+  langs:
+  - python
   module: cntk.tests.attributes_test
   name: test_dropout_attributes
   source:
@@ -82,14 +69,16 @@ items:
     remote:
       branch: master
       path: cntk/tests/attributes_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 50
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.tests.attributes_test.test_dropout_attributes
 - _type: function
   fullName: cntk.tests.attributes_test.test_slice_attributes
+  langs:
+  - python
   module: cntk.tests.attributes_test
   name: test_slice_attributes
   source:
@@ -98,9 +87,30 @@ items:
     remote:
       branch: master
       path: cntk/tests/attributes_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 57
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.tests.attributes_test.test_slice_attributes
+references:
+- fullName: cntk.tests.attributes_test.test_convolution_attributes
+  isExternal: false
+  name: test_convolution_attributes
+  parent: cntk.tests.attributes_test
+  uid: cntk.tests.attributes_test.test_convolution_attributes
+- fullName: cntk.tests.attributes_test.test_convolution_transpose_attributes
+  isExternal: false
+  name: test_convolution_transpose_attributes
+  parent: cntk.tests.attributes_test
+  uid: cntk.tests.attributes_test.test_convolution_transpose_attributes
+- fullName: cntk.tests.attributes_test.test_dropout_attributes
+  isExternal: false
+  name: test_dropout_attributes
+  parent: cntk.tests.attributes_test
+  uid: cntk.tests.attributes_test.test_dropout_attributes
+- fullName: cntk.tests.attributes_test.test_slice_attributes
+  isExternal: false
+  name: test_slice_attributes
+  parent: cntk.tests.attributes_test
   uid: cntk.tests.attributes_test.test_slice_attributes

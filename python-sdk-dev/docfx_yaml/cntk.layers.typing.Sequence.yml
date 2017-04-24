@@ -8,14 +8,13 @@ items:
   - - builtins.object
   module: cntk.layers.typing
   name: Sequence
-  references: []
   source:
     id: Sequence
     path: null
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: 'Bases: `object`
@@ -23,3 +22,4 @@ items:
       Meta-meta class to denote a sequence of data tensors. Example: `Sequence[Tensor[13,42]]`'
   type: Class
   uid: cntk.layers.typing.Sequence
+references: []

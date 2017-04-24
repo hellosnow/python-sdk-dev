@@ -4,26 +4,24 @@ items:
   children:
   - cntk.internal.tests.swig_helper_tests.test_typemap
   fullName: cntk.internal.tests.swig_helper_tests
+  langs:
+  - python
   module: cntk.internal.tests.swig_helper_tests
   name: swig_helper_tests
-  references:
-  - fullName: cntk.internal.tests.swig_helper_tests.test_typemap
-    isExternal: false
-    name: test_typemap
-    parent: ''
-    uid: cntk.internal.tests.swig_helper_tests.test_typemap
   source:
     id: swig_helper_tests
     path: cntk/internal/tests/swig_helper_tests.py
     remote:
       branch: master
       path: cntk/internal/tests/swig_helper_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.internal.tests.swig_helper_tests
 - _type: function
   fullName: cntk.internal.tests.swig_helper_tests.test_typemap
+  langs:
+  - python
   module: cntk.internal.tests.swig_helper_tests
   name: test_typemap
   source:
@@ -32,9 +30,15 @@ items:
     remote:
       branch: master
       path: cntk/internal/tests/swig_helper_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 16
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.internal.tests.swig_helper_tests.test_typemap
+references:
+- fullName: cntk.internal.tests.swig_helper_tests.test_typemap
+  isExternal: false
+  name: test_typemap
+  parent: cntk.internal.tests.swig_helper_tests
   uid: cntk.internal.tests.swig_helper_tests.test_typemap

@@ -4,21 +4,23 @@ items:
   children:
   - cntk.axis.Axis
   fullName: cntk.axis
+  langs:
+  - python
   module: cntk.axis
   name: axis
-  references:
-  - fullName: cntk.axis.Axis
-    isExternal: false
-    name: Axis
-    parent: ''
-    uid: cntk.axis.Axis
   source:
     id: axis
     path: cntk/axis.py
     remote:
       branch: master
       path: cntk/axis.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.axis
+references:
+- fullName: cntk.axis.Axis
+  isExternal: false
+  name: Axis
+  parent: cntk.axis
+  uid: cntk.axis.Axis

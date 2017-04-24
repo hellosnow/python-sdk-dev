@@ -5,14 +5,14 @@ items:
   fullName: cntk.debugging.tests
   module: cntk.debugging.tests
   name: tests
-  references: []
   source:
     id: tests
     path: cntk/debugging/tests/__init__.py
     remote:
       branch: master
       path: cntk/debugging/tests/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.debugging.tests
+references: []

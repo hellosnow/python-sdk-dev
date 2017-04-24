@@ -4,26 +4,24 @@ items:
   children:
   - cntk.ops.tests.stop_gradient_test.test_stop_gradient
   fullName: cntk.ops.tests.stop_gradient_test
+  langs:
+  - python
   module: cntk.ops.tests.stop_gradient_test
   name: stop_gradient_test
-  references:
-  - fullName: cntk.ops.tests.stop_gradient_test.test_stop_gradient
-    isExternal: false
-    name: test_stop_gradient
-    parent: ''
-    uid: cntk.ops.tests.stop_gradient_test.test_stop_gradient
   source:
     id: stop_gradient_test
     path: cntk/ops/tests/stop_gradient_test.py
     remote:
       branch: master
       path: cntk/ops/tests/stop_gradient_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.stop_gradient_test
 - _type: function
   fullName: cntk.ops.tests.stop_gradient_test.test_stop_gradient
+  langs:
+  - python
   module: cntk.ops.tests.stop_gradient_test
   name: test_stop_gradient
   source:
@@ -32,9 +30,15 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/stop_gradient_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 16
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.stop_gradient_test.test_stop_gradient
+references:
+- fullName: cntk.ops.tests.stop_gradient_test.test_stop_gradient
+  isExternal: false
+  name: test_stop_gradient
+  parent: cntk.ops.tests.stop_gradient_test
   uid: cntk.ops.tests.stop_gradient_test.test_stop_gradient

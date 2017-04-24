@@ -5,31 +5,24 @@ items:
   - cntk.ops.tests.combine_test.test_op_combine
   - cntk.ops.tests.combine_test.test_op_combine_input_var
   fullName: cntk.ops.tests.combine_test
+  langs:
+  - python
   module: cntk.ops.tests.combine_test
   name: combine_test
-  references:
-  - fullName: cntk.ops.tests.combine_test.test_op_combine
-    isExternal: false
-    name: test_op_combine
-    parent: ''
-    uid: cntk.ops.tests.combine_test.test_op_combine
-  - fullName: cntk.ops.tests.combine_test.test_op_combine_input_var
-    isExternal: false
-    name: test_op_combine_input_var
-    parent: ''
-    uid: cntk.ops.tests.combine_test.test_op_combine_input_var
   source:
     id: combine_test
     path: cntk/ops/tests/combine_test.py
     remote:
       branch: master
       path: cntk/ops/tests/combine_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.combine_test
 - _type: function
   fullName: cntk.ops.tests.combine_test.test_op_combine
+  langs:
+  - python
   module: cntk.ops.tests.combine_test
   name: test_op_combine
   source:
@@ -38,14 +31,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/combine_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 29
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.combine_test.test_op_combine
 - _type: function
   fullName: cntk.ops.tests.combine_test.test_op_combine_input_var
+  langs:
+  - python
   module: cntk.ops.tests.combine_test
   name: test_op_combine_input_var
   source:
@@ -54,9 +49,20 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/combine_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 69
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.combine_test.test_op_combine_input_var
+references:
+- fullName: cntk.ops.tests.combine_test.test_op_combine
+  isExternal: false
+  name: test_op_combine
+  parent: cntk.ops.tests.combine_test
+  uid: cntk.ops.tests.combine_test.test_op_combine
+- fullName: cntk.ops.tests.combine_test.test_op_combine_input_var
+  isExternal: false
+  name: test_op_combine_input_var
+  parent: cntk.ops.tests.combine_test
   uid: cntk.ops.tests.combine_test.test_op_combine_input_var

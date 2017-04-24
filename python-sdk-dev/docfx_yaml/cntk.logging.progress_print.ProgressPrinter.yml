@@ -25,94 +25,13 @@ items:
     - builtins.object
   module: cntk.logging.progress_print
   name: ProgressPrinter
-  references:
-  - fullName: cntk.logging.progress_print.ProgressPrinter.avg_loss_since_last
-    isExternal: false
-    name: avg_loss_since_last
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.avg_loss_since_last
-  - fullName: cntk.logging.progress_print.ProgressPrinter.avg_loss_since_start
-    isExternal: false
-    name: avg_loss_since_start
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.avg_loss_since_start
-  - fullName: cntk.logging.progress_print.ProgressPrinter.avg_metric_since_last
-    isExternal: false
-    name: avg_metric_since_last
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.avg_metric_since_last
-  - fullName: cntk.logging.progress_print.ProgressPrinter.avg_metric_since_start
-    isExternal: false
-    name: avg_metric_since_start
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.avg_metric_since_start
-  - fullName: cntk.logging.progress_print.ProgressPrinter.end_progress_print
-    isExternal: false
-    name: end_progress_print
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.end_progress_print
-  - fullName: cntk.logging.progress_print.ProgressPrinter.epoch_summary
-    isExternal: false
-    name: epoch_summary
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.epoch_summary
-  - fullName: cntk.logging.progress_print.ProgressPrinter.log
-    isExternal: false
-    name: log
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.log
-  - fullName: cntk.logging.progress_print.ProgressPrinter.on_training_update_end
-    isExternal: false
-    name: on_training_update_end
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.on_training_update_end
-  - fullName: cntk.logging.progress_print.ProgressPrinter.on_write_test_summary
-    isExternal: false
-    name: on_write_test_summary
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.on_write_test_summary
-  - fullName: cntk.logging.progress_print.ProgressPrinter.on_write_test_update
-    isExternal: false
-    name: on_write_test_update
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.on_write_test_update
-  - fullName: cntk.logging.progress_print.ProgressPrinter.on_write_training_summary
-    isExternal: false
-    name: on_write_training_summary
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.on_write_training_summary
-  - fullName: cntk.logging.progress_print.ProgressPrinter.on_write_training_update
-    isExternal: false
-    name: on_write_training_update
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.on_write_training_update
-  - fullName: cntk.logging.progress_print.ProgressPrinter.reset_last
-    isExternal: false
-    name: reset_last
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.reset_last
-  - fullName: cntk.logging.progress_print.ProgressPrinter.reset_start
-    isExternal: false
-    name: reset_start
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.reset_start
-  - fullName: cntk.logging.progress_print.ProgressPrinter.update
-    isExternal: false
-    name: update
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.update
-  - fullName: cntk.logging.progress_print.ProgressPrinter.update_with_trainer
-    isExternal: false
-    name: update_with_trainer
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter.update_with_trainer
   source:
     id: ProgressPrinter
     path: cntk/logging/progress_print.py
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 27
   syntax:
     exceptions: []
@@ -122,35 +41,35 @@ items:
         arithmetic schedule (print for minibatch number: `freq`, print for minibatch
         number: 2*``freq``, print for minibatch number: 3*``freq``,...). A value of
         None means no per-minibatch log.'
-      id: rank
-      type: int or None, default None
-    - description: Only start printing after the training minibatch number is greater
-        or equal to `first`.
-      id: test_first
-      type: int, default 0
-    - description: prepend minibatch log lines with your own string
-      id: log_to_file
-      type: string or None, default None
-    - description: if None, output log data to stdout. If a string is passed, the
-        string is path to a file for log data.
       id: gen_heartbeat
       type: bool, default False
-    - description: set this to distributed.rank if you are using distributed parallelism
-        -- each rank's log will go to separate file.
-      id: first
-      type: int, default 0
-    - description: If True output a progress message every 10 seconds or so to stdout.
-      id: freq
-      type: int or None, default None
-    - description: The total number of epochs to be trained.  Used for some metadata.
-        This parameter is optional.
-      id: tag
-      type: string, default EmptyString
-    - description: similar to `freq`, but applies to printing intermediate test results.
+    - description: Only start printing after the training minibatch number is greater
+        or equal to `first`.
       id: metric_is_pct
       type: bool, default True
-    - description: similar to `first`, but applies to printing intermediate test results.
+    - description: prepend minibatch log lines with your own string
+      id: rank
+      type: int or None, default None
+    - description: if None, output log data to stdout. If a string is passed, the
+        string is path to a file for log data.
+      id: first
+      type: int, default 0
+    - description: set this to distributed.rank if you are using distributed parallelism
+        -- each rank's log will go to separate file.
       id: test_freq
+      type: int or None, default None
+    - description: If True output a progress message every 10 seconds or so to stdout.
+      id: tag
+      type: string, default EmptyString
+    - description: The total number of epochs to be trained.  Used for some metadata.
+        This parameter is optional.
+      id: test_first
+      type: int, default 0
+    - description: similar to `freq`, but applies to printing intermediate test results.
+      id: log_to_file
+      type: string or None, default None
+    - description: similar to `first`, but applies to printing intermediate test results.
+      id: freq
       type: int or None, default None
     - description: Treat metric as a percentage for output purposes.
       id: num_epochs
@@ -192,7 +111,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 153
   syntax:
     summary: 'DEPRECATED.
@@ -211,7 +130,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 135
   syntax:
     summary: 'DEPRECATED.
@@ -230,7 +149,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 162
   syntax:
     summary: 'DEPRECATED.
@@ -249,7 +168,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 144
   syntax:
     summary: 'DEPRECATED.
@@ -268,7 +187,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 115
   syntax:
     exceptions: []
@@ -293,7 +212,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 213
   syntax:
     exceptions: []
@@ -322,7 +241,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 126
   syntax:
     exceptions: []
@@ -347,7 +266,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 323
   syntax:
     summary: ''
@@ -364,7 +283,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 399
   syntax:
     summary: ''
@@ -381,7 +300,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 327
   syntax:
     summary: ''
@@ -398,7 +317,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 374
   syntax:
     summary: ''
@@ -415,7 +334,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 319
   syntax:
     summary: ''
@@ -432,7 +351,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 187
   syntax:
     summary: 'DEPRECATED.
@@ -454,7 +373,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 171
   syntax:
     summary: 'DEPRECATED.
@@ -476,21 +395,21 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 245
   syntax:
     exceptions: []
     parameters:
     - description: the value with which to update the loss accumulators
-      id: minibatch_size
-      type: int
+      id: loss
+      type: float
     - description: the value with which to update the samples accumulator
       id: metric
       type: float or None
     - description: if *None* do not update the metric accumulators, otherwise update
         with the given value
-      id: loss
-      type: float
+      id: minibatch_size
+      type: int
     returntype: ''
     returnvalue: ''
     summary: 'DEPRECATED.
@@ -511,17 +430,17 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 297
   syntax:
     exceptions: []
     parameters:
     - description: trainer from which information is gathered
-      id: trainer
-      type: cntk.train.trainer.Trainer
-    - description: whether to update the metric accumulators
       id: with_metric
       type: bool
+    - description: whether to update the metric accumulators
+      id: trainer
+      type: cntk.train.trainer.Trainer
     returntype: ''
     returnvalue: ''
     summary: 'DEPRECATED.
@@ -530,4 +449,85 @@ items:
       the information from the `trainer`.'
     variables: []
   type: Method
+  uid: cntk.logging.progress_print.ProgressPrinter.update_with_trainer
+references:
+- fullName: cntk.logging.progress_print.ProgressPrinter.avg_loss_since_last
+  isExternal: false
+  name: avg_loss_since_last
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.avg_loss_since_last
+- fullName: cntk.logging.progress_print.ProgressPrinter.avg_loss_since_start
+  isExternal: false
+  name: avg_loss_since_start
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.avg_loss_since_start
+- fullName: cntk.logging.progress_print.ProgressPrinter.avg_metric_since_last
+  isExternal: false
+  name: avg_metric_since_last
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.avg_metric_since_last
+- fullName: cntk.logging.progress_print.ProgressPrinter.avg_metric_since_start
+  isExternal: false
+  name: avg_metric_since_start
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.avg_metric_since_start
+- fullName: cntk.logging.progress_print.ProgressPrinter.end_progress_print
+  isExternal: false
+  name: end_progress_print
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.end_progress_print
+- fullName: cntk.logging.progress_print.ProgressPrinter.epoch_summary
+  isExternal: false
+  name: epoch_summary
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.epoch_summary
+- fullName: cntk.logging.progress_print.ProgressPrinter.log
+  isExternal: false
+  name: log
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.log
+- fullName: cntk.logging.progress_print.ProgressPrinter.on_training_update_end
+  isExternal: false
+  name: on_training_update_end
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.on_training_update_end
+- fullName: cntk.logging.progress_print.ProgressPrinter.on_write_test_summary
+  isExternal: false
+  name: on_write_test_summary
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.on_write_test_summary
+- fullName: cntk.logging.progress_print.ProgressPrinter.on_write_test_update
+  isExternal: false
+  name: on_write_test_update
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.on_write_test_update
+- fullName: cntk.logging.progress_print.ProgressPrinter.on_write_training_summary
+  isExternal: false
+  name: on_write_training_summary
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.on_write_training_summary
+- fullName: cntk.logging.progress_print.ProgressPrinter.on_write_training_update
+  isExternal: false
+  name: on_write_training_update
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.on_write_training_update
+- fullName: cntk.logging.progress_print.ProgressPrinter.reset_last
+  isExternal: false
+  name: reset_last
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.reset_last
+- fullName: cntk.logging.progress_print.ProgressPrinter.reset_start
+  isExternal: false
+  name: reset_start
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.reset_start
+- fullName: cntk.logging.progress_print.ProgressPrinter.update
+  isExternal: false
+  name: update
+  parent: cntk.logging.progress_print.ProgressPrinter
+  uid: cntk.logging.progress_print.ProgressPrinter.update
+- fullName: cntk.logging.progress_print.ProgressPrinter.update_with_trainer
+  isExternal: false
+  name: update_with_trainer
+  parent: cntk.logging.progress_print.ProgressPrinter
   uid: cntk.logging.progress_print.ProgressPrinter.update_with_trainer

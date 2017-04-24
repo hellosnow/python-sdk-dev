@@ -9,34 +9,13 @@ items:
   fullName: cntk.metrics
   module: cntk.metrics
   name: metrics
-  references:
-  - fullName: cntk.metrics.classification_error
-    isExternal: false
-    name: classification_error
-    parent: ''
-    uid: cntk.metrics.classification_error
-  - fullName: cntk.metrics.edit_distance_error
-    isExternal: false
-    name: edit_distance_error
-    parent: ''
-    uid: cntk.metrics.edit_distance_error
-  - fullName: cntk.metrics.lambda_rank
-    isExternal: false
-    name: lambda_rank
-    parent: ''
-    uid: cntk.metrics.lambda_rank
-  - fullName: cntk.metrics.ndcg_at_1
-    isExternal: false
-    name: ndcg_at_1
-    parent: ''
-    uid: cntk.metrics.ndcg_at_1
   source:
     id: metrics
     path: cntk/metrics/__init__.py
     remote:
       branch: master
       path: cntk/metrics/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.metrics
@@ -50,7 +29,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 118
   syntax:
     exceptions: []
@@ -99,17 +78,17 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 156
   syntax:
     exceptions: []
     parameters:
     - description: first input sequence
-      id: delPen, insPen
-      type: subPen,
-    - description: second input sequence
       id: name
       type: str, optional
+    - description: second input sequence
+      id: delPen, insPen
+      type: subPen,
     returntype: ''
     returnvalue: '`Function`'
     summary: 'Edit distance error evaluation node with the option of specifying penalty
@@ -155,7 +134,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 16
   syntax:
     exceptions: []
@@ -195,7 +174,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 72
   syntax:
     exceptions: []
@@ -238,4 +217,25 @@ items:
       array(400.0, dtype=float32)'
     variables: []
   type: Method
+  uid: cntk.metrics.ndcg_at_1
+references:
+- fullName: cntk.metrics.classification_error
+  isExternal: false
+  name: classification_error
+  parent: cntk.metrics
+  uid: cntk.metrics.classification_error
+- fullName: cntk.metrics.edit_distance_error
+  isExternal: false
+  name: edit_distance_error
+  parent: cntk.metrics
+  uid: cntk.metrics.edit_distance_error
+- fullName: cntk.metrics.lambda_rank
+  isExternal: false
+  name: lambda_rank
+  parent: cntk.metrics
+  uid: cntk.metrics.lambda_rank
+- fullName: cntk.metrics.ndcg_at_1
+  isExternal: false
+  name: ndcg_at_1
+  parent: cntk.metrics
   uid: cntk.metrics.ndcg_at_1

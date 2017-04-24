@@ -8,48 +8,34 @@ items:
   class: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
   fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
   inheritance:
-  - - cntk.ops.functions.UserFunction
-    - cntk.ops.functions.Function
-    - cntk.cntk_py.Function
-    - cntk.cntk_py.IDictionarySerializable
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.ops.functions.UserFunction
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: MultiOutputUserFunction
-  references:
-  - fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.backward
-    isExternal: false
-    name: backward
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.backward
-  - fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.forward
-    isExternal: false
-    name: forward
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.forward
-  - fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.infer_outputs
-    isExternal: false
-    name: infer_outputs
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.infer_outputs
   source:
     id: MultiOutputUserFunction
     path: cntk/ops/tests/userfunction_test.py
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 309
-  syntax:
-    summary: 'Bases: `cntk.ops.functions.UserFunction`
+  summary: 'Bases: `cntk.ops.functions.UserFunction`
 
 
 
-      '
+    '
+  syntax: {}
   type: Class
   uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
 - _type: method
   class: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
   fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.backward
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: backward
   source:
@@ -58,15 +44,17 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 325
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.backward
 - _type: method
   class: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
   fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.forward
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: forward
   source:
@@ -75,15 +63,17 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 317
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.forward
 - _type: method
   class: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
   fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.infer_outputs
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: infer_outputs
   source:
@@ -92,9 +82,25 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 313
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.infer_outputs
+references:
+- fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.backward
+  isExternal: false
+  name: backward
+  parent: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+  uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.backward
+- fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.forward
+  isExternal: false
+  name: forward
+  parent: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+  uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.forward
+- fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.infer_outputs
+  isExternal: false
+  name: infer_outputs
+  parent: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
   uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction.infer_outputs

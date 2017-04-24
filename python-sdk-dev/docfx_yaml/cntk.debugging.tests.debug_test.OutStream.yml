@@ -10,24 +10,13 @@ items:
   - - builtins.object
   module: cntk.debugging.tests.debug_test
   name: OutStream
-  references:
-  - fullName: cntk.debugging.tests.debug_test.OutStream.flush
-    isExternal: false
-    name: flush
-    parent: ''
-    uid: cntk.debugging.tests.debug_test.OutStream.flush
-  - fullName: cntk.debugging.tests.debug_test.OutStream.write
-    isExternal: false
-    name: write
-    parent: ''
-    uid: cntk.debugging.tests.debug_test.OutStream.write
   source:
     id: OutStream
     path: cntk/debugging/tests/debug_test.py
     remote:
       branch: master
       path: cntk/debugging/tests/debug_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 58
   syntax:
     summary: 'Bases: `object`
@@ -47,7 +36,7 @@ items:
     remote:
       branch: master
       path: cntk/debugging/tests/debug_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 69
   syntax:
     summary: ''
@@ -64,9 +53,20 @@ items:
     remote:
       branch: master
       path: cntk/debugging/tests/debug_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 62
   syntax:
     summary: ''
   type: Method
+  uid: cntk.debugging.tests.debug_test.OutStream.write
+references:
+- fullName: cntk.debugging.tests.debug_test.OutStream.flush
+  isExternal: false
+  name: flush
+  parent: cntk.debugging.tests.debug_test.OutStream
+  uid: cntk.debugging.tests.debug_test.OutStream.flush
+- fullName: cntk.debugging.tests.debug_test.OutStream.write
+  isExternal: false
+  name: write
+  parent: cntk.debugging.tests.debug_test.OutStream
   uid: cntk.debugging.tests.debug_test.OutStream.write

@@ -8,48 +8,34 @@ items:
   class: cntk.ops.tests.userfunction_test.LambdaFunc
   fullName: cntk.ops.tests.userfunction_test.LambdaFunc
   inheritance:
-  - - cntk.ops.functions.UserFunction
-    - cntk.ops.functions.Function
-    - cntk.cntk_py.Function
-    - cntk.cntk_py.IDictionarySerializable
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.ops.functions.UserFunction
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: LambdaFunc
-  references:
-  - fullName: cntk.ops.tests.userfunction_test.LambdaFunc.backward
-    isExternal: false
-    name: backward
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.LambdaFunc.backward
-  - fullName: cntk.ops.tests.userfunction_test.LambdaFunc.forward
-    isExternal: false
-    name: forward
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.LambdaFunc.forward
-  - fullName: cntk.ops.tests.userfunction_test.LambdaFunc.infer_outputs
-    isExternal: false
-    name: infer_outputs
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.LambdaFunc.infer_outputs
   source:
     id: LambdaFunc
     path: cntk/ops/tests/userfunction_test.py
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 217
-  syntax:
-    summary: 'Bases: `cntk.ops.functions.UserFunction`
+  summary: 'Bases: `cntk.ops.functions.UserFunction`
 
 
 
-      '
+    '
+  syntax: {}
   type: Class
   uid: cntk.ops.tests.userfunction_test.LambdaFunc
 - _type: method
   class: cntk.ops.tests.userfunction_test.LambdaFunc
   fullName: cntk.ops.tests.userfunction_test.LambdaFunc.backward
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: backward
   source:
@@ -58,15 +44,17 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 236
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.LambdaFunc.backward
 - _type: method
   class: cntk.ops.tests.userfunction_test.LambdaFunc
   fullName: cntk.ops.tests.userfunction_test.LambdaFunc.forward
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: forward
   source:
@@ -75,15 +63,17 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 230
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.LambdaFunc.forward
 - _type: method
   class: cntk.ops.tests.userfunction_test.LambdaFunc
   fullName: cntk.ops.tests.userfunction_test.LambdaFunc.infer_outputs
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: infer_outputs
   source:
@@ -92,9 +82,25 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 227
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.userfunction_test.LambdaFunc.infer_outputs
+references:
+- fullName: cntk.ops.tests.userfunction_test.LambdaFunc.backward
+  isExternal: false
+  name: backward
+  parent: cntk.ops.tests.userfunction_test.LambdaFunc
+  uid: cntk.ops.tests.userfunction_test.LambdaFunc.backward
+- fullName: cntk.ops.tests.userfunction_test.LambdaFunc.forward
+  isExternal: false
+  name: forward
+  parent: cntk.ops.tests.userfunction_test.LambdaFunc
+  uid: cntk.ops.tests.userfunction_test.LambdaFunc.forward
+- fullName: cntk.ops.tests.userfunction_test.LambdaFunc.infer_outputs
+  isExternal: false
+  name: infer_outputs
+  parent: cntk.ops.tests.userfunction_test.LambdaFunc
   uid: cntk.ops.tests.userfunction_test.LambdaFunc.infer_outputs

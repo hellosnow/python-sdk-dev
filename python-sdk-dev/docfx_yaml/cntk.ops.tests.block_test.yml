@@ -7,41 +7,24 @@ items:
   - cntk.ops.tests.block_test.test_combine_op_as_block
   - cntk.ops.tests.block_test.test_op_as_block
   fullName: cntk.ops.tests.block_test
+  langs:
+  - python
   module: cntk.ops.tests.block_test
   name: block_test
-  references:
-  - fullName: cntk.ops.tests.block_test.test_as_block_with_function_in_arguments_map
-    isExternal: false
-    name: test_as_block_with_function_in_arguments_map
-    parent: ''
-    uid: cntk.ops.tests.block_test.test_as_block_with_function_in_arguments_map
-  - fullName: cntk.ops.tests.block_test.test_block_with_duplicate_inputs
-    isExternal: false
-    name: test_block_with_duplicate_inputs
-    parent: ''
-    uid: cntk.ops.tests.block_test.test_block_with_duplicate_inputs
-  - fullName: cntk.ops.tests.block_test.test_combine_op_as_block
-    isExternal: false
-    name: test_combine_op_as_block
-    parent: ''
-    uid: cntk.ops.tests.block_test.test_combine_op_as_block
-  - fullName: cntk.ops.tests.block_test.test_op_as_block
-    isExternal: false
-    name: test_op_as_block
-    parent: ''
-    uid: cntk.ops.tests.block_test.test_op_as_block
   source:
     id: block_test
     path: cntk/ops/tests/block_test.py
     remote:
       branch: master
       path: cntk/ops/tests/block_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.block_test
 - _type: function
   fullName: cntk.ops.tests.block_test.test_as_block_with_function_in_arguments_map
+  langs:
+  - python
   module: cntk.ops.tests.block_test
   name: test_as_block_with_function_in_arguments_map
   source:
@@ -50,14 +33,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/block_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 115
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.block_test.test_as_block_with_function_in_arguments_map
 - _type: function
   fullName: cntk.ops.tests.block_test.test_block_with_duplicate_inputs
+  langs:
+  - python
   module: cntk.ops.tests.block_test
   name: test_block_with_duplicate_inputs
   source:
@@ -66,14 +51,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/block_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 104
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.block_test.test_block_with_duplicate_inputs
 - _type: function
   fullName: cntk.ops.tests.block_test.test_combine_op_as_block
+  langs:
+  - python
   module: cntk.ops.tests.block_test
   name: test_combine_op_as_block
   source:
@@ -82,14 +69,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/block_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 81
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.block_test.test_combine_op_as_block
 - _type: function
   fullName: cntk.ops.tests.block_test.test_op_as_block
+  langs:
+  - python
   module: cntk.ops.tests.block_test
   name: test_op_as_block
   source:
@@ -98,9 +87,30 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/block_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 30
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.block_test.test_op_as_block
+references:
+- fullName: cntk.ops.tests.block_test.test_as_block_with_function_in_arguments_map
+  isExternal: false
+  name: test_as_block_with_function_in_arguments_map
+  parent: cntk.ops.tests.block_test
+  uid: cntk.ops.tests.block_test.test_as_block_with_function_in_arguments_map
+- fullName: cntk.ops.tests.block_test.test_block_with_duplicate_inputs
+  isExternal: false
+  name: test_block_with_duplicate_inputs
+  parent: cntk.ops.tests.block_test
+  uid: cntk.ops.tests.block_test.test_block_with_duplicate_inputs
+- fullName: cntk.ops.tests.block_test.test_combine_op_as_block
+  isExternal: false
+  name: test_combine_op_as_block
+  parent: cntk.ops.tests.block_test
+  uid: cntk.ops.tests.block_test.test_combine_op_as_block
+- fullName: cntk.ops.tests.block_test.test_op_as_block
+  isExternal: false
+  name: test_op_as_block
+  parent: cntk.ops.tests.block_test
   uid: cntk.ops.tests.block_test.test_op_as_block

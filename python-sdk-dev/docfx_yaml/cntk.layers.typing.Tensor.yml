@@ -8,14 +8,13 @@ items:
   - - builtins.object
   module: cntk.layers.typing
   name: Tensor
-  references: []
   source:
     id: Tensor
     path: null
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: 'Bases: `object`
@@ -24,3 +23,4 @@ items:
       `Tensor[13,42]`.'
   type: Class
   uid: cntk.layers.typing.Tensor
+references: []

@@ -5,14 +5,14 @@ items:
   fullName: cntk.io.tests
   module: cntk.io.tests
   name: tests
-  references: []
   source:
     id: tests
     path: cntk/io/tests/__init__.py
     remote:
       branch: master
       path: cntk/io/tests/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.io.tests
+references: []

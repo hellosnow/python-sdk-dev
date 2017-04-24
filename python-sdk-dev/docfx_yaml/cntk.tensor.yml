@@ -5,26 +5,28 @@ items:
   - cntk.tensor.ArrayMixin
   - cntk.tensor.TensorOpsMixin
   fullName: cntk.tensor
+  langs:
+  - python
   module: cntk.tensor
   name: tensor
-  references:
-  - fullName: cntk.tensor.ArrayMixin
-    isExternal: false
-    name: ArrayMixin
-    parent: ''
-    uid: cntk.tensor.ArrayMixin
-  - fullName: cntk.tensor.TensorOpsMixin
-    isExternal: false
-    name: TensorOpsMixin
-    parent: ''
-    uid: cntk.tensor.TensorOpsMixin
   source:
     id: tensor
     path: cntk/tensor.py
     remote:
       branch: master
       path: cntk/tensor.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.tensor
+references:
+- fullName: cntk.tensor.ArrayMixin
+  isExternal: false
+  name: ArrayMixin
+  parent: cntk.tensor
+  uid: cntk.tensor.ArrayMixin
+- fullName: cntk.tensor.TensorOpsMixin
+  isExternal: false
+  name: TensorOpsMixin
+  parent: cntk.tensor
+  uid: cntk.tensor.TensorOpsMixin

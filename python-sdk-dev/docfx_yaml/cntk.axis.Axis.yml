@@ -18,99 +18,34 @@ items:
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis
   inheritance:
-  - - cntk.cntk_py.Axis
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.cntk_py.Axis
+  langs:
+  - python
   module: cntk.axis
   name: Axis
-  references:
-  - fullName: cntk.axis.Axis.all_axes
-    isExternal: false
-    name: all_axes
-    parent: ''
-    uid: cntk.axis.Axis.all_axes
-  - fullName: cntk.axis.Axis.all_static_axes
-    isExternal: false
-    name: all_static_axes
-    parent: ''
-    uid: cntk.axis.Axis.all_static_axes
-  - fullName: cntk.axis.Axis.default_batch_axis
-    isExternal: false
-    name: default_batch_axis
-    parent: ''
-    uid: cntk.axis.Axis.default_batch_axis
-  - fullName: cntk.axis.Axis.default_dynamic_axis
-    isExternal: false
-    name: default_dynamic_axis
-    parent: ''
-    uid: cntk.axis.Axis.default_dynamic_axis
-  - fullName: cntk.axis.Axis.default_input_variable_dynamic_axes
-    isExternal: false
-    name: default_input_variable_dynamic_axes
-    parent: ''
-    uid: cntk.axis.Axis.default_input_variable_dynamic_axes
-  - fullName: cntk.axis.Axis.end_static_axis
-    isExternal: false
-    name: end_static_axis
-    parent: ''
-    uid: cntk.axis.Axis.end_static_axis
-  - fullName: cntk.axis.Axis.is_ordered
-    isExternal: false
-    name: is_ordered
-    parent: ''
-    uid: cntk.axis.Axis.is_ordered
-  - fullName: cntk.axis.Axis.is_static_axis
-    isExternal: false
-    name: is_static_axis
-    parent: ''
-    uid: cntk.axis.Axis.is_static_axis
-  - fullName: cntk.axis.Axis.name
-    isExternal: false
-    name: name
-    parent: ''
-    uid: cntk.axis.Axis.name
-  - fullName: cntk.axis.Axis.new_leading_axis
-    isExternal: false
-    name: new_leading_axis
-    parent: ''
-    uid: cntk.axis.Axis.new_leading_axis
-  - fullName: cntk.axis.Axis.new_unique_dynamic_axis
-    isExternal: false
-    name: new_unique_dynamic_axis
-    parent: ''
-    uid: cntk.axis.Axis.new_unique_dynamic_axis
-  - fullName: cntk.axis.Axis.static_axis_index
-    isExternal: false
-    name: static_axis_index
-    parent: ''
-    uid: cntk.axis.Axis.static_axis_index
-  - fullName: cntk.axis.Axis.unknown_dynamic_axes
-    isExternal: false
-    name: unknown_dynamic_axes
-    parent: ''
-    uid: cntk.axis.Axis.unknown_dynamic_axes
   source:
     id: Axis
     path: cntk/axis.py
     remote:
       branch: master
       path: cntk/axis.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 9
-  syntax:
-    summary: 'Bases: `cntk.cntk_py.Axis`
+  summary: 'Bases: `cntk.cntk_py.Axis`
 
-      An axis object describes the axis of a variable and is used for specifying the
-      axes parameters of certain functions such as reductions.  Besides the static
-      axes corresponding to each of the axes of the variable''s shape, variables of
-      kind ''input'' and any ''output'' variables dependent on an ''input'' variable
-      also have two additional dynamic axes whose dimensions are known only when the
-      variable is bound to actual data during compute time (viz. sequence axis and
-      batch axis denoting the axis along which multiple sequences are batched).
+    An axis object describes the axis of a variable and is used for specifying the
+    axes parameters of certain functions such as reductions.  Besides the static axes
+    corresponding to each of the axes of the variable''s shape, variables of kind
+    ''input'' and any ''output'' variables dependent on an ''input'' variable also
+    have two additional dynamic axes whose dimensions are known only when the variable
+    is bound to actual data during compute time (viz. sequence axis and batch axis
+    denoting the axis along which multiple sequences are batched).
 
-      Axis parameters can also be negative, which allows to refere axis starting from
-      the last axis. Please be aware that Axis objects work in a column-major wise,
-      as opposed to any other function in the library.
-
+    Axis parameters can also be negative, which allows to refere axis starting from
+    the last axis. Please be aware that Axis objects work in a column-major wise,
+    as opposed to any other function in the library.
 
 
 
@@ -123,12 +58,16 @@ items:
 
 
 
-      '
+
+    '
+  syntax: {}
   type: Class
   uid: cntk.axis.Axis
 - _type: method
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.all_axes
+  langs:
+  - python
   module: cntk.axis
   name: all_axes
   source:
@@ -137,20 +76,23 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 103
+  summary: Axis object representing all the axes--static and dynamic--of an operand.
   syntax:
     exceptions: []
     parameters: []
-    returntype: Axis
-    returnvalue: all axes
-    summary: Axis object representing all the axes--static and dynamic--of an operand.
+    return:
+      description: all axes
+      type: Axis
     variables: []
   type: Method
   uid: cntk.axis.Axis.all_axes
 - _type: method
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.all_static_axes
+  langs:
+  - python
   module: cntk.axis
   name: all_static_axes
   source:
@@ -159,20 +101,23 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 92
+  summary: Axis object representing all the static axes of an operand.
   syntax:
     exceptions: []
     parameters: []
-    returntype: Axis
-    returnvalue: all static axes
-    summary: Axis object representing all the static axes of an operand.
+    return:
+      description: all static axes
+      type: Axis
     variables: []
   type: Method
   uid: cntk.axis.Axis.all_static_axes
 - _type: method
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.default_batch_axis
+  langs:
+  - python
   module: cntk.axis
   name: default_batch_axis
   source:
@@ -181,20 +126,23 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 81
+  summary: Returns an Axis object representing the batch axis
   syntax:
     exceptions: []
     parameters: []
-    returntype: Axis
-    returnvalue: default batch axis
-    summary: Returns an Axis object representing the batch axis
+    return:
+      description: default batch axis
+      type: Axis
     variables: []
   type: Method
   uid: cntk.axis.Axis.default_batch_axis
 - _type: method
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.default_dynamic_axis
+  langs:
+  - python
   module: cntk.axis
   name: default_dynamic_axis
   source:
@@ -203,20 +151,23 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 70
+  summary: Returns an Axis object representing the default dynamic axis
   syntax:
     exceptions: []
     parameters: []
-    returntype: Axis
-    returnvalue: default dynamic axis
-    summary: Returns an Axis object representing the default dynamic axis
+    return:
+      description: default dynamic axis
+      type: Axis
     variables: []
   type: Method
   uid: cntk.axis.Axis.default_dynamic_axis
 - _type: method
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.default_input_variable_dynamic_axes
+  langs:
+  - python
   module: cntk.axis
   name: default_input_variable_dynamic_axes
   source:
@@ -225,20 +176,23 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 114
+  summary: Default dynamic axes of the input variable
   syntax:
     exceptions: []
     parameters: []
-    returntype: tuple of Axis
-    returnvalue: instances
-    summary: Default dynamic axes of the input variable
+    return:
+      description: instances
+      type: tuple of Axis
     variables: []
   type: Method
   uid: cntk.axis.Axis.default_input_variable_dynamic_axes
 - _type: method
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.end_static_axis
+  langs:
+  - python
   module: cntk.axis
   name: end_static_axis
   source:
@@ -247,22 +201,25 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 150
+  summary: 'DEPRECATED.
+
+    Creates an Axis object representing a new leading static axis.'
   syntax:
     exceptions: []
     parameters: []
-    returntype: Axis
-    returnvalue: axis object representing a new leading static axis.
-    summary: 'DEPRECATED.
-
-      Creates an Axis object representing a new leading static axis.'
+    return:
+      description: axis object representing a new leading static axis.
+      type: Axis
     variables: []
   type: Method
   uid: cntk.axis.Axis.end_static_axis
 - _type: attribute
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.is_ordered
+  langs:
+  - python
   module: cntk.axis
   name: is_ordered
   source:
@@ -271,21 +228,24 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
+  summary: Returns True if the axis is ordered; i.e. if there is an ordering between
+    the dimensions along the axis.
   syntax:
     exceptions: []
     parameters: []
-    returntype: bool
-    returnvalue: True if this axis is ordered and False otherwise
-    summary: Returns True if the axis is ordered; i.e. if there is an ordering between
-      the dimensions along the axis.
+    return:
+      description: True if this axis is ordered and False otherwise
+      type: bool
     variables: []
   type: Property
   uid: cntk.axis.Axis.is_ordered
 - _type: attribute
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.is_static_axis
+  langs:
+  - python
   module: cntk.axis
   name: is_static_axis
   source:
@@ -294,20 +254,23 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
+  summary: Returns True if the axis is of type static and False otherwise
   syntax:
     exceptions: []
     parameters: []
-    returntype: bool
-    returnvalue: True if this axis is of type static and False otherwise
-    summary: Returns True if the axis is of type static and False otherwise
+    return:
+      description: True if this axis is of type static and False otherwise
+      type: bool
     variables: []
   type: Property
   uid: cntk.axis.Axis.is_static_axis
 - _type: attribute
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.name
+  langs:
+  - python
   module: cntk.axis
   name: name
   source:
@@ -316,20 +279,23 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
+  summary: Returns the name of this axis.
   syntax:
     exceptions: []
     parameters: []
-    returntype: str
-    returnvalue: the name of this axis.
-    summary: Returns the name of this axis.
+    return:
+      description: the name of this axis.
+      type: str
     variables: []
   type: Property
   uid: cntk.axis.Axis.name
 - _type: method
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.new_leading_axis
+  langs:
+  - python
   module: cntk.axis
   name: new_leading_axis
   source:
@@ -338,20 +304,23 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 166
+  summary: Creates an Axis object representing a new leading static axis.
   syntax:
     exceptions: []
     parameters: []
-    returntype: Axis
-    returnvalue: axis object representing a new leading static axis.
-    summary: Creates an Axis object representing a new leading static axis.
+    return:
+      description: axis object representing a new leading static axis.
+      type: Axis
     variables: []
   type: Method
   uid: cntk.axis.Axis.new_leading_axis
 - _type: method
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.new_unique_dynamic_axis
+  langs:
+  - python
   module: cntk.axis
   name: new_unique_dynamic_axis
   source:
@@ -360,23 +329,26 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 136
+  summary: Creates an Axis object representing a new unique dynamic axis.
   syntax:
     exceptions: []
     parameters:
     - description: name of the dynmic axis
       id: name
       type: str
-    returntype: Axis
-    returnvalue: new unique dynamic axis
-    summary: Creates an Axis object representing a new unique dynamic axis.
+    return:
+      description: new unique dynamic axis
+      type: Axis
     variables: []
   type: Method
   uid: cntk.axis.Axis.new_unique_dynamic_axis
 - _type: method
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.static_axis_index
+  langs:
+  - python
   module: cntk.axis
   name: static_axis_index
   source:
@@ -385,8 +357,10 @@ items:
     remote:
       branch: master
       path: cntk/axis.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 58
+  summary: Returns the integer with which the static axis is defined. For example,
+    0 = first axis, 1 = second axis, etc.
   syntax:
     exceptions: []
     parameters:
@@ -394,16 +368,17 @@ items:
         is not static.
       id: checked
       type: bool
-    returntype: int
-    returnvalue: the number with which the static axis is defined.
-    summary: Returns the integer with which the static axis is defined. For example,
-      0 = first axis, 1 = second axis, etc.
+    return:
+      description: the number with which the static axis is defined.
+      type: int
     variables: []
   type: Method
   uid: cntk.axis.Axis.static_axis_index
 - _type: method
   class: cntk.axis.Axis
   fullName: cntk.axis.Axis.unknown_dynamic_axes
+  langs:
+  - python
   module: cntk.axis
   name: unknown_dynamic_axes
   source:
@@ -412,14 +387,81 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 125
+  summary: Unknown dynamic axes
   syntax:
     exceptions: []
     parameters: []
-    returntype: tuple of Axis
-    returnvalue: instances
-    summary: Unknown dynamic axes
+    return:
+      description: instances
+      type: tuple of Axis
     variables: []
   type: Method
+  uid: cntk.axis.Axis.unknown_dynamic_axes
+references:
+- fullName: cntk.axis.Axis.all_axes
+  isExternal: false
+  name: all_axes
+  parent: cntk.axis.Axis
+  uid: cntk.axis.Axis.all_axes
+- fullName: cntk.axis.Axis.all_static_axes
+  isExternal: false
+  name: all_static_axes
+  parent: cntk.axis.Axis
+  uid: cntk.axis.Axis.all_static_axes
+- fullName: cntk.axis.Axis.default_batch_axis
+  isExternal: false
+  name: default_batch_axis
+  parent: cntk.axis.Axis
+  uid: cntk.axis.Axis.default_batch_axis
+- fullName: cntk.axis.Axis.default_dynamic_axis
+  isExternal: false
+  name: default_dynamic_axis
+  parent: cntk.axis.Axis
+  uid: cntk.axis.Axis.default_dynamic_axis
+- fullName: cntk.axis.Axis.default_input_variable_dynamic_axes
+  isExternal: false
+  name: default_input_variable_dynamic_axes
+  parent: cntk.axis.Axis
+  uid: cntk.axis.Axis.default_input_variable_dynamic_axes
+- fullName: cntk.axis.Axis.end_static_axis
+  isExternal: false
+  name: end_static_axis
+  parent: cntk.axis.Axis
+  uid: cntk.axis.Axis.end_static_axis
+- fullName: cntk.axis.Axis.is_ordered
+  isExternal: false
+  name: is_ordered
+  parent: cntk.axis.Axis
+  uid: cntk.axis.Axis.is_ordered
+- fullName: cntk.axis.Axis.is_static_axis
+  isExternal: false
+  name: is_static_axis
+  parent: cntk.axis.Axis
+  uid: cntk.axis.Axis.is_static_axis
+- fullName: cntk.axis.Axis.name
+  isExternal: false
+  name: name
+  parent: cntk.axis.Axis
+  uid: cntk.axis.Axis.name
+- fullName: cntk.axis.Axis.new_leading_axis
+  isExternal: false
+  name: new_leading_axis
+  parent: cntk.axis.Axis
+  uid: cntk.axis.Axis.new_leading_axis
+- fullName: cntk.axis.Axis.new_unique_dynamic_axis
+  isExternal: false
+  name: new_unique_dynamic_axis
+  parent: cntk.axis.Axis
+  uid: cntk.axis.Axis.new_unique_dynamic_axis
+- fullName: cntk.axis.Axis.static_axis_index
+  isExternal: false
+  name: static_axis_index
+  parent: cntk.axis.Axis
+  uid: cntk.axis.Axis.static_axis_index
+- fullName: cntk.axis.Axis.unknown_dynamic_axes
+  isExternal: false
+  name: unknown_dynamic_axes
+  parent: cntk.axis.Axis
   uid: cntk.axis.Axis.unknown_dynamic_axes

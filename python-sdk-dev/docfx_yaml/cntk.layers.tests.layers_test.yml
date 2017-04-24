@@ -25,131 +25,24 @@ items:
   - cntk.layers.tests.layers_test.test_sequential_convolution_without_reduction_dim
   - cntk.layers.tests.layers_test.test_unfold
   fullName: cntk.layers.tests.layers_test
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: layers_test
-  references:
-  - fullName: cntk.layers.tests.layers_test.assert_list_of_arrays_equal
-    isExternal: false
-    name: assert_list_of_arrays_equal
-    parent: ''
-    uid: cntk.layers.tests.layers_test.assert_list_of_arrays_equal
-  - fullName: cntk.layers.tests.layers_test.test_1D_convolution_without_reduction_dim
-    isExternal: false
-    name: test_1D_convolution_without_reduction_dim
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_1D_convolution_without_reduction_dim
-  - fullName: cntk.layers.tests.layers_test.test_Function
-    isExternal: false
-    name: test_Function
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_Function
-  - fullName: cntk.layers.tests.layers_test.test_default_options
-    isExternal: false
-    name: test_default_options
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_default_options
-  - fullName: cntk.layers.tests.layers_test.test_layers_batch_normalization
-    isExternal: false
-    name: test_layers_batch_normalization
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_batch_normalization
-  - fullName: cntk.layers.tests.layers_test.test_layers_conv_pool_unpool_deconv
-    isExternal: false
-    name: test_layers_conv_pool_unpool_deconv
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_conv_pool_unpool_deconv
-  - fullName: cntk.layers.tests.layers_test.test_layers_convolution_2d
-    isExternal: false
-    name: test_layers_convolution_2d
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_convolution_2d
-  - fullName: cntk.layers.tests.layers_test.test_layers_convolution_3d
-    isExternal: false
-    name: test_layers_convolution_3d
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_convolution_3d
-  - fullName: cntk.layers.tests.layers_test.test_layers_convolution_shape
-    isExternal: false
-    name: test_layers_convolution_shape
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_convolution_shape
-  - fullName: cntk.layers.tests.layers_test.test_layers_convolution_value
-    isExternal: false
-    name: test_layers_convolution_value
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_convolution_value
-  - fullName: cntk.layers.tests.layers_test.test_layers_deconvolution
-    isExternal: false
-    name: test_layers_deconvolution
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_deconvolution
-  - fullName: cntk.layers.tests.layers_test.test_layers_dense
-    isExternal: false
-    name: test_layers_dense
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_dense
-  - fullName: cntk.layers.tests.layers_test.test_layers_dropout
-    isExternal: false
-    name: test_layers_dropout
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_dropout
-  - fullName: cntk.layers.tests.layers_test.test_layers_embedding
-    isExternal: false
-    name: test_layers_embedding
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_embedding
-  - fullName: cntk.layers.tests.layers_test.test_layers_layer_normalization
-    isExternal: false
-    name: test_layers_layer_normalization
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_layer_normalization
-  - fullName: cntk.layers.tests.layers_test.test_layers_name
-    isExternal: false
-    name: test_layers_name
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_name
-  - fullName: cntk.layers.tests.layers_test.test_layers_stabilizer
-    isExternal: false
-    name: test_layers_stabilizer
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_layers_stabilizer
-  - fullName: cntk.layers.tests.layers_test.test_lookup
-    isExternal: false
-    name: test_lookup
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_lookup
-  - fullName: cntk.layers.tests.layers_test.test_recurrence
-    isExternal: false
-    name: test_recurrence
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_recurrence
-  - fullName: cntk.layers.tests.layers_test.test_recurrence_fun
-    isExternal: false
-    name: test_recurrence_fun
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_recurrence_fun
-  - fullName: cntk.layers.tests.layers_test.test_sequential_convolution_without_reduction_dim
-    isExternal: false
-    name: test_sequential_convolution_without_reduction_dim
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_sequential_convolution_without_reduction_dim
-  - fullName: cntk.layers.tests.layers_test.test_unfold
-    isExternal: false
-    name: test_unfold
-    parent: ''
-    uid: cntk.layers.tests.layers_test.test_unfold
   source:
     id: layers_test
     path: cntk/layers/tests/layers_test.py
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.layers.tests.layers_test
 - _type: function
   fullName: cntk.layers.tests.layers_test.assert_list_of_arrays_equal
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: assert_list_of_arrays_equal
   source:
@@ -158,14 +51,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 30
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.assert_list_of_arrays_equal
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_1D_convolution_without_reduction_dim
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_1D_convolution_without_reduction_dim
   source:
@@ -174,14 +69,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 567
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_1D_convolution_without_reduction_dim
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_Function
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_Function
   source:
@@ -190,14 +87,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 58
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_Function
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_default_options
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_default_options
   source:
@@ -206,14 +105,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 38
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_default_options
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_batch_normalization
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_batch_normalization
   source:
@@ -222,14 +123,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 677
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_batch_normalization
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_conv_pool_unpool_deconv
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_conv_pool_unpool_deconv
   source:
@@ -238,14 +141,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 587
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_conv_pool_unpool_deconv
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_convolution_2d
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_convolution_2d
   source:
@@ -254,14 +159,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 528
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_convolution_2d
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_convolution_3d
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_convolution_3d
   source:
@@ -270,14 +177,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 502
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_convolution_3d
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_convolution_shape
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_convolution_shape
   source:
@@ -286,14 +195,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 315
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_convolution_shape
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_convolution_value
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_convolution_value
   source:
@@ -302,14 +213,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 411
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_convolution_value
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_deconvolution
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_deconvolution
   source:
@@ -318,14 +231,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 580
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_deconvolution
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_dense
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_dense
   source:
@@ -334,14 +249,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 215
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_dense
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_dropout
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_dropout
   source:
@@ -350,14 +267,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 629
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_dropout
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_embedding
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_embedding
   source:
@@ -366,14 +285,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 260
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_embedding
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_layer_normalization
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_layer_normalization
   source:
@@ -382,14 +303,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 658
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_layer_normalization
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_name
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_name
   source:
@@ -398,14 +321,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 14
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_name
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_layers_stabilizer
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_layers_stabilizer
   source:
@@ -414,14 +339,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 644
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_layers_stabilizer
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_lookup
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_lookup
   source:
@@ -430,14 +357,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 90
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_lookup
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_recurrence
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_recurrence
   source:
@@ -446,14 +375,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 102
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_recurrence
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_recurrence_fun
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_recurrence_fun
   source:
@@ -462,14 +393,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 146
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_recurrence_fun
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_sequential_convolution_without_reduction_dim
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_sequential_convolution_without_reduction_dim
   source:
@@ -478,14 +411,16 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 555
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.layers.tests.layers_test.test_sequential_convolution_without_reduction_dim
 - _type: function
   fullName: cntk.layers.tests.layers_test.test_unfold
+  langs:
+  - python
   module: cntk.layers.tests.layers_test
   name: test_unfold
   source:
@@ -494,9 +429,120 @@ items:
     remote:
       branch: master
       path: cntk/layers/tests/layers_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 174
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.layers.tests.layers_test.test_unfold
+references:
+- fullName: cntk.layers.tests.layers_test.assert_list_of_arrays_equal
+  isExternal: false
+  name: assert_list_of_arrays_equal
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.assert_list_of_arrays_equal
+- fullName: cntk.layers.tests.layers_test.test_1D_convolution_without_reduction_dim
+  isExternal: false
+  name: test_1D_convolution_without_reduction_dim
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_1D_convolution_without_reduction_dim
+- fullName: cntk.layers.tests.layers_test.test_Function
+  isExternal: false
+  name: test_Function
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_Function
+- fullName: cntk.layers.tests.layers_test.test_default_options
+  isExternal: false
+  name: test_default_options
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_default_options
+- fullName: cntk.layers.tests.layers_test.test_layers_batch_normalization
+  isExternal: false
+  name: test_layers_batch_normalization
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_batch_normalization
+- fullName: cntk.layers.tests.layers_test.test_layers_conv_pool_unpool_deconv
+  isExternal: false
+  name: test_layers_conv_pool_unpool_deconv
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_conv_pool_unpool_deconv
+- fullName: cntk.layers.tests.layers_test.test_layers_convolution_2d
+  isExternal: false
+  name: test_layers_convolution_2d
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_convolution_2d
+- fullName: cntk.layers.tests.layers_test.test_layers_convolution_3d
+  isExternal: false
+  name: test_layers_convolution_3d
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_convolution_3d
+- fullName: cntk.layers.tests.layers_test.test_layers_convolution_shape
+  isExternal: false
+  name: test_layers_convolution_shape
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_convolution_shape
+- fullName: cntk.layers.tests.layers_test.test_layers_convolution_value
+  isExternal: false
+  name: test_layers_convolution_value
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_convolution_value
+- fullName: cntk.layers.tests.layers_test.test_layers_deconvolution
+  isExternal: false
+  name: test_layers_deconvolution
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_deconvolution
+- fullName: cntk.layers.tests.layers_test.test_layers_dense
+  isExternal: false
+  name: test_layers_dense
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_dense
+- fullName: cntk.layers.tests.layers_test.test_layers_dropout
+  isExternal: false
+  name: test_layers_dropout
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_dropout
+- fullName: cntk.layers.tests.layers_test.test_layers_embedding
+  isExternal: false
+  name: test_layers_embedding
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_embedding
+- fullName: cntk.layers.tests.layers_test.test_layers_layer_normalization
+  isExternal: false
+  name: test_layers_layer_normalization
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_layer_normalization
+- fullName: cntk.layers.tests.layers_test.test_layers_name
+  isExternal: false
+  name: test_layers_name
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_name
+- fullName: cntk.layers.tests.layers_test.test_layers_stabilizer
+  isExternal: false
+  name: test_layers_stabilizer
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_layers_stabilizer
+- fullName: cntk.layers.tests.layers_test.test_lookup
+  isExternal: false
+  name: test_lookup
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_lookup
+- fullName: cntk.layers.tests.layers_test.test_recurrence
+  isExternal: false
+  name: test_recurrence
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_recurrence
+- fullName: cntk.layers.tests.layers_test.test_recurrence_fun
+  isExternal: false
+  name: test_recurrence_fun
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_recurrence_fun
+- fullName: cntk.layers.tests.layers_test.test_sequential_convolution_without_reduction_dim
+  isExternal: false
+  name: test_sequential_convolution_without_reduction_dim
+  parent: cntk.layers.tests.layers_test
+  uid: cntk.layers.tests.layers_test.test_sequential_convolution_without_reduction_dim
+- fullName: cntk.layers.tests.layers_test.test_unfold
+  isExternal: false
+  name: test_unfold
+  parent: cntk.layers.tests.layers_test
   uid: cntk.layers.tests.layers_test.test_unfold

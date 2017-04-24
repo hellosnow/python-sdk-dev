@@ -24,126 +24,24 @@ items:
   - cntk.ops.tests.function_tests.test_set_name
   - cntk.ops.tests.function_tests.test_variable_forwarding
   fullName: cntk.ops.tests.function_tests
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: function_tests
-  references:
-  - fullName: cntk.ops.tests.function_tests.test_MinibatchData_and_Value_as_input
-    isExternal: false
-    name: test_MinibatchData_and_Value_as_input
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_MinibatchData_and_Value_as_input
-  - fullName: cntk.ops.tests.function_tests.test_as_composite
-    isExternal: false
-    name: test_as_composite
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_as_composite
-  - fullName: cntk.ops.tests.function_tests.test_clone_with_function_in_substitution_map
-    isExternal: false
-    name: test_clone_with_function_in_substitution_map
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_clone_with_function_in_substitution_map
-  - fullName: cntk.ops.tests.function_tests.test_clone_with_slice
-    isExternal: false
-    name: test_clone_with_slice
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_clone_with_slice
-  - fullName: cntk.ops.tests.function_tests.test_cloning
-    isExternal: false
-    name: test_cloning
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_cloning
-  - fullName: cntk.ops.tests.function_tests.test_combine_duplicated_inputs
-    isExternal: false
-    name: test_combine_duplicated_inputs
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_combine_duplicated_inputs
-  - fullName: cntk.ops.tests.function_tests.test_data_type_inference
-    isExternal: false
-    name: test_data_type_inference
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_data_type_inference
-  - fullName: cntk.ops.tests.function_tests.test_eval_by_node_name
-    isExternal: false
-    name: test_eval_by_node_name
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_eval_by_node_name
-  - fullName: cntk.ops.tests.function_tests.test_evaluating_multiple_outputs
-    isExternal: false
-    name: test_evaluating_multiple_outputs
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_evaluating_multiple_outputs
-  - fullName: cntk.ops.tests.function_tests.test_exception_for_unnamed_arguments
-    isExternal: false
-    name: test_exception_for_unnamed_arguments
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_exception_for_unnamed_arguments
-  - fullName: cntk.ops.tests.function_tests.test_extra_arguments_in_eval
-    isExternal: false
-    name: test_extra_arguments_in_eval
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_extra_arguments_in_eval
-  - fullName: cntk.ops.tests.function_tests.test_getting_output_from_non_existent_node
-    isExternal: false
-    name: test_getting_output_from_non_existent_node
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_getting_output_from_non_existent_node
-  - fullName: cntk.ops.tests.function_tests.test_input_order
-    isExternal: false
-    name: test_input_order
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_input_order
-  - fullName: cntk.ops.tests.function_tests.test_output_in_intermediate_node
-    isExternal: false
-    name: test_output_in_intermediate_node
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_output_in_intermediate_node
-  - fullName: cntk.ops.tests.function_tests.test_output_subset_evaluation
-    isExternal: false
-    name: test_output_subset_evaluation
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_output_subset_evaluation
-  - fullName: cntk.ops.tests.function_tests.test_recurrence_shape_inference
-    isExternal: false
-    name: test_recurrence_shape_inference
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_recurrence_shape_inference
-  - fullName: cntk.ops.tests.function_tests.test_replace_placeholder_s
-    isExternal: false
-    name: test_replace_placeholder_s
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_replace_placeholder_s
-  - fullName: cntk.ops.tests.function_tests.test_replace_placeholders
-    isExternal: false
-    name: test_replace_placeholders
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_replace_placeholders
-  - fullName: cntk.ops.tests.function_tests.test_sequence_data_mismatch
-    isExternal: false
-    name: test_sequence_data_mismatch
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_sequence_data_mismatch
-  - fullName: cntk.ops.tests.function_tests.test_set_name
-    isExternal: false
-    name: test_set_name
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_set_name
-  - fullName: cntk.ops.tests.function_tests.test_variable_forwarding
-    isExternal: false
-    name: test_variable_forwarding
-    parent: ''
-    uid: cntk.ops.tests.function_tests.test_variable_forwarding
   source:
     id: function_tests
     path: cntk/ops/tests/function_tests.py
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.function_tests
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_MinibatchData_and_Value_as_input
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_MinibatchData_and_Value_as_input
   source:
@@ -152,14 +50,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 317
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_MinibatchData_and_Value_as_input
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_as_composite
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_as_composite
   source:
@@ -168,14 +68,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 246
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_as_composite
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_clone_with_function_in_substitution_map
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_clone_with_function_in_substitution_map
   source:
@@ -184,14 +86,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 216
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_clone_with_function_in_substitution_map
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_clone_with_slice
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_clone_with_slice
   source:
@@ -200,14 +104,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 229
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_clone_with_slice
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_cloning
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_cloning
   source:
@@ -216,14 +122,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 55
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_cloning
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_combine_duplicated_inputs
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_combine_duplicated_inputs
   source:
@@ -232,14 +140,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 284
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_combine_duplicated_inputs
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_data_type_inference
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_data_type_inference
   source:
@@ -248,14 +158,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 184
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_data_type_inference
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_eval_by_node_name
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_eval_by_node_name
   source:
@@ -264,14 +176,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 26
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_eval_by_node_name
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_evaluating_multiple_outputs
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_evaluating_multiple_outputs
   source:
@@ -280,14 +194,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 145
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_evaluating_multiple_outputs
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_exception_for_unnamed_arguments
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_exception_for_unnamed_arguments
   source:
@@ -296,14 +212,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 96
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_exception_for_unnamed_arguments
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_extra_arguments_in_eval
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_extra_arguments_in_eval
   source:
@@ -312,14 +230,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 307
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_extra_arguments_in_eval
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_getting_output_from_non_existent_node
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_getting_output_from_non_existent_node
   source:
@@ -328,14 +248,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 130
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_getting_output_from_non_existent_node
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_input_order
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_input_order
   source:
@@ -344,14 +266,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 262
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_input_order
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_output_in_intermediate_node
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_output_in_intermediate_node
   source:
@@ -360,14 +284,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 107
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_output_in_intermediate_node
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_output_subset_evaluation
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_output_subset_evaluation
   source:
@@ -376,14 +302,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 349
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_output_subset_evaluation
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_recurrence_shape_inference
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_recurrence_shape_inference
   source:
@@ -392,14 +320,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 192
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_recurrence_shape_inference
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_replace_placeholder_s
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_replace_placeholder_s
   source:
@@ -408,14 +338,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 81
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_replace_placeholder_s
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_replace_placeholders
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_replace_placeholders
   source:
@@ -424,14 +356,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 37
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_replace_placeholders
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_sequence_data_mismatch
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_sequence_data_mismatch
   source:
@@ -440,14 +374,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 201
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_sequence_data_mismatch
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_set_name
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_set_name
   source:
@@ -456,14 +392,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 165
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.function_tests.test_set_name
 - _type: function
   fullName: cntk.ops.tests.function_tests.test_variable_forwarding
+  langs:
+  - python
   module: cntk.ops.tests.function_tests
   name: test_variable_forwarding
   source:
@@ -472,9 +410,115 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/function_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 22
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.function_tests.test_variable_forwarding
+references:
+- fullName: cntk.ops.tests.function_tests.test_MinibatchData_and_Value_as_input
+  isExternal: false
+  name: test_MinibatchData_and_Value_as_input
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_MinibatchData_and_Value_as_input
+- fullName: cntk.ops.tests.function_tests.test_as_composite
+  isExternal: false
+  name: test_as_composite
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_as_composite
+- fullName: cntk.ops.tests.function_tests.test_clone_with_function_in_substitution_map
+  isExternal: false
+  name: test_clone_with_function_in_substitution_map
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_clone_with_function_in_substitution_map
+- fullName: cntk.ops.tests.function_tests.test_clone_with_slice
+  isExternal: false
+  name: test_clone_with_slice
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_clone_with_slice
+- fullName: cntk.ops.tests.function_tests.test_cloning
+  isExternal: false
+  name: test_cloning
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_cloning
+- fullName: cntk.ops.tests.function_tests.test_combine_duplicated_inputs
+  isExternal: false
+  name: test_combine_duplicated_inputs
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_combine_duplicated_inputs
+- fullName: cntk.ops.tests.function_tests.test_data_type_inference
+  isExternal: false
+  name: test_data_type_inference
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_data_type_inference
+- fullName: cntk.ops.tests.function_tests.test_eval_by_node_name
+  isExternal: false
+  name: test_eval_by_node_name
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_eval_by_node_name
+- fullName: cntk.ops.tests.function_tests.test_evaluating_multiple_outputs
+  isExternal: false
+  name: test_evaluating_multiple_outputs
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_evaluating_multiple_outputs
+- fullName: cntk.ops.tests.function_tests.test_exception_for_unnamed_arguments
+  isExternal: false
+  name: test_exception_for_unnamed_arguments
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_exception_for_unnamed_arguments
+- fullName: cntk.ops.tests.function_tests.test_extra_arguments_in_eval
+  isExternal: false
+  name: test_extra_arguments_in_eval
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_extra_arguments_in_eval
+- fullName: cntk.ops.tests.function_tests.test_getting_output_from_non_existent_node
+  isExternal: false
+  name: test_getting_output_from_non_existent_node
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_getting_output_from_non_existent_node
+- fullName: cntk.ops.tests.function_tests.test_input_order
+  isExternal: false
+  name: test_input_order
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_input_order
+- fullName: cntk.ops.tests.function_tests.test_output_in_intermediate_node
+  isExternal: false
+  name: test_output_in_intermediate_node
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_output_in_intermediate_node
+- fullName: cntk.ops.tests.function_tests.test_output_subset_evaluation
+  isExternal: false
+  name: test_output_subset_evaluation
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_output_subset_evaluation
+- fullName: cntk.ops.tests.function_tests.test_recurrence_shape_inference
+  isExternal: false
+  name: test_recurrence_shape_inference
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_recurrence_shape_inference
+- fullName: cntk.ops.tests.function_tests.test_replace_placeholder_s
+  isExternal: false
+  name: test_replace_placeholder_s
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_replace_placeholder_s
+- fullName: cntk.ops.tests.function_tests.test_replace_placeholders
+  isExternal: false
+  name: test_replace_placeholders
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_replace_placeholders
+- fullName: cntk.ops.tests.function_tests.test_sequence_data_mismatch
+  isExternal: false
+  name: test_sequence_data_mismatch
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_sequence_data_mismatch
+- fullName: cntk.ops.tests.function_tests.test_set_name
+  isExternal: false
+  name: test_set_name
+  parent: cntk.ops.tests.function_tests
+  uid: cntk.ops.tests.function_tests.test_set_name
+- fullName: cntk.ops.tests.function_tests.test_variable_forwarding
+  isExternal: false
+  name: test_variable_forwarding
+  parent: cntk.ops.tests.function_tests
   uid: cntk.ops.tests.function_tests.test_variable_forwarding

@@ -8,16 +8,16 @@ items:
   - - builtins.object
   module: cntk.ops.functions.Function
   name: NamedOutput
-  references: []
   source:
     id: NamedOutput
     path: cntk/ops/functions.py
     remote:
       branch: master
       path: cntk/ops/functions.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 54
   syntax:
     summary: 'Bases: `object`'
   type: Class
   uid: cntk.ops.functions.Function.NamedOutput
+references: []

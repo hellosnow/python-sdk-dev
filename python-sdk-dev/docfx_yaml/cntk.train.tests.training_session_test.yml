@@ -18,79 +18,13 @@ items:
   fullName: cntk.train.tests.training_session_test
   module: cntk.train.tests.training_session_test
   name: training_session_test
-  references:
-  - fullName: cntk.train.tests.training_session_test.MockProgressWriter
-    isExternal: false
-    name: MockProgressWriter
-    parent: ''
-    uid: cntk.train.tests.training_session_test.MockProgressWriter
-  - fullName: cntk.train.tests.training_session_test.create_sample_model
-    isExternal: false
-    name: create_sample_model
-    parent: ''
-    uid: cntk.train.tests.training_session_test.create_sample_model
-  - fullName: cntk.train.tests.training_session_test.mb_source
-    isExternal: false
-    name: mb_source
-    parent: ''
-    uid: cntk.train.tests.training_session_test.mb_source
-  - fullName: cntk.train.tests.training_session_test.test_session_cross_validation_3_times
-    isExternal: false
-    name: test_session_cross_validation_3_times
-    parent: ''
-    uid: cntk.train.tests.training_session_test.test_session_cross_validation_3_times
-  - fullName: cntk.train.tests.training_session_test.test_session_cross_validation_3_times_checkpoints_2_save_all
-    isExternal: false
-    name: test_session_cross_validation_3_times_checkpoints_2_save_all
-    parent: ''
-    uid: cntk.train.tests.training_session_test.test_session_cross_validation_3_times_checkpoints_2_save_all
-  - fullName: cntk.train.tests.training_session_test.test_session_cross_validation_at_end
-    isExternal: false
-    name: test_session_cross_validation_at_end
-    parent: ''
-    uid: cntk.train.tests.training_session_test.test_session_cross_validation_at_end
-  - fullName: cntk.train.tests.training_session_test.test_session_cv_callback_3_times
-    isExternal: false
-    name: test_session_cv_callback_3_times
-    parent: ''
-    uid: cntk.train.tests.training_session_test.test_session_cv_callback_3_times
-  - fullName: cntk.train.tests.training_session_test.test_session_cv_callback_early_exit
-    isExternal: false
-    name: test_session_cv_callback_early_exit
-    parent: ''
-    uid: cntk.train.tests.training_session_test.test_session_cv_callback_early_exit
-  - fullName: cntk.train.tests.training_session_test.test_session_cv_callback_with_cross_validation_3_times
-    isExternal: false
-    name: test_session_cv_callback_with_cross_validation_3_times
-    parent: ''
-    uid: cntk.train.tests.training_session_test.test_session_cv_callback_with_cross_validation_3_times
-  - fullName: cntk.train.tests.training_session_test.test_session_max_samples
-    isExternal: false
-    name: test_session_max_samples
-    parent: ''
-    uid: cntk.train.tests.training_session_test.test_session_max_samples
-  - fullName: cntk.train.tests.training_session_test.test_session_progress_print
-    isExternal: false
-    name: test_session_progress_print
-    parent: ''
-    uid: cntk.train.tests.training_session_test.test_session_progress_print
-  - fullName: cntk.train.tests.training_session_test.test_session_restart_from_checkpoint
-    isExternal: false
-    name: test_session_restart_from_checkpoint
-    parent: ''
-    uid: cntk.train.tests.training_session_test.test_session_restart_from_checkpoint
-  - fullName: cntk.train.tests.training_session_test.test_session_sanity_check
-    isExternal: false
-    name: test_session_sanity_check
-    parent: ''
-    uid: cntk.train.tests.training_session_test.test_session_sanity_check
   source:
     id: training_session_test
     path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.train.tests.training_session_test
@@ -104,7 +38,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 67
   syntax:
     summary: ''
@@ -120,7 +54,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 54
   syntax:
     summary: ''
@@ -136,7 +70,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 168
   syntax:
     summary: ''
@@ -152,7 +86,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 191
   syntax:
     summary: ''
@@ -168,7 +102,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 145
   syntax:
     summary: ''
@@ -184,7 +118,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 339
   syntax:
     summary: ''
@@ -200,7 +134,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 403
   syntax:
     summary: ''
@@ -216,7 +150,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 368
   syntax:
     summary: ''
@@ -232,7 +166,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 126
   syntax:
     summary: ''
@@ -248,7 +182,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 232
   syntax:
     summary: ''
@@ -264,7 +198,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 258
   syntax:
     summary: ''
@@ -280,9 +214,75 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 109
   syntax:
     summary: ''
   type: Method
+  uid: cntk.train.tests.training_session_test.test_session_sanity_check
+references:
+- fullName: cntk.train.tests.training_session_test.MockProgressWriter
+  isExternal: false
+  name: MockProgressWriter
+  parent: cntk.train.tests.training_session_test
+  uid: cntk.train.tests.training_session_test.MockProgressWriter
+- fullName: cntk.train.tests.training_session_test.create_sample_model
+  isExternal: false
+  name: create_sample_model
+  parent: cntk.train.tests.training_session_test
+  uid: cntk.train.tests.training_session_test.create_sample_model
+- fullName: cntk.train.tests.training_session_test.mb_source
+  isExternal: false
+  name: mb_source
+  parent: cntk.train.tests.training_session_test
+  uid: cntk.train.tests.training_session_test.mb_source
+- fullName: cntk.train.tests.training_session_test.test_session_cross_validation_3_times
+  isExternal: false
+  name: test_session_cross_validation_3_times
+  parent: cntk.train.tests.training_session_test
+  uid: cntk.train.tests.training_session_test.test_session_cross_validation_3_times
+- fullName: cntk.train.tests.training_session_test.test_session_cross_validation_3_times_checkpoints_2_save_all
+  isExternal: false
+  name: test_session_cross_validation_3_times_checkpoints_2_save_all
+  parent: cntk.train.tests.training_session_test
+  uid: cntk.train.tests.training_session_test.test_session_cross_validation_3_times_checkpoints_2_save_all
+- fullName: cntk.train.tests.training_session_test.test_session_cross_validation_at_end
+  isExternal: false
+  name: test_session_cross_validation_at_end
+  parent: cntk.train.tests.training_session_test
+  uid: cntk.train.tests.training_session_test.test_session_cross_validation_at_end
+- fullName: cntk.train.tests.training_session_test.test_session_cv_callback_3_times
+  isExternal: false
+  name: test_session_cv_callback_3_times
+  parent: cntk.train.tests.training_session_test
+  uid: cntk.train.tests.training_session_test.test_session_cv_callback_3_times
+- fullName: cntk.train.tests.training_session_test.test_session_cv_callback_early_exit
+  isExternal: false
+  name: test_session_cv_callback_early_exit
+  parent: cntk.train.tests.training_session_test
+  uid: cntk.train.tests.training_session_test.test_session_cv_callback_early_exit
+- fullName: cntk.train.tests.training_session_test.test_session_cv_callback_with_cross_validation_3_times
+  isExternal: false
+  name: test_session_cv_callback_with_cross_validation_3_times
+  parent: cntk.train.tests.training_session_test
+  uid: cntk.train.tests.training_session_test.test_session_cv_callback_with_cross_validation_3_times
+- fullName: cntk.train.tests.training_session_test.test_session_max_samples
+  isExternal: false
+  name: test_session_max_samples
+  parent: cntk.train.tests.training_session_test
+  uid: cntk.train.tests.training_session_test.test_session_max_samples
+- fullName: cntk.train.tests.training_session_test.test_session_progress_print
+  isExternal: false
+  name: test_session_progress_print
+  parent: cntk.train.tests.training_session_test
+  uid: cntk.train.tests.training_session_test.test_session_progress_print
+- fullName: cntk.train.tests.training_session_test.test_session_restart_from_checkpoint
+  isExternal: false
+  name: test_session_restart_from_checkpoint
+  parent: cntk.train.tests.training_session_test
+  uid: cntk.train.tests.training_session_test.test_session_restart_from_checkpoint
+- fullName: cntk.train.tests.training_session_test.test_session_sanity_check
+  isExternal: false
+  name: test_session_sanity_check
+  parent: cntk.train.tests.training_session_test
   uid: cntk.train.tests.training_session_test.test_session_sanity_check

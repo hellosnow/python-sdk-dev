@@ -6,19 +6,13 @@ items:
   fullName: cntk.layers.models.attention
   module: cntk.layers.models.attention
   name: attention
-  references:
-  - fullName: cntk.layers.models.attention.AttentionModel
-    isExternal: false
-    name: AttentionModel
-    parent: ''
-    uid: cntk.layers.models.attention.AttentionModel
   source:
     id: attention
     path: cntk/layers/models/attention.py
     remote:
       branch: master
       path: cntk/layers/models/attention.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.layers.models.attention
@@ -32,11 +26,17 @@ items:
     remote:
       branch: master
       path: cntk/layers/models/attention.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 18
   syntax:
     summary: Layer factory function to create a function object that implements an
       attention model as described in Bahdanau, et al., "Neural machine translation
       by jointly learning to align and translate."
   type: Method
+  uid: cntk.layers.models.attention.AttentionModel
+references:
+- fullName: cntk.layers.models.attention.AttentionModel
+  isExternal: false
+  name: AttentionModel
+  parent: cntk.layers.models.attention
   uid: cntk.layers.models.attention.AttentionModel

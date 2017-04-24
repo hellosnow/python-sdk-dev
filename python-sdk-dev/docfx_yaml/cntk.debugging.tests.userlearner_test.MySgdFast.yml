@@ -11,19 +11,13 @@ items:
     - builtins.object
   module: cntk.debugging.tests.userlearner_test
   name: MySgdFast
-  references:
-  - fullName: cntk.debugging.tests.userlearner_test.MySgdFast.update
-    isExternal: false
-    name: update
-    parent: ''
-    uid: cntk.debugging.tests.userlearner_test.MySgdFast.update
   source:
     id: MySgdFast
     path: cntk/debugging/tests/userlearner_test.py
     remote:
       branch: master
       path: cntk/debugging/tests/userlearner_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 42
   syntax:
     summary: 'Bases: `cntk.learners.UserLearner`
@@ -42,9 +36,15 @@ items:
     remote:
       branch: master
       path: cntk/debugging/tests/userlearner_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 64
   syntax:
     summary: ''
   type: Method
+  uid: cntk.debugging.tests.userlearner_test.MySgdFast.update
+references:
+- fullName: cntk.debugging.tests.userlearner_test.MySgdFast.update
+  isExternal: false
+  name: update
+  parent: cntk.debugging.tests.userlearner_test.MySgdFast
   uid: cntk.debugging.tests.userlearner_test.MySgdFast.update

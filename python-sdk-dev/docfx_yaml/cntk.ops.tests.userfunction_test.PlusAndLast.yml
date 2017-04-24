@@ -7,43 +7,34 @@ items:
   class: cntk.ops.tests.userfunction_test.PlusAndLast
   fullName: cntk.ops.tests.userfunction_test.PlusAndLast
   inheritance:
-  - - cntk.ops.functions.UserFunction
-    - cntk.ops.functions.Function
-    - cntk.cntk_py.Function
-    - cntk.cntk_py.IDictionarySerializable
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.ops.functions.UserFunction
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: PlusAndLast
-  references:
-  - fullName: cntk.ops.tests.userfunction_test.PlusAndLast.forward
-    isExternal: false
-    name: forward
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.PlusAndLast.forward
-  - fullName: cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs
-    isExternal: false
-    name: infer_outputs
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs
   source:
     id: PlusAndLast
     path: cntk/ops/tests/userfunction_test.py
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 275
-  syntax:
-    summary: 'Bases: `cntk.ops.functions.UserFunction`
+  summary: 'Bases: `cntk.ops.functions.UserFunction`
 
 
 
-      '
+    '
+  syntax: {}
   type: Class
   uid: cntk.ops.tests.userfunction_test.PlusAndLast
 - _type: method
   class: cntk.ops.tests.userfunction_test.PlusAndLast
   fullName: cntk.ops.tests.userfunction_test.PlusAndLast.forward
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: forward
   source:
@@ -52,15 +43,17 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 289
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.PlusAndLast.forward
 - _type: method
   class: cntk.ops.tests.userfunction_test.PlusAndLast
   fullName: cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: infer_outputs
   source:
@@ -69,9 +62,20 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 285
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs
+references:
+- fullName: cntk.ops.tests.userfunction_test.PlusAndLast.forward
+  isExternal: false
+  name: forward
+  parent: cntk.ops.tests.userfunction_test.PlusAndLast
+  uid: cntk.ops.tests.userfunction_test.PlusAndLast.forward
+- fullName: cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs
+  isExternal: false
+  name: infer_outputs
+  parent: cntk.ops.tests.userfunction_test.PlusAndLast
   uid: cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs

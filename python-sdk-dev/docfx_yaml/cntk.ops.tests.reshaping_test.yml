@@ -18,96 +18,24 @@ items:
   - cntk.ops.tests.reshaping_test.test_op_slice_sequence
   - cntk.ops.tests.reshaping_test.test_op_splice
   fullName: cntk.ops.tests.reshaping_test
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: reshaping_test
-  references:
-  - fullName: cntk.ops.tests.reshaping_test.test_op_broadcast_as
-    isExternal: false
-    name: test_op_broadcast_as
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_broadcast_as
-  - fullName: cntk.ops.tests.reshaping_test.test_op_broadcast_as_in_loop
-    isExternal: false
-    name: test_op_broadcast_as_in_loop
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_broadcast_as_in_loop
-  - fullName: cntk.ops.tests.reshaping_test.test_op_gather_derived_dynamic_axes_equivalence
-    isExternal: false
-    name: test_op_gather_derived_dynamic_axes_equivalence
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_gather_derived_dynamic_axes_equivalence
-  - fullName: cntk.ops.tests.reshaping_test.test_op_gather_dynamic_axes_equivalence
-    isExternal: false
-    name: test_op_gather_dynamic_axes_equivalence
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_gather_dynamic_axes_equivalence
-  - fullName: cntk.ops.tests.reshaping_test.test_op_gather_sparse
-    isExternal: false
-    name: test_op_gather_sparse
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_gather_sparse
-  - fullName: cntk.ops.tests.reshaping_test.test_op_reshape
-    isExternal: false
-    name: test_op_reshape
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_reshape
-  - fullName: cntk.ops.tests.reshaping_test.test_op_reshape_gradient_accumulation
-    isExternal: false
-    name: test_op_reshape_gradient_accumulation
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_reshape_gradient_accumulation
-  - fullName: cntk.ops.tests.reshaping_test.test_op_reshape_parameter
-    isExternal: false
-    name: test_op_reshape_parameter
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_reshape_parameter
-  - fullName: cntk.ops.tests.reshaping_test.test_op_reshape_subshape
-    isExternal: false
-    name: test_op_reshape_subshape
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_reshape_subshape
-  - fullName: cntk.ops.tests.reshaping_test.test_op_scatter_sparse
-    isExternal: false
-    name: test_op_scatter_sparse
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_scatter_sparse
-  - fullName: cntk.ops.tests.reshaping_test.test_op_sequence_reduce_sum
-    isExternal: false
-    name: test_op_sequence_reduce_sum
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_sequence_reduce_sum
-  - fullName: cntk.ops.tests.reshaping_test.test_op_slice
-    isExternal: false
-    name: test_op_slice
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_slice
-  - fullName: cntk.ops.tests.reshaping_test.test_op_slice_overload
-    isExternal: false
-    name: test_op_slice_overload
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_slice_overload
-  - fullName: cntk.ops.tests.reshaping_test.test_op_slice_sequence
-    isExternal: false
-    name: test_op_slice_sequence
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_slice_sequence
-  - fullName: cntk.ops.tests.reshaping_test.test_op_splice
-    isExternal: false
-    name: test_op_splice
-    parent: ''
-    uid: cntk.ops.tests.reshaping_test.test_op_splice
   source:
     id: reshaping_test
     path: cntk/ops/tests/reshaping_test.py
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.reshaping_test
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_broadcast_as
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_broadcast_as
   source:
@@ -116,14 +44,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 494
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_broadcast_as
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_broadcast_as_in_loop
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_broadcast_as_in_loop
   source:
@@ -132,14 +62,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 521
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_broadcast_as_in_loop
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_gather_derived_dynamic_axes_equivalence
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_gather_derived_dynamic_axes_equivalence
   source:
@@ -148,14 +80,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 430
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_gather_derived_dynamic_axes_equivalence
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_gather_dynamic_axes_equivalence
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_gather_dynamic_axes_equivalence
   source:
@@ -164,14 +98,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 403
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_gather_dynamic_axes_equivalence
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_gather_sparse
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_gather_sparse
   source:
@@ -180,14 +116,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 457
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_gather_sparse
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_reshape
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_reshape
   source:
@@ -196,14 +134,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 34
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_reshape
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_reshape_gradient_accumulation
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_reshape_gradient_accumulation
   source:
@@ -212,14 +152,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 123
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_reshape_gradient_accumulation
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_reshape_parameter
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_reshape_parameter
   source:
@@ -228,14 +170,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 159
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_reshape_parameter
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_reshape_subshape
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_reshape_subshape
   source:
@@ -244,14 +188,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 82
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_reshape_subshape
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_scatter_sparse
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_scatter_sparse
   source:
@@ -260,14 +206,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 477
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_scatter_sparse
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_sequence_reduce_sum
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_sequence_reduce_sum
   source:
@@ -276,14 +224,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 546
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_sequence_reduce_sum
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_slice
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_slice
   source:
@@ -292,14 +242,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 183
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_slice
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_slice_overload
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_slice_overload
   source:
@@ -308,14 +260,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 245
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_slice_overload
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_slice_sequence
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_slice_sequence
   source:
@@ -324,14 +278,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 301
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_slice_sequence
 - _type: function
   fullName: cntk.ops.tests.reshaping_test.test_op_splice
+  langs:
+  - python
   module: cntk.ops.tests.reshaping_test
   name: test_op_splice
   source:
@@ -340,9 +296,85 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/reshaping_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 357
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.reshaping_test.test_op_splice
+references:
+- fullName: cntk.ops.tests.reshaping_test.test_op_broadcast_as
+  isExternal: false
+  name: test_op_broadcast_as
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_broadcast_as
+- fullName: cntk.ops.tests.reshaping_test.test_op_broadcast_as_in_loop
+  isExternal: false
+  name: test_op_broadcast_as_in_loop
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_broadcast_as_in_loop
+- fullName: cntk.ops.tests.reshaping_test.test_op_gather_derived_dynamic_axes_equivalence
+  isExternal: false
+  name: test_op_gather_derived_dynamic_axes_equivalence
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_gather_derived_dynamic_axes_equivalence
+- fullName: cntk.ops.tests.reshaping_test.test_op_gather_dynamic_axes_equivalence
+  isExternal: false
+  name: test_op_gather_dynamic_axes_equivalence
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_gather_dynamic_axes_equivalence
+- fullName: cntk.ops.tests.reshaping_test.test_op_gather_sparse
+  isExternal: false
+  name: test_op_gather_sparse
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_gather_sparse
+- fullName: cntk.ops.tests.reshaping_test.test_op_reshape
+  isExternal: false
+  name: test_op_reshape
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_reshape
+- fullName: cntk.ops.tests.reshaping_test.test_op_reshape_gradient_accumulation
+  isExternal: false
+  name: test_op_reshape_gradient_accumulation
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_reshape_gradient_accumulation
+- fullName: cntk.ops.tests.reshaping_test.test_op_reshape_parameter
+  isExternal: false
+  name: test_op_reshape_parameter
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_reshape_parameter
+- fullName: cntk.ops.tests.reshaping_test.test_op_reshape_subshape
+  isExternal: false
+  name: test_op_reshape_subshape
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_reshape_subshape
+- fullName: cntk.ops.tests.reshaping_test.test_op_scatter_sparse
+  isExternal: false
+  name: test_op_scatter_sparse
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_scatter_sparse
+- fullName: cntk.ops.tests.reshaping_test.test_op_sequence_reduce_sum
+  isExternal: false
+  name: test_op_sequence_reduce_sum
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_sequence_reduce_sum
+- fullName: cntk.ops.tests.reshaping_test.test_op_slice
+  isExternal: false
+  name: test_op_slice
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_slice
+- fullName: cntk.ops.tests.reshaping_test.test_op_slice_overload
+  isExternal: false
+  name: test_op_slice_overload
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_slice_overload
+- fullName: cntk.ops.tests.reshaping_test.test_op_slice_sequence
+  isExternal: false
+  name: test_op_slice_sequence
+  parent: cntk.ops.tests.reshaping_test
+  uid: cntk.ops.tests.reshaping_test.test_op_slice_sequence
+- fullName: cntk.ops.tests.reshaping_test.test_op_splice
+  isExternal: false
+  name: test_op_splice
+  parent: cntk.ops.tests.reshaping_test
   uid: cntk.ops.tests.reshaping_test.test_op_splice

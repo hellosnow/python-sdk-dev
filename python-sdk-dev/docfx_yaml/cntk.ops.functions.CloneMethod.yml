@@ -12,29 +12,13 @@ items:
     - builtins.object
   module: cntk.ops.functions
   name: CloneMethod
-  references:
-  - fullName: cntk.ops.functions.CloneMethod.clone
-    isExternal: false
-    name: clone
-    parent: ''
-    uid: cntk.ops.functions.CloneMethod.clone
-  - fullName: cntk.ops.functions.CloneMethod.freeze
-    isExternal: false
-    name: freeze
-    parent: ''
-    uid: cntk.ops.functions.CloneMethod.freeze
-  - fullName: cntk.ops.functions.CloneMethod.share
-    isExternal: false
-    name: share
-    parent: ''
-    uid: cntk.ops.functions.CloneMethod.share
   source:
     id: CloneMethod
     path: cntk/ops/functions.py
     remote:
       branch: master
       path: cntk/ops/functions.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 11
   syntax:
     summary: 'Bases: `enum.Enum`
@@ -57,7 +41,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: New learnable parameters are created and initialized with the current
@@ -75,7 +59,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Parameters are cloned and made immutable; i.e. Constants in the new clone
@@ -93,9 +77,25 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Parameters are shared between the Function being cloned and the new clone
   type: Property
+  uid: cntk.ops.functions.CloneMethod.share
+references:
+- fullName: cntk.ops.functions.CloneMethod.clone
+  isExternal: false
+  name: clone
+  parent: cntk.ops.functions.CloneMethod
+  uid: cntk.ops.functions.CloneMethod.clone
+- fullName: cntk.ops.functions.CloneMethod.freeze
+  isExternal: false
+  name: freeze
+  parent: cntk.ops.functions.CloneMethod
+  uid: cntk.ops.functions.CloneMethod.freeze
+- fullName: cntk.ops.functions.CloneMethod.share
+  isExternal: false
+  name: share
+  parent: cntk.ops.functions.CloneMethod
   uid: cntk.ops.functions.CloneMethod.share

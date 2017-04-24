@@ -12,66 +12,24 @@ items:
   - cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
   - cntk.ops.tests.userfunction_complex_test.train
   fullName: cntk.ops.tests.userfunction_complex_test
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: userfunction_complex_test
-  references:
-  - fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid
-    isExternal: false
-    name: MySigmoid
-    parent: ''
-    uid: cntk.ops.tests.userfunction_complex_test.MySigmoid
-  - fullName: cntk.ops.tests.userfunction_complex_test.dense_layer
-    isExternal: false
-    name: dense_layer
-    parent: ''
-    uid: cntk.ops.tests.userfunction_complex_test.dense_layer
-  - fullName: cntk.ops.tests.userfunction_complex_test.fully_connected_classifier_net
-    isExternal: false
-    name: fully_connected_classifier_net
-    parent: ''
-    uid: cntk.ops.tests.userfunction_complex_test.fully_connected_classifier_net
-  - fullName: cntk.ops.tests.userfunction_complex_test.generate_random_data_sample
-    isExternal: false
-    name: generate_random_data_sample
-    parent: ''
-    uid: cntk.ops.tests.userfunction_complex_test.generate_random_data_sample
-  - fullName: cntk.ops.tests.userfunction_complex_test.linear_layer
-    isExternal: false
-    name: linear_layer
-    parent: ''
-    uid: cntk.ops.tests.userfunction_complex_test.linear_layer
-  - fullName: cntk.ops.tests.userfunction_complex_test.measure_runtime
-    isExternal: false
-    name: measure_runtime
-    parent: ''
-    uid: cntk.ops.tests.userfunction_complex_test.measure_runtime
-  - fullName: cntk.ops.tests.userfunction_complex_test.print_training_progress
-    isExternal: false
-    name: print_training_progress
-    parent: ''
-    uid: cntk.ops.tests.userfunction_complex_test.print_training_progress
-  - fullName: cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
-    isExternal: false
-    name: test_ext_user_sigmoid
-    parent: ''
-    uid: cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
-  - fullName: cntk.ops.tests.userfunction_complex_test.train
-    isExternal: false
-    name: train
-    parent: ''
-    uid: cntk.ops.tests.userfunction_complex_test.train
   source:
     id: userfunction_complex_test
     path: cntk/ops/tests/userfunction_complex_test.py
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.userfunction_complex_test
 - _type: function
   fullName: cntk.ops.tests.userfunction_complex_test.dense_layer
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: dense_layer
   source:
@@ -80,14 +38,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 47
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.dense_layer
 - _type: function
   fullName: cntk.ops.tests.userfunction_complex_test.fully_connected_classifier_net
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: fully_connected_classifier_net
   source:
@@ -96,14 +56,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 54
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.fully_connected_classifier_net
 - _type: function
   fullName: cntk.ops.tests.userfunction_complex_test.generate_random_data_sample
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: generate_random_data_sample
   source:
@@ -112,14 +74,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 27
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.generate_random_data_sample
 - _type: function
   fullName: cntk.ops.tests.userfunction_complex_test.linear_layer
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: linear_layer
   source:
@@ -128,14 +92,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 39
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.linear_layer
 - _type: function
   fullName: cntk.ops.tests.userfunction_complex_test.measure_runtime
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: measure_runtime
   source:
@@ -144,14 +110,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 149
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.measure_runtime
 - _type: function
   fullName: cntk.ops.tests.userfunction_complex_test.print_training_progress
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: print_training_progress
   source:
@@ -160,14 +128,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 62
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.print_training_progress
 - _type: function
   fullName: cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: test_ext_user_sigmoid
   source:
@@ -176,14 +146,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 141
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
 - _type: function
   fullName: cntk.ops.tests.userfunction_complex_test.train
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_complex_test
   name: train
   source:
@@ -192,9 +164,55 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_complex_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 72
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.userfunction_complex_test.train
+references:
+- fullName: cntk.ops.tests.userfunction_complex_test.MySigmoid
+  isExternal: false
+  name: MySigmoid
+  parent: cntk.ops.tests.userfunction_complex_test
+  uid: cntk.ops.tests.userfunction_complex_test.MySigmoid
+- fullName: cntk.ops.tests.userfunction_complex_test.dense_layer
+  isExternal: false
+  name: dense_layer
+  parent: cntk.ops.tests.userfunction_complex_test
+  uid: cntk.ops.tests.userfunction_complex_test.dense_layer
+- fullName: cntk.ops.tests.userfunction_complex_test.fully_connected_classifier_net
+  isExternal: false
+  name: fully_connected_classifier_net
+  parent: cntk.ops.tests.userfunction_complex_test
+  uid: cntk.ops.tests.userfunction_complex_test.fully_connected_classifier_net
+- fullName: cntk.ops.tests.userfunction_complex_test.generate_random_data_sample
+  isExternal: false
+  name: generate_random_data_sample
+  parent: cntk.ops.tests.userfunction_complex_test
+  uid: cntk.ops.tests.userfunction_complex_test.generate_random_data_sample
+- fullName: cntk.ops.tests.userfunction_complex_test.linear_layer
+  isExternal: false
+  name: linear_layer
+  parent: cntk.ops.tests.userfunction_complex_test
+  uid: cntk.ops.tests.userfunction_complex_test.linear_layer
+- fullName: cntk.ops.tests.userfunction_complex_test.measure_runtime
+  isExternal: false
+  name: measure_runtime
+  parent: cntk.ops.tests.userfunction_complex_test
+  uid: cntk.ops.tests.userfunction_complex_test.measure_runtime
+- fullName: cntk.ops.tests.userfunction_complex_test.print_training_progress
+  isExternal: false
+  name: print_training_progress
+  parent: cntk.ops.tests.userfunction_complex_test
+  uid: cntk.ops.tests.userfunction_complex_test.print_training_progress
+- fullName: cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
+  isExternal: false
+  name: test_ext_user_sigmoid
+  parent: cntk.ops.tests.userfunction_complex_test
+  uid: cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
+- fullName: cntk.ops.tests.userfunction_complex_test.train
+  isExternal: false
+  name: train
+  parent: cntk.ops.tests.userfunction_complex_test
   uid: cntk.ops.tests.userfunction_complex_test.train

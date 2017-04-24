@@ -11,44 +11,13 @@ items:
   fullName: cntk.train.tests.distributed_test
   module: cntk.train.tests.distributed_test
   name: distributed_test
-  references:
-  - fullName: cntk.train.tests.distributed_test.create_block_momentum_distributed_learner
-    isExternal: false
-    name: create_block_momentum_distributed_learner
-    parent: ''
-    uid: cntk.train.tests.distributed_test.create_block_momentum_distributed_learner
-  - fullName: cntk.train.tests.distributed_test.create_block_momentum_distributed_learner_with_time_constant
-    isExternal: false
-    name: create_block_momentum_distributed_learner_with_time_constant
-    parent: ''
-    uid: cntk.train.tests.distributed_test.create_block_momentum_distributed_learner_with_time_constant
-  - fullName: cntk.train.tests.distributed_test.create_data_parallel_distributed_learner
-    isExternal: false
-    name: create_data_parallel_distributed_learner
-    parent: ''
-    uid: cntk.train.tests.distributed_test.create_data_parallel_distributed_learner
-  - fullName: cntk.train.tests.distributed_test.run_distributed_training
-    isExternal: false
-    name: run_distributed_training
-    parent: ''
-    uid: cntk.train.tests.distributed_test.run_distributed_training
-  - fullName: cntk.train.tests.distributed_test.test_distributed
-    isExternal: false
-    name: test_distributed
-    parent: ''
-    uid: cntk.train.tests.distributed_test.test_distributed
-  - fullName: cntk.train.tests.distributed_test.test_distributed_mb_source
-    isExternal: false
-    name: test_distributed_mb_source
-    parent: ''
-    uid: cntk.train.tests.distributed_test.test_distributed_mb_source
   source:
     id: distributed_test
     path: cntk/train/tests/distributed_test.py
     remote:
       branch: master
       path: cntk/train/tests/distributed_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.train.tests.distributed_test
@@ -62,7 +31,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/distributed_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 25
   syntax:
     summary: ''
@@ -78,7 +47,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/distributed_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 31
   syntax:
     summary: ''
@@ -94,7 +63,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/distributed_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 18
   syntax:
     summary: ''
@@ -110,7 +79,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/distributed_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 38
   syntax:
     summary: ''
@@ -126,7 +95,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/distributed_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 201
   syntax:
     summary: ''
@@ -142,9 +111,40 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/distributed_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 81
   syntax:
     summary: ''
   type: Method
+  uid: cntk.train.tests.distributed_test.test_distributed_mb_source
+references:
+- fullName: cntk.train.tests.distributed_test.create_block_momentum_distributed_learner
+  isExternal: false
+  name: create_block_momentum_distributed_learner
+  parent: cntk.train.tests.distributed_test
+  uid: cntk.train.tests.distributed_test.create_block_momentum_distributed_learner
+- fullName: cntk.train.tests.distributed_test.create_block_momentum_distributed_learner_with_time_constant
+  isExternal: false
+  name: create_block_momentum_distributed_learner_with_time_constant
+  parent: cntk.train.tests.distributed_test
+  uid: cntk.train.tests.distributed_test.create_block_momentum_distributed_learner_with_time_constant
+- fullName: cntk.train.tests.distributed_test.create_data_parallel_distributed_learner
+  isExternal: false
+  name: create_data_parallel_distributed_learner
+  parent: cntk.train.tests.distributed_test
+  uid: cntk.train.tests.distributed_test.create_data_parallel_distributed_learner
+- fullName: cntk.train.tests.distributed_test.run_distributed_training
+  isExternal: false
+  name: run_distributed_training
+  parent: cntk.train.tests.distributed_test
+  uid: cntk.train.tests.distributed_test.run_distributed_training
+- fullName: cntk.train.tests.distributed_test.test_distributed
+  isExternal: false
+  name: test_distributed
+  parent: cntk.train.tests.distributed_test
+  uid: cntk.train.tests.distributed_test.test_distributed
+- fullName: cntk.train.tests.distributed_test.test_distributed_mb_source
+  isExternal: false
+  name: test_distributed_mb_source
+  parent: cntk.train.tests.distributed_test
   uid: cntk.train.tests.distributed_test.test_distributed_mb_source

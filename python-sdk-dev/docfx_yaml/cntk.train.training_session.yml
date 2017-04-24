@@ -10,39 +10,13 @@ items:
   fullName: cntk.train.training_session
   module: cntk.train.training_session
   name: training_session
-  references:
-  - fullName: cntk.train.training_session.CheckpointConfig
-    isExternal: false
-    name: CheckpointConfig
-    parent: ''
-    uid: cntk.train.training_session.CheckpointConfig
-  - fullName: cntk.train.training_session.CrossValidationConfig
-    isExternal: false
-    name: CrossValidationConfig
-    parent: ''
-    uid: cntk.train.training_session.CrossValidationConfig
-  - fullName: cntk.train.training_session.TrainingSession
-    isExternal: false
-    name: TrainingSession
-    parent: ''
-    uid: cntk.train.training_session.TrainingSession
-  - fullName: cntk.train.training_session.minibatch_size_schedule
-    isExternal: false
-    name: minibatch_size_schedule
-    parent: ''
-    uid: cntk.train.training_session.minibatch_size_schedule
-  - fullName: cntk.train.training_session.training_session
-    isExternal: false
-    name: training_session
-    parent: ''
-    uid: cntk.train.training_session.training_session
   source:
     id: training_session
     path: cntk/train/training_session.py
     remote:
       branch: master
       path: cntk/train/training_session.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.train.training_session
@@ -56,7 +30,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 187
   syntax:
     exceptions: []
@@ -115,79 +89,105 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 230
   syntax:
     exceptions: []
     parameters:
     - description: '!DEPRECATED! use mb_source instead'
-      id: progress_printer
-      type: list
+      id: progress_frequency
+      type: int
     - description: trainer
-      id: cv_config
-      type: CrossValidationConfig
+      id: training_minibatch_source
+      type: MinibatchSource
     - description: '!DEPRECATED! use mb_size instead'
-      id: mb_size_schedule
-      type: minibatch_size_schedule
-    - description: '!DEPRECATED! list of progress writers from `cntk.utils`'
-      id: var_to_stream
+      id: model_inputs_to_mb_source_mapping
       type: dict
+    - description: '!DEPRECATED! list of progress writers from `cntk.utils`'
+      id: checkpoint_config
+      type: CheckpointConfig
     - description: '!DEPRECATED! use var_to_stream instead'
-      id: max_samples
+      id: cv_frequency
       type: int
     - description: '!DEPRECATED! checkpoint file name.'
-      id: checkpoint_filename
-      type: str
+      id: cv_mb_size_schedule
+      type: minibatch_size_schedule
     - description: '!DEPRECATED! checkpoint frequency in samples. If 0, no checkpointing
         takes place. If `sys.maxsize`, a single checkpoint is taken at the end of
         the training.'
-      id: model_inputs_to_mb_source_mapping
-      type: dict
+      id: restore
+      type: bool
     - description: '!DEPRECATED! saves all checkpoints, using `checkpoint_filename`
         as prefix and checkpoint index as a suffix.'
-      id: progress_frequency
+      id: checkpoint_frequency
       type: int
     - description: flag, indicating whether to restore from available checkpoint before
         the start of the training
-      id: mb_source
-      type: MinibatchSource
-    - description: frequency in samples for aggregated progress printing
-      id: training_minibatch_source
-      type: MinibatchSource
-    - description: '!DEPRECATED! minibatch source used for cross validation'
-      id: checkpoint_frequency
-      type: int
-    - description: '!DEPRECATED! frequency in samples for cross validation'
-      id: cv_mb_size_schedule
+      id: mb_size_schedule
       type: minibatch_size_schedule
+    - description: frequency in samples for aggregated progress printing
+      id: checkpoint_filename
+      type: str
+    - description: '!DEPRECATED! minibatch source used for cross validation'
+      id: progress_printer
+      type: list
+    - description: '!DEPRECATED! frequency in samples for cross validation'
+      id: cv_config
+      type: CrossValidationConfig
     - description: '!DEPRECATED! minibatch schedule for cross validation If `sys.maxsize`,
         a single cross validation is performed at the end of training.'
-      id: cv_source
-      type: MinibatchSource
+      id: max_training_samples
+      type: int
     - description: '!DEPRECATED! use max_samples instead'
-      id: restore
+      id: save_all_checkpoints
       type: bool
     - description: minibatch source used for training
       id: trainer
       type: Trainer
     - description: minibatch schedule for training
-      id: save_all_checkpoints
-      type: bool
+      id: var_to_stream
+      type: dict
     - description: mapping between input variables and input streams
-      id: cv_frequency
-      type: int
+      id: mb_source
+      type: MinibatchSource
     - description: maximum number of samples used for training
+      id: max_samples
+      type: int
+    - description: checkpoint configuration
       id: mb_size
       type: minibatch_size_schedule
-    - description: checkpoint configuration
-      id: checkpoint_config
-      type: CheckpointConfig
     - description: cross validation configuration
-      id: max_training_samples
-      type: int
+      id: cv_source
+      type: MinibatchSource
     returntype: ''
     returnvalue: Instance of `TrainingSession`
     summary: A factory function to create a training session object.
     variables: []
   type: Method
+  uid: cntk.train.training_session.training_session
+references:
+- fullName: cntk.train.training_session.CheckpointConfig
+  isExternal: false
+  name: CheckpointConfig
+  parent: cntk.train.training_session
+  uid: cntk.train.training_session.CheckpointConfig
+- fullName: cntk.train.training_session.CrossValidationConfig
+  isExternal: false
+  name: CrossValidationConfig
+  parent: cntk.train.training_session
+  uid: cntk.train.training_session.CrossValidationConfig
+- fullName: cntk.train.training_session.TrainingSession
+  isExternal: false
+  name: TrainingSession
+  parent: cntk.train.training_session
+  uid: cntk.train.training_session.TrainingSession
+- fullName: cntk.train.training_session.minibatch_size_schedule
+  isExternal: false
+  name: minibatch_size_schedule
+  parent: cntk.train.training_session
+  uid: cntk.train.training_session.minibatch_size_schedule
+- fullName: cntk.train.training_session.training_session
+  isExternal: false
+  name: training_session
+  parent: cntk.train.training_session
   uid: cntk.train.training_session.training_session

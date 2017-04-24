@@ -10,56 +10,24 @@ items:
   - cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_zeros
   - cntk.ops.tests.ops_test_utils.unittest_helper
   fullName: cntk.ops.tests.ops_test_utils
+  langs:
+  - python
   module: cntk.ops.tests.ops_test_utils
   name: ops_test_utils
-  references:
-  - fullName: cntk.ops.tests.ops_test_utils.batch_dense_to_sparse
-    isExternal: false
-    name: batch_dense_to_sparse
-    parent: ''
-    uid: cntk.ops.tests.ops_test_utils.batch_dense_to_sparse
-  - fullName: cntk.ops.tests.ops_test_utils.cntk_device
-    isExternal: false
-    name: cntk_device
-    parent: ''
-    uid: cntk.ops.tests.ops_test_utils.cntk_device
-  - fullName: cntk.ops.tests.ops_test_utils.compare_lists_of_np_arrays
-    isExternal: false
-    name: compare_lists_of_np_arrays
-    parent: ''
-    uid: cntk.ops.tests.ops_test_utils.compare_lists_of_np_arrays
-  - fullName: cntk.ops.tests.ops_test_utils.remove_np_array_in_list
-    isExternal: false
-    name: remove_np_array_in_list
-    parent: ''
-    uid: cntk.ops.tests.ops_test_utils.remove_np_array_in_list
-  - fullName: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_full
-    isExternal: false
-    name: test_batch_dense_to_sparse_full
-    parent: ''
-    uid: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_full
-  - fullName: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_zeros
-    isExternal: false
-    name: test_batch_dense_to_sparse_zeros
-    parent: ''
-    uid: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_zeros
-  - fullName: cntk.ops.tests.ops_test_utils.unittest_helper
-    isExternal: false
-    name: unittest_helper
-    parent: ''
-    uid: cntk.ops.tests.ops_test_utils.unittest_helper
   source:
     id: ops_test_utils
     path: cntk/ops/tests/ops_test_utils.py
     remote:
       branch: master
       path: cntk/ops/tests/ops_test_utils.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.ops_test_utils
 - _type: function
   fullName: cntk.ops.tests.ops_test_utils.batch_dense_to_sparse
+  langs:
+  - python
   module: cntk.ops.tests.ops_test_utils
   name: batch_dense_to_sparse
   source:
@@ -68,8 +36,10 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/ops_test_utils.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 156
+  summary: Helper test function that converts a batch of dense tensors into sparse
+    representation that can be consumed by `cntk.ops.sparse_input_numpy()`.
   syntax:
     exceptions: []
     parameters:
@@ -80,15 +50,15 @@ items:
     - description: the dynamic axis
       id: batch
       type: list
-    returntype: ''
-    returnvalue: (indices, values, shape)
-    summary: Helper test function that converts a batch of dense tensors into sparse
-      representation that can be consumed by `cntk.ops.sparse_input_numpy()`.
+    return:
+      description: (indices, values, shape)
     variables: []
   type: Method
   uid: cntk.ops.tests.ops_test_utils.batch_dense_to_sparse
 - _type: function
   fullName: cntk.ops.tests.ops_test_utils.cntk_device
+  langs:
+  - python
   module: cntk.ops.tests.ops_test_utils
   name: cntk_device
   source:
@@ -97,23 +67,25 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/ops_test_utils.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 24
+  summary: Converts the legacy device ID as it was used in CNTK 1 to a `DeviceDescriptor`
+    instance.
   syntax:
     exceptions: []
     parameters:
     - description: device id, -1 for CPU, 0 or higher for GPU
       id: device_id
       type: int
-    returntype: ''
-    returnvalue: '`DeviceDescriptor`'
-    summary: Converts the legacy device ID as it was used in CNTK 1 to a `DeviceDescriptor`
-      instance.
+    return:
+      description: '`DeviceDescriptor`'
     variables: []
   type: Method
   uid: cntk.ops.tests.ops_test_utils.cntk_device
 - _type: function
   fullName: cntk.ops.tests.ops_test_utils.compare_lists_of_np_arrays
+  langs:
+  - python
   module: cntk.ops.tests.ops_test_utils
   name: compare_lists_of_np_arrays
   source:
@@ -122,14 +94,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/ops_test_utils.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 249
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.ops_test_utils.compare_lists_of_np_arrays
 - _type: function
   fullName: cntk.ops.tests.ops_test_utils.remove_np_array_in_list
+  langs:
+  - python
   module: cntk.ops.tests.ops_test_utils
   name: remove_np_array_in_list
   source:
@@ -138,14 +112,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/ops_test_utils.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 238
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.ops_test_utils.remove_np_array_in_list
 - _type: function
   fullName: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_full
+  langs:
+  - python
   module: cntk.ops.tests.ops_test_utils
   name: test_batch_dense_to_sparse_full
   source:
@@ -154,14 +130,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/ops_test_utils.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 200
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_full
 - _type: function
   fullName: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_zeros
+  langs:
+  - python
   module: cntk.ops.tests.ops_test_utils
   name: test_batch_dense_to_sparse_zeros
   source:
@@ -170,14 +148,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/ops_test_utils.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 222
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_zeros
 - _type: function
   fullName: cntk.ops.tests.ops_test_utils.unittest_helper
+  langs:
+  - python
   module: cntk.ops.tests.ops_test_utils
   name: unittest_helper
   source:
@@ -186,9 +166,45 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/ops_test_utils.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 121
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.ops_test_utils.unittest_helper
+references:
+- fullName: cntk.ops.tests.ops_test_utils.batch_dense_to_sparse
+  isExternal: false
+  name: batch_dense_to_sparse
+  parent: cntk.ops.tests.ops_test_utils
+  uid: cntk.ops.tests.ops_test_utils.batch_dense_to_sparse
+- fullName: cntk.ops.tests.ops_test_utils.cntk_device
+  isExternal: false
+  name: cntk_device
+  parent: cntk.ops.tests.ops_test_utils
+  uid: cntk.ops.tests.ops_test_utils.cntk_device
+- fullName: cntk.ops.tests.ops_test_utils.compare_lists_of_np_arrays
+  isExternal: false
+  name: compare_lists_of_np_arrays
+  parent: cntk.ops.tests.ops_test_utils
+  uid: cntk.ops.tests.ops_test_utils.compare_lists_of_np_arrays
+- fullName: cntk.ops.tests.ops_test_utils.remove_np_array_in_list
+  isExternal: false
+  name: remove_np_array_in_list
+  parent: cntk.ops.tests.ops_test_utils
+  uid: cntk.ops.tests.ops_test_utils.remove_np_array_in_list
+- fullName: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_full
+  isExternal: false
+  name: test_batch_dense_to_sparse_full
+  parent: cntk.ops.tests.ops_test_utils
+  uid: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_full
+- fullName: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_zeros
+  isExternal: false
+  name: test_batch_dense_to_sparse_zeros
+  parent: cntk.ops.tests.ops_test_utils
+  uid: cntk.ops.tests.ops_test_utils.test_batch_dense_to_sparse_zeros
+- fullName: cntk.ops.tests.ops_test_utils.unittest_helper
+  isExternal: false
+  name: unittest_helper
+  parent: cntk.ops.tests.ops_test_utils
   uid: cntk.ops.tests.ops_test_utils.unittest_helper

@@ -8,46 +8,24 @@ items:
   - cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
   - cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence
   fullName: cntk.ops.tests.sparse_test
+  langs:
+  - python
   module: cntk.ops.tests.sparse_test
   name: sparse_test
-  references:
-  - fullName: cntk.ops.tests.sparse_test.test_times_2d_sparse_operand
-    isExternal: false
-    name: test_times_2d_sparse_operand
-    parent: ''
-    uid: cntk.ops.tests.sparse_test.test_times_2d_sparse_operand
-  - fullName: cntk.ops.tests.sparse_test.test_times_2d_sparse_sequence_operand
-    isExternal: false
-    name: test_times_2d_sparse_sequence_operand
-    parent: ''
-    uid: cntk.ops.tests.sparse_test.test_times_2d_sparse_sequence_operand
-  - fullName: cntk.ops.tests.sparse_test.test_times_sparse_operand_reduce_multiple_axes
-    isExternal: false
-    name: test_times_sparse_operand_reduce_multiple_axes
-    parent: ''
-    uid: cntk.ops.tests.sparse_test.test_times_sparse_operand_reduce_multiple_axes
-  - fullName: cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
-    isExternal: false
-    name: test_training_2d_sparse_sequence_operand
-    parent: ''
-    uid: cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
-  - fullName: cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence
-    isExternal: false
-    name: test_training_3d_sparse_sequence_with_recurrence
-    parent: ''
-    uid: cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence
   source:
     id: sparse_test
     path: cntk/ops/tests/sparse_test.py
     remote:
       branch: master
       path: cntk/ops/tests/sparse_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.sparse_test
 - _type: function
   fullName: cntk.ops.tests.sparse_test.test_times_2d_sparse_operand
+  langs:
+  - python
   module: cntk.ops.tests.sparse_test
   name: test_times_2d_sparse_operand
   source:
@@ -56,14 +34,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/sparse_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 18
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.sparse_test.test_times_2d_sparse_operand
 - _type: function
   fullName: cntk.ops.tests.sparse_test.test_times_2d_sparse_sequence_operand
+  langs:
+  - python
   module: cntk.ops.tests.sparse_test
   name: test_times_2d_sparse_sequence_operand
   source:
@@ -72,14 +52,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/sparse_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 45
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.sparse_test.test_times_2d_sparse_sequence_operand
 - _type: function
   fullName: cntk.ops.tests.sparse_test.test_times_sparse_operand_reduce_multiple_axes
+  langs:
+  - python
   module: cntk.ops.tests.sparse_test
   name: test_times_sparse_operand_reduce_multiple_axes
   source:
@@ -88,14 +70,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/sparse_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 177
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.sparse_test.test_times_sparse_operand_reduce_multiple_axes
 - _type: function
   fullName: cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
+  langs:
+  - python
   module: cntk.ops.tests.sparse_test
   name: test_training_2d_sparse_sequence_operand
   source:
@@ -104,14 +88,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/sparse_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 70
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
 - _type: function
   fullName: cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence
+  langs:
+  - python
   module: cntk.ops.tests.sparse_test
   name: test_training_3d_sparse_sequence_with_recurrence
   source:
@@ -120,9 +106,35 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/sparse_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 117
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence
+references:
+- fullName: cntk.ops.tests.sparse_test.test_times_2d_sparse_operand
+  isExternal: false
+  name: test_times_2d_sparse_operand
+  parent: cntk.ops.tests.sparse_test
+  uid: cntk.ops.tests.sparse_test.test_times_2d_sparse_operand
+- fullName: cntk.ops.tests.sparse_test.test_times_2d_sparse_sequence_operand
+  isExternal: false
+  name: test_times_2d_sparse_sequence_operand
+  parent: cntk.ops.tests.sparse_test
+  uid: cntk.ops.tests.sparse_test.test_times_2d_sparse_sequence_operand
+- fullName: cntk.ops.tests.sparse_test.test_times_sparse_operand_reduce_multiple_axes
+  isExternal: false
+  name: test_times_sparse_operand_reduce_multiple_axes
+  parent: cntk.ops.tests.sparse_test
+  uid: cntk.ops.tests.sparse_test.test_times_sparse_operand_reduce_multiple_axes
+- fullName: cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
+  isExternal: false
+  name: test_training_2d_sparse_sequence_operand
+  parent: cntk.ops.tests.sparse_test
+  uid: cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
+- fullName: cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence
+  isExternal: false
+  name: test_training_3d_sparse_sequence_with_recurrence
+  parent: cntk.ops.tests.sparse_test
   uid: cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence

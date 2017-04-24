@@ -5,19 +5,21 @@ items:
   class: cntk.tensor.ArrayMixin
   fullName: cntk.tensor.ArrayMixin
   inheritance:
-  - - builtins.object
+  - type: builtins.object
+  langs:
+  - python
   module: cntk.tensor
   name: ArrayMixin
-  references: []
   source:
     id: ArrayMixin
     path: cntk/tensor.py
     remote:
       branch: master
       path: cntk/tensor.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 158
-  syntax:
-    summary: 'Bases: `object`'
+  summary: 'Bases: `object`'
+  syntax: {}
   type: Class
   uid: cntk.tensor.ArrayMixin
+references: []

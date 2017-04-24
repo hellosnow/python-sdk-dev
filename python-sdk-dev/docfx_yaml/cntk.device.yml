@@ -12,66 +12,24 @@ items:
   - cntk.device.set_default_device
   - cntk.device.use_default_device
   fullName: cntk.device
+  langs:
+  - python
   module: cntk.device
   name: device
-  references:
-  - fullName: cntk.device.DeviceDescriptor
-    isExternal: false
-    name: DeviceDescriptor
-    parent: ''
-    uid: cntk.device.DeviceDescriptor
-  - fullName: cntk.device.DeviceKind
-    isExternal: false
-    name: DeviceKind
-    parent: ''
-    uid: cntk.device.DeviceKind
-  - fullName: cntk.device.all_devices
-    isExternal: false
-    name: all_devices
-    parent: ''
-    uid: cntk.device.all_devices
-  - fullName: cntk.device.best
-    isExternal: false
-    name: best
-    parent: ''
-    uid: cntk.device.best
-  - fullName: cntk.device.cpu
-    isExternal: false
-    name: cpu
-    parent: ''
-    uid: cntk.device.cpu
-  - fullName: cntk.device.default
-    isExternal: false
-    name: default
-    parent: ''
-    uid: cntk.device.default
-  - fullName: cntk.device.gpu
-    isExternal: false
-    name: gpu
-    parent: ''
-    uid: cntk.device.gpu
-  - fullName: cntk.device.set_default_device
-    isExternal: false
-    name: set_default_device
-    parent: ''
-    uid: cntk.device.set_default_device
-  - fullName: cntk.device.use_default_device
-    isExternal: false
-    name: use_default_device
-    parent: ''
-    uid: cntk.device.use_default_device
   source:
     id: device
     path: cntk/device.py
     remote:
       branch: master
       path: cntk/device.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.device
 - _type: function
   fullName: cntk.device.all_devices
+  langs:
+  - python
   module: cntk.device
   name: all_devices
   source:
@@ -80,19 +38,22 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 62
+  summary: Returns a device descriptor list with all the available devices
   syntax:
     exceptions: []
     parameters: []
-    returntype: DeviceDescriptor list
-    returnvalue: all device descriptors
-    summary: Returns a device descriptor list with all the available devices
+    return:
+      description: all device descriptors
+      type: DeviceDescriptor list
     variables: []
   type: Method
   uid: cntk.device.all_devices
 - _type: function
   fullName: cntk.device.best
+  langs:
+  - python
   module: cntk.device
   name: best
   source:
@@ -101,19 +62,22 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 73
+  summary: Returns a device descriptor with the best configuration.
   syntax:
     exceptions: []
     parameters: []
-    returntype: DeviceDescriptor
-    returnvalue: Best device descriptor
-    summary: Returns a device descriptor with the best configuration.
+    return:
+      description: Best device descriptor
+      type: DeviceDescriptor
     variables: []
   type: Method
   uid: cntk.device.best
 - _type: function
   fullName: cntk.device.cpu
+  langs:
+  - python
   module: cntk.device
   name: cpu
   source:
@@ -122,19 +86,22 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 84
+  summary: Returns CPU device descriptor
   syntax:
     exceptions: []
     parameters: []
-    returntype: DeviceDescriptor
-    returnvalue: CPU device descriptor
-    summary: Returns CPU device descriptor
+    return:
+      description: CPU device descriptor
+      type: DeviceDescriptor
     variables: []
   type: Method
   uid: cntk.device.cpu
 - _type: function
   fullName: cntk.device.default
+  langs:
+  - python
   module: cntk.device
   name: default
   source:
@@ -143,19 +110,22 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 95
+  summary: Returns default device
   syntax:
     exceptions: []
     parameters: []
-    returntype: DeviceDescriptor
-    returnvalue: Default device descriptor
-    summary: Returns default device
+    return:
+      description: Default device descriptor
+      type: DeviceDescriptor
     variables: []
   type: Method
   uid: cntk.device.default
 - _type: function
   fullName: cntk.device.gpu
+  langs:
+  - python
   module: cntk.device
   name: gpu
   source:
@@ -164,19 +134,22 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 106
+  summary: Returns GPU device
   syntax:
     exceptions: []
     parameters: []
-    returntype: DeviceDescriptor
-    returnvalue: GPU device descriptor
-    summary: Returns GPU device
+    return:
+      description: GPU device descriptor
+      type: DeviceDescriptor
     variables: []
   type: Method
   uid: cntk.device.gpu
 - _type: function
   fullName: cntk.device.set_default_device
+  langs:
+  - python
   module: cntk.device
   name: set_default_device
   source:
@@ -185,22 +158,25 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 128
+  summary: Set new device descriptor as default
   syntax:
     exceptions: []
     parameters:
     - description: new device descriptor
       id: new_default_device
       type: DeviceDescriptor
-    returntype: DeviceDescriptor
-    returnvalue: id
-    summary: Set new device descriptor as default
+    return:
+      description: id
+      type: DeviceDescriptor
     variables: []
   type: Method
   uid: cntk.device.set_default_device
 - _type: function
   fullName: cntk.device.use_default_device
+  langs:
+  - python
   module: cntk.device
   name: use_default_device
   source:
@@ -209,14 +185,61 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 117
+  summary: Use default device
   syntax:
     exceptions: []
     parameters: []
-    returntype: int
-    returnvalue: Id of default device
-    summary: Use default device
+    return:
+      description: Id of default device
+      type: int
     variables: []
   type: Method
+  uid: cntk.device.use_default_device
+references:
+- fullName: cntk.device.DeviceDescriptor
+  isExternal: false
+  name: DeviceDescriptor
+  parent: cntk.device
+  uid: cntk.device.DeviceDescriptor
+- fullName: cntk.device.DeviceKind
+  isExternal: false
+  name: DeviceKind
+  parent: cntk.device
+  uid: cntk.device.DeviceKind
+- fullName: cntk.device.all_devices
+  isExternal: false
+  name: all_devices
+  parent: cntk.device
+  uid: cntk.device.all_devices
+- fullName: cntk.device.best
+  isExternal: false
+  name: best
+  parent: cntk.device
+  uid: cntk.device.best
+- fullName: cntk.device.cpu
+  isExternal: false
+  name: cpu
+  parent: cntk.device
+  uid: cntk.device.cpu
+- fullName: cntk.device.default
+  isExternal: false
+  name: default
+  parent: cntk.device
+  uid: cntk.device.default
+- fullName: cntk.device.gpu
+  isExternal: false
+  name: gpu
+  parent: cntk.device
+  uid: cntk.device.gpu
+- fullName: cntk.device.set_default_device
+  isExternal: false
+  name: set_default_device
+  parent: cntk.device
+  uid: cntk.device.set_default_device
+- fullName: cntk.device.use_default_device
+  isExternal: false
+  name: use_default_device
+  parent: cntk.device
   uid: cntk.device.use_default_device

@@ -7,41 +7,24 @@ items:
   - cntk.tests.persist_test.test_load_save_inputs
   - cntk.tests.persist_test.test_load_save_unique_input
   fullName: cntk.tests.persist_test
+  langs:
+  - python
   module: cntk.tests.persist_test
   name: persist_test
-  references:
-  - fullName: cntk.tests.persist_test.test_load_save_constant
-    isExternal: false
-    name: test_load_save_constant
-    parent: ''
-    uid: cntk.tests.persist_test.test_load_save_constant
-  - fullName: cntk.tests.persist_test.test_load_save_input_legacy_names
-    isExternal: false
-    name: test_load_save_input_legacy_names
-    parent: ''
-    uid: cntk.tests.persist_test.test_load_save_input_legacy_names
-  - fullName: cntk.tests.persist_test.test_load_save_inputs
-    isExternal: false
-    name: test_load_save_inputs
-    parent: ''
-    uid: cntk.tests.persist_test.test_load_save_inputs
-  - fullName: cntk.tests.persist_test.test_load_save_unique_input
-    isExternal: false
-    name: test_load_save_unique_input
-    parent: ''
-    uid: cntk.tests.persist_test.test_load_save_unique_input
   source:
     id: persist_test
     path: cntk/tests/persist_test.py
     remote:
       branch: master
       path: cntk/tests/persist_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.tests.persist_test
 - _type: function
   fullName: cntk.tests.persist_test.test_load_save_constant
+  langs:
+  - python
   module: cntk.tests.persist_test
   name: test_load_save_constant
   source:
@@ -50,14 +33,16 @@ items:
     remote:
       branch: master
       path: cntk/tests/persist_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 14
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.tests.persist_test.test_load_save_constant
 - _type: function
   fullName: cntk.tests.persist_test.test_load_save_input_legacy_names
+  langs:
+  - python
   module: cntk.tests.persist_test
   name: test_load_save_input_legacy_names
   source:
@@ -66,14 +51,16 @@ items:
     remote:
       branch: master
       path: cntk/tests/persist_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 35
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.tests.persist_test.test_load_save_input_legacy_names
 - _type: function
   fullName: cntk.tests.persist_test.test_load_save_inputs
+  langs:
+  - python
   module: cntk.tests.persist_test
   name: test_load_save_inputs
   source:
@@ -82,14 +69,16 @@ items:
     remote:
       branch: master
       path: cntk/tests/persist_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 59
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.tests.persist_test.test_load_save_inputs
 - _type: function
   fullName: cntk.tests.persist_test.test_load_save_unique_input
+  langs:
+  - python
   module: cntk.tests.persist_test
   name: test_load_save_unique_input
   source:
@@ -98,9 +87,30 @@ items:
     remote:
       branch: master
       path: cntk/tests/persist_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 85
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.tests.persist_test.test_load_save_unique_input
+references:
+- fullName: cntk.tests.persist_test.test_load_save_constant
+  isExternal: false
+  name: test_load_save_constant
+  parent: cntk.tests.persist_test
+  uid: cntk.tests.persist_test.test_load_save_constant
+- fullName: cntk.tests.persist_test.test_load_save_input_legacy_names
+  isExternal: false
+  name: test_load_save_input_legacy_names
+  parent: cntk.tests.persist_test
+  uid: cntk.tests.persist_test.test_load_save_input_legacy_names
+- fullName: cntk.tests.persist_test.test_load_save_inputs
+  isExternal: false
+  name: test_load_save_inputs
+  parent: cntk.tests.persist_test
+  uid: cntk.tests.persist_test.test_load_save_inputs
+- fullName: cntk.tests.persist_test.test_load_save_unique_input
+  isExternal: false
+  name: test_load_save_unique_input
+  parent: cntk.tests.persist_test
   uid: cntk.tests.persist_test.test_load_save_unique_input

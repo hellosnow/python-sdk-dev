@@ -6,36 +6,24 @@ items:
   - cntk.conftest.pytest_addoption
   - cntk.conftest.pytest_generate_tests
   fullName: cntk.conftest
+  langs:
+  - python
   module: cntk.conftest
   name: conftest
-  references:
-  - fullName: cntk.conftest.add_namespace
-    isExternal: false
-    name: add_namespace
-    parent: ''
-    uid: cntk.conftest.add_namespace
-  - fullName: cntk.conftest.pytest_addoption
-    isExternal: false
-    name: pytest_addoption
-    parent: ''
-    uid: cntk.conftest.pytest_addoption
-  - fullName: cntk.conftest.pytest_generate_tests
-    isExternal: false
-    name: pytest_generate_tests
-    parent: ''
-    uid: cntk.conftest.pytest_generate_tests
   source:
     id: conftest
     path: cntk/conftest.py
     remote:
       branch: master
       path: cntk/conftest.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.conftest
 - _type: function
   fullName: cntk.conftest.add_namespace
+  langs:
+  - python
   module: cntk.conftest
   name: add_namespace
   source:
@@ -44,14 +32,16 @@ items:
     remote:
       branch: master
       path: cntk/conftest.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 69
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.conftest.add_namespace
 - _type: function
   fullName: cntk.conftest.pytest_addoption
+  langs:
+  - python
   module: cntk.conftest
   name: pytest_addoption
   source:
@@ -60,14 +50,16 @@ items:
     remote:
       branch: master
       path: cntk/conftest.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 13
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.conftest.pytest_addoption
 - _type: function
   fullName: cntk.conftest.pytest_generate_tests
+  langs:
+  - python
   module: cntk.conftest
   name: pytest_generate_tests
   source:
@@ -76,9 +68,25 @@ items:
     remote:
       branch: master
       path: cntk/conftest.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 26
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.conftest.pytest_generate_tests
+references:
+- fullName: cntk.conftest.add_namespace
+  isExternal: false
+  name: add_namespace
+  parent: cntk.conftest
+  uid: cntk.conftest.add_namespace
+- fullName: cntk.conftest.pytest_addoption
+  isExternal: false
+  name: pytest_addoption
+  parent: cntk.conftest
+  uid: cntk.conftest.pytest_addoption
+- fullName: cntk.conftest.pytest_generate_tests
+  isExternal: false
+  name: pytest_generate_tests
+  parent: cntk.conftest
   uid: cntk.conftest.pytest_generate_tests

@@ -47,199 +47,13 @@ items:
     - builtins.object
   module: cntk.ops.functions
   name: Function
-  references:
-  - fullName: cntk.ops.functions.Function.argument_map
-    isExternal: false
-    name: argument_map
-    parent: ''
-    uid: cntk.ops.functions.Function.argument_map
-  - fullName: cntk.ops.functions.Function.arguments
-    isExternal: false
-    name: arguments
-    parent: ''
-    uid: cntk.ops.functions.Function.arguments
-  - fullName: cntk.ops.functions.Function.attributes
-    isExternal: false
-    name: attributes
-    parent: ''
-    uid: cntk.ops.functions.Function.attributes
-  - fullName: cntk.ops.functions.Function.backward
-    isExternal: false
-    name: backward
-    parent: ''
-    uid: cntk.ops.functions.Function.backward
-  - fullName: cntk.ops.functions.Function.block_arguments_mapping
-    isExternal: false
-    name: block_arguments_mapping
-    parent: ''
-    uid: cntk.ops.functions.Function.block_arguments_mapping
-  - fullName: cntk.ops.functions.Function.block_root
-    isExternal: false
-    name: block_root
-    parent: ''
-    uid: cntk.ops.functions.Function.block_root
-  - fullName: cntk.ops.functions.Function.clone
-    isExternal: false
-    name: clone
-    parent: ''
-    uid: cntk.ops.functions.Function.clone
-  - fullName: cntk.ops.functions.Function.constants
-    isExternal: false
-    name: constants
-    parent: ''
-    uid: cntk.ops.functions.Function.constants
-  - fullName: cntk.ops.functions.Function.declare_args
-    isExternal: false
-    name: declare_args
-    parent: ''
-    uid: cntk.ops.functions.Function.declare_args
-  - fullName: cntk.ops.functions.Function.eval
-    isExternal: false
-    name: eval
-    parent: ''
-    uid: cntk.ops.functions.Function.eval
-  - fullName: cntk.ops.functions.Function.find_all_with_name
-    isExternal: false
-    name: find_all_with_name
-    parent: ''
-    uid: cntk.ops.functions.Function.find_all_with_name
-  - fullName: cntk.ops.functions.Function.find_by_name
-    isExternal: false
-    name: find_by_name
-    parent: ''
-    uid: cntk.ops.functions.Function.find_by_name
-  - fullName: cntk.ops.functions.Function.forward
-    isExternal: false
-    name: forward
-    parent: ''
-    uid: cntk.ops.functions.Function.forward
-  - fullName: cntk.ops.functions.Function.grad
-    isExternal: false
-    name: grad
-    parent: ''
-    uid: cntk.ops.functions.Function.grad
-  - fullName: cntk.ops.functions.Function.inputs
-    isExternal: false
-    name: inputs
-    parent: ''
-    uid: cntk.ops.functions.Function.inputs
-  - fullName: cntk.ops.functions.Function.is_block
-    isExternal: false
-    name: is_block
-    parent: ''
-    uid: cntk.ops.functions.Function.is_block
-  - fullName: cntk.ops.functions.Function.is_composite
-    isExternal: false
-    name: is_composite
-    parent: ''
-    uid: cntk.ops.functions.Function.is_composite
-  - fullName: cntk.ops.functions.Function.is_primitive
-    isExternal: false
-    name: is_primitive
-    parent: ''
-    uid: cntk.ops.functions.Function.is_primitive
-  - fullName: cntk.ops.functions.Function.load
-    isExternal: false
-    name: load
-    parent: ''
-    uid: cntk.ops.functions.Function.load
-  - fullName: cntk.ops.functions.Function.name
-    isExternal: false
-    name: name
-    parent: ''
-    uid: cntk.ops.functions.Function.name
-  - fullName: cntk.ops.functions.Function.op_name
-    isExternal: false
-    name: op_name
-    parent: ''
-    uid: cntk.ops.functions.Function.op_name
-  - fullName: cntk.ops.functions.Function.output
-    isExternal: false
-    name: output
-    parent: ''
-    uid: cntk.ops.functions.Function.output
-  - fullName: cntk.ops.functions.Function.outputs
-    isExternal: false
-    name: outputs
-    parent: ''
-    uid: cntk.ops.functions.Function.outputs
-  - fullName: cntk.ops.functions.Function.parameters
-    isExternal: false
-    name: parameters
-    parent: ''
-    uid: cntk.ops.functions.Function.parameters
-  - fullName: cntk.ops.functions.Function.placeholders
-    isExternal: false
-    name: placeholders
-    parent: ''
-    uid: cntk.ops.functions.Function.placeholders
-  - fullName: cntk.ops.functions.Function.replace_placeholder
-    isExternal: false
-    name: replace_placeholder
-    parent: ''
-    uid: cntk.ops.functions.Function.replace_placeholder
-  - fullName: cntk.ops.functions.Function.replace_placeholders
-    isExternal: false
-    name: replace_placeholders
-    parent: ''
-    uid: cntk.ops.functions.Function.replace_placeholders
-  - fullName: cntk.ops.functions.Function.restore
-    isExternal: false
-    name: restore
-    parent: ''
-    uid: cntk.ops.functions.Function.restore
-  - fullName: cntk.ops.functions.Function.restore_model
-    isExternal: false
-    name: restore_model
-    parent: ''
-    uid: cntk.ops.functions.Function.restore_model
-  - fullName: cntk.ops.functions.Function.root_function
-    isExternal: false
-    name: root_function
-    parent: ''
-    uid: cntk.ops.functions.Function.root_function
-  - fullName: cntk.ops.functions.Function.save
-    isExternal: false
-    name: save
-    parent: ''
-    uid: cntk.ops.functions.Function.save
-  - fullName: cntk.ops.functions.Function.save_model
-    isExternal: false
-    name: save_model
-    parent: ''
-    uid: cntk.ops.functions.Function.save_model
-  - fullName: cntk.ops.functions.Function.signature
-    isExternal: false
-    name: signature
-    parent: ''
-    uid: cntk.ops.functions.Function.signature
-  - fullName: cntk.ops.functions.Function.to_Function
-    isExternal: false
-    name: to_Function
-    parent: ''
-    uid: cntk.ops.functions.Function.to_Function
-  - fullName: cntk.ops.functions.Function.type
-    isExternal: false
-    name: type
-    parent: ''
-    uid: cntk.ops.functions.Function.type
-  - fullName: cntk.ops.functions.Function.uid
-    isExternal: false
-    name: uid
-    parent: ''
-    uid: cntk.ops.functions.Function.uid
-  - fullName: cntk.ops.functions.Function.update_signature
-    isExternal: false
-    name: update_signature
-    parent: ''
-    uid: cntk.ops.functions.Function.update_signature
   source:
     id: Function
     path: cntk/ops/functions.py
     remote:
       branch: master
       path: cntk/ops/functions.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 34
   syntax:
     summary: 'Bases: `cntk.cntk_py.Function`
@@ -300,7 +114,7 @@ items:
     remote:
       branch: master
       path: cntk/ops/functions.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 214
   syntax:
     summary: 'determine the {placeholder: variable} map for use with various call
@@ -322,7 +136,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: List of all input variables of the Function that are not of type Parameter
@@ -340,7 +154,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: List of the attributes of the function
@@ -357,7 +171,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 655
   syntax:
     exceptions: []
@@ -406,7 +220,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Returns the mapping from the arguments of the composite underlying this
@@ -425,7 +239,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Returns the root of the Function graph underlying this block Function.
@@ -443,7 +257,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 424
   syntax:
     exceptions: []
@@ -458,12 +272,12 @@ items:
 
 
         * ''freeze'': parameters are cloned and made immutable (constant).'
-      id: substitutions
-      type: dict
-    - description: a dictionary mapping variables in this function to variables in
-        the cloned function
       id: method
       type: CloneMethod
+    - description: a dictionary mapping variables in this function to variables in
+        the cloned function
+      id: substitutions
+      type: dict
     returntype: Function
     returnvalue: the cloned Function
     summary: Clones the function. The parameters of the Function are either cloned,
@@ -483,7 +297,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: List of all *Constant* variables of this `Function`
@@ -500,7 +314,7 @@ items:
     remote:
       branch: master
       path: cntk/ops/functions.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 255
   syntax:
     summary: Back-compat wrapper for update_signature() (beta12 and before).
@@ -517,7 +331,7 @@ items:
     remote:
       branch: master
       path: cntk/ops/functions.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 464
   syntax:
     exceptions: []
@@ -542,7 +356,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 937
   syntax:
     exceptions: []
@@ -587,7 +401,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 967
   syntax:
     exceptions: []
@@ -641,7 +455,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 521
   syntax:
     exceptions: []
@@ -667,21 +481,21 @@ items:
         \ of the sequence in the same slot of the previous minibatch (*False*). This\
         \ will be applied to all batches.\n\nData should be either NumPy arrays or\
         \ a `MinibatchData` instance."
-      id: outputs
-      type: iterable, optional
+      id: as_numpy
+      type: bool
     - description: outputs to fetch values for. If not set, all outputs of the function
         will be fetched.
-      id: keep_for_backward
-      type: set, default None
+      id: device
+      type: DeviceDescriptor, default None
     - description: the subset of the Function's output variables for which gradients
         shall be calculated in a subsequent backward call. If *None*, the returned
         state will be *None* and a subsequent call to `backward()` will not be possible.
-      id: as_numpy
-      type: bool
+      id: keep_for_backward
+      type: set, default None
     - description: the device descriptor that contains the type and id of the device
         on which the computation is. If *None*, the default device is used.
-      id: device
-      type: DeviceDescriptor, default None
+      id: outputs
+      type: iterable, optional
     returntype: ''
     returnvalue: A tuple (BackPropState, map of outputs to NumPy arrays). The BackPropState
       is a handle taken by `backward()`.
@@ -729,14 +543,14 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 708
   syntax:
     exceptions: []
     parameters:
     - description: mapping of the Function's arguments to values
-      id: outputs
-      type: iterable, optional
+      id: as_numpy
+      type: bool, default True
     - description: list of Variables with respect to which the gradient will be computed.
         If omitted, the gradients with respect to all arguments of this Function that
         need gradient will be computed.
@@ -748,13 +562,13 @@ items:
       type: DeviceDescriptor, default None
     - description: the device descriptor that contains the type and id of the device
         on which the computation is performed. If *None*, the default device is used.
-      id: as_numpy
-      type: bool, default True
+      id: wrt
+      type: list, default None
     - description: whether to return the gradients as a NumPy array. Default True.
         Specifying this as False returns a CNTK Value which avoids a costly conversion
         but returns a somewhat opaque object.
-      id: wrt
-      type: list, default None
+      id: outputs
+      type: iterable, optional
     returntype: dict or NumPy Array or a tuple of these
     returnvalue: "Dict with keys of `wrt` variables and gradient values of\n   `wrt`\
       \ variables. A single NumPy array if there is only one gradient value. If `outputs`\
@@ -783,7 +597,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: List of all input variables of this function.
@@ -800,7 +614,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Returns a boolean indicating if this Function is a block function which
@@ -819,7 +633,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Returns a boolean indicating if this Function is a composite Function.
@@ -837,7 +651,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Returns a boolean indicating if this Function is a primitive Function.
@@ -857,17 +671,17 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 1042
   syntax:
     exceptions: []
     parameters:
     - description: filename to load the model from
-      id: device
-      type: DeviceDescriptor, default is the default device
-    - description: instance of DeviceDescriptor
       id: filename
       type: str
+    - description: instance of DeviceDescriptor
+      id: device
+      type: DeviceDescriptor, default is the default device
     returntype: ''
     returnvalue: root node
     summary: Load the model in `filename`, that has been saved using `save()`.
@@ -885,7 +699,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Name of this function
@@ -902,7 +716,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Name of the operation that this Function performs
@@ -919,7 +733,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The single output variable if there is only one, or raises an exception.
@@ -936,7 +750,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: List consisting of all output variables of this function.
@@ -953,7 +767,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: List of all parameter variables of this function.
@@ -970,7 +784,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: List of all placeholders variables of this function.
@@ -987,7 +801,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 920
   syntax:
     exceptions:
@@ -1015,7 +829,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 903
   syntax:
     exceptions: []
@@ -1041,7 +855,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 1023
   syntax:
     exceptions: []
@@ -1067,7 +881,7 @@ items:
     remote:
       branch: master
       path: cntk/ops/functions.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 1036
   syntax:
     summary: ''
@@ -1084,7 +898,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The primitive function at the root of the graph of functions underlying
@@ -1102,7 +916,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 1003
   syntax:
     exceptions: []
@@ -1130,7 +944,7 @@ items:
     remote:
       branch: master
       path: cntk/ops/functions.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 1017
   syntax:
     summary: ''
@@ -1147,7 +961,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Returns the signature of a Function. This is the .arguments[] list without
@@ -1165,25 +979,25 @@ items:
     remote:
       branch: master
       path: cntk/ops/functions.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 62
   syntax:
     summary: "`@Function` constructs a Function from a Python lambda where the Function's\
       \ input signature is defined by the lambda.\nUse this as a decorator, e.g.:\n\
-      <!-- literal_block {\"xml:space\": \"preserve\", \"dupnames\": [], \"backrefs\"\
-      : [], \"ids\": [], \"classes\": [], \"names\": []} -->\n\n````\n\n   @Function\n\
+      <!-- literal_block {\"xml:space\": \"preserve\", \"backrefs\": [], \"classes\"\
+      : [], \"dupnames\": [], \"names\": [], \"ids\": []} -->\n\n````\n\n   @Function\n\
       \   def f(x): return x * x\n   ````\nThe above form creates a CNTK Function\
       \ whose arguments are placeholder variables. Such a function can only be combined\
       \ with others symbolic functions.\nTo train a Function or pass data to it, you\
       \ need to declare the types of the arguments. In this case, the @Function decorator\
       \ creates a CNTK Function whose arguments are input variables.\nIf you use Python\
       \ 3, Functions with types are declared using Python annotation syntax, e.g.:\n\
-      <!-- literal_block {\"xml:space\": \"preserve\", \"dupnames\": [], \"backrefs\"\
-      : [], \"ids\": [], \"classes\": [], \"names\": []} -->\n\n````\n\n   @Function\n\
+      <!-- literal_block {\"xml:space\": \"preserve\", \"backrefs\": [], \"classes\"\
+      : [], \"dupnames\": [], \"names\": [], \"ids\": []} -->\n\n````\n\n   @Function\n\
       \   def f(x:Tensor[13]):\n       return x * x\n   ````\nIf you are working with\
       \ Python 2.7, use CNTK's @Signature decorator instead:\n<!-- literal_block {\"\
-      xml:space\": \"preserve\", \"dupnames\": [], \"backrefs\": [], \"ids\": [],\
-      \ \"classes\": [], \"names\": []} -->\n\n````\n\n   @Function\n   @Signature(Tensor[13])\n\
+      xml:space\": \"preserve\", \"backrefs\": [], \"classes\": [], \"dupnames\":\
+      \ [], \"names\": [], \"ids\": []} -->\n\n````\n\n   @Function\n   @Signature(Tensor[13])\n\
       \   def f(x):\n       return x * x\n   ````\n`make_block=True` is used to implement\
       \ @BlockFunction(). If given the result will be wrapped in `as_block()`, using\
       \ the supplied `op_name` and `name` parameters, which are otherwise ignored."
@@ -1200,7 +1014,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: Get type of a Function's output.
@@ -1217,7 +1031,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The internally generated unique name of the function.
@@ -1234,11 +1048,197 @@ items:
     remote:
       branch: master
       path: cntk/ops/functions.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 228
   syntax:
     summary: define input shapes, in-place e.g. model.update_signature(42) pass a
       list of objects that define the dimensions etc. of the placeholders Currently
       you can pass an int, a tuple, an Input, or a dict created with Type()
   type: Method
+  uid: cntk.ops.functions.Function.update_signature
+references:
+- fullName: cntk.ops.functions.Function.argument_map
+  isExternal: false
+  name: argument_map
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.argument_map
+- fullName: cntk.ops.functions.Function.arguments
+  isExternal: false
+  name: arguments
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.arguments
+- fullName: cntk.ops.functions.Function.attributes
+  isExternal: false
+  name: attributes
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.attributes
+- fullName: cntk.ops.functions.Function.backward
+  isExternal: false
+  name: backward
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.backward
+- fullName: cntk.ops.functions.Function.block_arguments_mapping
+  isExternal: false
+  name: block_arguments_mapping
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.block_arguments_mapping
+- fullName: cntk.ops.functions.Function.block_root
+  isExternal: false
+  name: block_root
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.block_root
+- fullName: cntk.ops.functions.Function.clone
+  isExternal: false
+  name: clone
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.clone
+- fullName: cntk.ops.functions.Function.constants
+  isExternal: false
+  name: constants
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.constants
+- fullName: cntk.ops.functions.Function.declare_args
+  isExternal: false
+  name: declare_args
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.declare_args
+- fullName: cntk.ops.functions.Function.eval
+  isExternal: false
+  name: eval
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.eval
+- fullName: cntk.ops.functions.Function.find_all_with_name
+  isExternal: false
+  name: find_all_with_name
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.find_all_with_name
+- fullName: cntk.ops.functions.Function.find_by_name
+  isExternal: false
+  name: find_by_name
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.find_by_name
+- fullName: cntk.ops.functions.Function.forward
+  isExternal: false
+  name: forward
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.forward
+- fullName: cntk.ops.functions.Function.grad
+  isExternal: false
+  name: grad
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.grad
+- fullName: cntk.ops.functions.Function.inputs
+  isExternal: false
+  name: inputs
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.inputs
+- fullName: cntk.ops.functions.Function.is_block
+  isExternal: false
+  name: is_block
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.is_block
+- fullName: cntk.ops.functions.Function.is_composite
+  isExternal: false
+  name: is_composite
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.is_composite
+- fullName: cntk.ops.functions.Function.is_primitive
+  isExternal: false
+  name: is_primitive
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.is_primitive
+- fullName: cntk.ops.functions.Function.load
+  isExternal: false
+  name: load
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.load
+- fullName: cntk.ops.functions.Function.name
+  isExternal: false
+  name: name
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.name
+- fullName: cntk.ops.functions.Function.op_name
+  isExternal: false
+  name: op_name
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.op_name
+- fullName: cntk.ops.functions.Function.output
+  isExternal: false
+  name: output
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.output
+- fullName: cntk.ops.functions.Function.outputs
+  isExternal: false
+  name: outputs
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.outputs
+- fullName: cntk.ops.functions.Function.parameters
+  isExternal: false
+  name: parameters
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.parameters
+- fullName: cntk.ops.functions.Function.placeholders
+  isExternal: false
+  name: placeholders
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.placeholders
+- fullName: cntk.ops.functions.Function.replace_placeholder
+  isExternal: false
+  name: replace_placeholder
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.replace_placeholder
+- fullName: cntk.ops.functions.Function.replace_placeholders
+  isExternal: false
+  name: replace_placeholders
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.replace_placeholders
+- fullName: cntk.ops.functions.Function.restore
+  isExternal: false
+  name: restore
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.restore
+- fullName: cntk.ops.functions.Function.restore_model
+  isExternal: false
+  name: restore_model
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.restore_model
+- fullName: cntk.ops.functions.Function.root_function
+  isExternal: false
+  name: root_function
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.root_function
+- fullName: cntk.ops.functions.Function.save
+  isExternal: false
+  name: save
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.save
+- fullName: cntk.ops.functions.Function.save_model
+  isExternal: false
+  name: save_model
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.save_model
+- fullName: cntk.ops.functions.Function.signature
+  isExternal: false
+  name: signature
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.signature
+- fullName: cntk.ops.functions.Function.to_Function
+  isExternal: false
+  name: to_Function
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.to_Function
+- fullName: cntk.ops.functions.Function.type
+  isExternal: false
+  name: type
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.type
+- fullName: cntk.ops.functions.Function.uid
+  isExternal: false
+  name: uid
+  parent: cntk.ops.functions.Function
+  uid: cntk.ops.functions.Function.uid
+- fullName: cntk.ops.functions.Function.update_signature
+  isExternal: false
+  name: update_signature
+  parent: cntk.ops.functions.Function
   uid: cntk.ops.functions.Function.update_signature

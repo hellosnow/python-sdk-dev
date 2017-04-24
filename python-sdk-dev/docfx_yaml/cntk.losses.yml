@@ -11,44 +11,13 @@ items:
   fullName: cntk.losses
   module: cntk.losses
   name: losses
-  references:
-  - fullName: cntk.losses.binary_cross_entropy
-    isExternal: false
-    name: binary_cross_entropy
-    parent: ''
-    uid: cntk.losses.binary_cross_entropy
-  - fullName: cntk.losses.cosine_distance
-    isExternal: false
-    name: cosine_distance
-    parent: ''
-    uid: cntk.losses.cosine_distance
-  - fullName: cntk.losses.cosine_distance_with_negative_samples
-    isExternal: false
-    name: cosine_distance_with_negative_samples
-    parent: ''
-    uid: cntk.losses.cosine_distance_with_negative_samples
-  - fullName: cntk.losses.cross_entropy_with_softmax
-    isExternal: false
-    name: cross_entropy_with_softmax
-    parent: ''
-    uid: cntk.losses.cross_entropy_with_softmax
-  - fullName: cntk.losses.squared_error
-    isExternal: false
-    name: squared_error
-    parent: ''
-    uid: cntk.losses.squared_error
-  - fullName: cntk.losses.weighted_binary_cross_entropy
-    isExternal: false
-    name: weighted_binary_cross_entropy
-    parent: ''
-    uid: cntk.losses.weighted_binary_cross_entropy
   source:
     id: losses
     path: cntk/losses/__init__.py
     remote:
       branch: master
       path: cntk/losses/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.losses
@@ -62,7 +31,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 89
   syntax:
     exceptions: []
@@ -92,7 +61,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 18
   syntax:
     exceptions: []
@@ -121,18 +90,18 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 47
   syntax:
     exceptions: []
     parameters:
     - description: numpy array or any `Function` that outputs a tensor
-      id: y
-      type: x,
-    - description: non-zero positive integer representing number of shift to generate
-        a negative sample
       id: name
       type: str, optional
+    - description: non-zero positive integer representing number of shift to generate
+        a negative sample
+      id: y
+      type: x,
     returntype: ''
     returnvalue: '`Function`'
     summary: "Given minibatches for `x` and `y`, this function computes for each element\
@@ -167,7 +136,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 133
   syntax:
     exceptions: []
@@ -214,7 +183,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 175
   syntax:
     exceptions: []
@@ -256,7 +225,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 110
   syntax:
     exceptions: []
@@ -274,4 +243,35 @@ items:
       TBA'
     variables: []
   type: Method
+  uid: cntk.losses.weighted_binary_cross_entropy
+references:
+- fullName: cntk.losses.binary_cross_entropy
+  isExternal: false
+  name: binary_cross_entropy
+  parent: cntk.losses
+  uid: cntk.losses.binary_cross_entropy
+- fullName: cntk.losses.cosine_distance
+  isExternal: false
+  name: cosine_distance
+  parent: cntk.losses
+  uid: cntk.losses.cosine_distance
+- fullName: cntk.losses.cosine_distance_with_negative_samples
+  isExternal: false
+  name: cosine_distance_with_negative_samples
+  parent: cntk.losses
+  uid: cntk.losses.cosine_distance_with_negative_samples
+- fullName: cntk.losses.cross_entropy_with_softmax
+  isExternal: false
+  name: cross_entropy_with_softmax
+  parent: cntk.losses
+  uid: cntk.losses.cross_entropy_with_softmax
+- fullName: cntk.losses.squared_error
+  isExternal: false
+  name: squared_error
+  parent: cntk.losses
+  uid: cntk.losses.squared_error
+- fullName: cntk.losses.weighted_binary_cross_entropy
+  isExternal: false
+  name: weighted_binary_cross_entropy
+  parent: cntk.losses
   uid: cntk.losses.weighted_binary_cross_entropy

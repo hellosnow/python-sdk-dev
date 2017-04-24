@@ -13,34 +13,13 @@ items:
     - builtins.object
   module: cntk.learners
   name: Learner
-  references:
-  - fullName: cntk.learners.Learner.learning_rate
-    isExternal: false
-    name: learning_rate
-    parent: ''
-    uid: cntk.learners.Learner.learning_rate
-  - fullName: cntk.learners.Learner.parameters
-    isExternal: false
-    name: parameters
-    parent: ''
-    uid: cntk.learners.Learner.parameters
-  - fullName: cntk.learners.Learner.reset_learning_rate
-    isExternal: false
-    name: reset_learning_rate
-    parent: ''
-    uid: cntk.learners.Learner.reset_learning_rate
-  - fullName: cntk.learners.Learner.update
-    isExternal: false
-    name: update
-    parent: ''
-    uid: cntk.learners.Learner.update
   source:
     id: Learner
     path: cntk/learners/__init__.py
     remote:
       branch: master
       path: cntk/learners/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 104
   syntax:
     summary: 'Bases: `cntk.cntk_py.Learner`
@@ -68,7 +47,7 @@ items:
     remote:
       branch: master
       path: cntk/learners/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 153
   syntax:
     summary: Current learning rate.
@@ -85,7 +64,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: null
   syntax:
     summary: The set of parameters associated with this learner.
@@ -102,7 +81,7 @@ items:
     remote:
       branch: master
       path: cntk/learners/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 139
   syntax:
     exceptions: []
@@ -130,22 +109,43 @@ items:
     remote:
       branch: master
       path: cntk/learners/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 113
   syntax:
     exceptions: []
     parameters:
     - description: maps `Parameter` to a NumPy array containing the first order gradient
         values for the Parameter w.r.t. the training objective.
-      id: training_sample_count
-      type: int
-    - description: number of samples in the minibatch
       id: gradient_values
       type: dict
+    - description: number of samples in the minibatch
+      id: training_sample_count
+      type: int
     returntype: ''
     returnvalue: '*False* to indicate that learning has stopped for all of the parameters
       associated with this learner'
     summary: Update the parameters associated with this learner.
     variables: []
   type: Method
+  uid: cntk.learners.Learner.update
+references:
+- fullName: cntk.learners.Learner.learning_rate
+  isExternal: false
+  name: learning_rate
+  parent: cntk.learners.Learner
+  uid: cntk.learners.Learner.learning_rate
+- fullName: cntk.learners.Learner.parameters
+  isExternal: false
+  name: parameters
+  parent: cntk.learners.Learner
+  uid: cntk.learners.Learner.parameters
+- fullName: cntk.learners.Learner.reset_learning_rate
+  isExternal: false
+  name: reset_learning_rate
+  parent: cntk.learners.Learner
+  uid: cntk.learners.Learner.reset_learning_rate
+- fullName: cntk.learners.Learner.update
+  isExternal: false
+  name: update
+  parent: cntk.learners.Learner
   uid: cntk.learners.Learner.update

@@ -18,79 +18,13 @@ items:
   fullName: cntk.train.tests.trainer_test
   module: cntk.train.tests.trainer_test
   name: trainer_test
-  references:
-  - fullName: cntk.train.tests.trainer_test.test_disallow_seq_starts_with_Value_objects
-    isExternal: false
-    name: test_disallow_seq_starts_with_Value_objects
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_disallow_seq_starts_with_Value_objects
-  - fullName: cntk.train.tests.trainer_test.test_eval_one_hot_bad
-    isExternal: false
-    name: test_eval_one_hot_bad
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_eval_one_hot_bad
-  - fullName: cntk.train.tests.trainer_test.test_eval_one_hot_seq
-    isExternal: false
-    name: test_eval_one_hot_seq
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_eval_one_hot_seq
-  - fullName: cntk.train.tests.trainer_test.test_eval_sparse_dense
-    isExternal: false
-    name: test_eval_sparse_dense
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_eval_sparse_dense
-  - fullName: cntk.train.tests.trainer_test.test_eval_sparse_no_seq
-    isExternal: false
-    name: test_eval_sparse_no_seq
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_eval_sparse_no_seq
-  - fullName: cntk.train.tests.trainer_test.test_eval_sparse_seq_1
-    isExternal: false
-    name: test_eval_sparse_seq_1
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_eval_sparse_seq_1
-  - fullName: cntk.train.tests.trainer_test.test_model_not_criterion_subset
-    isExternal: false
-    name: test_model_not_criterion_subset
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_model_not_criterion_subset
-  - fullName: cntk.train.tests.trainer_test.test_model_one_output_of_multi_output_function
-    isExternal: false
-    name: test_model_one_output_of_multi_output_function
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_model_one_output_of_multi_output_function
-  - fullName: cntk.train.tests.trainer_test.test_not_replaced_placeholders
-    isExternal: false
-    name: test_not_replaced_placeholders
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_not_replaced_placeholders
-  - fullName: cntk.train.tests.trainer_test.test_output_to_retain
-    isExternal: false
-    name: test_output_to_retain
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_output_to_retain
-  - fullName: cntk.train.tests.trainer_test.test_scalar_input
-    isExternal: false
-    name: test_scalar_input
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_scalar_input
-  - fullName: cntk.train.tests.trainer_test.test_trainer
-    isExternal: false
-    name: test_trainer
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_trainer
-  - fullName: cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned
-    isExternal: false
-    name: test_trainer_with_some_params_not_learned
-    parent: ''
-    uid: cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned
   source:
     id: trainer_test
     path: cntk/train/tests/trainer_test.py
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.train.tests.trainer_test
@@ -104,7 +38,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 309
   syntax:
     summary: ''
@@ -120,7 +54,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 193
   syntax:
     summary: ''
@@ -136,7 +70,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 172
   syntax:
     summary: ''
@@ -152,7 +86,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 74
   syntax:
     summary: ''
@@ -168,7 +102,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 132
   syntax:
     summary: ''
@@ -184,7 +118,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 148
   syntax:
     summary: ''
@@ -200,7 +134,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 201
   syntax:
     summary: ''
@@ -216,7 +150,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 231
   syntax:
     summary: ''
@@ -232,7 +166,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 283
   syntax:
     summary: ''
@@ -248,7 +182,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 56
   syntax:
     summary: ''
@@ -264,7 +198,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 323
   syntax:
     summary: ''
@@ -280,7 +214,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 23
   syntax:
     summary: ''
@@ -296,9 +230,75 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/trainer_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 250
   syntax:
     summary: ''
   type: Method
+  uid: cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned
+references:
+- fullName: cntk.train.tests.trainer_test.test_disallow_seq_starts_with_Value_objects
+  isExternal: false
+  name: test_disallow_seq_starts_with_Value_objects
+  parent: cntk.train.tests.trainer_test
+  uid: cntk.train.tests.trainer_test.test_disallow_seq_starts_with_Value_objects
+- fullName: cntk.train.tests.trainer_test.test_eval_one_hot_bad
+  isExternal: false
+  name: test_eval_one_hot_bad
+  parent: cntk.train.tests.trainer_test
+  uid: cntk.train.tests.trainer_test.test_eval_one_hot_bad
+- fullName: cntk.train.tests.trainer_test.test_eval_one_hot_seq
+  isExternal: false
+  name: test_eval_one_hot_seq
+  parent: cntk.train.tests.trainer_test
+  uid: cntk.train.tests.trainer_test.test_eval_one_hot_seq
+- fullName: cntk.train.tests.trainer_test.test_eval_sparse_dense
+  isExternal: false
+  name: test_eval_sparse_dense
+  parent: cntk.train.tests.trainer_test
+  uid: cntk.train.tests.trainer_test.test_eval_sparse_dense
+- fullName: cntk.train.tests.trainer_test.test_eval_sparse_no_seq
+  isExternal: false
+  name: test_eval_sparse_no_seq
+  parent: cntk.train.tests.trainer_test
+  uid: cntk.train.tests.trainer_test.test_eval_sparse_no_seq
+- fullName: cntk.train.tests.trainer_test.test_eval_sparse_seq_1
+  isExternal: false
+  name: test_eval_sparse_seq_1
+  parent: cntk.train.tests.trainer_test
+  uid: cntk.train.tests.trainer_test.test_eval_sparse_seq_1
+- fullName: cntk.train.tests.trainer_test.test_model_not_criterion_subset
+  isExternal: false
+  name: test_model_not_criterion_subset
+  parent: cntk.train.tests.trainer_test
+  uid: cntk.train.tests.trainer_test.test_model_not_criterion_subset
+- fullName: cntk.train.tests.trainer_test.test_model_one_output_of_multi_output_function
+  isExternal: false
+  name: test_model_one_output_of_multi_output_function
+  parent: cntk.train.tests.trainer_test
+  uid: cntk.train.tests.trainer_test.test_model_one_output_of_multi_output_function
+- fullName: cntk.train.tests.trainer_test.test_not_replaced_placeholders
+  isExternal: false
+  name: test_not_replaced_placeholders
+  parent: cntk.train.tests.trainer_test
+  uid: cntk.train.tests.trainer_test.test_not_replaced_placeholders
+- fullName: cntk.train.tests.trainer_test.test_output_to_retain
+  isExternal: false
+  name: test_output_to_retain
+  parent: cntk.train.tests.trainer_test
+  uid: cntk.train.tests.trainer_test.test_output_to_retain
+- fullName: cntk.train.tests.trainer_test.test_scalar_input
+  isExternal: false
+  name: test_scalar_input
+  parent: cntk.train.tests.trainer_test
+  uid: cntk.train.tests.trainer_test.test_scalar_input
+- fullName: cntk.train.tests.trainer_test.test_trainer
+  isExternal: false
+  name: test_trainer
+  parent: cntk.train.tests.trainer_test
+  uid: cntk.train.tests.trainer_test.test_trainer
+- fullName: cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned
+  isExternal: false
+  name: test_trainer_with_some_params_not_learned
+  parent: cntk.train.tests.trainer_test
   uid: cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned

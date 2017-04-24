@@ -10,19 +10,13 @@ items:
     - builtins.object
   module: cntk.learners
   name: UserLearner
-  references:
-  - fullName: cntk.learners.UserLearner.update
-    isExternal: false
-    name: update
-    parent: ''
-    uid: cntk.learners.UserLearner.update
   source:
     id: UserLearner
     path: cntk/learners/__init__.py
     remote:
       branch: master
       path: cntk/learners/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 160
   syntax:
     summary: 'Bases: `cntk.cntk_py.Learner`
@@ -47,26 +41,32 @@ items:
     remote:
       branch: master
       path: cntk/learners/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 201
   syntax:
     exceptions: []
     parameters:
     - description: maps `Parameter` to a NumPy array containing the first order gradient
         values for the Parameter w.r.t. the training objective.
-      id: sweep_end
-      type: bool
+      id: gradient_values
+      type: dict
     - description: number of samples in the minibatch
       id: training_sample_count
       type: int
     - description: if the data is fed by a conforming reader, this indicates whether
         a full pass over the dataset has just occured.
-      id: gradient_values
-      type: dict
+      id: sweep_end
+      type: bool
     returntype: ''
     returnvalue: '*False* to indicate that learning has stopped for all of the parameters
       associated with this learner'
     summary: Update the parameters associated with this learner.
     variables: []
   type: Method
+  uid: cntk.learners.UserLearner.update
+references:
+- fullName: cntk.learners.UserLearner.update
+  isExternal: false
+  name: update
+  parent: cntk.learners.UserLearner
   uid: cntk.learners.UserLearner.update

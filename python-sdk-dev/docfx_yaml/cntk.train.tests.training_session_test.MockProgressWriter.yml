@@ -12,29 +12,13 @@ items:
     - builtins.object
   module: cntk.train.tests.training_session_test
   name: MockProgressWriter
-  references:
-  - fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_test_summary
-    isExternal: false
-    name: on_write_test_summary
-    parent: ''
-    uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_test_summary
-  - fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_summary
-    isExternal: false
-    name: on_write_training_summary
-    parent: ''
-    uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_summary
-  - fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_update
-    isExternal: false
-    name: on_write_training_update
-    parent: ''
-    uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_update
   source:
     id: MockProgressWriter
     path: cntk/train/tests/training_session_test.py
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 82
   syntax:
     summary: 'Bases: `cntk.cntk_py.ProgressWriter`
@@ -55,7 +39,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 102
   syntax:
     summary: ''
@@ -72,7 +56,7 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 98
   syntax:
     summary: ''
@@ -89,9 +73,25 @@ items:
     remote:
       branch: master
       path: cntk/train/tests/training_session_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 91
   syntax:
     summary: ''
   type: Method
+  uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_update
+references:
+- fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_test_summary
+  isExternal: false
+  name: on_write_test_summary
+  parent: cntk.train.tests.training_session_test.MockProgressWriter
+  uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_test_summary
+- fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_summary
+  isExternal: false
+  name: on_write_training_summary
+  parent: cntk.train.tests.training_session_test.MockProgressWriter
+  uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_summary
+- fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_update
+  isExternal: false
+  name: on_write_training_update
+  parent: cntk.train.tests.training_session_test.MockProgressWriter
   uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_update

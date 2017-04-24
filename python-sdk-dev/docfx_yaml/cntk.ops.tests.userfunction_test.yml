@@ -21,111 +21,24 @@ items:
   - cntk.ops.tests.userfunction_test.test_udf_clone
   - cntk.ops.tests.userfunction_test.test_udf_plus_and_last
   fullName: cntk.ops.tests.userfunction_test
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: userfunction_test
-  references:
-  - fullName: cntk.ops.tests.userfunction_test.LambdaFunc
-    isExternal: false
-    name: LambdaFunc
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.LambdaFunc
-  - fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
-    isExternal: false
-    name: MultiOutputUserFunction
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
-  - fullName: cntk.ops.tests.userfunction_test.MyPlus
-    isExternal: false
-    name: MyPlus
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.MyPlus
-  - fullName: cntk.ops.tests.userfunction_test.PlusAndLast
-    isExternal: false
-    name: PlusAndLast
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.PlusAndLast
-  - fullName: cntk.ops.tests.userfunction_test.test_ext_backpropstate
-    isExternal: false
-    name: test_ext_backpropstate
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_ext_backpropstate
-  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_1
-    isExternal: false
-    name: test_ext_eval_1
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_ext_eval_1
-  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_2_only_param
-    isExternal: false
-    name: test_ext_eval_2_only_param
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_ext_eval_2_only_param
-  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_3_no_input
-    isExternal: false
-    name: test_ext_eval_3_no_input
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_ext_eval_3_no_input
-  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_4_a_inside_graph
-    isExternal: false
-    name: test_ext_eval_4_a_inside_graph
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_ext_eval_4_a_inside_graph
-  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_4_b_inside_graph
-    isExternal: false
-    name: test_ext_eval_4_b_inside_graph
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_ext_eval_4_b_inside_graph
-  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_5_times
-    isExternal: false
-    name: test_ext_eval_5_times
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_ext_eval_5_times
-  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_6_clone
-    isExternal: false
-    name: test_ext_eval_6_clone
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_ext_eval_6_clone
-  - fullName: cntk.ops.tests.userfunction_test.test_ext_eval_7_placeholder
-    isExternal: false
-    name: test_ext_eval_7_placeholder
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_ext_eval_7_placeholder
-  - fullName: cntk.ops.tests.userfunction_test.test_ext_lambdafunc
-    isExternal: false
-    name: test_ext_lambdafunc
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_ext_lambdafunc
-  - fullName: cntk.ops.tests.userfunction_test.test_ext_train
-    isExternal: false
-    name: test_ext_train
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_ext_train
-  - fullName: cntk.ops.tests.userfunction_test.test_multioutput_udf
-    isExternal: false
-    name: test_multioutput_udf
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_multioutput_udf
-  - fullName: cntk.ops.tests.userfunction_test.test_udf_clone
-    isExternal: false
-    name: test_udf_clone
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_udf_clone
-  - fullName: cntk.ops.tests.userfunction_test.test_udf_plus_and_last
-    isExternal: false
-    name: test_udf_plus_and_last
-    parent: ''
-    uid: cntk.ops.tests.userfunction_test.test_udf_plus_and_last
   source:
     id: userfunction_test
     path: cntk/ops/tests/userfunction_test.py
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.userfunction_test
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_ext_backpropstate
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_ext_backpropstate
   source:
@@ -134,14 +47,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 179
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_ext_backpropstate
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_ext_eval_1
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_ext_eval_1
   source:
@@ -150,14 +65,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 48
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_ext_eval_1
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_ext_eval_2_only_param
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_ext_eval_2_only_param
   source:
@@ -166,14 +83,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 59
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_ext_eval_2_only_param
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_ext_eval_3_no_input
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_ext_eval_3_no_input
   source:
@@ -182,14 +101,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 72
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_ext_eval_3_no_input
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_ext_eval_4_a_inside_graph
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_ext_eval_4_a_inside_graph
   source:
@@ -198,14 +119,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 82
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_ext_eval_4_a_inside_graph
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_ext_eval_4_b_inside_graph
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_ext_eval_4_b_inside_graph
   source:
@@ -214,14 +137,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 93
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_ext_eval_4_b_inside_graph
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_ext_eval_5_times
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_ext_eval_5_times
   source:
@@ -230,14 +155,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 103
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_ext_eval_5_times
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_ext_eval_6_clone
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_ext_eval_6_clone
   source:
@@ -246,14 +173,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 114
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_ext_eval_6_clone
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_ext_eval_7_placeholder
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_ext_eval_7_placeholder
   source:
@@ -262,14 +191,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 129
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_ext_eval_7_placeholder
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_ext_lambdafunc
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_ext_lambdafunc
   source:
@@ -278,14 +209,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 240
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_ext_lambdafunc
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_ext_train
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_ext_train
   source:
@@ -294,14 +227,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 142
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_ext_train
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_multioutput_udf
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_multioutput_udf
   source:
@@ -310,14 +245,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 332
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_multioutput_udf
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_udf_clone
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_udf_clone
   source:
@@ -326,14 +263,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 165
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_udf_clone
 - _type: function
   fullName: cntk.ops.tests.userfunction_test.test_udf_plus_and_last
+  langs:
+  - python
   module: cntk.ops.tests.userfunction_test
   name: test_udf_plus_and_last
   source:
@@ -342,9 +281,100 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/userfunction_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 293
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.userfunction_test.test_udf_plus_and_last
+references:
+- fullName: cntk.ops.tests.userfunction_test.LambdaFunc
+  isExternal: false
+  name: LambdaFunc
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.LambdaFunc
+- fullName: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+  isExternal: false
+  name: MultiOutputUserFunction
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.MultiOutputUserFunction
+- fullName: cntk.ops.tests.userfunction_test.MyPlus
+  isExternal: false
+  name: MyPlus
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.MyPlus
+- fullName: cntk.ops.tests.userfunction_test.PlusAndLast
+  isExternal: false
+  name: PlusAndLast
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.PlusAndLast
+- fullName: cntk.ops.tests.userfunction_test.test_ext_backpropstate
+  isExternal: false
+  name: test_ext_backpropstate
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_ext_backpropstate
+- fullName: cntk.ops.tests.userfunction_test.test_ext_eval_1
+  isExternal: false
+  name: test_ext_eval_1
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_1
+- fullName: cntk.ops.tests.userfunction_test.test_ext_eval_2_only_param
+  isExternal: false
+  name: test_ext_eval_2_only_param
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_2_only_param
+- fullName: cntk.ops.tests.userfunction_test.test_ext_eval_3_no_input
+  isExternal: false
+  name: test_ext_eval_3_no_input
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_3_no_input
+- fullName: cntk.ops.tests.userfunction_test.test_ext_eval_4_a_inside_graph
+  isExternal: false
+  name: test_ext_eval_4_a_inside_graph
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_4_a_inside_graph
+- fullName: cntk.ops.tests.userfunction_test.test_ext_eval_4_b_inside_graph
+  isExternal: false
+  name: test_ext_eval_4_b_inside_graph
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_4_b_inside_graph
+- fullName: cntk.ops.tests.userfunction_test.test_ext_eval_5_times
+  isExternal: false
+  name: test_ext_eval_5_times
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_5_times
+- fullName: cntk.ops.tests.userfunction_test.test_ext_eval_6_clone
+  isExternal: false
+  name: test_ext_eval_6_clone
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_6_clone
+- fullName: cntk.ops.tests.userfunction_test.test_ext_eval_7_placeholder
+  isExternal: false
+  name: test_ext_eval_7_placeholder
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_ext_eval_7_placeholder
+- fullName: cntk.ops.tests.userfunction_test.test_ext_lambdafunc
+  isExternal: false
+  name: test_ext_lambdafunc
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_ext_lambdafunc
+- fullName: cntk.ops.tests.userfunction_test.test_ext_train
+  isExternal: false
+  name: test_ext_train
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_ext_train
+- fullName: cntk.ops.tests.userfunction_test.test_multioutput_udf
+  isExternal: false
+  name: test_multioutput_udf
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_multioutput_udf
+- fullName: cntk.ops.tests.userfunction_test.test_udf_clone
+  isExternal: false
+  name: test_udf_clone
+  parent: cntk.ops.tests.userfunction_test
+  uid: cntk.ops.tests.userfunction_test.test_udf_clone
+- fullName: cntk.ops.tests.userfunction_test.test_udf_plus_and_last
+  isExternal: false
+  name: test_udf_plus_and_last
+  parent: cntk.ops.tests.userfunction_test
   uid: cntk.ops.tests.userfunction_test.test_udf_plus_and_last

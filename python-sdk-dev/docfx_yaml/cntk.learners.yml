@@ -22,99 +22,13 @@ items:
   fullName: cntk.learners
   module: cntk.learners
   name: learners
-  references:
-  - fullName: cntk.learners.Learner
-    isExternal: false
-    name: Learner
-    parent: ''
-    uid: cntk.learners.Learner
-  - fullName: cntk.learners.UnitType
-    isExternal: false
-    name: UnitType
-    parent: ''
-    uid: cntk.learners.UnitType
-  - fullName: cntk.learners.UserLearner
-    isExternal: false
-    name: UserLearner
-    parent: ''
-    uid: cntk.learners.UserLearner
-  - fullName: cntk.learners.adagrad
-    isExternal: false
-    name: adagrad
-    parent: ''
-    uid: cntk.learners.adagrad
-  - fullName: cntk.learners.adam
-    isExternal: false
-    name: adam
-    parent: ''
-    uid: cntk.learners.adam
-  - fullName: cntk.learners.adam_sgd
-    isExternal: false
-    name: adam_sgd
-    parent: ''
-    uid: cntk.learners.adam_sgd
-  - fullName: cntk.learners.default_unit_gain_value
-    isExternal: false
-    name: default_unit_gain_value
-    parent: ''
-    uid: cntk.learners.default_unit_gain_value
-  - fullName: cntk.learners.fsadagrad
-    isExternal: false
-    name: fsadagrad
-    parent: ''
-    uid: cntk.learners.fsadagrad
-  - fullName: cntk.learners.learning_rate_schedule
-    isExternal: false
-    name: learning_rate_schedule
-    parent: ''
-    uid: cntk.learners.learning_rate_schedule
-  - fullName: cntk.learners.momentum_as_time_constant_schedule
-    isExternal: false
-    name: momentum_as_time_constant_schedule
-    parent: ''
-    uid: cntk.learners.momentum_as_time_constant_schedule
-  - fullName: cntk.learners.momentum_schedule
-    isExternal: false
-    name: momentum_schedule
-    parent: ''
-    uid: cntk.learners.momentum_schedule
-  - fullName: cntk.learners.momentum_sgd
-    isExternal: false
-    name: momentum_sgd
-    parent: ''
-    uid: cntk.learners.momentum_sgd
-  - fullName: cntk.learners.nesterov
-    isExternal: false
-    name: nesterov
-    parent: ''
-    uid: cntk.learners.nesterov
-  - fullName: cntk.learners.rmsprop
-    isExternal: false
-    name: rmsprop
-    parent: ''
-    uid: cntk.learners.rmsprop
-  - fullName: cntk.learners.set_default_unit_gain_value
-    isExternal: false
-    name: set_default_unit_gain_value
-    parent: ''
-    uid: cntk.learners.set_default_unit_gain_value
-  - fullName: cntk.learners.sgd
-    isExternal: false
-    name: sgd
-    parent: ''
-    uid: cntk.learners.sgd
-  - fullName: cntk.learners.training_parameter_schedule
-    isExternal: false
-    name: training_parameter_schedule
-    parent: ''
-    uid: cntk.learners.training_parameter_schedule
   source:
     id: learners
     path: cntk/learners/__init__.py
     remote:
       branch: master
       path: cntk/learners/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.learners
@@ -128,15 +42,15 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 562
   syntax:
     exceptions: []
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: parameters
-      type: list of parameters
+      id: lr
+      type: output of learning_rate_schedule()
     - description: learning rate schedule.
       id: l2_regularization_weight
       type: float, optional
@@ -144,21 +58,21 @@ items:
       id: need_ave_multiplier
       type: bool, default
     - description: the L1 regularization weight per sample, defaults to 0.0
-      id: gradient_clipping_with_truncation
-      type: bool, default True
-    - description: the L2 regularization weight per sample, defaults to 0.0
       id: l1_regularization_weight
+      type: float, optional
+    - description: the L2 regularization weight per sample, defaults to 0.0
+      id: gaussian_noise_injection_std_dev
       type: float, optional
     - description: the standard deviation of the Gaussian noise added to parameters
         post update, defaults to 0.0
       id: gradient_clipping_threshold_per_sample
       type: float, optional
     - description: clipping threshold per sample, defaults to infinity
-      id: lr
-      type: output of learning_rate_schedule()
+      id: parameters
+      type: list of parameters
     - description: use gradient clipping with truncation
-      id: gaussian_noise_injection_std_dev
-      type: float, optional
+      id: gradient_clipping_with_truncation
+      type: bool, default True
     returntype: ''
     returnvalue: Instance of a `Learner` that can be passed to the `Trainer`
     summary: 'Creates an AdaGrad learner instance to learn the parameters. See [1]
@@ -180,22 +94,22 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 665
   syntax:
     exceptions: []
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: parameters
-      type: list of parameters
+      id: lr
+      type: output of learning_rate_schedule()
     - description: learning rate schedule.
       id: l2_regularization_weight
       type: float, optional
     - description: momentum schedule. For additional information, please refer to
         the [wiki](https://github.com/Microsoft/CNTK/wiki/BrainScript-SGD-Block#converting-learning-rate-and-momentum-parameters-from-other-toolkits).
-      id: gradient_clipping_with_truncation
-      type: bool, default True
+      id: gaussian_noise_injection_std_dev
+      type: float, optional
     - description: when `True`, momentum is interpreted as a unit-gain filter. Defaults
         to the value returned by `default_unit_gain_value()`.
       id: l1_regularization_weight
@@ -204,17 +118,17 @@ items:
       id: gradient_clipping_threshold_per_sample
       type: float, optional
     - description: the L1 regularization weight per sample, defaults to 0.0
-      id: lr
-      type: output of learning_rate_schedule()
+      id: variance_momentum
+      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
     - description: the L2 regularization weight per sample, defaults to 0.0
-      id: gaussian_noise_injection_std_dev
-      type: float, optional
+      id: parameters
+      type: list of parameters
     - description: the standard deviation of the Gaussian noise added to parameters
         post update, defaults to 0.0
-      id: momentum
-      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
+      id: gradient_clipping_with_truncation
+      type: bool, default True
     - description: clipping threshold per sample, defaults to infinity
-      id: variance_momentum
+      id: momentum
       type: output of momentum_schedule() or momentum_as_time_constant_schedule()
     returntype: ''
     returnvalue: Instance of a `Learner` that can be passed to the `Trainer`
@@ -236,25 +150,25 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 723
   syntax:
     exceptions: []
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: parameters
-      type: list of parameters
+      id: lr
+      type: output of learning_rate_schedule()
     - description: learning rate schedule.
       id: l2_regularization_weight
       type: float, optional
-    - description: '<SYSTEM MESSAGE: /root/cntk-python/doc/cntk.learners.rst:2: (INFO/1)
-        Duplicate explicit target name: "wiki".>
+    - description: '<SYSTEM MESSAGE: /root/CNTK/bindings/python/doc/cntk.learners.rst:2:
+        (INFO/1) Duplicate explicit target name: "wiki".>
 
 
         momentum schedule. For additional information, please refer to the [wiki](https://github.com/Microsoft/CNTK/wiki/BrainScript-SGD-Block#converting-learning-rate-and-momentum-parameters-from-other-toolkits).'
-      id: gradient_clipping_with_truncation
-      type: bool, default True
+      id: gaussian_noise_injection_std_dev
+      type: float, optional
     - description: when `True`, momentum is interpreted as a unit-gain filter. Defaults
         to the value returned by `default_unit_gain_value()`.
       id: l1_regularization_weight
@@ -263,17 +177,17 @@ items:
       id: gradient_clipping_threshold_per_sample
       type: float, optional
     - description: the L1 regularization weight per sample, defaults to 0.0
-      id: lr
-      type: output of learning_rate_schedule()
+      id: variance_momentum
+      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
     - description: the L2 regularization weight per sample, defaults to 0.0
-      id: gaussian_noise_injection_std_dev
-      type: float, optional
+      id: parameters
+      type: list of parameters
     - description: the standard deviation of the Gaussian noise added to parameters
         post update, defaults to 0.0
-      id: momentum
-      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
+      id: gradient_clipping_with_truncation
+      type: bool, default True
     - description: clipping threshold per sample, defaults to infinity
-      id: variance_momentum
+      id: momentum
       type: output of momentum_schedule() or momentum_as_time_constant_schedule()
     returntype: ''
     returnvalue: Instance of a `Learner` that can be passed to the `Trainer`
@@ -283,9 +197,9 @@ items:
       \ gradient_clipping_threshold_per_sample=np.inf, gradient_clipping_with_truncation=True)\
       \ Creates an Adam learner if low_memory is False or FSAdaGrad otherwise to learn\
       \ the parameters. See [1] for more information.\nSee also: <SYSTEM MESSAGE:\
-      \ /root/cntk-python/doc/cntk.learners.rst:2: (INFO/1) Duplicate explicit target\
-      \ name: \"adam: a method for stochastic optimization\".>\n\n  [1] D. Kingma,\
-      \ J. Ba. [Adam: A Method for Stochastic Optimization](http://arxiv.org/abs/1412.6980).\
+      \ /root/CNTK/bindings/python/doc/cntk.learners.rst:2: (INFO/1) Duplicate explicit\
+      \ target name: \"adam: a method for stochastic optimization\".>\n\n  [1] D.\
+      \ Kingma, J. Ba. [Adam: A Method for Stochastic Optimization](http://arxiv.org/abs/1412.6980).\
       \ International Conference for Learning Representations, 2015."
     variables: []
   type: Method
@@ -300,7 +214,7 @@ items:
     remote:
       branch: master
       path: cntk/learners/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 59
   syntax:
     summary: Returns true if by default momentum is applied in the unit-gain fashion.
@@ -316,25 +230,25 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 612
   syntax:
     exceptions: []
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: parameters
-      type: list of parameters
+      id: lr
+      type: output of learning_rate_schedule()
     - description: learning rate schedule.
       id: l2_regularization_weight
       type: float, optional
-    - description: '<SYSTEM MESSAGE: /root/cntk-python/doc/cntk.learners.rst:2: (INFO/1)
-        Duplicate explicit target name: "wiki".>
+    - description: '<SYSTEM MESSAGE: /root/CNTK/bindings/python/doc/cntk.learners.rst:2:
+        (INFO/1) Duplicate explicit target name: "wiki".>
 
 
         momentum schedule. For additional information, please refer to the [wiki](https://github.com/Microsoft/CNTK/wiki/BrainScript-SGD-Block#converting-learning-rate-and-momentum-parameters-from-other-toolkits).'
-      id: gradient_clipping_with_truncation
-      type: bool, default True
+      id: gaussian_noise_injection_std_dev
+      type: float, optional
     - description: when `True`, momentum is interpreted as a unit-gain filter. Defaults
         to the value returned by `default_unit_gain_value()`.
       id: l1_regularization_weight
@@ -343,17 +257,17 @@ items:
       id: gradient_clipping_threshold_per_sample
       type: float, optional
     - description: the L1 regularization weight per sample, defaults to 0.0
-      id: lr
-      type: output of learning_rate_schedule()
+      id: variance_momentum
+      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
     - description: the L2 regularization weight per sample, defaults to 0.0
-      id: gaussian_noise_injection_std_dev
-      type: float, optional
+      id: parameters
+      type: list of parameters
     - description: the standard deviation of the Gaussian noise added to parameters
         post update, defaults to 0.0
-      id: momentum
-      type: output of momentum_schedule() or momentum_as_time_constant_schedule()
+      id: gradient_clipping_with_truncation
+      type: bool, default True
     - description: clipping threshold per sample, defaults to infinity
-      id: variance_momentum
+      id: momentum
       type: output of momentum_schedule() or momentum_as_time_constant_schedule()
     returntype: ''
     returnvalue: Instance of a `Learner` that can be passed to the `Trainer`
@@ -371,7 +285,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 293
   syntax:
     exceptions: []
@@ -403,7 +317,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 354
   syntax:
     exceptions: []
@@ -443,7 +357,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 316
   syntax:
     exceptions: []
@@ -496,25 +410,25 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 453
   syntax:
     exceptions: []
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: parameters
-      type: list of parameters
+      id: lr
+      type: output of learning_rate_schedule()
     - description: learning rate schedule.
       id: l2_regularization_weight
       type: float, optional
-    - description: '<SYSTEM MESSAGE: /root/cntk-python/doc/cntk.learners.rst:2: (INFO/1)
-        Duplicate explicit target name: "wiki".>
+    - description: '<SYSTEM MESSAGE: /root/CNTK/bindings/python/doc/cntk.learners.rst:2:
+        (INFO/1) Duplicate explicit target name: "wiki".>
 
 
         momentum schedule. For additional information, please refer to the [wiki](https://github.com/Microsoft/CNTK/wiki/BrainScript-SGD-Block#converting-learning-rate-and-momentum-parameters-from-other-toolkits).'
-      id: gradient_clipping_with_truncation
-      type: bool, default True
+      id: gaussian_noise_injection_std_dev
+      type: float, optional
     - description: when `True`, momentum is interpreted as a unit-gain filter. Defaults
         to the value returned by `default_unit_gain_value()`.
       id: l1_regularization_weight
@@ -523,12 +437,12 @@ items:
       id: gradient_clipping_threshold_per_sample
       type: float, optional
     - description: the L2 regularization weight per sample, defaults to 0.0
-      id: lr
-      type: output of learning_rate_schedule()
+      id: parameters
+      type: list of parameters
     - description: the standard deviation of the Gaussian noise added to parameters
         post update, defaults to 0.0
-      id: gaussian_noise_injection_std_dev
-      type: float, optional
+      id: gradient_clipping_with_truncation
+      type: bool, default True
     - description: clipping threshold per sample, defaults to infinity
       id: momentum
       type: output of momentum_schedule() or momentum_as_time_constant_schedule()
@@ -548,25 +462,25 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 502
   syntax:
     exceptions: []
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
-      id: parameters
-      type: list of parameters
+      id: lr
+      type: output of learning_rate_schedule()
     - description: learning rate schedule.
       id: l2_regularization_weight
       type: float, optional
-    - description: '<SYSTEM MESSAGE: /root/cntk-python/doc/cntk.learners.rst:2: (INFO/1)
-        Duplicate explicit target name: "wiki".>
+    - description: '<SYSTEM MESSAGE: /root/CNTK/bindings/python/doc/cntk.learners.rst:2:
+        (INFO/1) Duplicate explicit target name: "wiki".>
 
 
         momentum schedule. For additional information, please refer to the [wiki](https://github.com/Microsoft/CNTK/wiki/BrainScript-SGD-Block#converting-learning-rate-and-momentum-parameters-from-other-toolkits).'
-      id: gradient_clipping_with_truncation
-      type: bool, default True
+      id: gaussian_noise_injection_std_dev
+      type: float, optional
     - description: when `True`, momentum is interpreted as a unit-gain filter. Defaults
         to the value returned by `default_unit_gain_value()`.
       id: l1_regularization_weight
@@ -575,12 +489,12 @@ items:
       id: gradient_clipping_threshold_per_sample
       type: float, optional
     - description: the L2 regularization weight per sample, defaults to 0.0
-      id: lr
-      type: output of learning_rate_schedule()
+      id: parameters
+      type: list of parameters
     - description: the standard deviation of the Gaussian noise added to parameters
         post update, defaults to 0.0
-      id: gaussian_noise_injection_std_dev
-      type: float, optional
+      id: gradient_clipping_with_truncation
+      type: bool, default True
     - description: clipping threshold per sample, defaults to infinity
       id: momentum
       type: output of momentum_schedule() or momentum_as_time_constant_schedule()
@@ -607,40 +521,40 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 785
   syntax:
     exceptions: []
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         root operator's `parameters`.
+      id: lr
+      type: output of learning_rate_schedule()
+    - description: learning rate schedule.
       id: l2_regularization_weight
       type: float, optional
-    - description: learning rate schedule.
-      id: max
-      type: float
     - description: Trade-off factor for current and previous gradients. Common value
         is 0.95
-      id: gamma
+      id: min
       type: float
     - description: Increasing factor when trying to adjust current learning_rate
       id: inc
       type: float
     - description: Decreasing factor when trying to adjust current learning_rate
+      id: max
+      type: float
+    - description: Maximum scale allowed for the initial learning_rate
+      id: parameters
+      type: list of parameters
+    - description: Minimum scale allowed for the initial learning_rate
       id: gradient_clipping_with_truncation
       type: bool, default True
-    - description: Maximum scale allowed for the initial learning_rate
-      id: lr
-      type: output of learning_rate_schedule()
-    - description: Minimum scale allowed for the initial learning_rate
-      id: gradient_clipping_threshold_per_sample
-      type: float, optional
     - description: ''
       id: dec
       type: float
     - description: the L1 regularization weight per sample, defaults to 0.0
-      id: parameters
-      type: list of parameters
+      id: gaussian_noise_injection_std_dev
+      type: float, optional
     - description: the L2 regularization weight per sample, defaults to 0.0
       id: need_ave_multiplier
       type: bool, default True
@@ -649,10 +563,10 @@ items:
       id: l1_regularization_weight
       type: float, optional
     - description: clipping threshold per sample, defaults to infinity
-      id: gaussian_noise_injection_std_dev
+      id: gradient_clipping_threshold_per_sample
       type: float, optional
     - description: use gradient clipping with truncation
-      id: min
+      id: gamma
       type: float
     returntype: ''
     returnvalue: Instance of a `Learner` that can be passed to the `Trainer`
@@ -670,7 +584,7 @@ items:
     remote:
       branch: master
       path: cntk/learners/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 66
   syntax:
     summary: Sets globally default unit-gain flag value.
@@ -686,21 +600,21 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 405
   syntax:
     exceptions: []
     parameters:
     - description: list of network parameters to tune. These can be obtained by the
         '.parameters()' method of the root operator.
-      id: parameters
-      type: list of parameters
+      id: lr
+      type: output of learning_rate_schedule()
     - description: learning rate schedule.
       id: l2_regularization_weight
       type: float, optional
     - description: the L1 regularization weight per sample, defaults to 0.0
-      id: gradient_clipping_with_truncation
-      type: bool, default True
+      id: gaussian_noise_injection_std_dev
+      type: float, optional
     - description: the L2 regularization weight per sample, defaults to 0.0
       id: l1_regularization_weight
       type: float, optional
@@ -709,11 +623,11 @@ items:
       id: gradient_clipping_threshold_per_sample
       type: float, optional
     - description: clipping threshold per sample, defaults to infinity
-      id: lr
-      type: output of learning_rate_schedule()
+      id: parameters
+      type: list of parameters
     - description: use gradient clipping with truncation
-      id: gaussian_noise_injection_std_dev
-      type: float, optional
+      id: gradient_clipping_with_truncation
+      type: bool, default True
     returntype: ''
     returnvalue: Instance of a `Learner` that can be passed to the `Trainer`
     summary: 'Creates an SGD learner instance to learn the parameters. See [1] for
@@ -734,7 +648,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 220
   syntax:
     exceptions: []
@@ -743,12 +657,12 @@ items:
         In case of list, the elements are used as the values for `epoch_size` samples.
         If list contains pair, the second element is used as a value for (`epoch_size`
         x first element) samples
-      id: schedule
-      type: float or list
-    - description: 'one of two * `sample`: the returned schedule contains per-sample
-        values * `minibatch`: the returned schedule contains per-minibatch values.'
       id: unit
       type: UnitType
+    - description: 'one of two * `sample`: the returned schedule contains per-sample
+        values * `minibatch`: the returned schedule contains per-minibatch values.'
+      id: schedule
+      type: float or list
     - description: number of samples as a scheduling unit. Parameters in the schedule
         change their values every `epoch_size` samples. If no `epoch_size` is provided,
         this parameter is substituted by the size of the full data sweep, in which
@@ -794,4 +708,90 @@ items:
       See also: `learning_rate_schedule()`'
     variables: []
   type: Method
+  uid: cntk.learners.training_parameter_schedule
+references:
+- fullName: cntk.learners.Learner
+  isExternal: false
+  name: Learner
+  parent: cntk.learners
+  uid: cntk.learners.Learner
+- fullName: cntk.learners.UnitType
+  isExternal: false
+  name: UnitType
+  parent: cntk.learners
+  uid: cntk.learners.UnitType
+- fullName: cntk.learners.UserLearner
+  isExternal: false
+  name: UserLearner
+  parent: cntk.learners
+  uid: cntk.learners.UserLearner
+- fullName: cntk.learners.adagrad
+  isExternal: false
+  name: adagrad
+  parent: cntk.learners
+  uid: cntk.learners.adagrad
+- fullName: cntk.learners.adam
+  isExternal: false
+  name: adam
+  parent: cntk.learners
+  uid: cntk.learners.adam
+- fullName: cntk.learners.adam_sgd
+  isExternal: false
+  name: adam_sgd
+  parent: cntk.learners
+  uid: cntk.learners.adam_sgd
+- fullName: cntk.learners.default_unit_gain_value
+  isExternal: false
+  name: default_unit_gain_value
+  parent: cntk.learners
+  uid: cntk.learners.default_unit_gain_value
+- fullName: cntk.learners.fsadagrad
+  isExternal: false
+  name: fsadagrad
+  parent: cntk.learners
+  uid: cntk.learners.fsadagrad
+- fullName: cntk.learners.learning_rate_schedule
+  isExternal: false
+  name: learning_rate_schedule
+  parent: cntk.learners
+  uid: cntk.learners.learning_rate_schedule
+- fullName: cntk.learners.momentum_as_time_constant_schedule
+  isExternal: false
+  name: momentum_as_time_constant_schedule
+  parent: cntk.learners
+  uid: cntk.learners.momentum_as_time_constant_schedule
+- fullName: cntk.learners.momentum_schedule
+  isExternal: false
+  name: momentum_schedule
+  parent: cntk.learners
+  uid: cntk.learners.momentum_schedule
+- fullName: cntk.learners.momentum_sgd
+  isExternal: false
+  name: momentum_sgd
+  parent: cntk.learners
+  uid: cntk.learners.momentum_sgd
+- fullName: cntk.learners.nesterov
+  isExternal: false
+  name: nesterov
+  parent: cntk.learners
+  uid: cntk.learners.nesterov
+- fullName: cntk.learners.rmsprop
+  isExternal: false
+  name: rmsprop
+  parent: cntk.learners
+  uid: cntk.learners.rmsprop
+- fullName: cntk.learners.set_default_unit_gain_value
+  isExternal: false
+  name: set_default_unit_gain_value
+  parent: cntk.learners
+  uid: cntk.learners.set_default_unit_gain_value
+- fullName: cntk.learners.sgd
+  isExternal: false
+  name: sgd
+  parent: cntk.learners
+  uid: cntk.learners.sgd
+- fullName: cntk.learners.training_parameter_schedule
+  isExternal: false
+  name: training_parameter_schedule
+  parent: cntk.learners
   uid: cntk.learners.training_parameter_schedule

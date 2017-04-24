@@ -3,16 +3,18 @@ items:
 - _type: module
   children: []
   fullName: cntk.learners.tests
+  langs:
+  - python
   module: cntk.learners.tests
   name: tests
-  references: []
   source:
     id: tests
     path: cntk/learners/tests/__init__.py
     remote:
       branch: master
       path: cntk/learners/tests/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.learners.tests
+references: []

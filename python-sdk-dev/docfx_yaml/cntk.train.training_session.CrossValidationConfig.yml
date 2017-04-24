@@ -9,14 +9,13 @@ items:
     - builtins.object
   module: cntk.train.training_session
   name: CrossValidationConfig
-  references: []
   source:
     id: CrossValidationConfig
     path: cntk/train/training_session.py
     remote:
       branch: master
       path: cntk/train/training_session.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 55
   syntax:
     exceptions: []
@@ -43,3 +42,4 @@ items:
     variables: []
   type: Class
   uid: cntk.train.training_session.CrossValidationConfig
+references: []

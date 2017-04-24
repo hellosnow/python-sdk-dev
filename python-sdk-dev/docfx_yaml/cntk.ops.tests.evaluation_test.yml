@@ -12,66 +12,24 @@ items:
   - cntk.ops.tests.evaluation_test.test_op_squared_error
   - cntk.ops.tests.evaluation_test.test_sequence_grad_as_numpy_false
   fullName: cntk.ops.tests.evaluation_test
+  langs:
+  - python
   module: cntk.ops.tests.evaluation_test
   name: evaluation_test
-  references:
-  - fullName: cntk.ops.tests.evaluation_test.test_edit_distance_error
-    isExternal: false
-    name: test_edit_distance_error
-    parent: ''
-    uid: cntk.ops.tests.evaluation_test.test_edit_distance_error
-  - fullName: cntk.ops.tests.evaluation_test.test_lambda_rank
-    isExternal: false
-    name: test_lambda_rank
-    parent: ''
-    uid: cntk.ops.tests.evaluation_test.test_lambda_rank
-  - fullName: cntk.ops.tests.evaluation_test.test_ndcg
-    isExternal: false
-    name: test_ndcg
-    parent: ''
-    uid: cntk.ops.tests.evaluation_test.test_ndcg
-  - fullName: cntk.ops.tests.evaluation_test.test_op_classification_error
-    isExternal: false
-    name: test_op_classification_error
-    parent: ''
-    uid: cntk.ops.tests.evaluation_test.test_op_classification_error
-  - fullName: cntk.ops.tests.evaluation_test.test_op_classification_error_with_axis
-    isExternal: false
-    name: test_op_classification_error_with_axis
-    parent: ''
-    uid: cntk.ops.tests.evaluation_test.test_op_classification_error_with_axis
-  - fullName: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max
-    isExternal: false
-    name: test_op_cross_entropy_with_soft_max
-    parent: ''
-    uid: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max
-  - fullName: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max_and_axis
-    isExternal: false
-    name: test_op_cross_entropy_with_soft_max_and_axis
-    parent: ''
-    uid: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max_and_axis
-  - fullName: cntk.ops.tests.evaluation_test.test_op_squared_error
-    isExternal: false
-    name: test_op_squared_error
-    parent: ''
-    uid: cntk.ops.tests.evaluation_test.test_op_squared_error
-  - fullName: cntk.ops.tests.evaluation_test.test_sequence_grad_as_numpy_false
-    isExternal: false
-    name: test_sequence_grad_as_numpy_false
-    parent: ''
-    uid: cntk.ops.tests.evaluation_test.test_sequence_grad_as_numpy_false
   source:
     id: evaluation_test
     path: cntk/ops/tests/evaluation_test.py
     remote:
       branch: master
       path: cntk/ops/tests/evaluation_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.tests.evaluation_test
 - _type: function
   fullName: cntk.ops.tests.evaluation_test.test_edit_distance_error
+  langs:
+  - python
   module: cntk.ops.tests.evaluation_test
   name: test_edit_distance_error
   source:
@@ -80,14 +38,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/evaluation_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 284
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_edit_distance_error
 - _type: function
   fullName: cntk.ops.tests.evaluation_test.test_lambda_rank
+  langs:
+  - python
   module: cntk.ops.tests.evaluation_test
   name: test_lambda_rank
   source:
@@ -96,14 +56,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/evaluation_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 225
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_lambda_rank
 - _type: function
   fullName: cntk.ops.tests.evaluation_test.test_ndcg
+  langs:
+  - python
   module: cntk.ops.tests.evaluation_test
   name: test_ndcg
   source:
@@ -112,14 +74,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/evaluation_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 254
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_ndcg
 - _type: function
   fullName: cntk.ops.tests.evaluation_test.test_op_classification_error
+  langs:
+  - python
   module: cntk.ops.tests.evaluation_test
   name: test_op_classification_error
   source:
@@ -128,14 +92,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/evaluation_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 136
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_op_classification_error
 - _type: function
   fullName: cntk.ops.tests.evaluation_test.test_op_classification_error_with_axis
+  langs:
+  - python
   module: cntk.ops.tests.evaluation_test
   name: test_op_classification_error_with_axis
   source:
@@ -144,14 +110,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/evaluation_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 183
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_op_classification_error_with_axis
 - _type: function
   fullName: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max
+  langs:
+  - python
   module: cntk.ops.tests.evaluation_test
   name: test_op_cross_entropy_with_soft_max
   source:
@@ -160,14 +128,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/evaluation_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 27
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max
 - _type: function
   fullName: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max_and_axis
+  langs:
+  - python
   module: cntk.ops.tests.evaluation_test
   name: test_op_cross_entropy_with_soft_max_and_axis
   source:
@@ -176,14 +146,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/evaluation_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 73
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max_and_axis
 - _type: function
   fullName: cntk.ops.tests.evaluation_test.test_op_squared_error
+  langs:
+  - python
   module: cntk.ops.tests.evaluation_test
   name: test_op_squared_error
   source:
@@ -192,14 +164,16 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/evaluation_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 110
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_op_squared_error
 - _type: function
   fullName: cntk.ops.tests.evaluation_test.test_sequence_grad_as_numpy_false
+  langs:
+  - python
   module: cntk.ops.tests.evaluation_test
   name: test_sequence_grad_as_numpy_false
   source:
@@ -208,9 +182,55 @@ items:
     remote:
       branch: master
       path: cntk/ops/tests/evaluation_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 292
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.ops.tests.evaluation_test.test_sequence_grad_as_numpy_false
+references:
+- fullName: cntk.ops.tests.evaluation_test.test_edit_distance_error
+  isExternal: false
+  name: test_edit_distance_error
+  parent: cntk.ops.tests.evaluation_test
+  uid: cntk.ops.tests.evaluation_test.test_edit_distance_error
+- fullName: cntk.ops.tests.evaluation_test.test_lambda_rank
+  isExternal: false
+  name: test_lambda_rank
+  parent: cntk.ops.tests.evaluation_test
+  uid: cntk.ops.tests.evaluation_test.test_lambda_rank
+- fullName: cntk.ops.tests.evaluation_test.test_ndcg
+  isExternal: false
+  name: test_ndcg
+  parent: cntk.ops.tests.evaluation_test
+  uid: cntk.ops.tests.evaluation_test.test_ndcg
+- fullName: cntk.ops.tests.evaluation_test.test_op_classification_error
+  isExternal: false
+  name: test_op_classification_error
+  parent: cntk.ops.tests.evaluation_test
+  uid: cntk.ops.tests.evaluation_test.test_op_classification_error
+- fullName: cntk.ops.tests.evaluation_test.test_op_classification_error_with_axis
+  isExternal: false
+  name: test_op_classification_error_with_axis
+  parent: cntk.ops.tests.evaluation_test
+  uid: cntk.ops.tests.evaluation_test.test_op_classification_error_with_axis
+- fullName: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max
+  isExternal: false
+  name: test_op_cross_entropy_with_soft_max
+  parent: cntk.ops.tests.evaluation_test
+  uid: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max
+- fullName: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max_and_axis
+  isExternal: false
+  name: test_op_cross_entropy_with_soft_max_and_axis
+  parent: cntk.ops.tests.evaluation_test
+  uid: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max_and_axis
+- fullName: cntk.ops.tests.evaluation_test.test_op_squared_error
+  isExternal: false
+  name: test_op_squared_error
+  parent: cntk.ops.tests.evaluation_test
+  uid: cntk.ops.tests.evaluation_test.test_op_squared_error
+- fullName: cntk.ops.tests.evaluation_test.test_sequence_grad_as_numpy_false
+  isExternal: false
+  name: test_sequence_grad_as_numpy_false
+  parent: cntk.ops.tests.evaluation_test
   uid: cntk.ops.tests.evaluation_test.test_sequence_grad_as_numpy_false

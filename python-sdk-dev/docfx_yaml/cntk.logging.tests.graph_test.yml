@@ -9,34 +9,13 @@ items:
   fullName: cntk.logging.tests.graph_test
   module: cntk.logging.tests.graph_test
   name: graph_test
-  references:
-  - fullName: cntk.logging.tests.graph_test.test_depth_first_search
-    isExternal: false
-    name: test_depth_first_search
-    parent: ''
-    uid: cntk.logging.tests.graph_test.test_depth_first_search
-  - fullName: cntk.logging.tests.graph_test.test_find_nodes
-    isExternal: false
-    name: test_find_nodes
-    parent: ''
-    uid: cntk.logging.tests.graph_test.test_find_nodes
-  - fullName: cntk.logging.tests.graph_test.test_find_nodes_returning_proper_types
-    isExternal: false
-    name: test_find_nodes_returning_proper_types
-    parent: ''
-    uid: cntk.logging.tests.graph_test.test_find_nodes_returning_proper_types
-  - fullName: cntk.logging.tests.graph_test.test_plot
-    isExternal: false
-    name: test_plot
-    parent: ''
-    uid: cntk.logging.tests.graph_test.test_plot
   source:
     id: graph_test
     path: cntk/logging/tests/graph_test.py
     remote:
       branch: master
       path: cntk/logging/tests/graph_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.logging.tests.graph_test
@@ -50,7 +29,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/tests/graph_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 114
   syntax:
     summary: ''
@@ -66,7 +45,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/tests/graph_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 62
   syntax:
     summary: ''
@@ -82,7 +61,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/tests/graph_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 90
   syntax:
     summary: ''
@@ -98,9 +77,30 @@ items:
     remote:
       branch: master
       path: cntk/logging/tests/graph_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 102
   syntax:
     summary: ''
   type: Method
+  uid: cntk.logging.tests.graph_test.test_plot
+references:
+- fullName: cntk.logging.tests.graph_test.test_depth_first_search
+  isExternal: false
+  name: test_depth_first_search
+  parent: cntk.logging.tests.graph_test
+  uid: cntk.logging.tests.graph_test.test_depth_first_search
+- fullName: cntk.logging.tests.graph_test.test_find_nodes
+  isExternal: false
+  name: test_find_nodes
+  parent: cntk.logging.tests.graph_test
+  uid: cntk.logging.tests.graph_test.test_find_nodes
+- fullName: cntk.logging.tests.graph_test.test_find_nodes_returning_proper_types
+  isExternal: false
+  name: test_find_nodes_returning_proper_types
+  parent: cntk.logging.tests.graph_test
+  uid: cntk.logging.tests.graph_test.test_find_nodes_returning_proper_types
+- fullName: cntk.logging.tests.graph_test.test_plot
+  isExternal: false
+  name: test_plot
+  parent: cntk.logging.tests.graph_test
   uid: cntk.logging.tests.graph_test.test_plot

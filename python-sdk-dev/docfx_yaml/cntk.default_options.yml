@@ -8,46 +8,24 @@ items:
   - cntk.default_options.get_default_override
   - cntk.default_options.is_default_override
   fullName: cntk.default_options
+  langs:
+  - python
   module: cntk.default_options
   name: default_options
-  references:
-  - fullName: cntk.default_options.default_options
-    isExternal: false
-    name: default_options
-    parent: ''
-    uid: cntk.default_options.default_options
-  - fullName: cntk.default_options.default_options_for
-    isExternal: false
-    name: default_options_for
-    parent: ''
-    uid: cntk.default_options.default_options_for
-  - fullName: cntk.default_options.default_override_or
-    isExternal: false
-    name: default_override_or
-    parent: ''
-    uid: cntk.default_options.default_override_or
-  - fullName: cntk.default_options.get_default_override
-    isExternal: false
-    name: get_default_override
-    parent: ''
-    uid: cntk.default_options.get_default_override
-  - fullName: cntk.default_options.is_default_override
-    isExternal: false
-    name: is_default_override
-    parent: ''
-    uid: cntk.default_options.is_default_override
   source:
     id: default_options
     path: cntk/default_options.py
     remote:
       branch: master
       path: cntk/default_options.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.default_options
 - _type: function
   fullName: cntk.default_options.default_options
+  langs:
+  - python
   module: cntk.default_options
   name: default_options
   source:
@@ -56,14 +34,16 @@ items:
     remote:
       branch: master
       path: cntk/default_options.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 34
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.default_options.default_options
 - _type: function
   fullName: cntk.default_options.default_options_for
+  langs:
+  - python
   module: cntk.default_options
   name: default_options_for
   source:
@@ -72,14 +52,16 @@ items:
     remote:
       branch: master
       path: cntk/default_options.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 42
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.default_options.default_options_for
 - _type: function
   fullName: cntk.default_options.get_default_override
+  langs:
+  - python
   module: cntk.default_options
   name: get_default_override
   source:
@@ -88,20 +70,21 @@ items:
     remote:
       branch: master
       path: cntk/default_options.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 60
+  summary: Looks up an option default override. Meant to be used inside functions
+    that use this facility.
   syntax:
     exceptions: []
     parameters: []
-    returntype: ''
-    returnvalue: ''
-    summary: Looks up an option default override. Meant to be used inside functions
-      that use this facility.
+    return: {}
     variables: []
   type: Method
   uid: cntk.default_options.get_default_override
 - _type: function
   fullName: cntk.default_options.is_default_override
+  langs:
+  - python
   module: cntk.default_options
   name: is_default_override
   source:
@@ -110,9 +93,35 @@ items:
     remote:
       branch: master
       path: cntk/default_options.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 57
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.default_options.is_default_override
+references:
+- fullName: cntk.default_options.default_options
+  isExternal: false
+  name: default_options
+  parent: cntk.default_options
+  uid: cntk.default_options.default_options
+- fullName: cntk.default_options.default_options_for
+  isExternal: false
+  name: default_options_for
+  parent: cntk.default_options
+  uid: cntk.default_options.default_options_for
+- fullName: cntk.default_options.default_override_or
+  isExternal: false
+  name: default_override_or
+  parent: cntk.default_options
+  uid: cntk.default_options.default_override_or
+- fullName: cntk.default_options.get_default_override
+  isExternal: false
+  name: get_default_override
+  parent: cntk.default_options
+  uid: cntk.default_options.get_default_override
+- fullName: cntk.default_options.is_default_override
+  isExternal: false
+  name: is_default_override
+  parent: cntk.default_options
   uid: cntk.default_options.is_default_override

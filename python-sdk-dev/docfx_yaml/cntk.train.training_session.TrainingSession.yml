@@ -11,52 +11,41 @@ items:
     - builtins.object
   module: cntk.train.training_session
   name: TrainingSession
-  references:
-  - fullName: cntk.train.training_session.TrainingSession.on_cross_validation_end
-    isExternal: false
-    name: on_cross_validation_end
-    parent: ''
-    uid: cntk.train.training_session.TrainingSession.on_cross_validation_end
-  - fullName: cntk.train.training_session.TrainingSession.train
-    isExternal: false
-    name: train
-    parent: ''
-    uid: cntk.train.training_session.TrainingSession.train
   source:
     id: TrainingSession
     path: cntk/train/training_session.py
     remote:
       branch: master
       path: cntk/train/training_session.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 95
   syntax:
     exceptions: []
     parameters:
     - description: trainer
+      id: progress_frequency
+      type: int
+    - description: minibatch source used for training
       id: cv_config
       type: CrossValidationConfig
-    - description: minibatch source used for training
+    - description: minibatch size schedule for training
       id: var_to_stream
       type: dict
-    - description: minibatch size schedule for training
-      id: max_samples
-      type: int
     - description: mapping between input variables and input streams
-      id: trainer
-      type: Trainer
-    - description: maximum number of samples used for training
       id: checkpoint_config
       type: CheckpointConfig
+    - description: maximum number of samples used for training
+      id: trainer
+      type: Trainer
     - description: frequency in samples for aggregated progress printing
       id: mb_source
       type: MinibatchSource
     - description: checkpoint configuration
-      id: progress_frequency
-      type: int
-    - description: cross validation configuration
       id: mb_size
       type: minibatch_size_schedule or int
+    - description: cross validation configuration
+      id: max_samples
+      type: int
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.TrainingSession`
@@ -83,22 +72,22 @@ items:
     remote:
       branch: master
       path: cntk/train/training_session.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 169
   syntax:
     exceptions: []
     parameters:
     - description: index of the current callback.
-      id: num_minibatches
-      type: int
-    - description: average error for the cross validation
-      id: index
-      type: int
-    - description: number of samples in cross validation
       id: average_error
       type: float
-    - description: number of minibatch in cross validation
+    - description: average error for the cross validation
       id: num_samples
+      type: int
+    - description: number of samples in cross validation
+      id: num_minibatches
+      type: int
+    - description: number of minibatch in cross validation
+      id: index
       type: int
     returntype: ''
     returnvalue: True if training should continue, False otherwise.
@@ -117,7 +106,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 154
   syntax:
     exceptions: []
@@ -131,4 +120,15 @@ items:
     summary: Perform training on a specified device.
     variables: []
   type: Method
+  uid: cntk.train.training_session.TrainingSession.train
+references:
+- fullName: cntk.train.training_session.TrainingSession.on_cross_validation_end
+  isExternal: false
+  name: on_cross_validation_end
+  parent: cntk.train.training_session.TrainingSession
+  uid: cntk.train.training_session.TrainingSession.on_cross_validation_end
+- fullName: cntk.train.training_session.TrainingSession.train
+  isExternal: false
+  name: train
+  parent: cntk.train.training_session.TrainingSession
   uid: cntk.train.training_session.TrainingSession.train

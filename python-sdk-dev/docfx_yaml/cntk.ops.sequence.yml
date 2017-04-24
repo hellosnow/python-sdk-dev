@@ -16,69 +16,13 @@ items:
   fullName: cntk.ops.sequence
   module: cntk.ops.sequence
   name: sequence
-  references:
-  - fullName: cntk.ops.sequence.broadcast_as
-    isExternal: false
-    name: broadcast_as
-    parent: ''
-    uid: cntk.ops.sequence.broadcast_as
-  - fullName: cntk.ops.sequence.delay
-    isExternal: false
-    name: delay
-    parent: ''
-    uid: cntk.ops.sequence.delay
-  - fullName: cntk.ops.sequence.first
-    isExternal: false
-    name: first
-    parent: ''
-    uid: cntk.ops.sequence.first
-  - fullName: cntk.ops.sequence.gather
-    isExternal: false
-    name: gather
-    parent: ''
-    uid: cntk.ops.sequence.gather
-  - fullName: cntk.ops.sequence.is_first
-    isExternal: false
-    name: is_first
-    parent: ''
-    uid: cntk.ops.sequence.is_first
-  - fullName: cntk.ops.sequence.is_last
-    isExternal: false
-    name: is_last
-    parent: ''
-    uid: cntk.ops.sequence.is_last
-  - fullName: cntk.ops.sequence.last
-    isExternal: false
-    name: last
-    parent: ''
-    uid: cntk.ops.sequence.last
-  - fullName: cntk.ops.sequence.reduce_sum
-    isExternal: false
-    name: reduce_sum
-    parent: ''
-    uid: cntk.ops.sequence.reduce_sum
-  - fullName: cntk.ops.sequence.scatter
-    isExternal: false
-    name: scatter
-    parent: ''
-    uid: cntk.ops.sequence.scatter
-  - fullName: cntk.ops.sequence.slice
-    isExternal: false
-    name: slice
-    parent: ''
-    uid: cntk.ops.sequence.slice
-  - fullName: cntk.ops.sequence.where
-    isExternal: false
-    name: where
-    parent: ''
-    uid: cntk.ops.sequence.where
   source:
     id: sequence
     path: cntk/ops/sequence/__init__.py
     remote:
       branch: master
       path: cntk/ops/sequence/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.ops.sequence
@@ -92,7 +36,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 314
   syntax:
     exceptions: []
@@ -126,18 +70,18 @@ items:
     remote:
       branch: master
       path: cntk/ops/sequence/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 13
   syntax:
     exceptions: []
     parameters:
     - description: the tensor (or its name) from which the past value is obtained
-      id: name
-      type: str, optional
-    - description: tensor or scalar representing the initial value to be used when
-        the input tensor is shifted in time.
       id: time_step
       type: int
+    - description: tensor or scalar representing the initial value to be used when
+        the input tensor is shifted in time.
+      id: name
+      type: str, optional
     returntype: ''
     returnvalue: ''
     summary: This function combines `past_value` and `future_value` into a single
@@ -156,7 +100,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 112
   syntax:
     exceptions: []
@@ -184,7 +128,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 211
   syntax:
     exceptions: []
@@ -216,7 +160,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 36
   syntax:
     exceptions: []
@@ -255,7 +199,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 62
   syntax:
     exceptions: []
@@ -294,7 +238,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 138
   syntax:
     exceptions: []
@@ -322,7 +266,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 361
   syntax:
     exceptions: []
@@ -350,7 +294,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 257
   syntax:
     exceptions: []
@@ -387,7 +331,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 88
   syntax:
     exceptions: []
@@ -414,7 +358,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 165
   syntax:
     exceptions: []
@@ -444,4 +388,60 @@ items:
       \ frame[5]"
     variables: []
   type: Method
+  uid: cntk.ops.sequence.where
+references:
+- fullName: cntk.ops.sequence.broadcast_as
+  isExternal: false
+  name: broadcast_as
+  parent: cntk.ops.sequence
+  uid: cntk.ops.sequence.broadcast_as
+- fullName: cntk.ops.sequence.delay
+  isExternal: false
+  name: delay
+  parent: cntk.ops.sequence
+  uid: cntk.ops.sequence.delay
+- fullName: cntk.ops.sequence.first
+  isExternal: false
+  name: first
+  parent: cntk.ops.sequence
+  uid: cntk.ops.sequence.first
+- fullName: cntk.ops.sequence.gather
+  isExternal: false
+  name: gather
+  parent: cntk.ops.sequence
+  uid: cntk.ops.sequence.gather
+- fullName: cntk.ops.sequence.is_first
+  isExternal: false
+  name: is_first
+  parent: cntk.ops.sequence
+  uid: cntk.ops.sequence.is_first
+- fullName: cntk.ops.sequence.is_last
+  isExternal: false
+  name: is_last
+  parent: cntk.ops.sequence
+  uid: cntk.ops.sequence.is_last
+- fullName: cntk.ops.sequence.last
+  isExternal: false
+  name: last
+  parent: cntk.ops.sequence
+  uid: cntk.ops.sequence.last
+- fullName: cntk.ops.sequence.reduce_sum
+  isExternal: false
+  name: reduce_sum
+  parent: cntk.ops.sequence
+  uid: cntk.ops.sequence.reduce_sum
+- fullName: cntk.ops.sequence.scatter
+  isExternal: false
+  name: scatter
+  parent: cntk.ops.sequence
+  uid: cntk.ops.sequence.scatter
+- fullName: cntk.ops.sequence.slice
+  isExternal: false
+  name: slice
+  parent: cntk.ops.sequence
+  uid: cntk.ops.sequence.slice
+- fullName: cntk.ops.sequence.where
+  isExternal: false
+  name: where
+  parent: cntk.ops.sequence
   uid: cntk.ops.sequence.where

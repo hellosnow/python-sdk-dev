@@ -6,36 +6,24 @@ items:
   - cntk.tests.misc_test.test_callstack1
   - cntk.tests.misc_test.test_callstack2
   fullName: cntk.tests.misc_test
+  langs:
+  - python
   module: cntk.tests.misc_test
   name: misc_test
-  references:
-  - fullName: cntk.tests.misc_test.test_Value_raises
-    isExternal: false
-    name: test_Value_raises
-    parent: ''
-    uid: cntk.tests.misc_test.test_Value_raises
-  - fullName: cntk.tests.misc_test.test_callstack1
-    isExternal: false
-    name: test_callstack1
-    parent: ''
-    uid: cntk.tests.misc_test.test_callstack1
-  - fullName: cntk.tests.misc_test.test_callstack2
-    isExternal: false
-    name: test_callstack2
-    parent: ''
-    uid: cntk.tests.misc_test.test_callstack2
   source:
     id: misc_test
     path: cntk/tests/misc_test.py
     remote:
       branch: master
       path: cntk/tests/misc_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.tests.misc_test
 - _type: function
   fullName: cntk.tests.misc_test.test_Value_raises
+  langs:
+  - python
   module: cntk.tests.misc_test
   name: test_Value_raises
   source:
@@ -44,14 +32,16 @@ items:
     remote:
       branch: master
       path: cntk/tests/misc_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 21
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.tests.misc_test.test_Value_raises
 - _type: function
   fullName: cntk.tests.misc_test.test_callstack1
+  langs:
+  - python
   module: cntk.tests.misc_test
   name: test_callstack1
   source:
@@ -60,14 +50,16 @@ items:
     remote:
       branch: master
       path: cntk/tests/misc_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 11
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.tests.misc_test.test_callstack1
 - _type: function
   fullName: cntk.tests.misc_test.test_callstack2
+  langs:
+  - python
   module: cntk.tests.misc_test
   name: test_callstack2
   source:
@@ -76,9 +68,25 @@ items:
     remote:
       branch: master
       path: cntk/tests/misc_test.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 16
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
+  uid: cntk.tests.misc_test.test_callstack2
+references:
+- fullName: cntk.tests.misc_test.test_Value_raises
+  isExternal: false
+  name: test_Value_raises
+  parent: cntk.tests.misc_test
+  uid: cntk.tests.misc_test.test_Value_raises
+- fullName: cntk.tests.misc_test.test_callstack1
+  isExternal: false
+  name: test_callstack1
+  parent: cntk.tests.misc_test
+  uid: cntk.tests.misc_test.test_callstack1
+- fullName: cntk.tests.misc_test.test_callstack2
+  isExternal: false
+  name: test_callstack2
+  parent: cntk.tests.misc_test
   uid: cntk.tests.misc_test.test_callstack2

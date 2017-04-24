@@ -11,19 +11,13 @@ items:
     - builtins.object
   module: cntk.train.distributed
   name: DistributedLearner
-  references:
-  - fullName: cntk.train.distributed.DistributedLearner.communicator
-    isExternal: false
-    name: communicator
-    parent: ''
-    uid: cntk.train.distributed.DistributedLearner.communicator
   source:
     id: DistributedLearner
     path: cntk/train/distributed.py
     remote:
       branch: master
       path: cntk/train/distributed.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 100
   syntax:
     summary: 'Bases: `cntk.cntk_py.DistributedLearner`
@@ -45,7 +39,7 @@ items:
     remote:
       branch: master
       path: cntk/internal/swig_helper.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 105
   syntax:
     exceptions: []
@@ -55,4 +49,10 @@ items:
     summary: Returns the distributed communicator that talks to other MPI workers
     variables: []
   type: Method
+  uid: cntk.train.distributed.DistributedLearner.communicator
+references:
+- fullName: cntk.train.distributed.DistributedLearner.communicator
+  isExternal: false
+  name: communicator
+  parent: cntk.train.distributed.DistributedLearner
   uid: cntk.train.distributed.DistributedLearner.communicator

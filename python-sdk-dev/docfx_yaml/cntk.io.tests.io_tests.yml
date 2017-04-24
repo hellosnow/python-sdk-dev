@@ -12,49 +12,13 @@ items:
   fullName: cntk.io.tests.io_tests
   module: cntk.io.tests.io_tests
   name: io_tests
-  references:
-  - fullName: cntk.io.tests.io_tests.test_full_sweep_minibatch
-    isExternal: false
-    name: test_full_sweep_minibatch
-    parent: ''
-    uid: cntk.io.tests.io_tests.test_full_sweep_minibatch
-  - fullName: cntk.io.tests.io_tests.test_image
-    isExternal: false
-    name: test_image
-    parent: ''
-    uid: cntk.io.tests.io_tests.test_image
-  - fullName: cntk.io.tests.io_tests.test_is_tensor
-    isExternal: false
-    name: test_is_tensor
-    parent: ''
-    uid: cntk.io.tests.io_tests.test_is_tensor
-  - fullName: cntk.io.tests.io_tests.test_large_minibatch
-    isExternal: false
-    name: test_large_minibatch
-    parent: ''
-    uid: cntk.io.tests.io_tests.test_large_minibatch
-  - fullName: cntk.io.tests.io_tests.test_sequence_conversion_dense
-    isExternal: false
-    name: test_sequence_conversion_dense
-    parent: ''
-    uid: cntk.io.tests.io_tests.test_sequence_conversion_dense
-  - fullName: cntk.io.tests.io_tests.test_sequence_conversion_exceptions
-    isExternal: false
-    name: test_sequence_conversion_exceptions
-    parent: ''
-    uid: cntk.io.tests.io_tests.test_sequence_conversion_exceptions
-  - fullName: cntk.io.tests.io_tests.test_text_format
-    isExternal: false
-    name: test_text_format
-    parent: ''
-    uid: cntk.io.tests.io_tests.test_text_format
   source:
     id: io_tests
     path: cntk/io/tests/io_tests.py
     remote:
       branch: master
       path: cntk/io/tests/io_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.io.tests.io_tests
@@ -68,7 +32,7 @@ items:
     remote:
       branch: master
       path: cntk/io/tests/io_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 170
   syntax:
     summary: ''
@@ -84,7 +48,7 @@ items:
     remote:
       branch: master
       path: cntk/io/tests/io_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 85
   syntax:
     summary: ''
@@ -100,7 +64,7 @@ items:
     remote:
       branch: master
       path: cntk/io/tests/io_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 301
   syntax:
     summary: ''
@@ -116,7 +80,7 @@ items:
     remote:
       branch: master
       path: cntk/io/tests/io_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 228
   syntax:
     summary: ''
@@ -132,7 +96,7 @@ items:
     remote:
       branch: master
       path: cntk/io/tests/io_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 277
   syntax:
     summary: ''
@@ -148,7 +112,7 @@ items:
     remote:
       branch: master
       path: cntk/io/tests/io_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 269
   syntax:
     summary: ''
@@ -164,9 +128,45 @@ items:
     remote:
       branch: master
       path: cntk/io/tests/io_tests.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 20
   syntax:
     summary: ''
   type: Method
+  uid: cntk.io.tests.io_tests.test_text_format
+references:
+- fullName: cntk.io.tests.io_tests.test_full_sweep_minibatch
+  isExternal: false
+  name: test_full_sweep_minibatch
+  parent: cntk.io.tests.io_tests
+  uid: cntk.io.tests.io_tests.test_full_sweep_minibatch
+- fullName: cntk.io.tests.io_tests.test_image
+  isExternal: false
+  name: test_image
+  parent: cntk.io.tests.io_tests
+  uid: cntk.io.tests.io_tests.test_image
+- fullName: cntk.io.tests.io_tests.test_is_tensor
+  isExternal: false
+  name: test_is_tensor
+  parent: cntk.io.tests.io_tests
+  uid: cntk.io.tests.io_tests.test_is_tensor
+- fullName: cntk.io.tests.io_tests.test_large_minibatch
+  isExternal: false
+  name: test_large_minibatch
+  parent: cntk.io.tests.io_tests
+  uid: cntk.io.tests.io_tests.test_large_minibatch
+- fullName: cntk.io.tests.io_tests.test_sequence_conversion_dense
+  isExternal: false
+  name: test_sequence_conversion_dense
+  parent: cntk.io.tests.io_tests
+  uid: cntk.io.tests.io_tests.test_sequence_conversion_dense
+- fullName: cntk.io.tests.io_tests.test_sequence_conversion_exceptions
+  isExternal: false
+  name: test_sequence_conversion_exceptions
+  parent: cntk.io.tests.io_tests
+  uid: cntk.io.tests.io_tests.test_sequence_conversion_exceptions
+- fullName: cntk.io.tests.io_tests.test_text_format
+  isExternal: false
+  name: test_text_format
+  parent: cntk.io.tests.io_tests
   uid: cntk.io.tests.io_tests.test_text_format

@@ -14,59 +14,13 @@ items:
   fullName: cntk.io
   module: cntk.io
   name: io
-  references:
-  - fullName: cntk.io.CTFDeserializer
-    isExternal: false
-    name: CTFDeserializer
-    parent: ''
-    uid: cntk.io.CTFDeserializer
-  - fullName: cntk.io.HTKFeatureDeserializer
-    isExternal: false
-    name: HTKFeatureDeserializer
-    parent: ''
-    uid: cntk.io.HTKFeatureDeserializer
-  - fullName: cntk.io.HTKMLFDeserializer
-    isExternal: false
-    name: HTKMLFDeserializer
-    parent: ''
-    uid: cntk.io.HTKMLFDeserializer
-  - fullName: cntk.io.ImageDeserializer
-    isExternal: false
-    name: ImageDeserializer
-    parent: ''
-    uid: cntk.io.ImageDeserializer
-  - fullName: cntk.io.MinibatchData
-    isExternal: false
-    name: MinibatchData
-    parent: ''
-    uid: cntk.io.MinibatchData
-  - fullName: cntk.io.MinibatchSource
-    isExternal: false
-    name: MinibatchSource
-    parent: ''
-    uid: cntk.io.MinibatchSource
-  - fullName: cntk.io.StreamConfiguration
-    isExternal: false
-    name: StreamConfiguration
-    parent: ''
-    uid: cntk.io.StreamConfiguration
-  - fullName: cntk.io.StreamDef
-    isExternal: false
-    name: StreamDef
-    parent: ''
-    uid: cntk.io.StreamDef
-  - fullName: cntk.io.sequence_to_cntk_text_format
-    isExternal: false
-    name: sequence_to_cntk_text_format
-    parent: ''
-    uid: cntk.io.sequence_to_cntk_text_format
   source:
     id: io
     path: cntk/io/__init__.py
     remote:
       branch: master
       path: cntk/io/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.io
@@ -80,7 +34,7 @@ items:
     remote:
       branch: master
       path: cntk/io/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 455
   syntax:
     exceptions: []
@@ -91,11 +45,11 @@ items:
     returntype: ''
     returnvalue: ''
     summary: "Configures the CNTK text-format reader that reads text-based files with\
-      \ lines of the form:\n<!-- literal_block {\"xml:space\": \"preserve\", \"dupnames\"\
-      : [], \"backrefs\": [], \"ids\": [], \"classes\": [], \"names\": []} -->\n\n\
+      \ lines of the form:\n<!-- literal_block {\"xml:space\": \"preserve\", \"backrefs\"\
+      : [], \"classes\": [], \"dupnames\": [], \"names\": [], \"ids\": []} -->\n\n\
       ````\n\n   [Sequence_Id] (Sample)+\n   ````\nwhere:\n<!-- literal_block {\"\
-      xml:space\": \"preserve\", \"dupnames\": [], \"backrefs\": [], \"ids\": [],\
-      \ \"classes\": [], \"names\": []} -->\n\n````\n\n   Sample=|Input_Name (Value\
+      xml:space\": \"preserve\", \"backrefs\": [], \"classes\": [], \"dupnames\":\
+      \ [], \"names\": [], \"ids\": []} -->\n\n````\n\n   Sample=|Input_Name (Value\
       \ )*\n   ````\nSee also: [CNTKTextReader format](https://github.com/microsoft/cntk/wiki/BrainScript-CNTKTextFormat-Reader)"
     variables: []
   type: Method
@@ -110,7 +64,7 @@ items:
     remote:
       branch: master
       path: cntk/io/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 377
   syntax:
     exceptions: []
@@ -131,7 +85,7 @@ items:
     remote:
       branch: master
       path: cntk/io/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 398
   syntax:
     exceptions: []
@@ -156,7 +110,7 @@ items:
     remote:
       branch: master
       path: cntk/io/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 418
   syntax:
     exceptions: []
@@ -168,10 +122,10 @@ items:
     returnvalue: ''
     summary: "Configures the image reader that reads images and corresponding labels\
       \ from a file of the form:\n<!-- literal_block {\"xml:space\": \"preserve\"\
-      , \"dupnames\": [], \"backrefs\": [], \"ids\": [], \"classes\": [], \"names\"\
+      , \"backrefs\": [], \"classes\": [], \"dupnames\": [], \"names\": [], \"ids\"\
       : []} -->\n\n````\n\n   <full path to image> <tab> <numerical label (0-based\
       \ class id)>\n   ````\nor:\n<!-- literal_block {\"xml:space\": \"preserve\"\
-      , \"dupnames\": [], \"backrefs\": [], \"ids\": [], \"classes\": [], \"names\"\
+      , \"backrefs\": [], \"classes\": [], \"dupnames\": [], \"names\": [], \"ids\"\
       : []} -->\n\n````\n\n   sequenceId <tab> path <tab> label\n   ````\nSee also:\
       \ [Image reader definition](https://github.com/microsoft/cntk/wiki/Image-reader)"
     variables: []
@@ -187,7 +141,7 @@ items:
     remote:
       branch: master
       path: cntk/io/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 497
   syntax:
     exceptions: []
@@ -203,8 +157,8 @@ items:
 
         * for HTKFeatureDeserializer and HTKMLFDeserializer only the default value
         of None is acceptable'
-      id: is_sparse
-      type: bool, defaults to False
+      id: context
+      type: tuple, defaults to None
     - description: dimensions of this stream. HTKFeatureDeserializer, HTKMLFDeserializer,
         and CTFDeserializer read data as flat arrays. If you need different shapes
         you can `reshape()` it later.
@@ -212,7 +166,7 @@ items:
       type: int or tuple, defaults to None
     - description: whether the provided data is sparse. *False* by default, unless
         mlf is provided.
-      id: mlf
+      id: scp
       type: str or list, defaults to None
     - description: list of transforms to be applied by the Deserializer. Currently
         only ImageDeserializer supports transforms.
@@ -220,18 +174,18 @@ items:
       type: str, defaults to None
     - description: left and right context to consider when reading in HTK data. Only
         supported by HTKFeatureDeserializer.
-      id: transforms
-      type: list, defaults to None
+      id: is_sparse
+      type: bool, defaults to False
     - description: scp files for HTK data
-      id: scp
-      type: str or list, defaults to None
-    - description: mlf files for HTK data
       id: broadcast
       type: bool, defaults to None
+    - description: mlf files for HTK data
+      id: mlf
+      type: str or list, defaults to None
     - description: whether the features in this stream should be broadcast to the
         whole sequence (useful in e.g. ivectors with HTK)
-      id: context
-      type: tuple, defaults to None
+      id: transforms
+      type: list, defaults to None
     returntype: ''
     returnvalue: ''
     summary: Configuration of a stream for use with the builtin Deserializers. The
@@ -250,21 +204,21 @@ items:
     remote:
       branch: master
       path: cntk/io/__init__.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 598
   syntax:
     exceptions: []
     parameters:
     - description: number of current sequence
-      id: alias_tensor_map
-      type: dict
-    - description: maps alias (str) to tensor (ndarray). Tensors are assumed to have
-        dynamic axis.
       id: seq_idx
       type: int
+    - description: maps alias (str) to tensor (ndarray). Tensors are assumed to have
+        dynamic axis.
+      id: alias_tensor_map
+      type: dict
     returntype: str
-    returnvalue: '<SYSTEM MESSAGE: /root/cntk-python/doc/cntk.io.rst:2: (INFO/1) Duplicate
-      explicit target name: "cntktextreader format".>
+    returnvalue: '<SYSTEM MESSAGE: /root/CNTK/bindings/python/doc/cntk.io.rst:2: (INFO/1)
+      Duplicate explicit target name: "cntktextreader format".>
 
 
       String representation in [CNTKTextReader format](https://github.com/microsoft/cntk/wiki/BrainScript-CNTKTextFormat-Reader)'
@@ -272,4 +226,50 @@ items:
       format that is readable by `CTFDeserializer`.
     variables: []
   type: Method
+  uid: cntk.io.sequence_to_cntk_text_format
+references:
+- fullName: cntk.io.CTFDeserializer
+  isExternal: false
+  name: CTFDeserializer
+  parent: cntk.io
+  uid: cntk.io.CTFDeserializer
+- fullName: cntk.io.HTKFeatureDeserializer
+  isExternal: false
+  name: HTKFeatureDeserializer
+  parent: cntk.io
+  uid: cntk.io.HTKFeatureDeserializer
+- fullName: cntk.io.HTKMLFDeserializer
+  isExternal: false
+  name: HTKMLFDeserializer
+  parent: cntk.io
+  uid: cntk.io.HTKMLFDeserializer
+- fullName: cntk.io.ImageDeserializer
+  isExternal: false
+  name: ImageDeserializer
+  parent: cntk.io
+  uid: cntk.io.ImageDeserializer
+- fullName: cntk.io.MinibatchData
+  isExternal: false
+  name: MinibatchData
+  parent: cntk.io
+  uid: cntk.io.MinibatchData
+- fullName: cntk.io.MinibatchSource
+  isExternal: false
+  name: MinibatchSource
+  parent: cntk.io
+  uid: cntk.io.MinibatchSource
+- fullName: cntk.io.StreamConfiguration
+  isExternal: false
+  name: StreamConfiguration
+  parent: cntk.io
+  uid: cntk.io.StreamConfiguration
+- fullName: cntk.io.StreamDef
+  isExternal: false
+  name: StreamDef
+  parent: cntk.io
+  uid: cntk.io.StreamDef
+- fullName: cntk.io.sequence_to_cntk_text_format
+  isExternal: false
+  name: sequence_to_cntk_text_format
+  parent: cntk.io
   uid: cntk.io.sequence_to_cntk_text_format

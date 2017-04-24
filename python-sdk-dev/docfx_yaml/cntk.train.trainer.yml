@@ -6,19 +6,19 @@ items:
   fullName: cntk.train.trainer
   module: cntk.train.trainer
   name: trainer
-  references:
-  - fullName: cntk.train.trainer.Trainer
-    isExternal: false
-    name: Trainer
-    parent: ''
-    uid: cntk.train.trainer.Trainer
   source:
     id: trainer
     path: cntk/train/trainer.py
     remote:
       branch: master
       path: cntk/train/trainer.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.train.trainer
+references:
+- fullName: cntk.train.trainer.Trainer
+  isExternal: false
+  name: Trainer
+  parent: cntk.train.trainer
+  uid: cntk.train.trainer.Trainer

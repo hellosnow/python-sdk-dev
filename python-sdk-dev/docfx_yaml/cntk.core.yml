@@ -6,36 +6,24 @@ items:
   - cntk.core.Value
   - cntk.core.user_function
   fullName: cntk.core
+  langs:
+  - python
   module: cntk.core
   name: core
-  references:
-  - fullName: cntk.core.NDArrayView
-    isExternal: false
-    name: NDArrayView
-    parent: ''
-    uid: cntk.core.NDArrayView
-  - fullName: cntk.core.Value
-    isExternal: false
-    name: Value
-    parent: ''
-    uid: cntk.core.Value
-  - fullName: cntk.core.user_function
-    isExternal: false
-    name: user_function
-    parent: ''
-    uid: cntk.core.user_function
   source:
     id: core
     path: cntk/core.py
     remote:
       branch: master
       path: cntk/core.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.core
 - _type: function
   fullName: cntk.core.user_function
+  langs:
+  - python
   module: cntk.core
   name: user_function
   source:
@@ -44,10 +32,26 @@ items:
     remote:
       branch: master
       path: cntk/core.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 481
-  syntax:
-    summary: Wraps the passed Function to create a composite representing the composite
-      Function graph rooted at the passed root Function.
+  summary: Wraps the passed Function to create a composite representing the composite
+    Function graph rooted at the passed root Function.
+  syntax: {}
   type: Method
+  uid: cntk.core.user_function
+references:
+- fullName: cntk.core.NDArrayView
+  isExternal: false
+  name: NDArrayView
+  parent: cntk.core
+  uid: cntk.core.NDArrayView
+- fullName: cntk.core.Value
+  isExternal: false
+  name: Value
+  parent: cntk.core
+  uid: cntk.core.Value
+- fullName: cntk.core.user_function
+  isExternal: false
+  name: user_function
+  parent: cntk.core
   uid: cntk.core.user_function

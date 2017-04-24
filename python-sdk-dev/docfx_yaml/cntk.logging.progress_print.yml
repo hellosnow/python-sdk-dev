@@ -8,29 +8,13 @@ items:
   fullName: cntk.logging.progress_print
   module: cntk.logging.progress_print
   name: progress_print
-  references:
-  - fullName: cntk.logging.progress_print.ProgressPrinter
-    isExternal: false
-    name: ProgressPrinter
-    parent: ''
-    uid: cntk.logging.progress_print.ProgressPrinter
-  - fullName: cntk.logging.progress_print.TensorBoardProgressWriter
-    isExternal: false
-    name: TensorBoardProgressWriter
-    parent: ''
-    uid: cntk.logging.progress_print.TensorBoardProgressWriter
-  - fullName: cntk.logging.progress_print.log_number_of_parameters
-    isExternal: false
-    name: log_number_of_parameters
-    parent: ''
-    uid: cntk.logging.progress_print.log_number_of_parameters
   source:
     id: progress_print
     path: cntk/logging/progress_print.py
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 0
   type: Namespace
   uid: cntk.logging.progress_print
@@ -44,9 +28,25 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 505
   syntax:
     summary: ''
   type: Method
+  uid: cntk.logging.progress_print.log_number_of_parameters
+references:
+- fullName: cntk.logging.progress_print.ProgressPrinter
+  isExternal: false
+  name: ProgressPrinter
+  parent: cntk.logging.progress_print
+  uid: cntk.logging.progress_print.ProgressPrinter
+- fullName: cntk.logging.progress_print.TensorBoardProgressWriter
+  isExternal: false
+  name: TensorBoardProgressWriter
+  parent: cntk.logging.progress_print
+  uid: cntk.logging.progress_print.TensorBoardProgressWriter
+- fullName: cntk.logging.progress_print.log_number_of_parameters
+  isExternal: false
+  name: log_number_of_parameters
+  parent: cntk.logging.progress_print
   uid: cntk.logging.progress_print.log_number_of_parameters

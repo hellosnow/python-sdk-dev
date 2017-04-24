@@ -16,49 +16,13 @@ items:
     - builtins.object
   module: cntk.logging.progress_print
   name: TensorBoardProgressWriter
-  references:
-  - fullName: cntk.logging.progress_print.TensorBoardProgressWriter.close
-    isExternal: false
-    name: close
-    parent: ''
-    uid: cntk.logging.progress_print.TensorBoardProgressWriter.close
-  - fullName: cntk.logging.progress_print.TensorBoardProgressWriter.flush
-    isExternal: false
-    name: flush
-    parent: ''
-    uid: cntk.logging.progress_print.TensorBoardProgressWriter.flush
-  - fullName: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_test_summary
-    isExternal: false
-    name: on_write_test_summary
-    parent: ''
-    uid: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_test_summary
-  - fullName: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_test_update
-    isExternal: false
-    name: on_write_test_update
-    parent: ''
-    uid: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_test_update
-  - fullName: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_training_summary
-    isExternal: false
-    name: on_write_training_summary
-    parent: ''
-    uid: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_training_summary
-  - fullName: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_training_update
-    isExternal: false
-    name: on_write_training_update
-    parent: ''
-    uid: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_training_update
-  - fullName: cntk.logging.progress_print.TensorBoardProgressWriter.write_value
-    isExternal: false
-    name: write_value
-    parent: ''
-    uid: cntk.logging.progress_print.TensorBoardProgressWriter.write_value
   source:
     id: TensorBoardProgressWriter
     path: cntk/logging/progress_print.py
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 409
   syntax:
     exceptions: []
@@ -67,19 +31,19 @@ items:
         value of 2 will cause the progress to be logged every second time when *:func:cntk.util.TensorBoardFileWriter.update_with_trainer*
         is invoked. None indicates that progress is logged only when *:func:cntk.util.TensorBoardFileWriter.summarize_progress*
         is invoked. Must be a positive integer otherwise.
-      id: freq
-      type: int or None, default None
-    - description: directory where to create a TensorBoard event file.
       id: rank
       type: int or None, default None
+    - description: directory where to create a TensorBoard event file.
+      id: model
+      type: cntk.ops.functions.Function or None, default None
     - description: rank of a worker when using distributed training, or *None* if
         training locally. If not *None*, event files will be created only by rank
         0.
-      id: model
-      type: cntk.ops.functions.Function or None, default None
-    - description: model graph to plot.
       id: log_dir
       type: string, default '.'
+    - description: model graph to plot.
+      id: freq
+      type: int or None, default None
     returntype: ''
     returnvalue: ''
     summary: 'Bases: `cntk.cntk_py.ProgressWriter`
@@ -109,7 +73,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 463
   syntax:
     summary: Make sure that any outstanding records are immediately persisted, then
@@ -128,7 +92,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 455
   syntax:
     summary: Make sure that any outstanding records are immediately persisted.
@@ -145,7 +109,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 493
   syntax:
     summary: ''
@@ -162,7 +126,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 480
   syntax:
     summary: ''
@@ -179,7 +143,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 487
   syntax:
     summary: ''
@@ -196,7 +160,7 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 475
   syntax:
     summary: ''
@@ -213,23 +177,59 @@ items:
     remote:
       branch: master
       path: cntk/logging/progress_print.py
-      repo: null
+      repo: https://github.com/Microsoft/CNTK
     startLine: 440
   syntax:
     exceptions: []
     parameters:
     - description: name of a variable.
-      id: step
-      type: int
+      id: name
+      type: string
     - description: value of the variable.
       id: value
       type: float
     - description: time step at which the value is recorded.
-      id: name
-      type: string
+      id: step
+      type: int
     returntype: ''
     returnvalue: ''
     summary: Record value of a scalar variable at the given time step.
     variables: []
   type: Method
+  uid: cntk.logging.progress_print.TensorBoardProgressWriter.write_value
+references:
+- fullName: cntk.logging.progress_print.TensorBoardProgressWriter.close
+  isExternal: false
+  name: close
+  parent: cntk.logging.progress_print.TensorBoardProgressWriter
+  uid: cntk.logging.progress_print.TensorBoardProgressWriter.close
+- fullName: cntk.logging.progress_print.TensorBoardProgressWriter.flush
+  isExternal: false
+  name: flush
+  parent: cntk.logging.progress_print.TensorBoardProgressWriter
+  uid: cntk.logging.progress_print.TensorBoardProgressWriter.flush
+- fullName: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_test_summary
+  isExternal: false
+  name: on_write_test_summary
+  parent: cntk.logging.progress_print.TensorBoardProgressWriter
+  uid: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_test_summary
+- fullName: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_test_update
+  isExternal: false
+  name: on_write_test_update
+  parent: cntk.logging.progress_print.TensorBoardProgressWriter
+  uid: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_test_update
+- fullName: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_training_summary
+  isExternal: false
+  name: on_write_training_summary
+  parent: cntk.logging.progress_print.TensorBoardProgressWriter
+  uid: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_training_summary
+- fullName: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_training_update
+  isExternal: false
+  name: on_write_training_update
+  parent: cntk.logging.progress_print.TensorBoardProgressWriter
+  uid: cntk.logging.progress_print.TensorBoardProgressWriter.on_write_training_update
+- fullName: cntk.logging.progress_print.TensorBoardProgressWriter.write_value
+  isExternal: false
+  name: write_value
+  parent: cntk.logging.progress_print.TensorBoardProgressWriter
   uid: cntk.logging.progress_print.TensorBoardProgressWriter.write_value
