@@ -33,7 +33,7 @@ items:
       branch: master
       path: cntk/debugging/__init__.py
       repo: https://github.com/Microsoft/CNTK
-    startLine: 32
+    startLine: 33
   summary: ''
   syntax:
     parameters:
@@ -55,7 +55,7 @@ items:
       branch: master
       path: cntk/debugging/__init__.py
       repo: https://github.com/Microsoft/CNTK
-    startLine: 16
+    startLine: 17
   summary: Debug helper that prints the signature of a Function.
   syntax:
     parameters:

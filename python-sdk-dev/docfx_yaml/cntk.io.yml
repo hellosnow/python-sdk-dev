@@ -42,12 +42,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 455
   summary: "Configures the CNTK text-format reader that reads text-based files with\
-    \ lines of the form:\n<!-- literal_block {\"ids\": [], \"xml:space\": \"preserve\"\
-    , \"backrefs\": [], \"names\": [], \"dupnames\": [], \"classes\": []} -->\n\n\
-    ````\n\n   [Sequence_Id] (Sample)+\n   ````\nwhere:\n<!-- literal_block {\"ids\"\
-    : [], \"xml:space\": \"preserve\", \"backrefs\": [], \"names\": [], \"dupnames\"\
-    : [], \"classes\": []} -->\n\n````\n\n   Sample=|Input_Name (Value )*\n   ````\n\
-    See also: [CNTKTextReader format](https://github.com/microsoft/cntk/wiki/BrainScript-CNTKTextFormat-Reader)"
+    \ lines of the form:\n<!-- literal_block {\"backrefs\": [], \"names\": [], \"\
+    dupnames\": [], \"xml:space\": \"preserve\", \"classes\": [], \"ids\": []} -->\n\
+    \n````\n\n   [Sequence_Id] (Sample)+\n   ````\nwhere:\n<!-- literal_block {\"\
+    backrefs\": [], \"names\": [], \"dupnames\": [], \"xml:space\": \"preserve\",\
+    \ \"classes\": [], \"ids\": []} -->\n\n````\n\n   Sample=|Input_Name (Value )*\n\
+    \   ````\nSee also: [CNTKTextReader format](https://github.com/microsoft/cntk/wiki/BrainScript-CNTKTextFormat-Reader)"
   syntax:
     parameters:
     - id: filename
@@ -119,12 +119,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 418
   summary: "Configures the image reader that reads images and corresponding labels\
-    \ from a file of the form:\n<!-- literal_block {\"ids\": [], \"xml:space\": \"\
-    preserve\", \"backrefs\": [], \"names\": [], \"dupnames\": [], \"classes\": []}\
+    \ from a file of the form:\n<!-- literal_block {\"backrefs\": [], \"names\": [],\
+    \ \"dupnames\": [], \"xml:space\": \"preserve\", \"classes\": [], \"ids\": []}\
     \ -->\n\n````\n\n   <full path to image> <tab> <numerical label (0-based class\
-    \ id)>\n   ````\nor:\n<!-- literal_block {\"ids\": [], \"xml:space\": \"preserve\"\
-    , \"backrefs\": [], \"names\": [], \"dupnames\": [], \"classes\": []} -->\n\n\
-    ````\n\n   sequenceId <tab> path <tab> label\n   ````\nSee also: [Image reader\
+    \ id)>\n   ````\nor:\n<!-- literal_block {\"backrefs\": [], \"names\": [], \"\
+    dupnames\": [], \"xml:space\": \"preserve\", \"classes\": [], \"ids\": []} -->\n\
+    \n````\n\n   sequenceId <tab> path <tab> label\n   ````\nSee also: [Image reader\
     \ definition](https://github.com/microsoft/cntk/wiki/Image-reader)"
   syntax:
     parameters:

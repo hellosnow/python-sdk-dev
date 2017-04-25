@@ -2869,12 +2869,12 @@ items:
     \ a matrix. The operator '@' has been overloaded such that in Python 3.5 and later\
     \ X @ W equals times(X, W).\nFor better performance on times operation on sequence\
     \ which is followed by sequence.reduce_sum, use infer_input_rank_to_map=TIMES_REDUCE_SEQUENCE_AXIS_WITHOUT_INFERRED_INPUT_RANK,\
-    \ i.e. replace following:\n<!-- literal_block {\"ids\": [], \"xml:space\": \"\
-    preserve\", \"backrefs\": [], \"names\": [], \"dupnames\": [], \"classes\": []}\
+    \ i.e. replace following:\n<!-- literal_block {\"backrefs\": [], \"names\": [],\
+    \ \"dupnames\": [], \"xml:space\": \"preserve\", \"classes\": [], \"ids\": []}\
     \ -->\n\n````\n\n   sequence.reduce_sum(times(seq1, seq2))\n   ````\nwith:\n<!--\
-    \ literal_block {\"ids\": [], \"xml:space\": \"preserve\", \"backrefs\": [], \"\
-    names\": [], \"dupnames\": [], \"classes\": []} -->\n\n````\n\n   times(seq1,\
-    \ seq2, infer_input_rank_to_map=TIMES_REDUCE_SEQUENCE_AXIS_WITHOUT_INFERRED_INPUT_RANK)\n\
+    \ literal_block {\"backrefs\": [], \"names\": [], \"dupnames\": [], \"xml:space\"\
+    : \"preserve\", \"classes\": [], \"ids\": []} -->\n\n````\n\n   times(seq1, seq2,\
+    \ infer_input_rank_to_map=TIMES_REDUCE_SEQUENCE_AXIS_WITHOUT_INFERRED_INPUT_RANK)\n\
     \   ````\n-[ Example ]-\n>>> C.times([[1,2],[3,4]], [[5],[6]]).eval()\narray([[\
     \ 17.],\n       [ 39.]], dtype=float32)\n>>> C.times(1.*np.reshape(np.arange(8),\
     \ (2,2,2)),1.*np.reshape(np.arange(8), (2,2,2)), output_rank=1).eval()\narray([[\

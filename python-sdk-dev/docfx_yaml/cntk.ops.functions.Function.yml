@@ -1055,20 +1055,20 @@ items:
     startLine: 62
   summary: "`@Function` constructs a Function from a Python lambda where the Function's\
     \ input signature is defined by the lambda.\nUse this as a decorator, e.g.:\n\
-    <!-- literal_block {\"ids\": [], \"xml:space\": \"preserve\", \"backrefs\": [],\
-    \ \"names\": [], \"dupnames\": [], \"classes\": []} -->\n\n````\n\n   @Function\n\
-    \   def f(x): return x * x\n   ````\nThe above form creates a CNTK Function whose\
+    <!-- literal_block {\"backrefs\": [], \"names\": [], \"dupnames\": [], \"xml:space\"\
+    : \"preserve\", \"classes\": [], \"ids\": []} -->\n\n````\n\n   @Function\n  \
+    \ def f(x): return x * x\n   ````\nThe above form creates a CNTK Function whose\
     \ arguments are placeholder variables. Such a function can only be combined with\
     \ others symbolic functions.\nTo train a Function or pass data to it, you need\
     \ to declare the types of the arguments. In this case, the @Function decorator\
     \ creates a CNTK Function whose arguments are input variables.\nIf you use Python\
     \ 3, Functions with types are declared using Python annotation syntax, e.g.:\n\
-    <!-- literal_block {\"ids\": [], \"xml:space\": \"preserve\", \"backrefs\": [],\
-    \ \"names\": [], \"dupnames\": [], \"classes\": []} -->\n\n````\n\n   @Function\n\
-    \   def f(x:Tensor[13]):\n       return x * x\n   ````\nIf you are working with\
+    <!-- literal_block {\"backrefs\": [], \"names\": [], \"dupnames\": [], \"xml:space\"\
+    : \"preserve\", \"classes\": [], \"ids\": []} -->\n\n````\n\n   @Function\n  \
+    \ def f(x:Tensor[13]):\n       return x * x\n   ````\nIf you are working with\
     \ Python 2.7, use CNTK's @Signature decorator instead:\n<!-- literal_block {\"\
-    ids\": [], \"xml:space\": \"preserve\", \"backrefs\": [], \"names\": [], \"dupnames\"\
-    : [], \"classes\": []} -->\n\n````\n\n   @Function\n   @Signature(Tensor[13])\n\
+    backrefs\": [], \"names\": [], \"dupnames\": [], \"xml:space\": \"preserve\",\
+    \ \"classes\": [], \"ids\": []} -->\n\n````\n\n   @Function\n   @Signature(Tensor[13])\n\
     \   def f(x):\n       return x * x\n   ````\n`make_block=True` is used to implement\
     \ @BlockFunction(). If given the result will be wrapped in `as_block()`, using\
     \ the supplied `op_name` and `name` parameters, which are otherwise ignored."

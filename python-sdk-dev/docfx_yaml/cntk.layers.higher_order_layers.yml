@@ -40,9 +40,9 @@ items:
     startLine: 35
   summary: "Layer factory function to create a composite that applies a sequence of\
     \ layers constructed with a constructor lambda(layer). For example:\n<!-- literal_block\
-    \ {\"ids\": [], \"xml:space\": \"preserve\", \"backrefs\": [], \"names\": [],\
-    \ \"dupnames\": [], \"classes\": []} -->\n\n````\n\n   For(range(3), lambda i:\
-    \ Dense(2000))\n   For(range(3), lambda: Dense(2000))\n   ````"
+    \ {\"backrefs\": [], \"names\": [], \"dupnames\": [], \"xml:space\": \"preserve\"\
+    , \"classes\": [], \"ids\": []} -->\n\n````\n\n   For(range(3), lambda i: Dense(2000))\n\
+    \   For(range(3), lambda: Dense(2000))\n   ````"
   syntax:
     parameters:
     - default: ''

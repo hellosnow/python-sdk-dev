@@ -43,7 +43,7 @@ items:
     instead of a function so that it can easily be used in a Sequential() expression.
   syntax:
     parameters:
-    - default: <cntk.default_options.default_override_or object at 0x2b4f879396a0>
+    - default: <cntk.default_options.default_override_or object at 0x2afede5ba6a0>
       id: T
     - default: '1'
       id: initial_state
@@ -83,9 +83,9 @@ items:
       id: go_backwards
     - default: 'False'
       id: initial_state
-    - default: <cntk.default_options.default_override_or object at 0x2b4f879397f0>
+    - default: <cntk.default_options.default_override_or object at 0x2afede5ba7f0>
       id: return_full_state
-    - default: <cntk.default_options.default_override_or object at 0x2b4f879397b8>
+    - default: <cntk.default_options.default_override_or object at 0x2afede5ba7b8>
       id: name
   type: Method
   uid: cntk.layers.sequence.Fold
@@ -108,7 +108,7 @@ items:
     matrices: a value matrix, shape=(N,dim), and a valid window, shape=(1,dim)'
   syntax:
     parameters:
-    - default: <cntk.default_options.default_override_or object at 0x2b4f879396d8>
+    - default: <cntk.default_options.default_override_or object at 0x2afede5ba6d8>
       id: window_size
     - id: axis
     - id: go_backwards
@@ -143,9 +143,9 @@ items:
       id: go_backwards
     - default: 'False'
       id: initial_state
-    - default: <cntk.default_options.default_override_or object at 0x2b4f87939780>
+    - default: <cntk.default_options.default_override_or object at 0x2afede5ba780>
       id: return_full_state
-    - default: <cntk.default_options.default_override_or object at 0x2b4f87939748>
+    - default: <cntk.default_options.default_override_or object at 0x2afede5ba748>
       id: name
   type: Method
   uid: cntk.layers.sequence.Recurrence
@@ -175,7 +175,7 @@ items:
       id: go_backwards
     - default: 'False'
       id: return_full_state
-    - default: <cntk.default_options.default_override_or object at 0x2b4f87939710>
+    - default: <cntk.default_options.default_override_or object at 0x2afede5ba710>
       id: name
   type: Method
   uid: cntk.layers.sequence.RecurrenceFrom
@@ -196,11 +196,11 @@ items:
   summary: "Layer factory function to create a function that implements the unfold()\
     \ anamorphism. It creates a function that, starting with a seed input, applies\
     \ 'generator_function' repeatedly and emits the sequence of results. Depending\
-    \ on the recurrent block, it may have this form:\n<!-- literal_block {\"ids\"\
-    : [], \"xml:space\": \"preserve\", \"backrefs\": [], \"names\": [], \"dupnames\"\
-    : [], \"classes\": []} -->\n\n````\n\n   result = f(... f(f([g(input), initial_state]))\
-    \ ... )\n   ````\nor this form:\n<!-- literal_block {\"ids\": [], \"xml:space\"\
-    : \"preserve\", \"backrefs\": [], \"names\": [], \"dupnames\": [], \"classes\"\
+    \ on the recurrent block, it may have this form:\n<!-- literal_block {\"backrefs\"\
+    : [], \"names\": [], \"dupnames\": [], \"xml:space\": \"preserve\", \"classes\"\
+    : [], \"ids\": []} -->\n\n````\n\n   result = f(... f(f([g(input), initial_state]))\
+    \ ... )\n   ````\nor this form:\n<!-- literal_block {\"backrefs\": [], \"names\"\
+    : [], \"dupnames\": [], \"xml:space\": \"preserve\", \"classes\": [], \"ids\"\
     : []} -->\n\n````\n\n   result = f(g(input), ... f(g(input), f(g(input), initial_state))\
     \ ... )\n   ````\nwhere *f* is *generator_function*. An example use of this is\
     \ sequence-to-sequence decoding, where *g(input)* is the sequence encoder, *initial_state*\
