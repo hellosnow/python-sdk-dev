@@ -6,6 +6,8 @@ items:
   - cntk.logging.progress_print.TensorBoardProgressWriter
   - cntk.logging.progress_print.log_number_of_parameters
   fullName: cntk.logging.progress_print
+  langs:
+  - python
   module: cntk.logging.progress_print
   name: progress_print
   source:
@@ -16,10 +18,13 @@ items:
       path: cntk/logging/progress_print.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.logging.progress_print
 - _type: function
   fullName: cntk.logging.progress_print.log_number_of_parameters
+  langs:
+  - python
   module: cntk.logging.progress_print
   name: log_number_of_parameters
   source:
@@ -30,8 +35,12 @@ items:
       path: cntk/logging/progress_print.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 505
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: model
+    - default: '0'
+      id: trace_level
   type: Method
   uid: cntk.logging.progress_print.log_number_of_parameters
 references:

@@ -8,6 +8,8 @@ items:
   - cntk.ops.functions.load_model
   - cntk.ops.functions.save_model
   fullName: cntk.ops.functions
+  langs:
+  - python
   module: cntk.ops.functions
   name: functions
   source:
@@ -18,10 +20,13 @@ items:
       path: cntk/ops/functions.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.ops.functions
 - _type: function
   fullName: cntk.ops.functions.load_model
+  langs:
+  - python
   module: cntk.ops.functions
   name: load_model
   source:
@@ -32,12 +37,14 @@ items:
       path: cntk/internal/swig_helper.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 1061
-  syntax:
-    summary: Alias for `load()`.
+  summary: Alias for `load()`.
+  syntax: {}
   type: Method
   uid: cntk.ops.functions.load_model
 - _type: function
   fullName: cntk.ops.functions.save_model
+  langs:
+  - python
   module: cntk.ops.functions
   name: save_model
   source:
@@ -48,8 +55,8 @@ items:
       path: cntk/internal/swig_helper.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 1068
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.ops.functions.save_model
 references:

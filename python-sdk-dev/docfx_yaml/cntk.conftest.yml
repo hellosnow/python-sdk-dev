@@ -18,6 +18,7 @@ items:
       path: cntk/conftest.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.conftest
 - _type: function
@@ -35,7 +36,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 69
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: doctest_namespace
   type: Method
   uid: cntk.conftest.add_namespace
 - _type: function
@@ -53,7 +56,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 13
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: parser
   type: Method
   uid: cntk.conftest.pytest_addoption
 - _type: function
@@ -71,7 +76,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 26
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: metafunc
   type: Method
   uid: cntk.conftest.pytest_generate_tests
 references:

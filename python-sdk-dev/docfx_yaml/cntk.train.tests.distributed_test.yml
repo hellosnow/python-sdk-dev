@@ -9,6 +9,8 @@ items:
   - cntk.train.tests.distributed_test.test_distributed
   - cntk.train.tests.distributed_test.test_distributed_mb_source
   fullName: cntk.train.tests.distributed_test
+  langs:
+  - python
   module: cntk.train.tests.distributed_test
   name: distributed_test
   source:
@@ -19,10 +21,13 @@ items:
       path: cntk/train/tests/distributed_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.train.tests.distributed_test
 - _type: function
   fullName: cntk.train.tests.distributed_test.create_block_momentum_distributed_learner
+  langs:
+  - python
   module: cntk.train.tests.distributed_test
   name: create_block_momentum_distributed_learner
   source:
@@ -33,12 +38,17 @@ items:
       path: cntk/train/tests/distributed_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 25
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: learner
+    - id: distributed_after
   type: Method
   uid: cntk.train.tests.distributed_test.create_block_momentum_distributed_learner
 - _type: function
   fullName: cntk.train.tests.distributed_test.create_block_momentum_distributed_learner_with_time_constant
+  langs:
+  - python
   module: cntk.train.tests.distributed_test
   name: create_block_momentum_distributed_learner_with_time_constant
   source:
@@ -49,12 +59,17 @@ items:
       path: cntk/train/tests/distributed_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 31
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: learner
+    - id: distributed_after
   type: Method
   uid: cntk.train.tests.distributed_test.create_block_momentum_distributed_learner_with_time_constant
 - _type: function
   fullName: cntk.train.tests.distributed_test.create_data_parallel_distributed_learner
+  langs:
+  - python
   module: cntk.train.tests.distributed_test
   name: create_data_parallel_distributed_learner
   source:
@@ -65,12 +80,18 @@ items:
       path: cntk/train/tests/distributed_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 18
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: learner
+    - id: quantized
+    - id: distributed_after
   type: Method
   uid: cntk.train.tests.distributed_test.create_data_parallel_distributed_learner
 - _type: function
   fullName: cntk.train.tests.distributed_test.run_distributed_training
+  langs:
+  - python
   module: cntk.train.tests.distributed_test
   name: run_distributed_training
   source:
@@ -81,12 +102,17 @@ items:
       path: cntk/train/tests/distributed_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 38
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: create_func
   type: Method
   uid: cntk.train.tests.distributed_test.run_distributed_training
 - _type: function
   fullName: cntk.train.tests.distributed_test.test_distributed
+  langs:
+  - python
   module: cntk.train.tests.distributed_test
   name: test_distributed
   source:
@@ -97,12 +123,17 @@ items:
       path: cntk/train/tests/distributed_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 201
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: is_1bit_sgd
   type: Method
   uid: cntk.train.tests.distributed_test.test_distributed
 - _type: function
   fullName: cntk.train.tests.distributed_test.test_distributed_mb_source
+  langs:
+  - python
   module: cntk.train.tests.distributed_test
   name: test_distributed_mb_source
   source:
@@ -113,8 +144,10 @@ items:
       path: cntk/train/tests/distributed_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 81
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
   type: Method
   uid: cntk.train.tests.distributed_test.test_distributed_mb_source
 references:

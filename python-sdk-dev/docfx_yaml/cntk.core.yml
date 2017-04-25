@@ -18,6 +18,7 @@ items:
       path: cntk/core.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.core
 - _type: function
@@ -36,7 +37,9 @@ items:
     startLine: 481
   summary: Wraps the passed Function to create a composite representing the composite
     Function graph rooted at the passed root Function.
-  syntax: {}
+  syntax:
+    parameters:
+    - id: user_func
   type: Method
   uid: cntk.core.user_function
 references:

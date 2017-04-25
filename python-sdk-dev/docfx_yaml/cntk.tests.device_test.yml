@@ -16,6 +16,7 @@ items:
       path: cntk/tests/device_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for the device module
   type: Namespace
   uid: cntk.tests.device_test
 - _type: function

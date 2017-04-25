@@ -5,8 +5,11 @@ items:
   class: cntk.layers.typing.SequenceOverMeta
   fullName: cntk.layers.typing.SequenceOverMeta
   inheritance:
-  - - builtins.type
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: builtins.type
+  langs:
+  - python
   module: cntk.layers.typing
   name: SequenceOverMeta
   source:
@@ -17,8 +20,8 @@ items:
       path: cntk/layers/typing.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 57
-  syntax:
-    summary: 'Bases: `type`'
+  summary: 'Bases: `type`'
+  syntax: {}
   type: Class
   uid: cntk.layers.typing.SequenceOverMeta
 references: []

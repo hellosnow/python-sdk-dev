@@ -6,9 +6,11 @@ items:
   class: cntk.train.distributed.DistributedLearner
   fullName: cntk.train.distributed.DistributedLearner
   inheritance:
-  - - cntk.cntk_py.DistributedLearner
-    - cntk.cntk_py.Learner
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.cntk_py.DistributedLearner
+  langs:
+  - python
   module: cntk.train.distributed
   name: DistributedLearner
   source:
@@ -19,18 +21,20 @@ items:
       path: cntk/train/distributed.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 100
-  syntax:
-    summary: 'Bases: `cntk.cntk_py.DistributedLearner`
+  summary: 'Bases: `cntk.cntk_py.DistributedLearner`
 
-      A distributed learner that handles data like gradients/momentums across multiple
-      MPI workers
+    A distributed learner that handles data like gradients/momentums across multiple
+    MPI workers
 
-      '
+    '
+  syntax: {}
   type: Class
   uid: cntk.train.distributed.DistributedLearner
 - _type: method
   class: cntk.train.distributed.DistributedLearner
   fullName: cntk.train.distributed.DistributedLearner.communicator
+  langs:
+  - python
   module: cntk.train.distributed
   name: communicator
   source:
@@ -41,13 +45,11 @@ items:
       path: cntk/internal/swig_helper.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 105
+  summary: Returns the distributed communicator that talks to other MPI workers
   syntax:
-    exceptions: []
-    parameters: []
-    returntype: Communicator
-    returnvalue: descriptor of current process.
-    summary: Returns the distributed communicator that talks to other MPI workers
-    variables: []
+    return:
+      description: descriptor of current process.
+      type: Communicator
   type: Method
   uid: cntk.train.distributed.DistributedLearner.communicator
 references:

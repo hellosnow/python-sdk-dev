@@ -16,6 +16,7 @@ items:
       path: cntk/ops/tests/stop_gradient_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for the stop_gradient class.
   type: Namespace
   uid: cntk.ops.tests.stop_gradient_test
 - _type: function

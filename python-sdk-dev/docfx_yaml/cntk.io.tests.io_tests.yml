@@ -10,6 +10,8 @@ items:
   - cntk.io.tests.io_tests.test_sequence_conversion_exceptions
   - cntk.io.tests.io_tests.test_text_format
   fullName: cntk.io.tests.io_tests
+  langs:
+  - python
   module: cntk.io.tests.io_tests
   name: io_tests
   source:
@@ -20,10 +22,13 @@ items:
       path: cntk/io/tests/io_tests.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.io.tests.io_tests
 - _type: function
   fullName: cntk.io.tests.io_tests.test_full_sweep_minibatch
+  langs:
+  - python
   module: cntk.io.tests.io_tests
   name: test_full_sweep_minibatch
   source:
@@ -34,12 +39,16 @@ items:
       path: cntk/io/tests/io_tests.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 170
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
   type: Method
   uid: cntk.io.tests.io_tests.test_full_sweep_minibatch
 - _type: function
   fullName: cntk.io.tests.io_tests.test_image
+  langs:
+  - python
   module: cntk.io.tests.io_tests
   name: test_image
   source:
@@ -50,12 +59,14 @@ items:
       path: cntk/io/tests/io_tests.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 85
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.io.tests.io_tests.test_image
 - _type: function
   fullName: cntk.io.tests.io_tests.test_is_tensor
+  langs:
+  - python
   module: cntk.io.tests.io_tests
   name: test_is_tensor
   source:
@@ -66,12 +77,17 @@ items:
       path: cntk/io/tests/io_tests.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 301
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: data
+    - id: expected
   type: Method
   uid: cntk.io.tests.io_tests.test_is_tensor
 - _type: function
   fullName: cntk.io.tests.io_tests.test_large_minibatch
+  langs:
+  - python
   module: cntk.io.tests.io_tests
   name: test_large_minibatch
   source:
@@ -82,12 +98,16 @@ items:
       path: cntk/io/tests/io_tests.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 228
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
   type: Method
   uid: cntk.io.tests.io_tests.test_large_minibatch
 - _type: function
   fullName: cntk.io.tests.io_tests.test_sequence_conversion_dense
+  langs:
+  - python
   module: cntk.io.tests.io_tests
   name: test_sequence_conversion_dense
   source:
@@ -98,12 +118,18 @@ items:
       path: cntk/io/tests/io_tests.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 277
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: idx
+    - id: alias_tensor_map
+    - id: expected
   type: Method
   uid: cntk.io.tests.io_tests.test_sequence_conversion_dense
 - _type: function
   fullName: cntk.io.tests.io_tests.test_sequence_conversion_exceptions
+  langs:
+  - python
   module: cntk.io.tests.io_tests
   name: test_sequence_conversion_exceptions
   source:
@@ -114,12 +140,18 @@ items:
       path: cntk/io/tests/io_tests.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 269
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: idx
+    - id: alias_tensor_map
+    - id: expected
   type: Method
   uid: cntk.io.tests.io_tests.test_sequence_conversion_exceptions
 - _type: function
   fullName: cntk.io.tests.io_tests.test_text_format
+  langs:
+  - python
   module: cntk.io.tests.io_tests
   name: test_text_format
   source:
@@ -130,8 +162,10 @@ items:
       path: cntk/io/tests/io_tests.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 20
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
   type: Method
   uid: cntk.io.tests.io_tests.test_text_format
 references:

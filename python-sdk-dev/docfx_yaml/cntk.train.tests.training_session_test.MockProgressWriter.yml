@@ -8,8 +8,11 @@ items:
   class: cntk.train.tests.training_session_test.MockProgressWriter
   fullName: cntk.train.tests.training_session_test.MockProgressWriter
   inheritance:
-  - - cntk.cntk_py.ProgressWriter
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.cntk_py.ProgressWriter
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: MockProgressWriter
   source:
@@ -20,17 +23,19 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 82
-  syntax:
-    summary: 'Bases: `cntk.cntk_py.ProgressWriter`
+  summary: 'Bases: `cntk.cntk_py.ProgressWriter`
 
 
 
-      '
+    '
+  syntax: {}
   type: Class
   uid: cntk.train.tests.training_session_test.MockProgressWriter
 - _type: method
   class: cntk.train.tests.training_session_test.MockProgressWriter
   fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_test_summary
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: on_write_test_summary
   source:
@@ -41,13 +46,22 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 102
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: self
+    - id: samples
+    - id: updates
+    - id: summaries
+    - id: aggregate_metric
+    - id: elapsed_milliseconds
   type: Method
   uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_test_summary
 - _type: method
   class: cntk.train.tests.training_session_test.MockProgressWriter
   fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_summary
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: on_write_training_summary
   source:
@@ -58,13 +72,23 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 98
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: self
+    - id: samples
+    - id: updates
+    - id: summaries
+    - id: aggregate_loss
+    - id: aggregate_metric
+    - id: elapsed_milliseconds
   type: Method
   uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_summary
 - _type: method
   class: cntk.train.tests.training_session_test.MockProgressWriter
   fullName: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_update
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: on_write_training_update
   source:
@@ -75,8 +99,14 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 91
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: self
+    - id: samples
+    - id: updates
+    - id: aggregate_loss
+    - id: aggregate_metric
   type: Method
   uid: cntk.train.tests.training_session_test.MockProgressWriter.on_write_training_update
 references:

@@ -8,6 +8,8 @@ items:
   - cntk.debugging.tests.userlearner_test.generate_random_data
   - cntk.debugging.tests.userlearner_test.test_user_learner
   fullName: cntk.debugging.tests.userlearner_test
+  langs:
+  - python
   module: cntk.debugging.tests.userlearner_test
   name: userlearner_test
   source:
@@ -18,10 +20,13 @@ items:
       path: cntk/debugging/tests/userlearner_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.debugging.tests.userlearner_test
 - _type: function
   fullName: cntk.debugging.tests.userlearner_test.ffnet
+  langs:
+  - python
   module: cntk.debugging.tests.userlearner_test
   name: ffnet
   source:
@@ -32,12 +37,17 @@ items:
       path: cntk/debugging/tests/userlearner_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 83
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: optimizer
+    - id: num_minibatches_to_train
   type: Method
   uid: cntk.debugging.tests.userlearner_test.ffnet
 - _type: function
   fullName: cntk.debugging.tests.userlearner_test.generate_random_data
+  langs:
+  - python
   module: cntk.debugging.tests.userlearner_test
   name: generate_random_data
   source:
@@ -48,12 +58,18 @@ items:
       path: cntk/debugging/tests/userlearner_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 15
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: sample_size
+    - id: feature_dim
+    - id: num_classes
   type: Method
   uid: cntk.debugging.tests.userlearner_test.generate_random_data
 - _type: function
   fullName: cntk.debugging.tests.userlearner_test.test_user_learner
+  langs:
+  - python
   module: cntk.debugging.tests.userlearner_test
   name: test_user_learner
   source:
@@ -64,8 +80,8 @@ items:
       path: cntk/debugging/tests/userlearner_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 126
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.debugging.tests.userlearner_test.test_user_learner
 references:

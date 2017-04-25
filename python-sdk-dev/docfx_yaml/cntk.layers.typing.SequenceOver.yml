@@ -5,7 +5,9 @@ items:
   class: cntk.layers.typing.SequenceOver
   fullName: cntk.layers.typing.SequenceOver
   inheritance:
-  - - builtins.object
+  - type: builtins.object
+  langs:
+  - python
   module: cntk.layers.typing
   name: SequenceOver
   source:
@@ -16,11 +18,11 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
-  syntax:
-    summary: 'Bases: `object`
+  summary: 'Bases: `object`
 
-      Meta-meta-meta class to denote a sequence of data tensors over a custom axis.
-      Example: `userAxis = Axis(); SequenceOver[userAxis][Tensor[13,42]]`'
+    Meta-meta-meta class to denote a sequence of data tensors over a custom axis.
+    Example: `userAxis = Axis(); SequenceOver[userAxis][Tensor[13,42]]`'
+  syntax: {}
   type: Class
   uid: cntk.layers.typing.SequenceOver
 references: []

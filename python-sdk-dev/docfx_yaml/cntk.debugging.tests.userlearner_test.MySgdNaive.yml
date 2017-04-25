@@ -6,9 +6,11 @@ items:
   class: cntk.debugging.tests.userlearner_test.MySgdNaive
   fullName: cntk.debugging.tests.userlearner_test.MySgdNaive
   inheritance:
-  - - cntk.learners.UserLearner
-    - cntk.cntk_py.Learner
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.learners.UserLearner
+  langs:
+  - python
   module: cntk.debugging.tests.userlearner_test
   name: MySgdNaive
   source:
@@ -19,15 +21,17 @@ items:
       path: cntk/debugging/tests/userlearner_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 29
-  syntax:
-    summary: 'Bases: `cntk.learners.UserLearner`
+  summary: 'Bases: `cntk.learners.UserLearner`
 
-      '
+    '
+  syntax: {}
   type: Class
   uid: cntk.debugging.tests.userlearner_test.MySgdNaive
 - _type: method
   class: cntk.debugging.tests.userlearner_test.MySgdNaive
   fullName: cntk.debugging.tests.userlearner_test.MySgdNaive.update
+  langs:
+  - python
   module: cntk.debugging.tests.userlearner_test
   name: update
   source:
@@ -38,8 +42,13 @@ items:
       path: cntk/debugging/tests/userlearner_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 34
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: self
+    - id: gradient_values
+    - id: training_sample_count
+    - id: sweep_end
   type: Method
   uid: cntk.debugging.tests.userlearner_test.MySgdNaive.update
 references:

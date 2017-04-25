@@ -37,7 +37,6 @@ items:
 
     '
   syntax:
-    exceptions: []
     parameters:
     - description: shape of the data
       id: shape
@@ -48,8 +47,6 @@ items:
     - description: device this value should be put on
       id: device
       type: DeviceDescriptor
-    return: {}
-    variables: []
   type: Class
   uid: cntk.core.NDArrayView
 - _type: method
@@ -69,24 +66,22 @@ items:
     startLine: 79
   summary: Create a `NDArrayView` instance from a SciPy sparse array in CSR format.
   syntax:
-    exceptions: []
     parameters:
     - description: SciPy sparse matrix in CSR format
-      id: borrow
-      type: bool, default False
-    - description: device this value should be put on
-      id: read_only
-      type: bool, optional
-    - description: whether the data can be modified or not (default False)
       id: csr_array
       type: scipy.sparse.csr.csr_matrix
-    - description: whether nd_arrary memory can be borrowed internally to speed up
-        the data creation
+    - description: device this value should be put on
       id: device
       type: DeviceDescriptor
+    - description: whether the data can be modified or not (default False)
+      id: read_only
+      type: bool, optional
+    - description: whether nd_arrary memory can be borrowed internally to speed up
+        the data creation
+      id: borrow
+      type: bool, default False
     return:
       description: '`NDArrayView` instance'
-    variables: []
   type: Method
   uid: cntk.core.NDArrayView.from_csr
 - _type: method
@@ -107,24 +102,22 @@ items:
   summary: Create a `NDArrayView` instance from a NumPy or SciPy sparse array in CSR
     format.
   syntax:
-    exceptions: []
     parameters:
     - description: data
-      id: borrow
-      type: bool, default False
-    - description: device this value should be put on
-      id: read_only
-      type: bool, optional
-    - description: whether the data can be modified or not (default False)
-      id: device
-      type: DeviceDescriptor
-    - description: whether nd_arrary memory can be borrowed internally to speed up
-        the data creation
       id: data
       type: numpy.ndarray or scipy.sparse.csr.csr_matrix
+    - description: device this value should be put on
+      id: device
+      type: DeviceDescriptor
+    - description: whether the data can be modified or not (default False)
+      id: read_only
+      type: bool, optional
+    - description: whether nd_arrary memory can be borrowed internally to speed up
+        the data creation
+      id: borrow
+      type: bool, default False
     return:
       description: '`NDArrayView` instance'
-    variables: []
   type: Method
   uid: cntk.core.NDArrayView.from_data
 - _type: method
@@ -144,24 +137,22 @@ items:
     startLine: 46
   summary: Create a `NDArrayView` instance from a NumPy array.
   syntax:
-    exceptions: []
     parameters:
     - description: NumPy array
-      id: borrow
-      type: bool, default False
-    - description: device this value should be put on
-      id: read_only
-      type: bool, optional
-    - description: whether nd_arrary memory can be borrowed internally to speed up
-        the data creation
-      id: device
-      type: DeviceDescriptor
-    - description: whether the data can be modified or not (default False)
       id: np_array
       type: numpy.ndarray
+    - description: device this value should be put on
+      id: device
+      type: DeviceDescriptor
+    - description: whether nd_arrary memory can be borrowed internally to speed up
+        the data creation
+      id: borrow
+      type: bool, default False
+    - description: whether the data can be modified or not (default False)
+      id: read_only
+      type: bool, optional
     return:
       description: '`NDArrayView` instance'
-    variables: []
   type: Method
   uid: cntk.core.NDArrayView.from_dense
 - _type: attribute
@@ -205,20 +196,17 @@ items:
     \ [2, 3])\n>>> np_sliced = np.asarray(sliced)\n>>> # Result is an array of shape\
     \ (2, 3)\n>>> print(np_sliced)\n[[ 10.  20.  30.]\n [ 40.  50.  60.]]"
   syntax:
-    exceptions: []
     parameters:
     - description: shape of the same rank as this Value instance that denotes the
         start of the slicing
-      id: read_only
-      type: bool
+      id: start_offset
+      type: tuple or list
     - description: shape of the right-aligned extent to keep
       id: extent
       type: tuple or list
     - description: whether the returned slice is read only or not
-      id: start_offset
-      type: tuple or list
-    return: {}
-    variables: []
+      id: read_only
+      type: bool
   type: Method
   uid: cntk.core.NDArrayView.slice_view
 references:

@@ -18,6 +18,8 @@ items:
       path: cntk/ops/tests/recurrent_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for recurrent operations, each operation is tested for the forward
+    and the backward pass
   type: Namespace
   uid: cntk.ops.tests.recurrent_test
 - _type: function
@@ -35,7 +37,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 116
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_size
+    - id: time_step
+    - id: initial_state_size
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.recurrent_test.test_op_delay_with_initial_state
 - _type: function
@@ -53,7 +61,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 28
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_size
+    - id: time_step
+    - id: initial_state
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.recurrent_test.test_op_future_value
 - _type: function
@@ -71,7 +85,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 68
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_size
+    - id: time_step
+    - id: initial_state
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.recurrent_test.test_op_past_value
 references:

@@ -3,6 +3,8 @@ items:
 - _type: module
   children: []
   fullName: cntk.debugging.tests
+  langs:
+  - python
   module: cntk.debugging.tests
   name: tests
   source:
@@ -13,6 +15,7 @@ items:
       path: cntk/debugging/tests/__init__.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.debugging.tests
 references: []

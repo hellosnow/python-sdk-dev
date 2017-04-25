@@ -18,6 +18,7 @@ items:
       path: cntk/ops/tests/random_sample_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests random sampling related operations
   type: Namespace
   uid: cntk.ops.tests.random_sample_test
 - _type: function
@@ -35,7 +36,16 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 49
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: weights
+    - id: num_samples
+    - id: allow_duplicates
+    - id: expected
+    - id: tolerance
+    - id: raises_exception
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.random_sample_test.test_random_sample_inclusion_frequency
 - _type: function
@@ -53,7 +63,14 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 70
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: weights
+    - id: num_samples
+    - id: tolerance
+    - id: raises_exception
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.random_sample_test.test_random_sample_with_replacement
 - _type: function
@@ -71,7 +88,15 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 101
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: weights
+    - id: num_samples
+    - id: expected_count
+    - id: tolerance
+    - id: raises_exception
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.random_sample_test.test_random_sample_without_replacement
 references:

@@ -36,6 +36,7 @@ items:
       path: cntk/ops/tests/function_tests.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for the function class.
   type: Namespace
   uid: cntk.ops.tests.function_tests
 - _type: function
@@ -53,7 +54,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 317
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: tmpdir
   type: Method
   uid: cntk.ops.tests.function_tests.test_MinibatchData_and_Value_as_input
 - _type: function
@@ -305,7 +308,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 349
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
   type: Method
   uid: cntk.ops.tests.function_tests.test_output_subset_evaluation
 - _type: function

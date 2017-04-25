@@ -19,8 +19,11 @@ items:
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer
   inheritance:
-  - - cntk.cntk_py.Trainer
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.cntk_py.Trainer
+  langs:
+  - python
   module: cntk.train.trainer
   name: Trainer
   source:
@@ -31,54 +34,52 @@ items:
       path: cntk/train/trainer.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 19
+  summary: 'Bases: `cntk.cntk_py.Trainer`
+
+    Class for training the model parameters of a models'' specified loss function,
+    using the specified set of `parameter_learners` for updating the model''s parameters
+    using computed gradients. An optional specified metric function, which can be
+    non-differentiable, can be used for tracking the trained model''s quality.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    '
   syntax:
-    exceptions: []
     parameters:
     - description: root node of the function to train
-      id: progress_writers
-      type: list
+      id: model
+      type: Function
     - description: Function with one or two outputs, representing loss and, if given,
         evaluation metric (in this order). Alternatively, a tuple(loss Function, evaluation
         Function) is also accepted.
+      id: criterion
+      type: Python tuple of Function, or Function or
+    - description: list of learners from `cntk.learner`
       id: parameter_learners
       type: list
-    - description: list of learners from `cntk.learner`
-      id: model
-      type: Function
     - description: "optionally, list of progress writers from `cntk.utils` to automatically\
         \ track\n   training progress.\n\nTODO: Would be great to allow to skip some\
         \ parameters that should not be updated."
-      id: criterion
-      type: Python tuple of Function, or Function or
-    returntype: ''
-    returnvalue: ''
-    summary: 'Bases: `cntk.cntk_py.Trainer`
-
-      Class for training the model parameters of a models'' specified loss function,
-      using the specified set of `parameter_learners` for updating the model''s parameters
-      using computed gradients. An optional specified metric function, which can be
-      non-differentiable, can be used for tracking the trained model''s quality.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      '
-    variables: []
+      id: progress_writers
+      type: list
   type: Class
   uid: cntk.train.trainer.Trainer
 - _type: attribute
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.evaluation_function
+  langs:
+  - python
   module: cntk.train.trainer
   name: evaluation_function
   source:
@@ -89,13 +90,15 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
-  syntax:
-    summary: The evaluation function that the trainer is using.
+  summary: The evaluation function that the trainer is using.
+  syntax: {}
   type: Property
   uid: cntk.train.trainer.Trainer.evaluation_function
 - _type: attribute
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.loss_function
+  langs:
+  - python
   module: cntk.train.trainer
   name: loss_function
   source:
@@ -106,13 +109,15 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
-  syntax:
-    summary: The loss function that the trainer is using.
+  summary: The loss function that the trainer is using.
+  syntax: {}
   type: Property
   uid: cntk.train.trainer.Trainer.loss_function
 - _type: attribute
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.model
+  langs:
+  - python
   module: cntk.train.trainer
   name: model
   source:
@@ -123,13 +128,15 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
-  syntax:
-    summary: The model that the trainer is training.
+  summary: The model that the trainer is training.
+  syntax: {}
   type: Property
   uid: cntk.train.trainer.Trainer.model
 - _type: attribute
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.parameter_learners
+  langs:
+  - python
   module: cntk.train.trainer
   name: parameter_learners
   source:
@@ -140,13 +147,15 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
-  syntax:
-    summary: The parameter learners that the trainer is using.
+  summary: The parameter learners that the trainer is using.
+  syntax: {}
   type: Property
   uid: cntk.train.trainer.Trainer.parameter_learners
 - _type: attribute
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.previous_minibatch_evaluation_average
+  langs:
+  - python
   module: cntk.train.trainer
   name: previous_minibatch_evaluation_average
   source:
@@ -157,14 +166,16 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
-  syntax:
-    summary: The average evaluation criterion value per sample for the last minibatch
-      trained
+  summary: The average evaluation criterion value per sample for the last minibatch
+    trained
+  syntax: {}
   type: Property
   uid: cntk.train.trainer.Trainer.previous_minibatch_evaluation_average
 - _type: attribute
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.previous_minibatch_loss_average
+  langs:
+  - python
   module: cntk.train.trainer
   name: previous_minibatch_loss_average
   source:
@@ -175,13 +186,15 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
-  syntax:
-    summary: The average training loss per sample for the last minibatch trained
+  summary: The average training loss per sample for the last minibatch trained
+  syntax: {}
   type: Property
   uid: cntk.train.trainer.Trainer.previous_minibatch_loss_average
 - _type: attribute
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.previous_minibatch_sample_count
+  langs:
+  - python
   module: cntk.train.trainer
   name: previous_minibatch_sample_count
   source:
@@ -192,13 +205,15 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
-  syntax:
-    summary: The number of samples in the last minibatch trained with
+  summary: The number of samples in the last minibatch trained with
+  syntax: {}
   type: Property
   uid: cntk.train.trainer.Trainer.previous_minibatch_sample_count
 - _type: method
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.restore_from_checkpoint
+  langs:
+  - python
   module: cntk.train.trainer
   name: restore_from_checkpoint
   source:
@@ -209,22 +224,21 @@ items:
       path: cntk/train/trainer.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 236
+  summary: Restores a checkpoint of the model and Trainer state from the specified
+    file location.
   syntax:
-    exceptions: []
     parameters:
+    - id: self
     - description: filename to restore the checkpoint from
       id: filename
       type: str
-    returntype: ''
-    returnvalue: ''
-    summary: Restores a checkpoint of the model and Trainer state from the specified
-      file location.
-    variables: []
   type: Method
   uid: cntk.train.trainer.Trainer.restore_from_checkpoint
 - _type: method
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.save_checkpoint
+  langs:
+  - python
   module: cntk.train.trainer
   name: save_checkpoint
   source:
@@ -235,24 +249,23 @@ items:
       path: cntk/train/trainer.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 222
+  summary: 'Saves a checkpoint of the model and other Trainer state at the specified
+    file location.
+
+    In distributed environment the checkpointing is done by the main worker.'
   syntax:
-    exceptions: []
     parameters:
-    - description: filename to store the checkpoint.
+    - default: '{}'
+      description: filename to store the checkpoint.
       id: filename
       type: str
-    returntype: ''
-    returnvalue: ''
-    summary: 'Saves a checkpoint of the model and other Trainer state at the specified
-      file location.
-
-      In distributed environment the checkpointing is done by the main worker.'
-    variables: []
   type: Method
   uid: cntk.train.trainer.Trainer.save_checkpoint
 - _type: method
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.summarize_test_progress
+  langs:
+  - python
   module: cntk.train.trainer
   name: summarize_test_progress
   source:
@@ -263,14 +276,18 @@ items:
       path: cntk/train/trainer.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 314
+  summary: Updates the progress writers with the summary of test progress since start
+    and resets the internal accumulators.
   syntax:
-    summary: Updates the progress writers with the summary of test progress since
-      start and resets the internal accumulators.
+    parameters:
+    - id: self
   type: Method
   uid: cntk.train.trainer.Trainer.summarize_test_progress
 - _type: method
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.summarize_training_progress
+  langs:
+  - python
   module: cntk.train.trainer
   name: summarize_training_progress
   source:
@@ -281,14 +298,18 @@ items:
       path: cntk/train/trainer.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 307
+  summary: Updates the progress writers with the summary of training progress since
+    start and resets the internal accumulators.
   syntax:
-    summary: Updates the progress writers with the summary of training progress since
-      start and resets the internal accumulators.
+    parameters:
+    - id: self
   type: Method
   uid: cntk.train.trainer.Trainer.summarize_training_progress
 - _type: method
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.test_minibatch
+  langs:
+  - python
   module: cntk.train.trainer
   name: test_minibatch
   source:
@@ -299,22 +320,27 @@ items:
       path: cntk/train/trainer.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 174
-  syntax:
-    exceptions: []
-    parameters: []
-    returntype: float
-    returnvalue: "the average evaluation criterion value per sample for the\n   tested\
-      \ minibatch."
-    summary: 'Test the model on the specified batch of samples using the evaluation
-      Function specified during construction of the Trainer.
+  summary: 'Test the model on the specified batch of samples using the evaluation
+    Function specified during construction of the Trainer.
 
-      Note: See `forward()` for examples on passing input data.'
-    variables: []
+    Note: See `forward()` for examples on passing input data.'
+  syntax:
+    parameters:
+    - default: None
+      id: self
+    - id: arguments
+    - id: device
+    return:
+      description: "the average evaluation criterion value per sample for the\n  \
+        \ tested minibatch."
+      type: float
   type: Method
   uid: cntk.train.trainer.Trainer.test_minibatch
 - _type: attribute
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.total_number_of_samples_seen
+  langs:
+  - python
   module: cntk.train.trainer
   name: total_number_of_samples_seen
   source:
@@ -325,14 +351,16 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
-  syntax:
-    summary: The number of samples seen globally between all workers from the beginning
-      of training.
+  summary: The number of samples seen globally between all workers from the beginning
+    of training.
+  syntax: {}
   type: Property
   uid: cntk.train.trainer.Trainer.total_number_of_samples_seen
 - _type: method
   class: cntk.train.trainer.Trainer
   fullName: cntk.train.trainer.Trainer.train_minibatch
+  langs:
+  - python
   module: cntk.train.trainer
   name: train_minibatch
   source:
@@ -343,20 +371,25 @@ items:
       path: cntk/train/trainer.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 93
-  syntax:
-    exceptions: []
-    parameters: []
-    returntype: bool or tuple
-    returnvalue: If `outputs` have not been provided, the returned value is *True*
-      if updates have been performed, *False* if all parameter learners indicate end
-      of learning (through their update). Otherwise, the return value is a tuple of
-      the that *bool* and a dictionary that maps the variables in *outputs* to their
-      respective NumPy arrays.
-    summary: 'Optimize model parameters using the specified ''arguments'' minibatch
-      of training samples.
+  summary: 'Optimize model parameters using the specified ''arguments'' minibatch
+    of training samples.
 
-      Note: See `forward()` for examples on passing input data.'
-    variables: []
+    Note: See `forward()` for examples on passing input data.'
+  syntax:
+    parameters:
+    - default: None
+      id: self
+    - id: arguments
+    - id: outputs
+    - default: None
+      id: device
+    return:
+      description: If `outputs` have not been provided, the returned value is *True*
+        if updates have been performed, *False* if all parameter learners indicate
+        end of learning (through their update). Otherwise, the return value is a tuple
+        of the that *bool* and a dictionary that maps the variables in *outputs* to
+        their respective NumPy arrays.
+      type: bool or tuple
   type: Method
   uid: cntk.train.trainer.Trainer.train_minibatch
 references:

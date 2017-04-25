@@ -16,6 +16,8 @@ items:
   - cntk.train.tests.training_session_test.test_session_restart_from_checkpoint
   - cntk.train.tests.training_session_test.test_session_sanity_check
   fullName: cntk.train.tests.training_session_test
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: training_session_test
   source:
@@ -26,10 +28,13 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.train.tests.training_session_test
 - _type: function
   fullName: cntk.train.tests.training_session_test.create_sample_model
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: create_sample_model
   source:
@@ -40,12 +45,18 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 67
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: device
+    - default: None
+      id: writer
   type: Method
   uid: cntk.train.tests.training_session_test.create_sample_model
 - _type: function
   fullName: cntk.train.tests.training_session_test.mb_source
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: mb_source
   source:
@@ -56,12 +67,19 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 54
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - default: '18446744073709551613'
+      id: tmpdir
+    - id: fileprefix
+    - id: epoch_size
   type: Method
   uid: cntk.train.tests.training_session_test.mb_source
 - _type: function
   fullName: cntk.train.tests.training_session_test.test_session_cross_validation_3_times
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: test_session_cross_validation_3_times
   source:
@@ -72,12 +90,17 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 168
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: device_id
   type: Method
   uid: cntk.train.tests.training_session_test.test_session_cross_validation_3_times
 - _type: function
   fullName: cntk.train.tests.training_session_test.test_session_cross_validation_3_times_checkpoints_2_save_all
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: test_session_cross_validation_3_times_checkpoints_2_save_all
   source:
@@ -88,12 +111,17 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 191
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: device_id
   type: Method
   uid: cntk.train.tests.training_session_test.test_session_cross_validation_3_times_checkpoints_2_save_all
 - _type: function
   fullName: cntk.train.tests.training_session_test.test_session_cross_validation_at_end
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: test_session_cross_validation_at_end
   source:
@@ -104,12 +132,17 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 145
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: device_id
   type: Method
   uid: cntk.train.tests.training_session_test.test_session_cross_validation_at_end
 - _type: function
   fullName: cntk.train.tests.training_session_test.test_session_cv_callback_3_times
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: test_session_cv_callback_3_times
   source:
@@ -120,12 +153,17 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 339
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: device_id
   type: Method
   uid: cntk.train.tests.training_session_test.test_session_cv_callback_3_times
 - _type: function
   fullName: cntk.train.tests.training_session_test.test_session_cv_callback_early_exit
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: test_session_cv_callback_early_exit
   source:
@@ -136,12 +174,17 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 403
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: device_id
   type: Method
   uid: cntk.train.tests.training_session_test.test_session_cv_callback_early_exit
 - _type: function
   fullName: cntk.train.tests.training_session_test.test_session_cv_callback_with_cross_validation_3_times
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: test_session_cv_callback_with_cross_validation_3_times
   source:
@@ -152,12 +195,17 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 368
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: device_id
   type: Method
   uid: cntk.train.tests.training_session_test.test_session_cv_callback_with_cross_validation_3_times
 - _type: function
   fullName: cntk.train.tests.training_session_test.test_session_max_samples
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: test_session_max_samples
   source:
@@ -168,12 +216,17 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 126
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: device_id
   type: Method
   uid: cntk.train.tests.training_session_test.test_session_max_samples
 - _type: function
   fullName: cntk.train.tests.training_session_test.test_session_progress_print
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: test_session_progress_print
   source:
@@ -184,12 +237,17 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 232
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: device_id
   type: Method
   uid: cntk.train.tests.training_session_test.test_session_progress_print
 - _type: function
   fullName: cntk.train.tests.training_session_test.test_session_restart_from_checkpoint
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: test_session_restart_from_checkpoint
   source:
@@ -200,12 +258,17 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 258
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: device_id
   type: Method
   uid: cntk.train.tests.training_session_test.test_session_restart_from_checkpoint
 - _type: function
   fullName: cntk.train.tests.training_session_test.test_session_sanity_check
+  langs:
+  - python
   module: cntk.train.tests.training_session_test
   name: test_session_sanity_check
   source:
@@ -216,8 +279,11 @@ items:
       path: cntk/train/tests/training_session_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 109
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: device_id
   type: Method
   uid: cntk.train.tests.training_session_test.test_session_sanity_check
 references:

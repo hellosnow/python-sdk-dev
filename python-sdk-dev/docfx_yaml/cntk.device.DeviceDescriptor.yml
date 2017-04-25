@@ -49,12 +49,11 @@ items:
     startLine: 34
   summary: Returns id of device descriptor
   syntax:
-    exceptions: []
-    parameters: []
+    parameters:
+    - id: self
     return:
       description: id
       type: int
-    variables: []
   type: Method
   uid: cntk.device.DeviceDescriptor.id
 - _type: method
@@ -74,12 +73,11 @@ items:
     startLine: 43
   summary: Returns type of device descriptor. 1 if it is a GPU device or 0 if CPU.
   syntax:
-    exceptions: []
-    parameters: []
+    parameters:
+    - id: self
     return:
       description: type
       type: int
-    variables: []
   type: Method
   uid: cntk.device.DeviceDescriptor.type
 references:

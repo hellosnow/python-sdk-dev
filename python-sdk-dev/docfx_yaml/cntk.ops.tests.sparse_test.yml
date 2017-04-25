@@ -20,6 +20,7 @@ items:
       path: cntk/ops/tests/sparse_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for reshaping operations.
   type: Namespace
   uid: cntk.ops.tests.sparse_test
 - _type: function
@@ -37,7 +38,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 18
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
   type: Method
   uid: cntk.ops.tests.sparse_test.test_times_2d_sparse_operand
 - _type: function
@@ -55,7 +58,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 45
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
   type: Method
   uid: cntk.ops.tests.sparse_test.test_times_2d_sparse_sequence_operand
 - _type: function
@@ -91,7 +96,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 70
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
   type: Method
   uid: cntk.ops.tests.sparse_test.test_training_2d_sparse_sequence_operand
 - _type: function
@@ -109,7 +116,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 117
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
   type: Method
   uid: cntk.ops.tests.sparse_test.test_training_3d_sparse_sequence_with_recurrence
 references:

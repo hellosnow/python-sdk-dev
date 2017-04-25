@@ -24,6 +24,8 @@ items:
       path: cntk/ops/tests/evaluation_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for evaluation operations, each operation is tested for the
+    forward and the backward pass
   type: Namespace
   uid: cntk.ops.tests.evaluation_test
 - _type: function
@@ -41,7 +43,18 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 284
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: left_input
+    - id: right_input
+    - id: subPen
+    - id: delPen
+    - id: insPen
+    - id: squashInputs
+    - id: tokensToIgnore
+    - id: result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_edit_distance_error
 - _type: function
@@ -59,7 +72,14 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 225
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: grad
+    - id: value
+    - id: output
+    - id: gain
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_lambda_rank
 - _type: function
@@ -77,7 +97,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 254
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: value
+    - id: output
+    - id: gain
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_ndcg
 - _type: function
@@ -95,7 +121,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 136
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: output_vector
+    - id: target_vector
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_op_classification_error
 - _type: function
@@ -113,7 +144,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 183
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: output_vector
+    - id: target_vector
+    - id: axis
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_op_classification_error_with_axis
 - _type: function
@@ -131,7 +168,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 27
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: output_vector
+    - id: target_vector
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max
 - _type: function
@@ -149,7 +191,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 73
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: output_vector
+    - id: target_vector
+    - id: axis
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_op_cross_entropy_with_soft_max_and_axis
 - _type: function
@@ -167,7 +215,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 110
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: output_vector
+    - id: target_vector
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_op_squared_error
 - _type: function
@@ -185,7 +238,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 292
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.evaluation_test.test_sequence_grad_as_numpy_false
 references:

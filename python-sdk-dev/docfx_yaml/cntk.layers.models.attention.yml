@@ -4,6 +4,8 @@ items:
   children:
   - cntk.layers.models.attention.AttentionModel
   fullName: cntk.layers.models.attention
+  langs:
+  - python
   module: cntk.layers.models.attention
   name: attention
   source:
@@ -14,10 +16,13 @@ items:
       path: cntk/layers/models/attention.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: attention -- standard attention model
   type: Namespace
   uid: cntk.layers.models.attention
 - _type: function
   fullName: cntk.layers.models.attention.AttentionModel
+  langs:
+  - python
   module: cntk.layers.models.attention
   name: AttentionModel
   source:
@@ -28,10 +33,24 @@ items:
       path: cntk/layers/models/attention.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 18
+  summary: Layer factory function to create a function object that implements an attention
+    model as described in Bahdanau, et al., "Neural machine translation by jointly
+    learning to align and translate."
   syntax:
-    summary: Layer factory function to create a function object that implements an
-      attention model as described in Bahdanau, et al., "Neural machine translation
-      by jointly learning to align and translate."
+    parameters:
+    - id: attention_dim
+    - default: ''
+      id: attention_span
+    - default: <cntk.default_options.default_override_or object at 0x2b4f8793f630>
+      id: attention_axis
+    - default: <cntk.default_options.default_override_or object at 0x2b4f8793f5f8>
+      id: init
+    - default: <cntk.default_options.default_override_or object at 0x2b4f8793f5c0>
+      id: go_backwards
+    - default: None
+      id: enable_self_stabilization
+    - default: None
+      id: name
   type: Method
   uid: cntk.layers.models.attention.AttentionModel
 references:

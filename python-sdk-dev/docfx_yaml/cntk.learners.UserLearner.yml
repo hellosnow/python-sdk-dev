@@ -6,8 +6,11 @@ items:
   class: cntk.learners.UserLearner
   fullName: cntk.learners.UserLearner
   inheritance:
-  - - cntk.cntk_py.Learner
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.cntk_py.Learner
+  langs:
+  - python
   module: cntk.learners
   name: UserLearner
   source:
@@ -18,21 +21,23 @@ items:
       path: cntk/learners/__init__.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 160
-  syntax:
-    summary: 'Bases: `cntk.cntk_py.Learner`
+  summary: 'Bases: `cntk.cntk_py.Learner`
 
-      Base class of all user-defined learners. To implement your own learning algorithm,
-      derive from this class and override the `update()`.
+    Base class of all user-defined learners. To implement your own learning algorithm,
+    derive from this class and override the `update()`.
 
-      Certain optimizers (such as AdaGrad) require additional storage. This can be
-      allocated and initialized during construction.
+    Certain optimizers (such as AdaGrad) require additional storage. This can be allocated
+    and initialized during construction.
 
-      '
+    '
+  syntax: {}
   type: Class
   uid: cntk.learners.UserLearner
 - _type: method
   class: cntk.learners.UserLearner
   fullName: cntk.learners.UserLearner.update
+  langs:
+  - python
   module: cntk.learners
   name: update
   source:
@@ -43,9 +48,10 @@ items:
       path: cntk/learners/__init__.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 201
+  summary: Update the parameters associated with this learner.
   syntax:
-    exceptions: []
     parameters:
+    - id: self
     - description: maps `Parameter` to a NumPy array containing the first order gradient
         values for the Parameter w.r.t. the training objective.
       id: gradient_values
@@ -57,11 +63,9 @@ items:
         a full pass over the dataset has just occured.
       id: sweep_end
       type: bool
-    returntype: ''
-    returnvalue: '*False* to indicate that learning has stopped for all of the parameters
-      associated with this learner'
-    summary: Update the parameters associated with this learner.
-    variables: []
+    return:
+      description: '*False* to indicate that learning has stopped for all of the parameters
+        associated with this learner'
   type: Method
   uid: cntk.learners.UserLearner.update
 references:

@@ -16,6 +16,8 @@ items:
   - cntk.train.tests.trainer_test.test_trainer
   - cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned
   fullName: cntk.train.tests.trainer_test
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: trainer_test
   source:
@@ -26,10 +28,13 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.train.tests.trainer_test
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_disallow_seq_starts_with_Value_objects
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_disallow_seq_starts_with_Value_objects
   source:
@@ -40,12 +45,14 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 309
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.train.tests.trainer_test.test_disallow_seq_starts_with_Value_objects
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_eval_one_hot_bad
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_eval_one_hot_bad
   source:
@@ -56,12 +63,18 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 193
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: one_hot_batch
+    - id: dim
+    - id: device_id
   type: Method
   uid: cntk.train.tests.trainer_test.test_eval_one_hot_bad
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_eval_one_hot_seq
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_eval_one_hot_seq
   source:
@@ -72,12 +85,17 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 172
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: one_hot_batch
+    - id: device_id
   type: Method
   uid: cntk.train.tests.trainer_test.test_eval_one_hot_seq
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_eval_sparse_dense
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_eval_sparse_dense
   source:
@@ -88,12 +106,17 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 74
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: device_id
   type: Method
   uid: cntk.train.tests.trainer_test.test_eval_sparse_dense
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_eval_sparse_no_seq
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_eval_sparse_no_seq
   source:
@@ -104,12 +127,17 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 132
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: batch_index_data
+    - id: device_id
   type: Method
   uid: cntk.train.tests.trainer_test.test_eval_sparse_no_seq
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_eval_sparse_seq_1
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_eval_sparse_seq_1
   source:
@@ -120,12 +148,17 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 148
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: batch
+    - id: device_id
   type: Method
   uid: cntk.train.tests.trainer_test.test_eval_sparse_seq_1
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_model_not_criterion_subset
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_model_not_criterion_subset
   source:
@@ -136,12 +169,14 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 201
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.train.tests.trainer_test.test_model_not_criterion_subset
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_model_one_output_of_multi_output_function
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_model_one_output_of_multi_output_function
   source:
@@ -152,12 +187,14 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 231
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.train.tests.trainer_test.test_model_one_output_of_multi_output_function
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_not_replaced_placeholders
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_not_replaced_placeholders
   source:
@@ -168,12 +205,14 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 283
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.train.tests.trainer_test.test_not_replaced_placeholders
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_output_to_retain
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_output_to_retain
   source:
@@ -184,12 +223,14 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 56
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.train.tests.trainer_test.test_output_to_retain
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_scalar_input
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_scalar_input
   source:
@@ -200,12 +241,14 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 323
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.train.tests.trainer_test.test_scalar_input
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_trainer
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_trainer
   source:
@@ -216,12 +259,17 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 23
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: tmpdir
+    - id: no_eval_function
   type: Method
   uid: cntk.train.tests.trainer_test.test_trainer
 - _type: function
   fullName: cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned
+  langs:
+  - python
   module: cntk.train.tests.trainer_test
   name: test_trainer_with_some_params_not_learned
   source:
@@ -232,8 +280,8 @@ items:
       path: cntk/train/tests/trainer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 250
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.train.tests.trainer_test.test_trainer_with_some_params_not_learned
 references:

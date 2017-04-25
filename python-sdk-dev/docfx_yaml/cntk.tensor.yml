@@ -17,6 +17,7 @@ items:
       path: cntk/tensor.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.tensor
 references:

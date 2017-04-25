@@ -24,6 +24,7 @@ items:
       path: cntk/ops/tests/userfunction_complex_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for function extension
   type: Namespace
   uid: cntk.ops.tests.userfunction_complex_test
 - _type: function
@@ -41,7 +42,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 47
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input
+    - id: output_dim
+    - id: nonlinearity
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.dense_layer
 - _type: function
@@ -59,7 +64,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 54
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input
+    - id: num_output_classes
+    - id: hidden_layer_dim
+    - id: num_hidden_layers
+    - id: nonlinearity
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.fully_connected_classifier_net
 - _type: function
@@ -77,7 +88,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 27
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: sample_size
+    - id: feature_dim
+    - id: num_classes
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.generate_random_data_sample
 - _type: function
@@ -95,7 +110,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 39
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_var
+    - id: output_dim
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.linear_layer
 - _type: function
@@ -113,7 +131,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 149
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.measure_runtime
 - _type: function
@@ -131,7 +151,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 62
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: trainer
+    - id: mb
+    - id: frequency
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.print_training_progress
 - _type: function
@@ -149,7 +173,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 141
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.test_ext_user_sigmoid
 - _type: function
@@ -167,7 +193,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 72
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: nonlinearity
+    - id: num_hidden_layers
+    - id: device_id
   type: Method
   uid: cntk.ops.tests.userfunction_complex_test.train
 references:

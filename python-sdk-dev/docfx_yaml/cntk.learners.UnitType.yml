@@ -7,8 +7,11 @@ items:
   class: cntk.learners.UnitType
   fullName: cntk.learners.UnitType
   inheritance:
-  - - enum.Enum
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
   module: cntk.learners
   name: UnitType
   source:
@@ -19,19 +22,21 @@ items:
       path: cntk/learners/__init__.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 15
-  syntax:
-    summary: 'Bases: `enum.Enum`
+  summary: 'Bases: `enum.Enum`
 
-      Indicates whether the values in the schedule are specified on the per-sample
-      or per-minibatch basis.
+    Indicates whether the values in the schedule are specified on the per-sample or
+    per-minibatch basis.
 
 
-      '
+    '
+  syntax: {}
   type: Class
   uid: cntk.learners.UnitType
 - _type: attribute
   class: cntk.learners.UnitType
   fullName: cntk.learners.UnitType.minibatch
+  langs:
+  - python
   module: cntk.learners
   name: minibatch
   source:
@@ -42,14 +47,16 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
-  syntax:
-    summary: Schedule contains per-minibatch values (and need to be re-scaled by the
-      learner using the actual minibatch size in samples).
+  summary: Schedule contains per-minibatch values (and need to be re-scaled by the
+    learner using the actual minibatch size in samples).
+  syntax: {}
   type: Property
   uid: cntk.learners.UnitType.minibatch
 - _type: attribute
   class: cntk.learners.UnitType
   fullName: cntk.learners.UnitType.sample
+  langs:
+  - python
   module: cntk.learners
   name: sample
   source:
@@ -60,8 +67,8 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
-  syntax:
-    summary: Schedule contains per-sample values.
+  summary: Schedule contains per-sample values.
+  syntax: {}
   type: Property
   uid: cntk.learners.UnitType.sample
 references:

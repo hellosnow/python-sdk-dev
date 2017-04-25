@@ -17,6 +17,7 @@ items:
       path: cntk/internal/swig_helper.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.internal.swig_helper
 - _type: function
@@ -34,7 +35,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 9
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: obj
   type: Method
   uid: cntk.internal.swig_helper.map_if_possible
 - _type: function
@@ -55,7 +58,9 @@ items:
     inherit from Swig. It does so recursively, e.g. if the return type is a tuple
     containing a dictionary, it will try to upcast every element in the tuple and
     all the keys and values in the dictionary.
-  syntax: {}
+  syntax:
+    parameters:
+    - id: f
   type: Method
   uid: cntk.internal.swig_helper.typemap
 references:

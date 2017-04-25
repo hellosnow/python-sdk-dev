@@ -34,6 +34,8 @@ items:
       path: cntk/ops/tests/non_linear_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for non-linear operations. Each operation is tested for the
+    forward and the backward pass
   type: Namespace
   uid: cntk.ops.tests.non_linear_test
 - _type: function
@@ -51,7 +53,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 119
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_abs
 - _type: function
@@ -69,7 +75,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 428
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: use_cudnn
+    - id: sample
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_batch_normalization
 - _type: function
@@ -87,7 +98,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 50
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: min_value
+    - id: max_value
+    - id: x
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_clip
 - _type: function
@@ -105,7 +122,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 151
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: shape
+    - id: dropout_rate
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_dropout
 - _type: function
@@ -123,7 +145,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 191
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: dropout_rate
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_dropout_bad_input
 - _type: function
@@ -141,7 +165,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 291
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_elu
 - _type: function
@@ -159,7 +187,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 105
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_exp
 - _type: function
@@ -177,7 +209,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 405
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: sample
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_hardmax
 - _type: function
@@ -195,7 +231,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 308
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_leaky_relu
 - _type: function
@@ -213,7 +253,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 235
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_log
 - _type: function
@@ -231,7 +275,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 325
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_param_relu
 - _type: function
@@ -249,7 +297,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 259
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_reciprocal
 - _type: function
@@ -267,7 +319,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 277
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_relu
 - _type: function
@@ -285,7 +341,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 75
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_sigmoid
 - _type: function
@@ -303,7 +363,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 371
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: sample
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_softmax
 - _type: function
@@ -321,7 +385,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 348
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_softplus
 - _type: function
@@ -339,7 +407,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 201
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_sqrt
 - _type: function
@@ -357,7 +429,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 218
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_square
 - _type: function
@@ -375,7 +451,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 137
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_linear_test.test_op_tanh
 references:

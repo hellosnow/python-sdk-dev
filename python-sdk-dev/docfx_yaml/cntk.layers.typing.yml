@@ -9,6 +9,8 @@ items:
   - cntk.layers.typing.SparseTensor
   - cntk.layers.typing.Tensor
   fullName: cntk.layers.typing
+  langs:
+  - python
   module: cntk.layers.typing
   name: typing
   source:
@@ -19,6 +21,7 @@ items:
       path: cntk/layers/typing.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: typing -- basic CNTK type meta-classes for CNTK @Function type signatures
   type: Namespace
   uid: cntk.layers.typing
 references:

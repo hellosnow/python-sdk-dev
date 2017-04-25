@@ -15,6 +15,7 @@ items:
       path: cntk/metrics/tests/__init__.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.metrics.tests
 references: []

@@ -7,6 +7,8 @@ items:
   - cntk.logging.tests.graph_test.test_find_nodes_returning_proper_types
   - cntk.logging.tests.graph_test.test_plot
   fullName: cntk.logging.tests.graph_test
+  langs:
+  - python
   module: cntk.logging.tests.graph_test
   name: graph_test
   source:
@@ -17,10 +19,13 @@ items:
       path: cntk/logging/tests/graph_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.logging.tests.graph_test
 - _type: function
   fullName: cntk.logging.tests.graph_test.test_depth_first_search
+  langs:
+  - python
   module: cntk.logging.tests.graph_test
   name: test_depth_first_search
   source:
@@ -31,12 +36,14 @@ items:
       path: cntk/logging/tests/graph_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 114
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.logging.tests.graph_test.test_depth_first_search
 - _type: function
   fullName: cntk.logging.tests.graph_test.test_find_nodes
+  langs:
+  - python
   module: cntk.logging.tests.graph_test
   name: test_find_nodes
   source:
@@ -47,12 +54,14 @@ items:
       path: cntk/logging/tests/graph_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 62
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.logging.tests.graph_test.test_find_nodes
 - _type: function
   fullName: cntk.logging.tests.graph_test.test_find_nodes_returning_proper_types
+  langs:
+  - python
   module: cntk.logging.tests.graph_test
   name: test_find_nodes_returning_proper_types
   source:
@@ -63,12 +72,14 @@ items:
       path: cntk/logging/tests/graph_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 90
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.logging.tests.graph_test.test_find_nodes_returning_proper_types
 - _type: function
   fullName: cntk.logging.tests.graph_test.test_plot
+  langs:
+  - python
   module: cntk.logging.tests.graph_test
   name: test_plot
   source:
@@ -79,8 +90,8 @@ items:
       path: cntk/logging/tests/graph_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 102
-  syntax:
-    summary: ''
+  summary: ''
+  syntax: {}
   type: Method
   uid: cntk.logging.tests.graph_test.test_plot
 references:

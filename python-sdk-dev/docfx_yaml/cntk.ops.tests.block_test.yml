@@ -19,6 +19,7 @@ items:
       path: cntk/ops/tests/block_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for as_block operation, only forward pass is tested
   type: Namespace
   uid: cntk.ops.tests.block_test
 - _type: function
@@ -90,7 +91,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 30
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_shape
+    - id: output_shape
+    - id: expected_output_shape
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.block_test.test_op_as_block
 references:

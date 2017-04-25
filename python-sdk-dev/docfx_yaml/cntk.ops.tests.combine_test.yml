@@ -17,6 +17,7 @@ items:
       path: cntk/ops/tests/combine_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for combine operation, only forward pass is tested
   type: Namespace
   uid: cntk.ops.tests.combine_test
 - _type: function
@@ -34,7 +35,14 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 29
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: left_operand
+    - id: right_operand
+    - id: operations
+    - id: expected_results
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.combine_test.test_op_combine
 - _type: function

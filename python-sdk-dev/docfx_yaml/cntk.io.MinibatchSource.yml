@@ -12,8 +12,11 @@ items:
   class: cntk.io.MinibatchSource
   fullName: cntk.io.MinibatchSource
   inheritance:
-  - - cntk.cntk_py.MinibatchSource
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.cntk_py.MinibatchSource
+  langs:
+  - python
   module: cntk.io
   name: MinibatchSource
   source:
@@ -24,25 +27,38 @@ items:
       path: cntk/io/__init__.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 82
+  summary: 'Bases: `cntk.cntk_py.MinibatchSource`
+
+    A *MinibatchSource* can be indexed by the stream name, which will return a Parent
+    class of all minibatch sources.  A *MinibatchSource* can be indexed by the stream
+    name, which will return a `MinibatchData` object that can be passed e.g. to the
+    `train_minibatch()` function.
+
+
+
+
+
+
+
+    '
   syntax:
-    exceptions: []
     parameters:
     - description: list of deserializers
+      id: deserializers
+      type: list, defaults to empty
+    - description: randomize before every epoch
       id: randomize
       type: bool, defaults to True
-    - description: randomize before every epoch
-      id: truncation_length
-      type: int
     - description: size of window that reader will shuffle, ignored if *randomize*
         is *False*
-      id: sample_based_randomization_window
-      type: bool, defaults to False
+      id: randomization_window
+      type: int
     - description: specifies how to interpret *randomization_window*. If *True*, the
         size of the randomization window is interpreted as a certain number of samples,
         otherwise -- as a number of chunks. Similarly to *randomization_window*, this
         parameter is ignored, when *randomize* is *False*
-      id: multithreaded_deserializer
-      type: bool, defaults to None
+      id: sample_based_randomization_window
+      type: bool, defaults to False
     - description: number of samples as a scheduling unit. Parameters in the schedule
         change their values every *epoch_size* samples. If no *epoch_size* is provided,
         this parameter is substituted by the size of the full data sweep with infinte
@@ -50,44 +66,29 @@ items:
         by the MinibatchSource) and parameters change their values on the sweep-by-sweep
         basis specified by the schedule. **Important:** Click [here](https://github.com/Microsoft/CNTK/wiki/BrainScript-epochSize-and-Python-epoch_size-in-CNTK)
         for a full description of this parameter.
-      id: deserializers
-      type: list, defaults to empty
+      id: epoch_size
+      type: int, defaults to INFINITELY_REPEAT
     - description: sample count after which minibatch source becomes distributed
       id: distributed_after
       type: int, defaults to cntk.io.INFINITE_SAMPLES
     - description: using multi threaded deserializer
-      id: randomization_window
-      type: int
+      id: multithreaded_deserializer
+      type: bool, defaults to None
     - description: Specifies if data should be randomized and returned at the frame
         or sequence level. When  true , input sequence are split into frames.
-      id: epoch_size
-      type: int, defaults to INFINITELY_REPEAT
-    - description: Specifies the truncation length in samples for BPTT (positive integer).
-        If greater than zero *frame_mode* cannot be used at the same time.
       id: frame_mode
       type: bool, defaults to False
-    returntype: ''
-    returnvalue: ''
-    summary: 'Bases: `cntk.cntk_py.MinibatchSource`
-
-      A *MinibatchSource* can be indexed by the stream name, which will return a Parent
-      class of all minibatch sources.  A *MinibatchSource* can be indexed by the stream
-      name, which will return a `MinibatchData` object that can be passed e.g. to
-      the `train_minibatch()` function.
-
-
-
-
-
-
-
-      '
-    variables: []
+    - description: Specifies the truncation length in samples for BPTT (positive integer).
+        If greater than zero *frame_mode* cannot be used at the same time.
+      id: truncation_length
+      type: int
   type: Class
   uid: cntk.io.MinibatchSource
 - _type: attribute
   class: cntk.io.MinibatchSource
   fullName: cntk.io.MinibatchSource.current_position
+  langs:
+  - python
   module: cntk.io
   name: current_position
   source:
@@ -98,18 +99,17 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
+  summary: Gets current position in the minibatch source.
   syntax:
-    exceptions: []
-    parameters: []
-    returntype: ''
-    returnvalue: Minibatch position `Dictionary` on the global timeline.
-    summary: Gets current position in the minibatch source.
-    variables: []
+    return:
+      description: Minibatch position `Dictionary` on the global timeline.
   type: Property
   uid: cntk.io.MinibatchSource.current_position
 - _type: method
   class: cntk.io.MinibatchSource
   fullName: cntk.io.MinibatchSource.get_checkpoint_state
+  langs:
+  - python
   module: cntk.io
   name: get_checkpoint_state
   source:
@@ -120,18 +120,20 @@ items:
       path: cntk/io/__init__.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 223
+  summary: Gets the checkpoint state of the MinibatchSource.
   syntax:
-    exceptions: []
-    parameters: []
-    returntype: cntk.cntk_py.Dictionary
-    returnvalue: A `Dictionary` that has the checkpoint state of the MinibatchSource
-    summary: Gets the checkpoint state of the MinibatchSource.
-    variables: []
+    parameters:
+    - id: self
+    return:
+      description: A `Dictionary` that has the checkpoint state of the MinibatchSource
+      type: cntk.cntk_py.Dictionary
   type: Method
   uid: cntk.io.MinibatchSource.get_checkpoint_state
 - _type: attribute
   class: cntk.io.MinibatchSource
   fullName: cntk.io.MinibatchSource.is_distributed
+  langs:
+  - python
   module: cntk.io
   name: is_distributed
   source:
@@ -142,13 +144,15 @@ items:
       path: null
       repo: https://github.com/Microsoft/CNTK
     startLine: null
-  syntax:
-    summary: Whether the minibatch source is running distributed
+  summary: Whether the minibatch source is running distributed
+  syntax: {}
   type: Property
   uid: cntk.io.MinibatchSource.is_distributed
 - _type: method
   class: cntk.io.MinibatchSource
   fullName: cntk.io.MinibatchSource.next_minibatch
+  langs:
+  - python
   module: cntk.io
   name: next_minibatch
   source:
@@ -159,8 +163,13 @@ items:
       path: cntk/internal/swig_helper.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 173
+  summary: 'Reads a minibatch that contains data for all input streams.  The minibatch
+    size is specified in terms of #samples and/or #sequences for the primary input
+    stream; value of 0 for #samples/#sequences means unspecified.  In case the size
+    is specified in terms of both #sequences and #samples, the smaller of the 2 is
+    taken.  An empty map is returned when the MinibatchSource has no more data to
+    return.'
   syntax:
-    exceptions: []
     parameters:
     - description: '<SYSTEM MESSAGE: /root/CNTK/bindings/python/doc/cntk.io.rst:2:
         (INFO/1) Duplicate explicit target name: "here".>
@@ -173,31 +182,30 @@ items:
       type: int
     - description: mapping of `Variable` to `StreamInformation` which will be used
         to convert the returned data.
-      id: device
-      type: DeviceDescriptor, defaults to None
-    - description: CNTK DeviceDescriptor
-      id: partition_index
-      type: int, defaults to None
-    - description: Used for distributed training, indicates into how many partitions
-        the source should split the data.
       id: input_map
       type: dict
-    returntype: cntk.io.MinibatchData
-    returnvalue: A mapping of `StreamInformation` to `MinibatchData` if *input_map*
-      was not specified. Otherwise, the returned value will be a mapping of `Variable`
-      to class:*MinibatchData*.
-    summary: 'Reads a minibatch that contains data for all input streams.  The minibatch
-      size is specified in terms of #samples and/or #sequences for the primary input
-      stream; value of 0 for #samples/#sequences means unspecified.  In case the size
-      is specified in terms of both #sequences and #samples, the smaller of the 2
-      is taken.  An empty map is returned when the MinibatchSource has no more data
-      to return.'
-    variables: []
+    - description: CNTK DeviceDescriptor
+      id: device
+      type: DeviceDescriptor, defaults to None
+    - description: Used for distributed training, indicates into how many partitions
+        the source should split the data.
+      id: num_data_partitions
+    - description: Used for distributed training, indicates data from which partition
+        to take.
+      id: partition_index
+      type: int, defaults to None
+    return:
+      description: A mapping of `StreamInformation` to `MinibatchData` if *input_map*
+        was not specified. Otherwise, the returned value will be a mapping of `Variable`
+        to class:*MinibatchData*.
+      type: cntk.io.MinibatchData
   type: Method
   uid: cntk.io.MinibatchSource.next_minibatch
 - _type: method
   class: cntk.io.MinibatchSource
   fullName: cntk.io.MinibatchSource.restore_from_checkpoint
+  langs:
+  - python
   module: cntk.io
   name: restore_from_checkpoint
   source:
@@ -208,21 +216,20 @@ items:
       path: cntk/io/__init__.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 233
+  summary: Restores the MinibatchSource state from the specified checkpoint.
   syntax:
-    exceptions: []
     parameters:
+    - id: self
     - description: checkpoint to restore from
       id: checkpoint
       type: Dictionary
-    returntype: ''
-    returnvalue: ''
-    summary: Restores the MinibatchSource state from the specified checkpoint.
-    variables: []
   type: Method
   uid: cntk.io.MinibatchSource.restore_from_checkpoint
 - _type: method
   class: cntk.io.MinibatchSource
   fullName: cntk.io.MinibatchSource.stream_info
+  langs:
+  - python
   module: cntk.io
   name: stream_info
   source:
@@ -233,14 +240,19 @@ items:
       path: cntk/io/__init__.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 156
+  summary: Gets the description of the stream with given name. Throws an exception
+    if there are none or multiple streams with this same name.
   syntax:
-    summary: Gets the description of the stream with given name. Throws an exception
-      if there are none or multiple streams with this same name.
+    parameters:
+    - id: self
+    - id: name
   type: Method
   uid: cntk.io.MinibatchSource.stream_info
 - _type: method
   class: cntk.io.MinibatchSource
   fullName: cntk.io.MinibatchSource.stream_infos
+  langs:
+  - python
   module: cntk.io
   name: stream_infos
   source:
@@ -251,13 +263,13 @@ items:
       path: cntk/io/__init__.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 146
+  summary: Describes the stream that this source produces.
   syntax:
-    exceptions: []
-    parameters: []
-    returntype: dict
-    returnvalue: A *dict* mapping input names to the stream information
-    summary: Describes the stream that this source produces.
-    variables: []
+    parameters:
+    - id: self
+    return:
+      description: A *dict* mapping input names to the stream information
+      type: dict
   type: Method
   uid: cntk.io.MinibatchSource.stream_infos
 references:

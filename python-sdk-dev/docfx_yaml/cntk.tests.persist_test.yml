@@ -19,6 +19,7 @@ items:
       path: cntk/tests/persist_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.tests.persist_test
 - _type: function
@@ -36,7 +37,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 14
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: tmpdir
   type: Method
   uid: cntk.tests.persist_test.test_load_save_constant
 - _type: function
@@ -54,7 +57,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 35
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: tmpdir
   type: Method
   uid: cntk.tests.persist_test.test_load_save_input_legacy_names
 - _type: function
@@ -72,7 +77,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 59
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: tmpdir
   type: Method
   uid: cntk.tests.persist_test.test_load_save_inputs
 - _type: function
@@ -90,7 +97,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 85
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: tmpdir
   type: Method
   uid: cntk.tests.persist_test.test_load_save_unique_input
 references:

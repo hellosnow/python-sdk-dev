@@ -16,6 +16,7 @@ items:
       path: cntk/tests/test_utils.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Utils for unit tests
   type: Namespace
   uid: cntk.tests.test_utils
 - _type: function
@@ -33,7 +34,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 23
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: request
   type: Method
   uid: cntk.tests.test_utils.precision
 references:

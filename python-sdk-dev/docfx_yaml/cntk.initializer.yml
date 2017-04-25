@@ -24,6 +24,7 @@ items:
       path: cntk/initializer.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.initializer
 - _type: function
@@ -42,7 +43,6 @@ items:
     startLine: 149
   summary: initializer
   syntax:
-    exceptions: []
     parameters:
     - description: kernel width
       id: kernel_width
@@ -52,7 +52,6 @@ items:
       type: int
     return:
       description: initializer for `Parameter` useful for deconvolution layer
-    variables: []
   type: Method
   uid: cntk.initializer.bilinear
 - _type: function
@@ -71,24 +70,25 @@ items:
     startLine: 89
   summary: initializer
   syntax:
-    exceptions: []
     parameters:
-    - description: scale
-      id: seed
-      type: int
-    - description: output rank
-      id: filter_rank
-      type: int
-    - description: filter rank
+    - default: '2147483647'
+      description: scale
       id: scale
       type: float
-    - description: random seed
+    - default: '2147483647'
+      description: output rank
       id: output_rank
+      type: int
+    - default: '1'
+      description: filter rank
+      id: filter_rank
+      type: int
+    - description: random seed
+      id: seed
       type: int
     return:
       description: initializer for `Parameter` initialized to Gaussian distribution
         with mean *0* and standard deviation $$scale*sqrt(2.0/(fanIn+fanOut))$$
-    variables: []
   type: Method
   uid: cntk.initializer.glorot_normal
 - _type: function
@@ -107,24 +107,25 @@ items:
     startLine: 69
   summary: Glorot initializer
   syntax:
-    exceptions: []
     parameters:
-    - description: scale
-      id: seed
-      type: int
-    - description: output rank
-      id: filter_rank
-      type: int
-    - description: filter rank
+    - default: '2147483647'
+      description: scale
       id: scale
       type: float
-    - description: random seed
+    - default: '2147483647'
+      description: output rank
       id: output_rank
+      type: int
+    - default: '1'
+      description: filter rank
+      id: filter_rank
+      type: int
+    - description: random seed
+      id: seed
       type: int
     return:
       description: initializer for `Parameter` initialized to uniform distribution
         between $$scale*sqrt(6.0/(fanIn+fanOut))*[-1,1]$$
-    variables: []
   type: Method
   uid: cntk.initializer.glorot_uniform
 - _type: function
@@ -143,24 +144,25 @@ items:
     startLine: 129
   summary: initializer
   syntax:
-    exceptions: []
     parameters:
-    - description: scale
-      id: seed
-      type: int
-    - description: output rank
-      id: filter_rank
-      type: int
-    - description: filter rank
+    - default: '2147483647'
+      description: scale
       id: scale
       type: float
-    - description: random seed
+    - default: '2147483647'
+      description: output rank
       id: output_rank
+      type: int
+    - default: '1'
+      description: filter rank
+      id: filter_rank
+      type: int
+    - description: random seed
+      id: seed
       type: int
     return:
       description: initializer for `Parameter` initialized to Gaussian distribution
         with mean *0* and standard deviation $$scale*sqrt(2.0/fanIn)$$
-    variables: []
   type: Method
   uid: cntk.initializer.he_normal
 - _type: function
@@ -179,24 +181,25 @@ items:
     startLine: 109
   summary: initializer
   syntax:
-    exceptions: []
     parameters:
-    - description: scale
-      id: seed
-      type: int
-    - description: output rank
-      id: filter_rank
-      type: int
-    - description: filter rank
+    - default: '2147483647'
+      description: scale
       id: scale
       type: float
-    - description: random seed
+    - default: '2147483647'
+      description: output rank
       id: output_rank
+      type: int
+    - default: '1'
+      description: filter rank
+      id: filter_rank
+      type: int
+    - description: random seed
+      id: seed
       type: int
     return:
       description: initializer for `Parameter` initialized to uniform distribution
         between $$scale*sqrt(6.0/fanIn)*[-1,1]$$
-    variables: []
   type: Method
   uid: cntk.initializer.he_uniform
 - _type: function
@@ -216,19 +219,21 @@ items:
   summary: override output_rank and filter_rank specification in a random initializer
     constructed without an explicit output_rank and filter_rank specification
   syntax:
-    exceptions: []
     parameters:
     - description: initializer whose output_rank and filter_rank parameters are to
         be overriden
-      id: filter_rank
-      type: int
-    - description: new output rank value
+      id: initializer
+    - default: None
+      description: new output rank value
       id: output_rank
+      type: int
+    - default: None
+      description: new filter rank value
+      id: filter_rank
       type: int
     return:
       description: new initializer for `Parameter` with specified output_rank and
         filter_rank
-    variables: []
   type: Method
   uid: cntk.initializer.initializer_with_rank
 - _type: function
@@ -247,24 +252,25 @@ items:
     startLine: 30
   summary: Normal initializer
   syntax:
-    exceptions: []
     parameters:
     - description: scale
-      id: seed
-      type: int
-    - description: output rank
-      id: filter_rank
-      type: int
-    - description: filter rank
       id: scale
       type: float
-    - description: random seed
+    - default: None
+      description: output rank
       id: output_rank
+      type: int
+    - default: '2147483647'
+      description: filter rank
+      id: filter_rank
+      type: int
+    - default: '2147483647'
+      description: random seed
+      id: seed
       type: int
     return:
       description: initializer for `cntk.ops.variables.Parameter` initialized to normal
         distribution with mean *0* and standard deviation *scale*.
-    variables: []
   type: Method
   uid: cntk.initializer.normal
 - _type: function
@@ -283,19 +289,18 @@ items:
     startLine: 12
   summary: Uniform initializer
   syntax:
-    exceptions: []
     parameters:
     - description: scale
-      id: seed
-      type: int
-    - description: random seed
       id: scale
       type: float
+    - default: None
+      description: random seed
+      id: seed
+      type: int
     return:
       description: initializer for `cntk.ops.variables.Parameter` initialized to uniform
         distribution between *scale*[-1.0, 1.0]* note this maps to the "uniform1"
         distribution in BrainScript.
-    variables: []
   type: Method
   uid: cntk.initializer.uniform
 - _type: function
@@ -314,24 +319,25 @@ items:
     startLine: 49
   summary: Xavier initializer
   syntax:
-    exceptions: []
     parameters:
-    - description: scale
-      id: seed
-      type: int
-    - description: output rank
-      id: filter_rank
-      type: int
-    - description: filter rank
+    - default: '2147483647'
+      description: scale
       id: scale
       type: float
-    - description: random seed
+    - default: '2147483647'
+      description: output rank
       id: output_rank
+      type: int
+    - default: '1'
+      description: filter rank
+      id: filter_rank
+      type: int
+    - description: random seed
+      id: seed
       type: int
     return:
       description: initializer for `Parameter` initialized to Gaussian distribution
         with mean *0* and standard deviation $$scale*sqrt(3.0/fanIn)$$
-    variables: []
   type: Method
   uid: cntk.initializer.xavier
 references:

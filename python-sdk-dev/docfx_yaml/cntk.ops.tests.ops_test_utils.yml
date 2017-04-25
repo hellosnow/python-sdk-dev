@@ -22,6 +22,7 @@ items:
       path: cntk/ops/tests/ops_test_utils.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Utils for operations unit tests
   type: Namespace
   uid: cntk.ops.tests.ops_test_utils
 - _type: function
@@ -41,18 +42,17 @@ items:
   summary: Helper test function that converts a batch of dense tensors into sparse
     representation that can be consumed by `cntk.ops.sparse_input_numpy()`.
   syntax:
-    exceptions: []
     parameters:
     - description: list of samples. If `dynamic_axis` is given, samples are sequences
         of tensors. Otherwise, they are simple tensors.
-      id: dynamic_axis
-      type: str or cntk.ops.dynamic_axis() instance
-    - description: the dynamic axis
       id: batch
       type: list
+    - default: ''
+      description: the dynamic axis
+      id: dynamic_axis
+      type: str or cntk.ops.dynamic_axis() instance
     return:
       description: (indices, values, shape)
-    variables: []
   type: Method
   uid: cntk.ops.tests.ops_test_utils.batch_dense_to_sparse
 - _type: function
@@ -72,14 +72,12 @@ items:
   summary: Converts the legacy device ID as it was used in CNTK 1 to a `DeviceDescriptor`
     instance.
   syntax:
-    exceptions: []
     parameters:
     - description: device id, -1 for CPU, 0 or higher for GPU
       id: device_id
       type: int
     return:
       description: '`DeviceDescriptor`'
-    variables: []
   type: Method
   uid: cntk.ops.tests.ops_test_utils.cntk_device
 - _type: function
@@ -97,7 +95,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 249
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: first_list
+    - id: second_list
   type: Method
   uid: cntk.ops.tests.ops_test_utils.compare_lists_of_np_arrays
 - _type: function
@@ -115,7 +116,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 238
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: arr
+    - id: l
   type: Method
   uid: cntk.ops.tests.ops_test_utils.remove_np_array_in_list
 - _type: function
@@ -169,7 +173,16 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 121
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: root_node
+    - default: float
+      id: forward_input
+    - default: '-1'
+      id: expected_forward
+    - id: expected_backward
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.ops_test_utils.unittest_helper
 references:

@@ -33,6 +33,7 @@ items:
       path: cntk/ops/tests/userfunction_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for function extension
   type: Namespace
   uid: cntk.ops.tests.userfunction_test
 - _type: function
@@ -50,7 +51,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 179
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: payload
   type: Method
   uid: cntk.ops.tests.userfunction_test.test_ext_backpropstate
 - _type: function

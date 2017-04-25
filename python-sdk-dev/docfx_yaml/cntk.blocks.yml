@@ -15,6 +15,7 @@ items:
       path: cntk/blocks.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.blocks
 references: []

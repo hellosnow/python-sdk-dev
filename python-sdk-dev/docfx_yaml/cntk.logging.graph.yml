@@ -9,6 +9,8 @@ items:
   - cntk.logging.graph.output_function_graph
   - cntk.logging.graph.plot
   fullName: cntk.logging.graph
+  langs:
+  - python
   module: cntk.logging.graph
   name: graph
   source:
@@ -19,10 +21,13 @@ items:
       path: cntk/logging/graph.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.logging.graph
 - _type: function
   fullName: cntk.logging.graph.depth_first_search
+  langs:
+  - python
   module: cntk.logging.graph
   name: depth_first_search
   source:
@@ -33,8 +38,9 @@ items:
       path: cntk/logging/graph.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 11
+  summary: Generic function that walks through the graph starting at `root` and uses
+    function `visitor` on each node to check whether it should be returned.
   syntax:
-    exceptions: []
     parameters:
     - description: the root to start the journey from
       id: root
@@ -43,15 +49,14 @@ items:
         node should be returned.
       id: visitor
       type: Python function or lambda
-    returntype: ''
-    returnvalue: List of functions, for which `visitor` was `True`
-    summary: Generic function that walks through the graph starting at `root` and
-      uses function `visitor` on each node to check whether it should be returned.
-    variables: []
+    return:
+      description: List of functions, for which `visitor` was `True`
   type: Method
   uid: cntk.logging.graph.depth_first_search
 - _type: function
   fullName: cntk.logging.graph.find_all_with_name
+  langs:
+  - python
   module: cntk.logging.graph
   name: find_all_with_name
   source:
@@ -62,8 +67,11 @@ items:
       path: cntk/logging/graph.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 72
+  summary: 'Finds functions in the graph starting from `node` and doing a depth-first
+    search.
+
+    See also: `find_all_with_name()` in class `Function`.'
   syntax:
-    exceptions: []
     parameters:
     - description: the node to start the journey from
       id: node
@@ -71,17 +79,14 @@ items:
     - description: name for which we are search nodes
       id: node_name
       type: str
-    returntype: ''
-    returnvalue: List of primitive (or block) functions having the specified name
-    summary: 'Finds functions in the graph starting from `node` and doing a depth-first
-      search.
-
-      See also: `find_all_with_name()` in class `Function`.'
-    variables: []
+    return:
+      description: List of primitive (or block) functions having the specified name
   type: Method
   uid: cntk.logging.graph.find_all_with_name
 - _type: function
   fullName: cntk.logging.graph.find_by_name
+  langs:
+  - python
   module: cntk.logging.graph
   name: find_by_name
   source:
@@ -92,8 +97,11 @@ items:
       path: cntk/logging/graph.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 90
+  summary: 'Finds a function in the graph starting from `node` and doing a depth-first
+    search. It assumes that the name occurs only once.
+
+    See also: `find_by_name()` in class `Function`.'
   syntax:
-    exceptions: []
     parameters:
     - description: the node to start the journey from
       id: node
@@ -101,17 +109,14 @@ items:
     - description: name for which we are search nodes
       id: node_name
       type: str
-    returntype: ''
-    returnvalue: Primitive (or block) function having the specified name
-    summary: 'Finds a function in the graph starting from `node` and doing a depth-first
-      search. It assumes that the name occurs only once.
-
-      See also: `find_by_name()` in class `Function`.'
-    variables: []
+    return:
+      description: Primitive (or block) function having the specified name
   type: Method
   uid: cntk.logging.graph.find_by_name
 - _type: function
   fullName: cntk.logging.graph.get_node_outputs
+  langs:
+  - python
   module: cntk.logging.graph
   name: get_node_outputs
   source:
@@ -122,21 +127,21 @@ items:
       path: cntk/logging/graph.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 348
+  summary: Walks through every node of the graph starting at `node` and returns a
+    list of all node outputs.
   syntax:
-    exceptions: []
     parameters:
     - description: the node to start the journey from
       id: node
       type: graph node
-    returntype: ''
-    returnvalue: A list of all node outputs
-    summary: Walks through every node of the graph starting at `node` and returns
-      a list of all node outputs.
-    variables: []
+    return:
+      description: A list of all node outputs
   type: Method
   uid: cntk.logging.graph.get_node_outputs
 - _type: function
   fullName: cntk.logging.graph.output_function_graph
+  langs:
+  - python
   module: cntk.logging.graph
   name: output_function_graph
   source:
@@ -147,12 +152,20 @@ items:
       path: cntk/logging/graph.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 334
+  summary: ''
   syntax:
-    summary: ''
+    parameters:
+    - id: node
+    - default: None
+      id: dot_file_path
+    - default: None
+      id: png_file_path
   type: Method
   uid: cntk.logging.graph.output_function_graph
 - _type: function
   fullName: cntk.logging.graph.plot
+  langs:
+  - python
   module: cntk.logging.graph
   name: plot
   source:
@@ -163,28 +176,27 @@ items:
       path: cntk/logging/graph.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 123
+  summary: "Walks through every node of the graph starting at `root`, creates a network\
+    \ graph, and returns a network description. If `filename` is specified, it outputs\
+    \ a DOT, PNG, PDF, or SVG file depending on the file name's suffix.\nRequirements:\n\
+    * for DOT output: [pydot_ng](https://pypi.python.org/pypi/pydot-ng)\n\n   * <SYSTEM\
+    \ MESSAGE: /root/CNTK/bindings/python/doc/cntk.logging.rst:2: (INFO/1) Duplicate\
+    \ explicit target name: \"pydot_ng\".>\n\n     for PNG, PDF, and SVG output: [pydot_ng](https://pypi.python.org/pypi/pydot-ng)\
+    \ and [graphviz](http://graphviz.org) (GraphViz executable has to be in the system's\
+    \ PATH)."
   syntax:
-    exceptions: []
     parameters:
     - description: the node to start the journey from
-      id: filename
-      type: str, default None
-    - description: file with extension '.dot', 'png', 'pdf', or 'svg' to denote what
-        format should be written. If *None* then nothing will be plotted, and the
-        returned string can be used to debug the graph.
       id: node
       type: graph node
-    returntype: ''
-    returnvalue: '*str* describing the graph'
-    summary: "Walks through every node of the graph starting at `root`, creates a\
-      \ network graph, and returns a network description. If `filename` is specified,\
-      \ it outputs a DOT, PNG, PDF, or SVG file depending on the file name's suffix.\n\
-      Requirements:\n* for DOT output: [pydot_ng](https://pypi.python.org/pypi/pydot-ng)\n\
-      \n   * <SYSTEM MESSAGE: /root/CNTK/bindings/python/doc/cntk.logging.rst:2: (INFO/1)\
-      \ Duplicate explicit target name: \"pydot_ng\".>\n\n     for PNG, PDF, and SVG\
-      \ output: [pydot_ng](https://pypi.python.org/pypi/pydot-ng) and [graphviz](http://graphviz.org)\
-      \ (GraphViz executable has to be in the system's PATH)."
-    variables: []
+    - default: None
+      description: file with extension '.dot', 'png', 'pdf', or 'svg' to denote what
+        format should be written. If *None* then nothing will be plotted, and the
+        returned string can be used to debug the graph.
+      id: filename
+      type: str, default None
+    return:
+      description: '*str* describing the graph'
   type: Method
   uid: cntk.logging.graph.plot
 references:

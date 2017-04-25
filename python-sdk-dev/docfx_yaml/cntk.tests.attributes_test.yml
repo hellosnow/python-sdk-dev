@@ -19,6 +19,7 @@ items:
       path: cntk/tests/attributes_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.tests.attributes_test
 - _type: function

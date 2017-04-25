@@ -19,6 +19,7 @@ items:
       path: cntk/ops/tests/non_diff_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for operations that are not differentiable.
   type: Namespace
   uid: cntk.ops.tests.non_diff_test
 - _type: function
@@ -54,7 +55,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 43
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_diff_test.test_op_ceil
 - _type: function
@@ -72,7 +77,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 28
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_diff_test.test_op_floor
 - _type: function
@@ -90,7 +99,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 84
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: expected
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.non_diff_test.test_op_round
 references:

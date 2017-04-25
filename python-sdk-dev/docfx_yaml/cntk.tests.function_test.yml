@@ -19,6 +19,7 @@ items:
       path: cntk/tests/function_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.tests.function_test
 - _type: function

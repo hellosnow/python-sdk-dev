@@ -30,6 +30,7 @@ items:
       path: cntk/ops/tests/reshaping_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for reshaping operations.
   type: Namespace
   uid: cntk.ops.tests.reshaping_test
 - _type: function
@@ -47,7 +48,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 494
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_broadcast_as
 - _type: function
@@ -65,7 +69,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 521
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_broadcast_as_in_loop
 - _type: function
@@ -83,7 +89,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 430
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_gather_derived_dynamic_axes_equivalence
 - _type: function
@@ -101,7 +110,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 403
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_gather_dynamic_axes_equivalence
 - _type: function
@@ -119,7 +131,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 457
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_gather_sparse
 - _type: function
@@ -137,7 +151,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 34
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_shape
+    - id: output_shape
+    - id: expected_output_shape
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_reshape
 - _type: function
@@ -155,7 +175,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 123
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_reshape_gradient_accumulation
 - _type: function
@@ -191,7 +214,15 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 82
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_shape
+    - id: replacement_shape
+    - id: begin_axis
+    - id: end_axis
+    - id: expected_output_shape
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_reshape_subshape
 - _type: function
@@ -209,7 +240,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 477
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_scatter_sparse
 - _type: function
@@ -227,7 +260,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 546
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_sequence_reduce_sum
 - _type: function
@@ -245,7 +281,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 183
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: slice_params
+    - id: expected_result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_slice
 - _type: function
@@ -263,7 +305,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 245
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: slices
+    - id: expected_result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_slice_overload
 - _type: function
@@ -281,7 +329,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 301
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: slice_params
+    - id: expected_result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_slice_sequence
 - _type: function
@@ -299,7 +353,14 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 357
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data1
+    - id: input_data2
+    - id: axis
+    - id: expected_result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reshaping_test.test_op_splice
 references:

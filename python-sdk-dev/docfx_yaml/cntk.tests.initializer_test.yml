@@ -16,6 +16,7 @@ items:
       path: cntk/tests/initializer_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.tests.initializer_test
 - _type: function
@@ -33,7 +34,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 20
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
   type: Method
   uid: cntk.tests.initializer_test.test_initializer_init
 references:

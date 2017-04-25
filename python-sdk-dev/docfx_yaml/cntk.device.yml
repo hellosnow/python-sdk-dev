@@ -24,6 +24,7 @@ items:
       path: cntk/device.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.device
 - _type: function
@@ -42,12 +43,9 @@ items:
     startLine: 62
   summary: Returns a device descriptor list with all the available devices
   syntax:
-    exceptions: []
-    parameters: []
     return:
       description: all device descriptors
       type: DeviceDescriptor list
-    variables: []
   type: Method
   uid: cntk.device.all_devices
 - _type: function
@@ -66,12 +64,9 @@ items:
     startLine: 73
   summary: Returns a device descriptor with the best configuration.
   syntax:
-    exceptions: []
-    parameters: []
     return:
       description: Best device descriptor
       type: DeviceDescriptor
-    variables: []
   type: Method
   uid: cntk.device.best
 - _type: function
@@ -90,12 +85,9 @@ items:
     startLine: 84
   summary: Returns CPU device descriptor
   syntax:
-    exceptions: []
-    parameters: []
     return:
       description: CPU device descriptor
       type: DeviceDescriptor
-    variables: []
   type: Method
   uid: cntk.device.cpu
 - _type: function
@@ -114,12 +106,9 @@ items:
     startLine: 95
   summary: Returns default device
   syntax:
-    exceptions: []
-    parameters: []
     return:
       description: Default device descriptor
       type: DeviceDescriptor
-    variables: []
   type: Method
   uid: cntk.device.default
 - _type: function
@@ -138,12 +127,9 @@ items:
     startLine: 106
   summary: Returns GPU device
   syntax:
-    exceptions: []
-    parameters: []
     return:
       description: GPU device descriptor
       type: DeviceDescriptor
-    variables: []
   type: Method
   uid: cntk.device.gpu
 - _type: function
@@ -162,7 +148,6 @@ items:
     startLine: 128
   summary: Set new device descriptor as default
   syntax:
-    exceptions: []
     parameters:
     - description: new device descriptor
       id: new_default_device
@@ -170,7 +155,6 @@ items:
     return:
       description: id
       type: DeviceDescriptor
-    variables: []
   type: Method
   uid: cntk.device.set_default_device
 - _type: function
@@ -189,12 +173,9 @@ items:
     startLine: 117
   summary: Use default device
   syntax:
-    exceptions: []
-    parameters: []
     return:
       description: Id of default device
       type: int
-    variables: []
   type: Method
   uid: cntk.device.use_default_device
 references:

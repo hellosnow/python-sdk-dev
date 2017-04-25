@@ -27,6 +27,8 @@ items:
       path: cntk/ops/tests/linear_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for linear algebra operations, each operation is tested for
+    the forward and the backward pass
   type: Namespace
   uid: cntk.ops.tests.linear_test
 - _type: function
@@ -44,7 +46,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 197
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: left_operand
+    - id: right_operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_element_divide
 - _type: function
@@ -62,7 +69,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 177
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: left_operand
+    - id: right_operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_element_times
 - _type: function
@@ -80,7 +92,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 156
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: left_operand
+    - id: right_operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_minus
 - _type: function
@@ -98,7 +115,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 224
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_negate
 - _type: function
@@ -116,7 +137,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 35
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: left_operand
+    - id: right_operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_plus
 - _type: function
@@ -134,7 +160,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 79
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_plus_gradient_accumulation
 - _type: function
@@ -152,7 +181,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 59
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_plus_sequences
 - _type: function
@@ -170,7 +202,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 111
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: left_batch
+    - id: right_batch
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_plus_var_sequences_input_input
 - _type: function
@@ -188,7 +225,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 258
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: left_operand
+    - id: right_operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_times
 - _type: function
@@ -206,7 +248,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 331
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_times_reduce_sequence_axis
 - _type: function
@@ -224,7 +269,10 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 315
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_times_sparse_grad
 - _type: function
@@ -242,7 +290,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 287
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: left_operand
+    - id: right_operand
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.linear_test.test_op_transpose_times
 references:

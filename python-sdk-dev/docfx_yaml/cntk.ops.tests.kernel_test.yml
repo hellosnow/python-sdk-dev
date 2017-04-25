@@ -25,6 +25,8 @@ items:
       path: cntk/ops/tests/kernel_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for kernel operations, tested for the forward and the backward
+    pass
   type: Namespace
   uid: cntk.ops.tests.kernel_test
 - _type: function
@@ -42,7 +44,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 82
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_size
+    - id: conv_size
+    - id: result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.kernel_test.test_asym_convolution
 - _type: function
@@ -60,7 +68,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 422
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_size
+    - id: conv_size
+    - id: result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.kernel_test.test_convolution_transpose
 - _type: function
@@ -78,7 +92,13 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 462
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_size
+    - id: conv_size
+    - id: result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.kernel_test.test_convolution_transpose_with_output
 - _type: function
@@ -96,7 +116,14 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 166
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_size
+    - id: pooling_window
+    - id: strides
+    - id: result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.kernel_test.test_op_avg_pooling
 - _type: function
@@ -114,7 +141,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 37
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: convolution_map
+    - id: convolution_input
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.kernel_test.test_op_convolution_without_padding
 - _type: function
@@ -132,7 +164,15 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 228
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_size
+    - id: pooling_window
+    - id: strides
+    - id: autopad
+    - id: result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.kernel_test.test_op_max_pooling
 - _type: function
@@ -150,7 +190,15 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 264
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_size
+    - id: pooling_window
+    - id: strides
+    - id: autopad
+    - id: result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.kernel_test.test_op_max_unpooling
 - _type: function
@@ -168,7 +216,14 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 321
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_size
+    - id: pooling_window
+    - id: strides
+    - id: result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.kernel_test.test_op_pooling_ceil
 - _type: function
@@ -186,7 +241,15 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 129
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_size
+    - id: pooling_window
+    - id: strides
+    - id: padding
+    - id: result
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.kernel_test.test_op_pooling_geometry
 - _type: function
@@ -204,7 +267,14 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 374
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_map
+    - id: input_rois
+    - id: expected_fwd
+    - id: expected_bkwd
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.kernel_test.test_op_roipooling
 references:

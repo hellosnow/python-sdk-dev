@@ -25,6 +25,8 @@ items:
       path: cntk/ops/tests/reduction_test.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: Unit tests for reduction operations, tested for the forward and the backward
+    pass
   type: Namespace
   uid: cntk.ops.tests.reduction_test
 - _type: function
@@ -42,7 +44,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 169
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: axis
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_all
 - _type: function
@@ -60,7 +67,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 231
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: axis
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_argmax
 - _type: function
@@ -78,7 +90,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 245
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: axis
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_argmin
 - _type: function
@@ -96,7 +113,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 130
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: axis
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_log_sum
 - _type: function
@@ -114,7 +136,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 45
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: axis
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_max
 - _type: function
@@ -132,7 +159,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 111
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: axis
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_mean
 - _type: function
@@ -150,7 +182,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 213
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: axis
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_mean_all_constant
 - _type: function
@@ -168,7 +205,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 69
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: axis
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_min
 - _type: function
@@ -186,7 +228,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 150
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: axis
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_prod
 - _type: function
@@ -204,7 +251,12 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 27
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: input_data
+    - id: axis
+    - id: device_id
+    - id: precision
   type: Method
   uid: cntk.ops.tests.reduction_test.test_op_reduce_sum
 references:

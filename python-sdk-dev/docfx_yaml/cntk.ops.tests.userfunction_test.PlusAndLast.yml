@@ -46,7 +46,14 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 289
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - default: None
+      id: self
+    - id: arguments
+    - id: device
+    - default: None
+      id: outputs_to_retain
   type: Method
   uid: cntk.ops.tests.userfunction_test.PlusAndLast.forward
 - _type: method
@@ -65,7 +72,9 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 285
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: self
   type: Method
   uid: cntk.ops.tests.userfunction_test.PlusAndLast.infer_outputs
 references:

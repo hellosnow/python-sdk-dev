@@ -35,24 +35,28 @@ items:
 
     '
   syntax:
-    exceptions: []
     parameters:
     - description: shape of the value
-      id: seq_starts
-      type: list of bools or None
-    - description: the value to be converted
       id: shape
       type: tuple
+    - description: the value to be converted
+      id: value
+      type: None or value that can be cast to NumPy array
     - description: data type (np.float32 or np.float64)
-      id: device
-      type: DeviceDescriptor
+      id: dtype
     - description: "batch input for *var*. It can be:\n\n   * a pure Python structure\
         \ (list of lists, ...),\n\n   * a list of NumPy arrays or SciPy sparse CSR\
         \ matrices\n\n   * a `Value` object (e.g. returned by `one_hot()`)"
-      id: value
-      type: None or value that can be cast to NumPy array
-    return: {}
-    variables: []
+      id: batch
+    - description: if None, every sequence is treated as a new sequence. Otherwise,
+        it is interpreted as a list of Booleans that tell whether a sequence is a
+        new sequence (*True*) or a continuation of the sequence in the same slot of
+        the previous minibatch (*False*)
+      id: seq_starts
+      type: list of bools or None
+    - description: device this value should be put on
+      id: device
+      type: DeviceDescriptor
   type: Class
   uid: cntk.core.Value
 - _type: method
@@ -72,7 +76,6 @@ items:
     startLine: 272
   summary: Creates a `Value` object.
   syntax:
-    exceptions: []
     parameters:
     - description: variable into which `data` is passed
       id: var
@@ -80,20 +83,21 @@ items:
     - description: "data for *var*. It can be:\n\n   * a single NumPy array denoting\
         \ the full minibatch\n\n   * a list of NumPy arrays or SciPy sparse CSR matrices\n\
         \n   * a single NumPy array denoting one parameter or constant"
-      id: seq_starts
-      type: list of bools or None
+      id: data
     - description: if None, every sequence is treated as a new sequence. Otherwise,
         it is interpreted as a list of Booleans that tell whether a sequence is a
         new sequence (*True*) or a continuation of the sequence in the same slot of
         the previous minibatch (*False*)
+      id: seq_starts
+      type: list of bools or None
+    - description: device this value should be put on
       id: device
       type: DeviceDescriptor, default None
-    - description: device this value should be put on
+    - description: whether the data is read only
       id: read_only
       type: bool, default False
     return:
       description: '`Value` object.'
-    variables: []
   type: Method
   uid: cntk.core.Value.create
 - _type: attribute
@@ -171,25 +175,23 @@ items:
     \  0.,  0.],\n         [ 0.,  0.,  1.,  0.,  0.,  0.]]], dtype=float32),\n array([[[\
     \ 0.,  0.,  0.,  0.,  1.,  0.],\n         [ 0.,  1.,  0.,  0.,  0.,  0.]]], dtype=float32)]"
   syntax:
-    exceptions: []
     parameters:
     - description: batch input data of indices
-      id: dtype
-      type: np.float32, np.float64, default None
+      id: batch
+      type: list of lists of integers
     - description: number of classes or shape of each sample whose trailing axis is
         one_hot
       id: sample_shape
       type: integer or tuple
     - description: data type
-      id: batch
-      type: list of lists of integers
+      id: dtype
+      type: np.float32, np.float64, default None
     - description: device this value should be put on
       id: device
       type: DeviceDescriptor, default None
     return:
       description: '`batch` converted into a `Value` object that can be passed to
         the forward or eval function.'
-    variables: []
   type: Method
   uid: cntk.core.Value.one_hot
 - _type: attribute

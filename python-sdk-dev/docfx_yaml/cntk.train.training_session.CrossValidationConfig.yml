@@ -5,8 +5,11 @@ items:
   class: cntk.train.training_session.CrossValidationConfig
   fullName: cntk.train.training_session.CrossValidationConfig
   inheritance:
-  - - cntk.cntk_py.CrossValidationConfig
-    - builtins.object
+  - inheritance:
+      type: builtins.object
+    type: cntk.cntk_py.CrossValidationConfig
+  langs:
+  - python
   module: cntk.train.training_session
   name: CrossValidationConfig
   source:
@@ -17,29 +20,25 @@ items:
       path: cntk/train/training_session.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 55
+  summary: 'Bases: `cntk.cntk_py.CrossValidationConfig`
+
+    A cross validation configuration for the training session.'
   syntax:
-    exceptions: []
     parameters:
     - description: minibatch source used for cross validation
-      id: schedule
-      type: minibatch_size_schedule
+      id: source
+      type: MinibatchSource
     - description: frequency in samples for cross validation If `sys.maxsize`, a single
         cross validation is performed at the end of training.
       id: frequency
       type: int
     - description: minibatch schedule for cross validation
-      id: callback
-      type: func (index, avarage_error, cv_num_samples, cv_num_minibatches)
+      id: schedule
+      type: minibatch_size_schedule
     - description: Callback that will be called with frequency which can implement
         custom cross validation logic, returns False if training should be stopped.
-      id: source
-      type: MinibatchSource
-    returntype: ''
-    returnvalue: ''
-    summary: 'Bases: `cntk.cntk_py.CrossValidationConfig`
-
-      A cross validation configuration for the training session.'
-    variables: []
+      id: callback
+      type: func (index, avarage_error, cv_num_samples, cv_num_minibatches)
   type: Class
   uid: cntk.train.training_session.CrossValidationConfig
 references: []

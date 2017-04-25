@@ -17,6 +17,7 @@ items:
       path: cntk/debugging/__init__.py
       repo: https://github.com/Microsoft/CNTK
     startLine: 0
+  summary: ''
   type: Namespace
   uid: cntk.debugging
 - _type: function
@@ -34,7 +35,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 32
   summary: ''
-  syntax: {}
+  syntax:
+    parameters:
+    - id: root
+    - default: None
+      id: tag
   type: Method
   uid: cntk.debugging.dump_function
 - _type: function
@@ -52,7 +57,11 @@ items:
       repo: https://github.com/Microsoft/CNTK
     startLine: 16
   summary: Debug helper that prints the signature of a Function.
-  syntax: {}
+  syntax:
+    parameters:
+    - id: root
+    - default: None
+      id: tag
   type: Method
   uid: cntk.debugging.dump_signature
 references:
