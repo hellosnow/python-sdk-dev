@@ -1,3 +1,4 @@
+#YamlMime:UniversalReference
 api_name: []
 items:
 - _type: class
@@ -11,7 +12,7 @@ items:
   fullName: cntk.core.Value
   inheritance:
   - inheritance:
-      type: builtins.object
+      - type: builtins.object
     type: cntk.cntk_py.Value
   langs:
   - python
@@ -38,10 +39,12 @@ items:
     parameters:
     - description: shape of the value
       id: shape
-      type: tuple
+      type:
+      - tuple
     - description: the value to be converted
       id: value
-      type: None or value that can be cast to NumPy array
+      type:
+      - None or value that can be cast to NumPy array
     - description: data type (np.float32 or np.float64)
       id: dtype
     - description: "batch input for *var*. It can be:\n\n   * a pure Python structure\
@@ -53,10 +56,12 @@ items:
         new sequence (*True*) or a continuation of the sequence in the same slot of
         the previous minibatch (*False*)
       id: seq_starts
-      type: list of bools or None
+      type:
+      - list of bools or None
     - description: device this value should be put on
       id: device
-      type: DeviceDescriptor
+      type:
+      - DeviceDescriptor
   type: Class
   uid: cntk.core.Value
 - _type: method
@@ -79,7 +84,8 @@ items:
     parameters:
     - description: variable into which `data` is passed
       id: var
-      type: Variable
+      type:
+      - Variable
     - description: "data for *var*. It can be:\n\n   * a single NumPy array denoting\
         \ the full minibatch\n\n   * a list of NumPy arrays or SciPy sparse CSR matrices\n\
         \n   * a single NumPy array denoting one parameter or constant"
@@ -89,13 +95,16 @@ items:
         new sequence (*True*) or a continuation of the sequence in the same slot of
         the previous minibatch (*False*)
       id: seq_starts
-      type: list of bools or None
+      type:
+      - list of bools or None
     - description: device this value should be put on
       id: device
-      type: DeviceDescriptor, default None
+      type:
+      - DeviceDescriptor, default None
     - description: whether the data is read only
       id: read_only
-      type: bool, default False
+      type:
+      - bool, default False
     return:
       description: '`Value` object.'
   type: Method
@@ -178,17 +187,21 @@ items:
     parameters:
     - description: batch input data of indices
       id: batch
-      type: list of lists of integers
+      type:
+      - list of lists of integers
     - description: number of classes or shape of each sample whose trailing axis is
         one_hot
       id: sample_shape
-      type: integer or tuple
+      type:
+      - integer or tuple
     - description: data type
       id: dtype
-      type: np.float32, np.float64, default None
+      type:
+      - np.float32, np.float64, default None
     - description: device this value should be put on
       id: device
-      type: DeviceDescriptor, default None
+      type:
+      - DeviceDescriptor, default None
     return:
       description: '`batch` converted into a `Value` object that can be passed to
         the forward or eval function.'
